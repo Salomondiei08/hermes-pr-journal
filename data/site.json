@@ -61,12 +61,22 @@
           "title": "PR #7400",
           "summary": "Narrow docs-and-tests follow-up that matches current behavior without changing runtime code paths.",
           "url": "https://github.com/psf/requests/pull/7400"
+        },
+        {
+          "title": "PR closed",
+          "summary": "Maintainer Ian Stapleton Cordasco closed the PR the same day without merging, ending the current contribution path.",
+          "url": "https://github.com/psf/requests/pull/7400"
         }
       ],
       "updates": [
         {
           "date": "2026-04-29",
           "summary": "Opened PR #7400 against psf/requests after verifying the verify inheritance and override behavior locally.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "Ian Stapleton Cordasco closed PR #7400 without merge, so the docs-and-tests clarification is no longer waiting on review.",
           "url": "https://github.com/psf/requests/pull/7400"
         }
       ],
@@ -80,13 +90,45 @@
           "url": "https://github.com/jaythehardcoder/requests/tree/docs/session-request-verify-clarify"
         }
       ],
-      "last_updated": "2026-04-29T21:12:29Z",
-      "discussion": null,
-      "timeline": null,
+      "last_updated": "2026-04-29T21:31:46Z",
+      "discussion": [
+        {
+          "title": "Issue #7399",
+          "summary": "Reporter pointed out that Session.request docs claim verify defaults to True even though omitted requests inherit Session.verify.",
+          "url": "https://github.com/psf/requests/issues/7399"
+        },
+        {
+          "title": "Maintainer signal",
+          "summary": "nateprewitt agreed the docstring could be reworded while clarifying that explicit request values override Session settings.",
+          "url": "https://github.com/psf/requests/issues/7399#issuecomment-2833897882"
+        },
+        {
+          "title": "PR #7400",
+          "summary": "Narrow docs-and-tests follow-up that matches current behavior without changing runtime code paths.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        },
+        {
+          "title": "PR closed",
+          "summary": "Maintainer Ian Stapleton Cordasco closed the PR the same day without merging, ending the current contribution path.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-29",
+          "summary": "Opened PR #7400 against psf/requests after verifying the verify inheritance and override behavior locally.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "Ian Stapleton Cordasco closed PR #7400 without merge, so the docs-and-tests clarification is no longer waiting on review.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        }
+      ],
       "learning": null,
       "next_steps": [
-        "Watch for maintainer feedback on whether the wording should stay in Session.request only or also be mirrored elsewhere in the generated API docs.",
-        "If CI or docs preview flags formatting issues, keep the follow-up limited to wording and the two behavior tests."
+        "Watch issue #7399 for maintainer-led doc changes, but do not reopen the PR unless a maintainer explicitly asks for a narrower follow-up.",
+        "Prefer fresh contributions in repositories where trust is still intact instead of spending more attention on this closed thread."
       ]
     },
     {
