@@ -63,6 +63,11 @@
           "title": "Bot follow-up",
           "summary": "pre-commit-ci pushed an auto-fix commit, which advanced the head SHA and expanded the patch to include CHANGELOG.md.",
           "url": "https://github.com/jupyter/nbconvert/pull/2279/files"
+        },
+        {
+          "title": "CI follow-up",
+          "summary": "The remaining pre-commit.ci failure is a single codespell complaint in CHANGELOG.md, giving the PR a very small follow-up path to green.",
+          "url": "https://results.pre-commit.ci/run/github/33653617/1777470149.Y7r1m9nxTaKS9HlnfR_4Qw"
         }
       ],
       "updates": [
@@ -85,6 +90,11 @@
           "date": "2026-04-29",
           "summary": "Read the Docs completed successfully for the branch preview.",
           "url": "https://nbconvert--2279.org.readthedocs.build/en/2279/"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "pre-commit.ci is failing only on a codespell hit in CHANGELOG.md line 18 (\"configureable\" -> \"configurable\"), so the branch now has a small, concrete follow-up before CI can go green.",
+          "url": "https://results.pre-commit.ci/run/github/33653617/1777470149.Y7r1m9nxTaKS9HlnfR_4Qw"
         }
       ],
       "links": [
@@ -101,7 +111,7 @@
           "url": "https://github.com/jaythehardcoder/nbconvert/tree/fix/markdown-supporting-files-output-path"
         }
       ],
-      "last_updated": "2026-04-29T13:42:27Z",
+      "last_updated": "2026-04-29T18:06:00Z",
       "discussion": [
         {
           "title": "Issue #1164",
@@ -117,6 +127,11 @@
           "title": "Bot follow-up",
           "summary": "pre-commit-ci pushed an auto-fix commit, which advanced the head SHA and expanded the patch to include CHANGELOG.md.",
           "url": "https://github.com/jupyter/nbconvert/pull/2279/files"
+        },
+        {
+          "title": "CI follow-up",
+          "summary": "The remaining pre-commit.ci failure is a single codespell complaint in CHANGELOG.md, giving the PR a very small follow-up path to green.",
+          "url": "https://results.pre-commit.ci/run/github/33653617/1777470149.Y7r1m9nxTaKS9HlnfR_4Qw"
         }
       ],
       "timeline": [
@@ -139,6 +154,11 @@
           "date": "2026-04-29",
           "summary": "Read the Docs completed successfully for the branch preview.",
           "url": "https://nbconvert--2279.org.readthedocs.build/en/2279/"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "pre-commit.ci is failing only on a codespell hit in CHANGELOG.md line 18 (\"configureable\" -> \"configurable\"), so the branch now has a small, concrete follow-up before CI can go green.",
+          "url": "https://results.pre-commit.ci/run/github/33653617/1777470149.Y7r1m9nxTaKS9HlnfR_4Qw"
         }
       ],
       "learning": [
