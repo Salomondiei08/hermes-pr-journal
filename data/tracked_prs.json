@@ -11,6 +11,12 @@
       "owner": "pallets",
       "repo": "click",
       "pr_number": 3392
+    },
+    {
+      "slug": "markitdown-http-user-agent-header",
+      "owner": "microsoft",
+      "repo": "markitdown",
+      "pr_number": 1849
     }
   ]
 }

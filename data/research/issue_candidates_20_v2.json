@@ -1,0 +1,756 @@
+{
+  "generated_at": "2026-04-29 13:05:30 UTC",
+  "candidates": [
+    {
+      "repo": "sphinx-doc/sphinx",
+      "number": 13180,
+      "title": "bug: napoleon: numpydoc: incorrect section ordering for classes",
+      "url": "https://github.com/sphinx-doc/sphinx/issues/13180",
+      "labels": [
+        "type:bug",
+        "help wanted",
+        "good first issue",
+        "extensions:napoleon",
+        "easy"
+      ],
+      "updated_at": "2025-11-30T04:45:37Z",
+      "comments": 7,
+      "score": 12,
+      "body_excerpt": "### Describe the bug\r \r As noted in [the release notes for numpydoc 1.8.0](https://numpydoc.readthedocs.io/en/latest/release/notes.html#enhancements), the section ordering was updated in https://github.com/numpy/numpydoc/pull/571 for classes, to move the Attributes and Methods se"
+    },
+    {
+      "repo": "jupyter/nbconvert",
+      "number": 1325,
+      "title": "nbconvert 5.6.1 failed with message: \"nbconvert failed: Inkscape svg to pdf conversion failed\" in Win 10",
+      "url": "https://github.com/jupyter/nbconvert/issues/1325",
+      "labels": [
+        "bug",
+        "help wanted",
+        "good first issue"
+      ],
+      "updated_at": "2023-01-04T12:56:40Z",
+      "comments": 15,
+      "score": 12,
+      "body_excerpt": "<!--- Description --->\r This happens when trying to convert a notebook with svg graphics embedded.\r \r I have a hunch that the svg2pdf.py code can not handle a blank in the program name of inkscape as it is the case on my machine (\"C:\\Program Files\\Inkscape\\bin\\inkscape.exe\"). Als"
+    },
+    {
+      "repo": "jupyter/nbconvert",
+      "number": 1235,
+      "title": "Running a list of notebooks via CLI doesn't find the correct kernel for each notebook",
+      "url": "https://github.com/jupyter/nbconvert/issues/1235",
+      "labels": [
+        "bug",
+        "help wanted",
+        "good first issue"
+      ],
+      "updated_at": "2020-04-18T18:33:18Z",
+      "comments": 1,
+      "score": 11,
+      "body_excerpt": "<!--- Description --->\r Hi \ud83d\udc4b \r \r I'm trying to set up nbconvert in my CI pipeline to identify when my notebooks break. I have a `.tests` subdirectory with two notebooks in, one uses the Python kernel and the other uses the R kernel.\r \r The command I'd like to execute in my CI is "
+    },
+    {
+      "repo": "sphinx-doc/sphinx",
+      "number": 12223,
+      "title": "Incomplete documentation for add_js_file() and add_css_file()",
+      "url": "https://github.com/sphinx-doc/sphinx/issues/12223",
+      "labels": [
+        "type:bug",
+        "help wanted",
+        "type:docs",
+        "good first issue",
+        "easy",
+        "sprint"
+      ],
+      "updated_at": "2026-04-18T13:12:09Z",
+      "comments": 3,
+      "score": 10,
+      "body_excerpt": "### Describe the bug\r \r - [ ] The examples do not include the CRC32 checksums added in #11415\r - [ ] There should be a \"changed in version 7.1\" mentioning those checksums (https://www.sphinx-doc.org/en/master/changes.html#release-7-1-0-released-jul-24-2023)\r - [ ] There should be"
+    },
+    {
+      "repo": "jupyter/nbconvert",
+      "number": 1164,
+      "title": "Incorrect handling of output path for supporting files",
+      "url": "https://github.com/jupyter/nbconvert/issues/1164",
+      "labels": [
+        "bug",
+        "good first issue",
+        "format:Markdown"
+      ],
+      "updated_at": "2020-01-16T01:48:05Z",
+      "comments": 2,
+      "score": 9,
+      "body_excerpt": "<!--- Description --->\r \r During conversion to a file that is outside the current directory, supporting files are saved to an incorrect directory.\r \r <!--- Can you list steps to reproduce this issue? --->\r \r Suppose `test.ipynb` contains an image, in that case the following comma"
+    },
+    {
+      "repo": "sphinx-doc/sphinx",
+      "number": 4248,
+      "title": "searchindex.js contains rst_epilog matches for all pages in docs",
+      "url": "https://github.com/sphinx-doc/sphinx/issues/4248",
+      "labels": [
+        "help wanted",
+        "html search",
+        "good first issue"
+      ],
+      "updated_at": "2026-04-18T13:14:42Z",
+      "comments": 1,
+      "score": 8,
+      "body_excerpt": "**Problem:** `rst_epilog` values are returned for all pages when searched for. \r \r My understanding is that the `searchindex.js` file is built from the doctrees cache. https://github.com/sphinx-doc/sphinx/blob/master/sphinx/search/__init__.py#L239\r \r Each doctree file contains al"
+    },
+    {
+      "repo": "python-poetry/poetry",
+      "number": 1328,
+      "title": "Period(s) in repository \"name\" causes issues",
+      "url": "https://github.com/python-poetry/poetry/issues/1328",
+      "labels": [
+        "kind/bug",
+        "good first issue"
+      ],
+      "updated_at": "2026-02-06T03:09:48Z",
+      "comments": 9,
+      "score": 8,
+      "body_excerpt": "<!--\r   Hi there! Thank you for discovering and submitting an issue.\r \r   Before you submit this; let's make sure of a few things.\r   Please make sure the following boxes are ticked if they are correct.\r   If not, please try and fulfill these first.\r -->\r \r <!-- Checked checkbox "
+    },
+    {
+      "repo": "huggingface/datasets",
+      "number": 4910,
+      "title": "Identical keywords in build_kwargs and config_kwargs lead to TypeError in load_dataset_builder()",
+      "url": "https://github.com/huggingface/datasets/issues/4910",
+      "labels": [
+        "bug",
+        "good first issue"
+      ],
+      "updated_at": "2026-01-31T17:56:06Z",
+      "comments": 10,
+      "score": 8,
+      "body_excerpt": "## Describe the bug\r In `load_dataset_builder()`, `build_kwargs` and `config_kwargs` can contain the same keywords leading to a TypeError(\"type object got multiple values for keyword argument \"xyz\"). \r \r I ran into this problem with the keyword: `base_path`. It might happen with "
+    },
+    {
+      "repo": "pytest-dev/pytest",
+      "number": 13835,
+      "title": "Pytest tmpdir crashes on Python 3.13+/Windows when no username env vars are set (getpass.getuser now raises OSError)",
+      "url": "https://github.com/pytest-dev/pytest/issues/13835",
+      "labels": [
+        "type: bug",
+        "platform: windows",
+        "plugin: tmpdir"
+      ],
+      "updated_at": "2026-04-26T08:45:55Z",
+      "comments": 1,
+      "score": 7,
+      "body_excerpt": "Bug report generated by co-pilot EXCEPT me having to edit a bunch since it was confusing and too much blabbing:  **Summary:**  On Python 3.13 and 3.14 (RC) under Windows, pytest fails early with `OSError: No username set in the environment` if none of LOGNAME, USER, LNAME, USERNA"
+    },
+    {
+      "repo": "astral-sh/ruff",
+      "number": 4481,
+      "title": "Ruff --fix on SIM118 introducing TypeError ",
+      "url": "https://github.com/astral-sh/ruff/issues/4481",
+      "labels": [
+        "bug",
+        "type-inference",
+        "help wanted"
+      ],
+      "updated_at": "2026-04-11T14:39:40Z",
+      "comments": 6,
+      "score": 7,
+      "body_excerpt": "(Running a large repo through ruff --fix today, so might have a few of these tickets for you \ud83d\ude2c)\r \r Ruff --fix on the SIM118 rule is introducing a bug in our code (ruff=v0.0.267). The rule seems to flag any case where a `keys()` method is used. This works for dicts but doesn't wor"
+    },
+    {
+      "repo": "astral-sh/ruff",
+      "number": 17699,
+      "title": "`PTH*`: Incorrect suggestion to use `Pathlib` when using file descriptors",
+      "url": "https://github.com/astral-sh/ruff/issues/17699",
+      "labels": [
+        "bug",
+        "rule",
+        "fixes",
+        "help wanted"
+      ],
+      "updated_at": "2026-04-29T09:34:27Z",
+      "comments": 7,
+      "score": 7,
+      "body_excerpt": "Multiple pathlib rules recommend the use of `pathlib.Path` over their `os` equivalent even when they're used with a bytes string or directory descriptor which aren't supported by pathlib.   One such example is  ```py import os os.listdir(1) ```   ``` $ ruff --version ruff 0.11.7 "
+    },
+    {
+      "repo": "psf/black",
+      "number": 5112,
+      "title": "`# fmt: skip` regression",
+      "url": "https://github.com/psf/black/issues/5112",
+      "labels": [
+        "T: bug"
+      ],
+      "updated_at": "2026-04-21T21:51:28Z",
+      "comments": 0,
+      "score": 6,
+      "body_excerpt": "**Describe the bug**  `# fmt: skip` is not handled properly in all cases with black 26.1 and newer.  **To Reproduce**  Our project has this code:  ```python class Body(model.BaseBody[     \"Keyword\", \"For\", \"While\", \"Group\", \"If\", \"Try\", \"Var\", \"Return\", \"Continue\",     \"Break\", \""
+    },
+    {
+      "repo": "pallets/click",
+      "number": 3384,
+      "title": "Click 8.3.3 breaks `pytest` when stream `fd` is duplicated",
+      "url": "https://github.com/pallets/click/issues/3384",
+      "labels": [
+        "bug",
+        "f:test runner"
+      ],
+      "updated_at": "2026-04-29T10:29:10Z",
+      "comments": 4,
+      "score": 6,
+      "body_excerpt": "Starting from Click 8.3.3, I've noticed that it breaks pytest when the standard stream is duplicated with `os.dup2`.  I guess the related change is: https://github.com/pallets/click/pull/3244  I am not sure if this is an expected behaviro of that change, but for me it was a bit s"
+    },
+    {
+      "repo": "astral-sh/ruff",
+      "number": 19576,
+      "title": "SIM114: Safe fix removes comments",
+      "url": "https://github.com/astral-sh/ruff/issues/19576",
+      "labels": [
+        "bug",
+        "fixes",
+        "help wanted"
+      ],
+      "updated_at": "2026-03-30T12:34:59Z",
+      "comments": 8,
+      "score": 6,
+      "body_excerpt": "### Summary  Example:  ``` ruff check src/s3ql/backends/b2/b2_backend.py  src/s3ql/backends/b2/b2_backend.py:362:9: SIM114 [*] Combine `if` branches using logical `or` operator     | 360 |               return True 361 | 362 | /         elif isinstance(exc, HTTPError) and ( 363 |"
+    },
+    {
+      "repo": "pydantic/pydantic",
+      "number": 7968,
+      "title": "Documentation \"Run Code\" functionality fails to set up the environment",
+      "url": "https://github.com/pydantic/pydantic/issues/7968",
+      "labels": [
+        "documentation",
+        "bug V2"
+      ],
+      "updated_at": "2026-04-29T03:07:50Z",
+      "comments": 9,
+      "score": 6,
+      "body_excerpt": "### Initial Checks  - [X] I confirm that I'm using Pydantic V2  ### Description  After clicking on \"Run Code\" play button in [this](https://docs.pydantic.dev/latest/concepts/validators/#field-validators) section of the documentation, setting up the environment fails with the trac"
+    },
+    {
+      "repo": "pallets/click",
+      "number": 2779,
+      "title": "Wrong error message when wrong multicharacter short option is passed",
+      "url": "https://github.com/pallets/click/issues/2779",
+      "labels": [
+        "docs",
+        "good first issue"
+      ],
+      "updated_at": "2026-04-21T08:47:21Z",
+      "comments": 10,
+      "score": 6,
+      "body_excerpt": "Sometime it is usefull to have not only single char short option like `-d` but something like `-dbg`.\r \r They are already working as-is (even though not documented), but when passing a wrong option such as `-dbgwrong`, the error displays: `No such option: -d` instead of `No such "
+    },
+    {
+      "repo": "python-poetry/poetry",
+      "number": 3061,
+      "title": "\u2764\ufe0f First time contributors",
+      "url": "https://github.com/python-poetry/poetry/issues/3061",
+      "labels": [
+        "good first issue"
+      ],
+      "updated_at": "2022-10-01T21:33:36Z",
+      "comments": 0,
+      "score": 5,
+      "body_excerpt": "Hi there! This issue is a permanent issue dedicated as a placeholder to for first time contributors. If you have questions talk to the community on our [Discord server](https://discord.com/invite/awxPgve).\r \r If you have a question about a particular issue, or pull request just t"
+    },
+    {
+      "repo": "pytest-dev/pytest",
+      "number": 13986,
+      "title": "Fix double-counting of subtest failures in test summary",
+      "url": "https://github.com/pytest-dev/pytest/issues/13986",
+      "labels": [
+        "type: bug",
+        "topic: reporting"
+      ],
+      "updated_at": "2025-11-30T21:53:57Z",
+      "comments": 0,
+      "score": 5,
+      "body_excerpt": "#### What's the problem this feature will solve?  When running tests using subtests in pytest, failures are being double-counted in the final summary. For example, if 1 test is being run with 3 subtests where 2 of the subtests pass and 1 fails, the summary incorrectly shows \"2 fa"
+    },
+    {
+      "repo": "python-poetry/poetry",
+      "number": 3155,
+      "title": "\ud83e\uddf9 Test Suite Cleanup: Permanent Issue",
+      "url": "https://github.com/python-poetry/poetry/issues/3155",
+      "labels": [
+        "area/testing",
+        "good first issue"
+      ],
+      "updated_at": "2024-03-14T23:16:34Z",
+      "comments": 1,
+      "score": 5,
+      "body_excerpt": "Hi there! This issue is a permanent issue dedicated as a hub for efforts to improve the quality of the test suite. If you have questions talk to the community on our [Discord server](https://discord.com/invite/awxPgve).\r \r If you have a question about a particular issue, or pull "
+    },
+    {
+      "repo": "pydantic/pydantic",
+      "number": 13089,
+      "title": "Decimal JSON schema pattern rejects pydantic's own scientific notation serialization output (v2.12 regression)",
+      "url": "https://github.com/pydantic/pydantic/issues/13089",
+      "labels": [
+        "bug V2",
+        "pending"
+      ],
+      "updated_at": "2026-04-17T03:04:28Z",
+      "comments": 1,
+      "score": 5,
+      "body_excerpt": "### Initial Checks  - [x] I confirm that I'm using Pydantic V2  ### Description  **`model_json_schema(mode=\"serialization\")` pattern for `Decimal` breaks on scientific notation**  The serialization schema for `Decimal` fields generates a regex that rejects values that `model_dump"
+    },
+    {
+      "repo": "pydantic/pydantic",
+      "number": 3809,
+      "title": "use_enum_values causes mypy failures, since mypy still expects an enum instance rather than the value",
+      "url": "https://github.com/pydantic/pydantic/issues/3809",
+      "labels": [
+        "bug V1",
+        "bug V2",
+        "topic-type checking"
+      ],
+      "updated_at": "2025-01-27T10:20:16Z",
+      "comments": 2,
+      "score": 5,
+      "body_excerpt": "### Checks\r \r * [X] I added a descriptive title to this issue\r * [X] I have searched (google, github) for similar issues and couldn't find anything\r * [X] I have read and followed [the docs](https://pydantic-docs.helpmanual.io/) and still think this is a bug\r \r <!-- Sorry to soun"
+    },
+    {
+      "repo": "pytest-dev/pytest",
+      "number": 13902,
+      "title": "Documentation shows incorrect pytest output color for subtests",
+      "url": "https://github.com/pytest-dev/pytest/issues/13902",
+      "labels": [
+        "type: bug",
+        "type: docs",
+        "plugin: subtests"
+      ],
+      "updated_at": "2025-11-15T07:09:54Z",
+      "comments": 2,
+      "score": 5,
+      "body_excerpt": "Location: https://docs.pytest.org/en/stable/how-to/subtests.html#subtests The documentation shows: ```pytest $ pytest -q test_subtest.py uuuuuF                                                               [100%] ``` where all the `u` characters are green (passing). Actual behavi"
+    },
+    {
+      "repo": "mkdocs/mkdocs",
+      "number": 3909,
+      "title": "Dropdown submenu marker invisible (regression in 1.6.1 since 1.5.2)",
+      "url": "https://github.com/mkdocs/mkdocs/issues/3909",
+      "labels": [
+        "Bug",
+        "Theme-mkdocs"
+      ],
+      "updated_at": "2026-04-04T09:09:48Z",
+      "comments": 2,
+      "score": 5,
+      "body_excerpt": "Navigation dropdown menus with submenus should have a submenu indicator.  In MkDocs 1.5.2 this looks like the following:  ![Image](https://github.com/user-attachments/assets/4853a964-6d77-4aec-875c-58dea53f15e2)  However, this indicator is invisible in MkDocs 1.6.1:  ![Image](htt"
+    },
+    {
+      "repo": "psf/black",
+      "number": 5083,
+      "title": "Black silently fails with exit code 1 when passed in too many files in the Python 3.14.2 on Linux",
+      "url": "https://github.com/psf/black/issues/5083",
+      "labels": [
+        "T: bug",
+        "C: crash"
+      ],
+      "updated_at": "2026-04-20T00:09:55Z",
+      "comments": 2,
+      "score": 5,
+      "body_excerpt": "<!-- Please make sure that the bug is not already fixed either in newer versions or the current development version. To confirm this, you have three options:  1. Update Black's version if a newer release exists: `pip install -U black` 2. Install the latest `main` branch directly:"
+    },
+    {
+      "repo": "psf/requests",
+      "number": 4965,
+      "title": "Accessing response.content twice removes forgets read error",
+      "url": "https://github.com/psf/requests/issues/4965",
+      "labels": [
+        "Bug"
+      ],
+      "updated_at": "2026-04-29T02:11:51Z",
+      "comments": 2,
+      "score": 5,
+      "body_excerpt": "I had a hard debugging time today because an error in the response stream is only reported when accessing `response.content` for the first time.\r \r This is especially irritating when running code in a debugger.\r \r ## Expected Result\r \r If accessing `response.content` the first ti"
+    },
+    {
+      "repo": "microsoft/markitdown",
+      "number": 150,
+      "title": "hatch test fail with: The formats ['.csv'] are not supported.",
+      "url": "https://github.com/microsoft/markitdown/issues/150",
+      "labels": [
+        "bug"
+      ],
+      "updated_at": "2026-04-24T09:21:49Z",
+      "comments": 3,
+      "score": 5,
+      "body_excerpt": "I followed the instructions https://github.com/microsoft/markitdown and installed markitdown from source. I created a venv (maybe this would be a good addition to the docs).  `pip install -e .`  then i installed the test and checks framework https://github.com/microsoft/markitdow"
+    },
+    {
+      "repo": "psf/black",
+      "number": 4280,
+      "title": "Crash on formatting `case case` syntax when line length set to be small",
+      "url": "https://github.com/psf/black/issues/4280",
+      "labels": [
+        "T: bug",
+        "C: crash"
+      ],
+      "updated_at": "2026-03-23T01:14:47Z",
+      "comments": 4,
+      "score": 5,
+      "body_excerpt": "**Describe the bug**\r \r When using the `match-case` block with a `case case` statement (syntax allowed since Python 3.10), Black fails to parse the code if the line length is set to a small number.\r \r **To Reproduce**\r \r Consider the following code:\r \r ```python\r match test:\r    "
+    },
+    {
+      "repo": "microsoft/markitdown",
+      "number": 81,
+      "title": "UnboundLocalError: local variable 'res' referenced before assignment",
+      "url": "https://github.com/microsoft/markitdown/issues/81",
+      "labels": [
+        "bug"
+      ],
+      "updated_at": "2025-03-20T08:19:32Z",
+      "comments": 5,
+      "score": 5,
+      "body_excerpt": "--------------------------------------------------------------------------- UnboundLocalError                         Traceback (most recent call last) [<ipython-input-2-84b22469b7a6>](https://localhost:8080/#) in <cell line: 4>()       2        3 markitdown = MarkItDown() ----> "
+    },
+    {
+      "repo": "pallets/click",
+      "number": 3077,
+      "title": "Add glossary of terms to click reference docs",
+      "url": "https://github.com/pallets/click/issues/3077",
+      "labels": [
+        "docs",
+        "good first issue"
+      ],
+      "updated_at": "2026-03-15T01:54:33Z",
+      "comments": 5,
+      "score": 5,
+      "body_excerpt": "Add a section to the general reference docs for glossary of terms.  Should contain ambiguous terms that defines how we use them in our docs. It allows us to be internally consistent in our usage  - Option  - flag  - command line application  - command line utility  - terminal"
+    },
+    {
+      "repo": "huggingface/datasets",
+      "number": 3960,
+      "title": "Load local dataset error",
+      "url": "https://github.com/huggingface/datasets/issues/3960",
+      "labels": [
+        "bug",
+        "dataset bug"
+      ],
+      "updated_at": "2023-08-02T17:12:20Z",
+      "comments": 13,
+      "score": 5,
+      "body_excerpt": "When i used the datasets==1.11.0\uff0c it's all right. Util update the latest version, it get the error like this:\r ```\r >>> from datasets import load_dataset\r >>> data_files={'train': ['/ssd/datasets/imagenet/pytorch/train'], 'validation': ['/ssd/datasets/imagenet/pytorch/val']}\r >>>"
+    },
+    {
+      "repo": "pallets/jinja",
+      "number": 1898,
+      "title": "Autoescape does not work well across blocks/inheritance",
+      "url": "https://github.com/pallets/jinja/issues/1898",
+      "labels": [
+        "bug",
+        "parser"
+      ],
+      "updated_at": "2024-12-20T16:33:19Z",
+      "comments": 0,
+      "score": 4,
+      "body_excerpt": "### Description\r \r I have a base template that uses `{% autoescape false %}` around a block because the contents of that particular block are used in a plaintext context that does not need escaping, while the rest of the template does.\r \r However, when override that block in the "
+    },
+    {
+      "repo": "pallets/jinja",
+      "number": 1156,
+      "title": "invalid escape sequence DeprecationWarning from template syntax itself",
+      "url": "https://github.com/pallets/jinja/issues/1156",
+      "labels": [
+        "bug"
+      ],
+      "updated_at": "2021-01-02T14:24:12Z",
+      "comments": 1,
+      "score": 4,
+      "body_excerpt": "## mcve\r \r (this is extracted from a larger example which was rendering actual `.j2` files -- however this was the shortest example I could come up with)\r \r ```python\r from jinja2 import Template\r \r print(Template(r'{{ \"\\d\" }}').render())\r ```\r \r ## Expected Behavior\r \r I'm uncle"
+    },
+    {
+      "repo": "huggingface/datasets",
+      "number": 2941,
+      "title": "OSCAR unshuffled_original_ko: NonMatchingSplitsSizesError",
+      "url": "https://github.com/huggingface/datasets/issues/2941",
+      "labels": [
+        "bug",
+        "dataset bug"
+      ],
+      "updated_at": "2022-01-19T14:10:07Z",
+      "comments": 1,
+      "score": 4,
+      "body_excerpt": "## Describe the bug\r \r Cannot download OSCAR `unshuffled_original_ko` due to `NonMatchingSplitsSizesError`.\r \r ## Steps to reproduce the bug\r \r ```python\r >>> dataset = datasets.load_dataset('oscar', 'unshuffled_original_ko')\r NonMatchingSplitsSizesError: [{'expected': SplitInfo("
+    },
+    {
+      "repo": "Textualize/textual",
+      "number": 5103,
+      "title": "TextArea scrollbar and wrapping interaction on initial render is broken",
+      "url": "https://github.com/Textualize/textual/issues/5103",
+      "labels": [
+        "bug"
+      ],
+      "updated_at": "2024-10-11T16:13:13Z",
+      "comments": 1,
+      "score": 4,
+      "body_excerpt": "The following is an educated guess at the problem spotted by @TomJGooding in https://github.com/Textualize/textual/issues/5099#issuecomment-2403314028 (includes a video example of the issue)...\r \r When a `TextArea` has wrapping enabled and is filled with content that results in a"
+    },
+    {
+      "repo": "mkdocs/mkdocs",
+      "number": 3939,
+      "title": "Line number not provided on build failure when urllib urlsplit fails",
+      "url": "https://github.com/mkdocs/mkdocs/issues/3939",
+      "labels": [
+        "Bug",
+        "Validation",
+        "Logging"
+      ],
+      "updated_at": "2025-03-11T10:53:35Z",
+      "comments": 1,
+      "score": 4,
+      "body_excerpt": "It's unfortunate for usability that in a case like this a line number (in the markdown file being processed) isn't provided. In my case this was a `http://host` URL which was missing the trailing `/` but the failure to propagate line number information made it hard to diagnose ex"
+    },
+    {
+      "repo": "Textualize/textual",
+      "number": 4900,
+      "title": "KeyError error occurred in DataTable",
+      "url": "https://github.com/Textualize/textual/issues/4900",
+      "labels": [
+        "bug"
+      ],
+      "updated_at": "2024-09-12T14:54:00Z",
+      "comments": 2,
+      "score": 4,
+      "body_excerpt": "I repeatedly clear and render line content when using DataTable, and now I encounter a problem\r KeyError: <textual.widgets._data_table.RowKey object at 0x7fadc181c190>\r \r Here I attach a screenshot of the question\r \r ![\u56fe\u7247](https://github.com/user-attachments/assets/9c5a79a4-8903-"
+    },
+    {
+      "repo": "microsoft/markitdown",
+      "number": 120,
+      "title": "Removal of all whitespaces during PDF conversion",
+      "url": "https://github.com/microsoft/markitdown/issues/120",
+      "labels": [
+        "bug",
+        "open for contribution"
+      ],
+      "updated_at": "2026-03-28T04:06:51Z",
+      "comments": 4,
+      "score": 4,
+      "body_excerpt": "For a certain PDF of my test files `markitdown` will remove all whitespaces during conversion. The PDF can be found here: https://aclanthology.org/2024.eacl-long.5.pdf  I run the example code in a jupyter notebook (Python 3.12.8) like this:  ``` md = MarkItDown() result = md.conv"
+    },
+    {
+      "repo": "psf/requests",
+      "number": 2392,
+      "title": "requests.exceptions.ReadTimeout is not raised when response is chunked",
+      "url": "https://github.com/psf/requests/issues/2392",
+      "labels": [
+        "Bug",
+        "Planned",
+        "Breaking API Change"
+      ],
+      "updated_at": "2018-01-12T23:43:42Z",
+      "comments": 5,
+      "score": 4,
+      "body_excerpt": "https://gist.github.com/nickjoyce-wf/c536f2573ef124115f86  When a request has a timeout param supplied and the response is chunked but does not return enough data in time, `requests.exceptions.ReadTimeout` should be raised.  ``` shell $ mkvirtualenv test (test)$ pip install reque"
+    },
+    {
+      "repo": "Textualize/textual",
+      "number": 1587,
+      "title": "Hovering links in markup changes state of all links with identical action / parameter",
+      "url": "https://github.com/Textualize/textual/issues/1587",
+      "labels": [
+        "bug",
+        "Task"
+      ],
+      "updated_at": "2024-09-13T19:58:00Z",
+      "comments": 6,
+      "score": 4,
+      "body_excerpt": "### Issue Description\r \r Hovering one link will change the hover state of all links having the same action/params.\r \r Given the example below, the links 1, 3 and 4 are changing the state together:\r \r ![Screenshot from 2023-01-17 11-50-44](https://user-images.githubusercontent.com"
+    },
+    {
+      "repo": "psf/requests",
+      "number": 6102,
+      "title": "HTTPDigestAuth fails on non-latin credentials",
+      "url": "https://github.com/psf/requests/issues/6102",
+      "labels": [
+        "Bug"
+      ],
+      "updated_at": "2026-03-26T21:29:48Z",
+      "comments": 6,
+      "score": 4,
+      "body_excerpt": "There was issue reported, which is closed with bad results.\r \r https://github.com/psf/requests/blob/4f6c0187150af09d085c03096504934eb91c7a9e/requests/auth.py#L59-L63\r \r Don't pass unicode strings in the arguments, but use UTF8 bytes instead.\r ```\r self.session.get(main_url, auth="
+    },
+    {
+      "repo": "fastapi/fastapi",
+      "number": 10180,
+      "title": "Mounting sub-applications under `APIRouter`",
+      "url": "https://github.com/fastapi/fastapi/issues/10180",
+      "labels": [
+        "bug"
+      ],
+      "updated_at": "2026-03-28T12:06:56Z",
+      "comments": 17,
+      "score": 4,
+      "body_excerpt": "### Discussed in https://github.com/tiangolo/fastapi/discussions/8682\r \r <div type='discussions-op-text'>\r \r ### Example Code\r \r ```python\r from fastapi import FastAPI, APIRouter\r from starlette.testclient import TestClient\r \r app = FastAPI()\r api_router = APIRouter(prefix=\"/api\""
+    },
+    {
+      "repo": "mkdocs/mkdocs",
+      "number": 3927,
+      "title": "Don't disable anchor validation in DEBUG mode",
+      "url": "https://github.com/mkdocs/mkdocs/issues/3927",
+      "labels": [
+        "Bug",
+        "Validation"
+      ],
+      "updated_at": "2025-02-14T12:43:14Z",
+      "comments": 0,
+      "score": 3,
+      "body_excerpt": " _Originally posted by @pawamoy in [#3919](https://github.com/mkdocs/mkdocs/issues/3919#issuecomment-2631840927)_  > What's weird is that the info logs disappear in verbose mode. Probably because of this line: >  > https://github.com/mkdocs/mkdocs/blob/7e4892ab2dd4a52efd95a9de407"
+    },
+    {
+      "repo": "tiangolo/typer",
+      "number": 202,
+      "title": "[BUG] MSYS2 Bash and Git Bash for Windows autocomplete get ^M between autocomplete options",
+      "url": "https://github.com/fastapi/typer/issues/202",
+      "labels": [
+        "bug",
+        "os / windows",
+        "shell / bash"
+      ],
+      "updated_at": "2024-07-17T09:35:43Z",
+      "comments": 2,
+      "score": 3,
+      "body_excerpt": "### Describe the bug\r \r Somewhere along the line it seems an \\r gets introduced between the available options in git bash on windows. This is also the case for MSYS2. Seems not to be for zsh under msys2.\r \r ### To Reproduce\r \r Steps to reproduce the behavior with a minimum self-c"
+    },
+    {
+      "repo": "Textualize/rich",
+      "number": 3299,
+      "title": "[BUG] Segment._split_cells doesn't handle non-unit characters well",
+      "url": "https://github.com/Textualize/rich/issues/3299",
+      "labels": [
+        "bug"
+      ],
+      "updated_at": "2026-02-13T14:29:23Z",
+      "comments": 2,
+      "score": 3,
+      "body_excerpt": "The classmethod `Segment._split_cells` uses a heuristic to start the search for the cut point that is too eager.\r Because the algorithm implemented doesn't backtrack, one can construct example strings for which the cuts have the wrong sizes.\r \r The two examples below show instanc"
+    },
+    {
+      "repo": "pallets/jinja",
+      "number": 758,
+      "title": "deepcopy(jinja2.Template(...)) raises an exception",
+      "url": "https://github.com/pallets/jinja/issues/758",
+      "labels": [
+        "bug"
+      ],
+      "updated_at": "2019-12-09T17:13:45Z",
+      "comments": 4,
+      "score": 3,
+      "body_excerpt": "## MCVE\r \r ```py\r from copy import deepcopy\r \r from jinja2 import Template\r \r deepcopy(Template(''))\r ```\r \r ## Expected Behavior\r A deep copy of the Template object is returned.\r \r ## Actual Behavior\r A TypeError is raised.\r \r ## Full Traceback\r ```pytb\r Traceback (most recent c"
+    },
+    {
+      "repo": "tiangolo/typer",
+      "number": 171,
+      "title": "[BUG] typer doesn't respect ZDOTDIR env var when adding autocompletion for zsh ",
+      "url": "https://github.com/fastapi/typer/issues/171",
+      "labels": [
+        "bug",
+        "shell / zsh"
+      ],
+      "updated_at": "2026-04-28T09:14:55Z",
+      "comments": 7,
+      "score": 3,
+      "body_excerpt": "### Describe the bug\r \r When autocompletion is created in typer, the necessary changes are made in `$HOME/.zshrc`: \r https://github.com/tiangolo/typer/blob/a93e6b2f86a34fd82741ae837b9b188083a5e9c0/typer/completion.py#L225\r However, the path to the directory where the `.zshrc` fil"
+    },
+    {
+      "repo": "tiangolo/typer",
+      "number": 259,
+      "title": "[BUG] ctx.obj not passed to autocompletion function",
+      "url": "https://github.com/fastapi/typer/issues/259",
+      "labels": [
+        "bug"
+      ],
+      "updated_at": "2023-11-08T23:37:22Z",
+      "comments": 8,
+      "score": 3,
+      "body_excerpt": "### Describe the bug\r \r I have an expensive object stored in the context obj for use in my sub commands.\r I expected to be able to pull that object out of the ctx.obj in my autocompletion function and use it to generate the completion list.\r There is a ctx object, but it has no c"
+    },
+    {
+      "repo": "fastapi/fastapi",
+      "number": 13056,
+      "title": "Can't use `Annotated` with `ForwardRef`",
+      "url": "https://github.com/fastapi/fastapi/issues/13056",
+      "labels": [
+        "bug"
+      ],
+      "updated_at": "2026-04-13T05:47:50Z",
+      "comments": 15,
+      "score": 3,
+      "body_excerpt": "### Issue Content\r \r The following code doesn't generate the correct OpenAPI json:\r \r ```py\r from __future__ import annotations\r \r from dataclasses import dataclass\r from typing import Annotated\r \r from fastapi import Depends, FastAPI\r \r app = FastAPI()\r \r \r def get_potato() -> P"
+    },
+    {
+      "repo": "Textualize/rich",
+      "number": 4093,
+      "title": "[BUG] rich.logging.RichHandler: File links on Windows (VS Code) use incorrect format (file:// instead of file:/// and backslashes)",
+      "url": "https://github.com/Textualize/rich/issues/4093",
+      "labels": [
+        "Needs triage"
+      ],
+      "updated_at": "2026-04-23T05:59:01Z",
+      "comments": 1,
+      "score": 2,
+      "body_excerpt": "- [ ] I've checked [docs](https://rich.readthedocs.io/en/latest/introduction.html) and [closed issues](https://github.com/Textualize/rich/issues?q=is%3Aissue+is%3Aclosed) for possible solutions. (can't check right now, no internet access in Iran, just a few websites like github a"
+    },
+    {
+      "repo": "Textualize/rich",
+      "number": 3390,
+      "title": "[BUG] RecursionError when printing text with new lines within a live display context in Jupyter",
+      "url": "https://github.com/Textualize/rich/issues/3390",
+      "labels": [
+        "Needs triage"
+      ],
+      "updated_at": "2026-04-22T18:13:08Z",
+      "comments": 2,
+      "score": 2,
+      "body_excerpt": "- [x] I've checked [docs](https://rich.readthedocs.io/en/latest/introduction.html) and [closed issues](https://github.com/Textualize/rich/issues?q=is%3Aissue+is%3Aclosed) for possible solutions.\r - [x] I can't find my issue in the [FAQ](https://github.com/Textualize/rich/blob/mas"
+    },
+    {
+      "repo": "urllib3/urllib3",
+      "number": 4971,
+      "title": "Upgrade mypy to 1.20.2 or later",
+      "url": "https://github.com/urllib3/urllib3/issues/4971",
+      "labels": [
+        "Contributor Friendly \u2665"
+      ],
+      "updated_at": "2026-04-24T20:22:42Z",
+      "comments": 0,
+      "score": 1,
+      "body_excerpt": "urllib3 does not pass mypy 1.20.2 checks  ``` $ uv lock --upgrade-package mypy           Using CPython 3.14.4 interpreter at: /usr/sbin/python3 Resolved 124 packages in 739ms Added librt v0.9.0 Updated mypy v1.18.2 -> v1.20.2  $ nox -s mypy ... nox > mypy -p dummyserver -m noxfil"
+    },
+    {
+      "repo": "urllib3/urllib3",
+      "number": 4961,
+      "title": "proxy_ssl_context is mutated when target uses cert_reqs='CERT_NONE'",
+      "url": "https://github.com/urllib3/urllib3/issues/4961",
+      "labels": [],
+      "updated_at": "2026-04-13T19:53:32Z",
+      "comments": 0,
+      "score": 0,
+      "body_excerpt": "## Summary  When using `ProxyManager` with an HTTPS proxy and `cert_reqs='CERT_NONE'` for the target, urllib3 mutates the caller-provided `proxy_ssl_context` by overwriting its `verify_mode` to `CERT_NONE`. The mutation is permanent - it persists on the context object across all "
+    },
+    {
+      "repo": "urllib3/urllib3",
+      "number": 4965,
+      "title": "urlopen() proxy branch silently normalizes dot segments in caller-supplied URLs",
+      "url": "https://github.com/urllib3/urllib3/issues/4965",
+      "labels": [],
+      "updated_at": "2026-04-17T19:21:35Z",
+      "comments": 0,
+      "score": 0,
+      "body_excerpt": "### Subject  urlopen() proxy branch silently normalizes dot segments in caller-supplied URLs  ### Environment  OS macOS-26.3.2-arm64-arm-64bit-Mach-O Python 3.13.3 OpenSSL 3.6.2 7 Apr 2026 urllib3 2.6.4.dev20  ### Steps to Reproduce  When a full URL containing dot segments is pas"
+    },
+    {
+      "repo": "fastapi/fastapi",
+      "number": 15448,
+      "title": "Malformed Links in Documentation Home",
+      "url": "https://github.com/fastapi/fastapi/issues/15448",
+      "labels": [],
+      "updated_at": "2026-04-29T06:23:32Z",
+      "comments": 1,
+      "score": 0,
+      "body_excerpt": "### Privileged issue  - [x] I'm @tiangolo or he asked me directly to create an issue here.  ### Issue Content  Hi,   I just accessed the documentation home page and saw that the links on the Opinitions sections was malformed:   <img width=\"1742\" height=\"1220\" alt=\"Image\" src=\"htt"
+    }
+  ]
+}

@@ -7,6 +7,74 @@
   },
   "posts": [
     {
+      "slug": "markitdown-http-user-agent-header",
+      "title": "Making MarkItDown send a browser-like User-Agent for HTTP URLs",
+      "date": "2026-04-29",
+      "repo": "microsoft/markitdown",
+      "pr_number": 1849,
+      "pr_url": "https://github.com/microsoft/markitdown/pull/1849",
+      "status": "open",
+      "branch": "fix/http-user-agent-header",
+      "commit": "87a2ffc",
+      "summary": "Some document URLs work in a browser but fail in MarkItDown because the remote endpoint blocks requests without a browser-style User-Agent. I updated the HTTP fetch path to send one and added a regression test to lock in the behavior.",
+      "problem": [
+        "Issue #1467 reports HTTP/HTTPS conversions failing against endpoints that reject non-browser requests.",
+        "The existing MarkItDown fetch path streamed URLs without any explicit User-Agent header.",
+        "That made some bot-protected document endpoints return 403/404 even though the same URL downloaded fine in a normal browser."
+      ],
+      "changes": [
+        "Added a browser-like default User-Agent constant for HTTP/HTTPS URI conversions.",
+        "Passed that header through the existing requests session while preserving the current streaming download flow.",
+        "Added a module-level regression test that asserts the HTTP fetch path sets the User-Agent header."
+      ],
+      "tests": [
+        "python3 -m pytest -q packages/markitdown/tests/test_module_misc.py -k http_uri_uses_browser_user_agent -> 1 passed",
+        "python3 -m pytest -q packages/markitdown/tests/test_module_misc.py -> 14 passed, 1 skipped"
+      ],
+      "files_changed": [
+        "packages/markitdown/src/markitdown/_markitdown.py",
+        "packages/markitdown/tests/test_module_misc.py"
+      ],
+      "diff_stat": "+36 / -1 across 2 files",
+      "lessons": [
+        "Real contribution speed improves when the issue is concrete, current, and not already attached to another active PR.",
+        "For network-behavior fixes, test the request contract directly instead of depending on downstream HTML parsing side effects."
+      ],
+      "discussion_highlights": [
+        {
+          "title": "Issue #1467",
+          "summary": "Requester showed endpoints returning 404/403 without a browser User-Agent but succeeding with one.",
+          "url": "https://github.com/microsoft/markitdown/issues/1467"
+        },
+        {
+          "title": "PR #1849",
+          "summary": "Proposed a narrow header-only fix with regression coverage, keeping the rest of the conversion pipeline unchanged.",
+          "url": "https://github.com/microsoft/markitdown/pull/1849"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-04-29",
+          "summary": "Opened PR #1849 against microsoft/markitdown after local green tests.",
+          "url": "https://github.com/microsoft/markitdown/pull/1849"
+        }
+      ],
+      "links": [
+        {
+          "label": "Issue #1467",
+          "url": "https://github.com/microsoft/markitdown/issues/1467"
+        },
+        {
+          "label": "PR #1849",
+          "url": "https://github.com/microsoft/markitdown/pull/1849"
+        },
+        {
+          "label": "Branch on GitHub",
+          "url": "https://github.com/jaythehardcoder/markitdown/tree/fix/http-user-agent-header"
+        }
+      ]
+    },
+    {
       "slug": "markitdown-pdf-prose-fix",
       "title": "Fixing PDF prose spacing in microsoft/markitdown",
       "date": "2026-04-29",
