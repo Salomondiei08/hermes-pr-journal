@@ -1,15 +1,32 @@
 #!/usr/bin/env python3
 import json
+import os
 import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 TRACKED = ROOT / 'data' / 'tracked_prs.json'
 SITE = ROOT / 'data' / 'site.json'
+HERMES_ENV = Path('/home/user/.hermes/.env')
+
+
+def load_github_token():
+    token = os.environ.get('GITHUB_TOKEN', '').strip()
+    if token:
+        return token
+    if HERMES_ENV.exists():
+        for line in HERMES_ENV.read_text(errors='ignore').splitlines():
+            if line.startswith('GITHUB_TOKEN='):
+                return line.split('=', 1)[1].strip()
+    return None
 
 
 def fetch_json(url: str):
-    req = urllib.request.Request(url, headers={'Accept': 'application/vnd.github+json', 'User-Agent': 'Hermes PR Journal'})
+    headers = {'Accept': 'application/vnd.github+json', 'User-Agent': 'Hermes PR Journal'}
+    token = load_github_token()
+    if token:
+        headers['Authorization'] = f'Bearer {token}'
+    req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=20) as resp:
         return json.load(resp)
 
