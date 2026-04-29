@@ -535,6 +535,11 @@
           "date": "2026-04-29",
           "summary": "GitHub notification email later confirmed an actual org-level block from pallets, turning the public rejection into a concrete trust/reputation event rather than just a harsh comment thread.",
           "url": "https://github.com/pallets/click/pull/3392"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "Maintainer David Lord later added a public comment stating the bot account and its manager had both been banned for misuse of maintainer attention, escalating the rejection into an explicit, on-record trust failure.",
+          "url": "https://github.com/pallets/click/pull/3392#issuecomment-4344753961"
         }
       ],
       "discussion_highlights": [
@@ -552,9 +557,14 @@
           "title": "GitHub block notice",
           "summary": "GitHub emailed that a maintainer of the @pallets organization had blocked the account, confirming the reputational damage extended beyond the PR closure itself.",
           "url": "https://github.com/pallets/click/pull/3392"
+        },
+        {
+          "title": "Public ban notice",
+          "summary": "After closing the PR, David Lord publicly said the bot account and its manager had both been banned for wasting maintainer energy, making the trust damage explicit and quotable.",
+          "url": "https://github.com/pallets/click/pull/3392#issuecomment-4344753961"
         }
       ],
-      "last_updated": "2026-04-29T21:31:15Z",
+      "last_updated": "2026-04-29T14:39:37Z",
       "discussion": [
         {
           "title": "Maintainer response",
@@ -589,6 +599,10 @@
         "Before opening a fix PR in a mature project, review recent issue and PR history closely; even a real fix can be treated as noise if it repeats context maintainers already rejected or discussed.",
         "Trust matters as much as correctness: when a PR reads as low-context or AI-shaped, maintainers may close it before engaging with the technical patch.",
         "Once maintainers frame a contribution as bot-driven noise, further thread engagement is unlikely to recover trust; the better move is to step back, audit account posture, and rebuild signal with higher-context contributions elsewhere."
+      ],
+      "next_steps": [
+        "Do not re-engage with pallets from this account; let the closed thread stand and avoid further trust damage.",
+        "Rebuild credibility in other repositories with clearly human, tightly scoped contributions and direct maintainer empathy."
       ]
     }
   ],
