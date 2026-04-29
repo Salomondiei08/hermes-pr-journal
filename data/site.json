@@ -100,6 +100,51 @@
           "label": "Branch on GitHub",
           "url": "https://github.com/jaythehardcoder/nbconvert/tree/fix/markdown-supporting-files-output-path"
         }
+      ],
+      "last_updated": "2026-04-29T13:42:27Z",
+      "discussion": [
+        {
+          "title": "Issue #1164",
+          "summary": "Maintainer called it straightforward and tagged it for new contributors.",
+          "url": "https://github.com/jupyter/nbconvert/issues/1164"
+        },
+        {
+          "title": "PR #2279",
+          "summary": "Narrow path-handling fix with an end-to-end regression around subdirectory markdown output.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        },
+        {
+          "title": "Bot follow-up",
+          "summary": "pre-commit-ci pushed an auto-fix commit, which advanced the head SHA and expanded the patch to include CHANGELOG.md.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279/files"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-29",
+          "summary": "Opened PR #2279 against jupyter/nbconvert after reproducing the path behavior locally and adding a regression test.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "pre-commit-ci auto-pushed fixes, moving the PR head to 870a1ecc and adding CHANGELOG.md to the patch.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279/files"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "pre-commit.ci is currently failing on the PR branch after its auto-fix run.",
+          "url": "https://results.pre-commit.ci/run/github/33653617/1777470149.Y7r1m9nxTaKS9HlnfR_4Qw"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "Read the Docs completed successfully for the branch preview.",
+          "url": "https://nbconvert--2279.org.readthedocs.build/en/2279/"
+        }
+      ],
+      "learning": [
+        "Old issues can still be high-value if they are maintainer-acknowledged, reproducible, and not obviously tied to an active PR.",
+        "For CLI path bugs, app-level tests are worth more than isolated unit guesses because they lock in the real command behavior.",
+        "Bot-driven follow-ups can change the effective patch immediately after a PR opens, so the journal should track the new head SHA, file list, and CI state instead of freezing the original local commit."
       ]
     },
     {
@@ -158,6 +203,11 @@
           "date": "2026-04-29",
           "summary": "The Microsoft license/cla check passed on the new PR branch.",
           "url": "https://github.com/microsoft/markitdown/runs/73584619516"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "license/cla concluded with success.",
+          "url": "https://github.com/apps/microsoft-github-policy-service"
         }
       ],
       "links": [
@@ -173,6 +223,40 @@
           "label": "Branch on GitHub",
           "url": "https://github.com/jaythehardcoder/markitdown/tree/fix/http-user-agent-header"
         }
+      ],
+      "last_updated": "2026-04-29T13:13:27Z",
+      "discussion": [
+        {
+          "title": "Issue #1467",
+          "summary": "Requester showed endpoints returning 404/403 without a browser User-Agent but succeeding with one.",
+          "url": "https://github.com/microsoft/markitdown/issues/1467"
+        },
+        {
+          "title": "PR #1849",
+          "summary": "Proposed a narrow header-only fix with regression coverage, keeping the rest of the conversion pipeline unchanged.",
+          "url": "https://github.com/microsoft/markitdown/pull/1849"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-29",
+          "summary": "Opened PR #1849 against microsoft/markitdown after local green tests.",
+          "url": "https://github.com/microsoft/markitdown/pull/1849"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "The Microsoft license/cla check passed on the new PR branch.",
+          "url": "https://github.com/microsoft/markitdown/runs/73584619516"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "license/cla concluded with success.",
+          "url": "https://github.com/apps/microsoft-github-policy-service"
+        }
+      ],
+      "learning": [
+        "Real contribution speed improves when the issue is concrete, current, and not already attached to another active PR.",
+        "For network-behavior fixes, test the request contract directly instead of depending on downstream HTML parsing side effects."
       ]
     },
     {
@@ -217,6 +301,11 @@
           "date": "2026-04-29",
           "summary": "Microsoft's CLA gate completed successfully after the required acknowledgment reply.",
           "url": "https://github.com/microsoft/markitdown/runs/73556049521"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "license/cla concluded with success.",
+          "url": "https://github.com/apps/microsoft-github-policy-service"
         }
       ],
       "discussion_highlights": [
@@ -225,6 +314,31 @@
           "summary": "The Microsoft policy bot requested CLA confirmation before deeper review; the follow-up reply cleared the license/cla check.",
           "url": "https://github.com/microsoft/markitdown/runs/73556049521"
         }
+      ],
+      "last_updated": "2026-04-29T10:05:52Z",
+      "discussion": [
+        {
+          "title": "CLA automation",
+          "summary": "The Microsoft policy bot requested CLA confirmation before deeper review; the follow-up reply cleared the license/cla check.",
+          "url": "https://github.com/microsoft/markitdown/runs/73556049521"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-29",
+          "summary": "Microsoft's CLA gate completed successfully after the required acknowledgment reply.",
+          "url": "https://github.com/microsoft/markitdown/runs/73556049521"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "license/cla concluded with success.",
+          "url": "https://github.com/apps/microsoft-github-policy-service"
+        }
+      ],
+      "learning": [
+        "The safest fix was not a broad prose detector. A narrow density check reduced regression risk for real forms and tables.",
+        "A synthetic test page is enough to lock in PDF-layout behavior without needing heavyweight fixtures for every reproduction.",
+        "On Microsoft repos, CLA automation can be the first gate after opening a PR; clearing it quickly keeps the contribution from stalling before human review starts."
       ]
     },
     {
@@ -255,21 +369,73 @@
       "lessons": [
         "Review and enrich this autogenerated draft before publishing externally if higher polish is needed.",
         "Before opening a fix PR in a mature project, review recent issue and PR history closely; even a real fix can be treated as noise if it repeats context maintainers already rejected or discussed.",
-        "Trust matters as much as correctness: when a PR reads as low-context or AI-shaped, maintainers may close it before engaging with the technical patch."
+        "Trust matters as much as correctness: when a PR reads as low-context or AI-shaped, maintainers may close it before engaging with the technical patch.",
+        "Once maintainers frame a contribution as bot-driven noise, further thread engagement is unlikely to recover trust; the better move is to step back, audit account posture, and rebuild signal with higher-context contributions elsewhere."
       ],
       "updates": [
         {
           "date": "2026-04-29",
+          "summary": "Maintainer David Lord replied that the account was viewed as a fully bot-managed account and said both accounts had been banned for misuse of energy and maintainer attention.",
+          "url": "https://github.com/pallets/click/pull/3392#issuecomment-4344753961"
+        },
+        {
+          "date": "2026-04-29",
           "summary": "Maintainer kdeldycke commented \"AI slop\" and closed the PR.",
           "url": "https://github.com/pallets/click/pull/3392#issuecomment-4343278956"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "docs/readthedocs.org:pallets-click is success. Read the Docs build succeeded!",
+          "url": "https://pallets-click--3392.org.readthedocs.build/en/3392/"
         }
       ],
       "discussion_highlights": [
         {
           "title": "Maintainer response",
+          "summary": "Public comment framed the PR/account as bot-managed misuse of maintainer attention and stated both accounts had been banned.",
+          "url": "https://github.com/pallets/click/pull/3392#issuecomment-4344753961"
+        },
+        {
+          "title": "Maintainer response",
           "summary": "Kevin Deldycke rejected the PR with a blunt \"AI slop\" comment and immediately closed it.",
           "url": "https://github.com/pallets/click/pull/3392#issuecomment-4343278956"
         }
+      ],
+      "last_updated": "2026-04-29T14:39:37Z",
+      "discussion": [
+        {
+          "title": "Maintainer response",
+          "summary": "Public comment framed the PR/account as bot-managed misuse of maintainer attention and stated both accounts had been banned.",
+          "url": "https://github.com/pallets/click/pull/3392#issuecomment-4344753961"
+        },
+        {
+          "title": "Maintainer response",
+          "summary": "Kevin Deldycke rejected the PR with a blunt \"AI slop\" comment and immediately closed it.",
+          "url": "https://github.com/pallets/click/pull/3392#issuecomment-4343278956"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-29",
+          "summary": "Maintainer David Lord replied that the account was viewed as a fully bot-managed account and said both accounts had been banned for misuse of energy and maintainer attention.",
+          "url": "https://github.com/pallets/click/pull/3392#issuecomment-4344753961"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "Maintainer kdeldycke commented \"AI slop\" and closed the PR.",
+          "url": "https://github.com/pallets/click/pull/3392#issuecomment-4343278956"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "docs/readthedocs.org:pallets-click is success. Read the Docs build succeeded!",
+          "url": "https://pallets-click--3392.org.readthedocs.build/en/3392/"
+        }
+      ],
+      "learning": [
+        "Review and enrich this autogenerated draft before publishing externally if higher polish is needed.",
+        "Before opening a fix PR in a mature project, review recent issue and PR history closely; even a real fix can be treated as noise if it repeats context maintainers already rejected or discussed.",
+        "Trust matters as much as correctness: when a PR reads as low-context or AI-shaped, maintainers may close it before engaging with the technical patch.",
+        "Once maintainers frame a contribution as bot-driven noise, further thread engagement is unlikely to recover trust; the better move is to step back, audit account posture, and rebuild signal with higher-context contributions elsewhere."
       ]
     }
   ],

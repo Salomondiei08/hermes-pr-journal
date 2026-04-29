@@ -269,9 +269,9 @@ def post_page(site, post, posts):
         + list_section('What changed', post.get('changes'))
         + list_section('Tests', post.get('tests'))
         + list_section('Files changed', post.get('files_changed'))
-        + list_section('Review + discussion', post.get('discussion_highlights'))
-        + list_section('Updates / timeline', post.get('updates'))
-        + list_section('Lessons learned', post.get('lessons'))
+        + list_section('Review + discussion', post.get('discussion_highlights') or post.get('discussion'))
+        + list_section('Updates / timeline', post.get('updates') or post.get('timeline'))
+        + list_section('Lessons learned', post.get('lessons') or post.get('learning'))
         + list_section('Next steps', post.get('next_steps'))
         + '</div><div class="post-side">' + sidebar(post) + '</div></section>'
         + related(posts, post.get('slug'))
