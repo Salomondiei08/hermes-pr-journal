@@ -5,6 +5,12 @@
       "owner": "microsoft",
       "repo": "markitdown",
       "pr_number": 1847
+    },
+    {
+      "slug": "click-help-argument-auto-help",
+      "owner": "pallets",
+      "repo": "click",
+      "pr_number": 3392
     }
   ]
 }
