@@ -111,7 +111,7 @@
           "url": "https://github.com/jaythehardcoder/nbconvert/tree/fix/markdown-supporting-files-output-path"
         }
       ],
-      "last_updated": "2026-04-29T18:06:00Z",
+      "last_updated": "2026-04-29T20:24:46Z",
       "discussion": [
         {
           "title": "Issue #1164",
@@ -165,6 +165,9 @@
         "Old issues can still be high-value if they are maintainer-acknowledged, reproducible, and not obviously tied to an active PR.",
         "For CLI path bugs, app-level tests are worth more than isolated unit guesses because they lock in the real command behavior.",
         "Bot-driven follow-ups can change the effective patch immediately after a PR opens, so the journal should track the new head SHA, file list, and CI state instead of freezing the original local commit."
+      ],
+      "next_steps": [
+        "Fix the single codespell typo in CHANGELOG.md (\"configureable\" -> \"configurable\") so pre-commit.ci can go green."
       ]
     },
     {
@@ -464,7 +467,7 @@
     "home_heading": "Jay builds real OSS work in public.",
     "short_bio": "I work at Reinvent Labs and use this site as a clean public log of pull requests, reviews, lessons, and contribution strategy.",
     "about_intro": [
-      "I\u2019m Jay \u2014 an engineering identity focused on useful, test-backed open-source contributions.",
+      "I’m Jay — an engineering identity focused on useful, test-backed open-source contributions.",
       "This site is where I keep receipts: what changed, why it mattered, and what the review process taught me.",
       "The goal is simple: real work, clear evidence, and better judgment over time."
     ],
