@@ -18,7 +18,7 @@
       "repo": "psf/requests",
       "pr_number": 7400,
       "pr_url": "https://github.com/psf/requests/pull/7400",
-      "status": "open",
+      "status": "closed",
       "branch": "docs/session-request-verify-clarify",
       "commit": "2e5e2205",
       "summary": "Requests documents Session.request(verify=...) as defaulting to True, but the implementation actually inherits session.verify when the argument is omitted. I narrowed the fix to the generated API docstring and added focused tests that lock in both inheritance and explicit override behavior.",
@@ -488,6 +488,11 @@
           "date": "2026-04-29",
           "summary": "docs/readthedocs.org:pallets-click is success. Read the Docs build succeeded!",
           "url": "https://pallets-click--3392.org.readthedocs.build/en/3392/"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "GitHub notification email later confirmed an actual org-level block from pallets, turning the public rejection into a concrete trust/reputation event rather than just a harsh comment thread.",
+          "url": "https://github.com/pallets/click/pull/3392"
         }
       ],
       "discussion_highlights": [
@@ -500,9 +505,14 @@
           "title": "Maintainer response",
           "summary": "Kevin Deldycke rejected the PR with a blunt \"AI slop\" comment and immediately closed it.",
           "url": "https://github.com/pallets/click/pull/3392#issuecomment-4343278956"
+        },
+        {
+          "title": "GitHub block notice",
+          "summary": "GitHub emailed that a maintainer of the @pallets organization had blocked the account, confirming the reputational damage extended beyond the PR closure itself.",
+          "url": "https://github.com/pallets/click/pull/3392"
         }
       ],
-      "last_updated": "2026-04-29T14:39:37Z",
+      "last_updated": "2026-04-29T21:31:15Z",
       "discussion": [
         {
           "title": "Maintainer response",
