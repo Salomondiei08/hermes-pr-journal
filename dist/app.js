@@ -2,13 +2,13 @@
 (() => {
   const root = document.documentElement;
   const saved = localStorage.getItem('jay-theme');
-  const prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
   const setTheme = (mode) => {
-    root.classList.toggle('light', mode === 'light');
+    root.classList.toggle('dark', mode === 'dark');
     localStorage.setItem('jay-theme', mode);
   };
-  setTheme(saved || (prefersLight ? 'light' : 'dark'));
-  document.querySelectorAll('[data-theme-toggle]').forEach((btn) => btn.addEventListener('click', () => setTheme(root.classList.contains('light') ? 'dark' : 'light')));
+  setTheme(saved || (prefersDark ? 'dark' : 'light'));
+  document.querySelectorAll('[data-theme-toggle]').forEach((btn) => btn.addEventListener('click', () => setTheme(root.classList.contains('dark') ? 'light' : 'dark')));
   const grid = document.querySelector('[data-filterable-grid]');
   if (!grid) return;
   let activeStatus = 'all';
