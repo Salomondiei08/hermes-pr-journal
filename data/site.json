@@ -50,7 +50,7 @@
       "repo": "pallets/click",
       "pr_number": 3392,
       "pr_url": "https://github.com/pallets/click/pull/3392",
-      "status": "open",
+      "status": "closed",
       "branch": "fix/help-argument-auto-help",
       "commit": "e459528e4744cfca49a94a9dab03fa77440ee973",
       "summary": "Click's auto-generated help option reused the internal name 'help', which caused commands with an argument named help to misparse positional input as the boolean help flag. I fixed the internal-name collision and added a regression test.",
