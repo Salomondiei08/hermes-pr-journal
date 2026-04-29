@@ -188,12 +188,13 @@ def render_related(post, posts):
 
 
 def layout(title: str, body: str, site_title: str, root_prefix: str) -> str:
+    page_title = esc(site_title if title == site_title else f"{title} · {site_title}")
     return f"""<!doctype html>
 <html lang=\"en\">
 <head>
   <meta charset=\"utf-8\" />
   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
-  <title>{esc(title)} · {esc(site_title)}</title>
+  <title>{page_title}</title>
   <meta name=\"theme-color\" content=\"#fafafa\" />
   <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">
   <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>
@@ -663,8 +664,6 @@ def main():
     closed = count_status(posts, 'closed')
 
     cards = ''.join(render_card(post) for post in posts)
-    featured = render_featured(posts)
-
     index_body = f"""
     <header class='topbar'>
       <a class='brand' href='index.html'>
@@ -685,8 +684,6 @@ def main():
         <div class='metric'><span class='label'>Closed</span><strong>{closed}</strong></div>
       </div>
     </section>
-
-    {featured}
 
     <section class='section-title'>
       <h2>Latest work</h2>
