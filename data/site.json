@@ -12,6 +12,84 @@
   },
   "posts": [
     {
+      "slug": "requests-session-request-verify-inheritance",
+      "title": "Clarifying how Requests Session.verify interacts with per-request verify",
+      "date": "2026-04-29",
+      "repo": "psf/requests",
+      "pr_number": 7400,
+      "pr_url": "https://github.com/psf/requests/pull/7400",
+      "status": "open",
+      "branch": "docs/session-request-verify-clarify",
+      "commit": "2e5e2205",
+      "summary": "Requests documents Session.request(verify=...) as defaulting to True, but the implementation actually inherits session.verify when the argument is omitted. I narrowed the fix to the generated API docstring and added focused tests that lock in both inheritance and explicit override behavior.",
+      "problem": [
+        "Issue #7399 showed that the Session.request docs were copied from requests.request even though the method signatures behave differently.",
+        "In requests/sessions.py, an omitted per-request verify value is merged with the session-level setting, so Session.verify=False is inherited unless the request passes its own verify value.",
+        "That made the generated API docs misleading for callers relying on Session defaults or custom CA bundle settings."
+      ],
+      "changes": [
+        "Reworded the Session.request verify parameter docs to say omitted requests inherit the session-level verify value.",
+        "Documented that an explicit per-request verify value overrides Session.verify.",
+        "Added two focused tests that patch Session.send and assert the exact verify kwarg passed through request()."
+      ],
+      "tests": [
+        "python -m pytest tests/test_requests.py -k \"session_request_uses_session_verify_default or session_request_verify_overrides_session_default\" -q -> 2 passed",
+        "python -m pytest tests/test_requests.py -q -> existing baseline remains 194 fixture/environment errors on clean main; this branch adds 2 passing tests on top of that same baseline"
+      ],
+      "files_changed": [
+        "src/requests/sessions.py",
+        "tests/test_requests.py"
+      ],
+      "diff_stat": "+34 / -6 across 2 files",
+      "lessons": [
+        "A maintainer comment agreeing that wording could be improved is a much stronger docs signal than opening a speculative cleanup PR.",
+        "For API documentation corrections, backing the wording with tiny behavioral tests makes the PR concrete instead of argumentative.",
+        "Researching prior closed PRs first helps avoid duplicating stale bugfix attempts and can surface a better, narrower contribution path."
+      ],
+      "discussion_highlights": [
+        {
+          "title": "Issue #7399",
+          "summary": "Reporter pointed out that Session.request docs claim verify defaults to True even though omitted requests inherit Session.verify.",
+          "url": "https://github.com/psf/requests/issues/7399"
+        },
+        {
+          "title": "Maintainer signal",
+          "summary": "nateprewitt agreed the docstring could be reworded while clarifying that explicit request values override Session settings.",
+          "url": "https://github.com/psf/requests/issues/7399#issuecomment-2833897882"
+        },
+        {
+          "title": "PR #7400",
+          "summary": "Narrow docs-and-tests follow-up that matches current behavior without changing runtime code paths.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-04-29",
+          "summary": "Opened PR #7400 against psf/requests after verifying the verify inheritance and override behavior locally.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        }
+      ],
+      "links": [
+        {
+          "label": "Issue #7399",
+          "url": "https://github.com/psf/requests/issues/7399"
+        },
+        {
+          "label": "PR branch",
+          "url": "https://github.com/jaythehardcoder/requests/tree/docs/session-request-verify-clarify"
+        }
+      ],
+      "last_updated": "2026-04-29T21:12:29Z",
+      "discussion": null,
+      "timeline": null,
+      "learning": null,
+      "next_steps": [
+        "Watch for maintainer feedback on whether the wording should stay in Session.request only or also be mirrored elsewhere in the generated API docs.",
+        "If CI or docs preview flags formatting issues, keep the follow-up limited to wording and the two behavior tests."
+      ]
+    },
+    {
       "slug": "nbconvert-output-support-files-path",
       "title": "Fixing nbconvert support-file paths when --output targets a subdirectory",
       "date": "2026-04-29",

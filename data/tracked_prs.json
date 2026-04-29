@@ -23,6 +23,12 @@
       "owner": "jupyter",
       "repo": "nbconvert",
       "pr_number": 2279
+    },
+    {
+      "slug": "requests-session-request-verify-inheritance",
+      "owner": "psf",
+      "repo": "requests",
+      "pr_number": 7400
     }
   ]
 }
