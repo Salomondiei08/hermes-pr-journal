@@ -1,0 +1,1805 @@
+{
+  "generated_at": "2026-04-29 12:41:59 UTC",
+  "repos": [
+    {
+      "repo": "pytest-dev/pytest",
+      "stars": 13814,
+      "open_issues": 995,
+      "default_branch": "main",
+      "good_first_issue": true,
+      "help_wanted": false,
+      "signal_labels": [
+        "good first issue",
+        "plugin: debugging",
+        "status: help wanted",
+        "type: bug",
+        "type: enhancement"
+      ],
+      "merged_samples": [
+        {
+          "number": 14422,
+          "title": "Fix duplicate values in Config.known_args_namespace for append actions",
+          "author": "EternalRights"
+        },
+        {
+          "number": 14426,
+          "title": "[pre-commit.ci] pre-commit autoupdate",
+          "author": "pre-commit-ci[bot]"
+        },
+        {
+          "number": 14419,
+          "title": "[automated] Update plugin list",
+          "author": "github-actions[bot]"
+        },
+        {
+          "number": 14420,
+          "title": "[PR #14391/cd7592c4 backport][9.0.x] Use direct cause for raises match failures",
+          "author": "patchback[bot]"
+        },
+        {
+          "number": 14421,
+          "title": "changelog: fix up #14389 entry",
+          "author": "bluetech"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 14428,
+          "title": ".3493624936399236:b7404d45aa80f3721d9cf7a6f2e3d0e9_69f1ded19838cf54136eafe3.69f1dfad9838cf54136eafe6.69f1dfad6b3aba23f986e7ef:Trae CN.T(2026/4/29 18:38:37)",
+          "author": "muyusajiangtian"
+        },
+        {
+          "number": 14424,
+          "title": "testing: add regression test for get_user() swallowing OSError (#13835)",
+          "author": "OfekDanny"
+        },
+        {
+          "number": 14358,
+          "title": "Fix RaisesGroup calling check() on contained exceptions instead of Ex\u2026",
+          "author": "kelliott1"
+        },
+        {
+          "number": 14411,
+          "title": "fix(raises): guard check callback against AttributeError in RaisesGroup diagnostic path",
+          "author": "armorbreak001"
+        }
+      ],
+      "accepted_patterns": [
+        "small bugfixes and regression-test-backed changes",
+        "maintenance work that aligns with existing tooling and CI conventions"
+      ],
+      "avoid_patterns": [
+        "speculative feature work without prior alignment"
+      ],
+      "merged_title_mix": {
+        "fix": 4,
+        "other": 3,
+        "ci": 2,
+        "tests": 1,
+        "deps": 1
+      },
+      "rejected_title_mix": {
+        "fix": 4,
+        "tests": 2,
+        "feature": 2,
+        "other": 1,
+        "ci": 1
+      },
+      "opportunity_areas": [
+        "maintainer-tagged onboarding issues"
+      ],
+      "activity_score": 22.0,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    },
+    {
+      "repo": "encode/httpx",
+      "stars": 15248,
+      "open_issues": 148,
+      "default_branch": "master",
+      "good_first_issue": true,
+      "help_wanted": true,
+      "signal_labels": [
+        "bug",
+        "enhancement",
+        "good first issue",
+        "help wanted"
+      ],
+      "merged_samples": [
+        {
+          "number": 3773,
+          "title": "Adapt test_response_decode_text_using_autodetect for chardet 6.0",
+          "author": "musicinmybrain"
+        },
+        {
+          "number": 3730,
+          "title": "3.11+",
+          "author": "lovelydinosaur"
+        },
+        {
+          "number": 3699,
+          "title": "Expose `FunctionAuth` in `__all__`",
+          "author": "thejcannon"
+        },
+        {
+          "number": 3703,
+          "title": "docs/ssl: fix typo",
+          "author": "xrmx"
+        },
+        {
+          "number": 3692,
+          "title": "Fixed a syntax error in the file upload example",
+          "author": "Zproger"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 3241,
+          "title": "Change default encoding to utf-8 in `normalize_header_key` and `normalize_header_value` functions",
+          "author": "SonderZhong"
+        },
+        {
+          "number": 3762,
+          "title": "Bump cryptography from 45.0.7 to 46.0.5",
+          "author": "dependabot[bot]"
+        },
+        {
+          "number": 3765,
+          "title": "docs: use canonical Requests docs URL",
+          "author": "droppingbeans"
+        },
+        {
+          "number": 3759,
+          "title": "Fix: Merge URL query parameters instead of replacing them",
+          "author": "veeceey"
+        }
+      ],
+      "accepted_patterns": [
+        "small bugfixes and regression-test-backed changes",
+        "docs clarifications tied to real behavior or workflow pain",
+        "maintenance work that aligns with existing tooling and CI conventions"
+      ],
+      "avoid_patterns": [
+        "generic docs rewrites not tied to a concrete confusion or bug",
+        "drive-by dependency or chore PRs unless explicitly requested"
+      ],
+      "merged_title_mix": {
+        "other": 5,
+        "fix": 2,
+        "tests": 1,
+        "docs": 1,
+        "feature": 1,
+        "deps": 1,
+        "ci": 1
+      },
+      "rejected_title_mix": {
+        "deps": 2,
+        "fix": 2,
+        "other": 1,
+        "docs": 1,
+        "ci": 1
+      },
+      "opportunity_areas": [
+        "bugfixes with regression tests",
+        "docs clarifications anchored to real issues",
+        "small scoped enhancements after issue-thread alignment"
+      ],
+      "activity_score": 21.0,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    },
+    {
+      "repo": "jupyter/nbconvert",
+      "stars": 1921,
+      "open_issues": 584,
+      "default_branch": "main",
+      "good_first_issue": true,
+      "help_wanted": true,
+      "signal_labels": [
+        "bug",
+        "documentation",
+        "enhancement",
+        "good first issue",
+        "help wanted"
+      ],
+      "merged_samples": [
+        {
+          "number": 2277,
+          "title": "chore: update pre-commit hooks",
+          "author": "pre-commit-ci[bot]"
+        },
+        {
+          "number": 2276,
+          "title": "specify python version for pre",
+          "author": "minrk"
+        },
+        {
+          "number": 2242,
+          "title": "chore: update pre-commit hooks",
+          "author": "pre-commit-ci[bot]"
+        },
+        {
+          "number": 2273,
+          "title": "Bump the actions group across 1 directory with 2 updates",
+          "author": "dependabot[bot]"
+        },
+        {
+          "number": 2249,
+          "title": "Tweak webpdf template logic to fix duplicate extension problem",
+          "author": "timkpaine"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 2272,
+          "title": "Bump actions/upload-artifact from 6 to 7 in the actions group",
+          "author": "dependabot[bot]"
+        },
+        {
+          "number": 1688,
+          "title": "Set cm-unicode font for latex if available (fixes #1673)",
+          "author": "cgevans"
+        },
+        {
+          "number": 1751,
+          "title": "Add upper bound on the Jinja dependency and MarkupSafe",
+          "author": "martinRenou"
+        },
+        {
+          "number": 842,
+          "title": "Add --save-on-error flag, closes #626",
+          "author": "ls1xt"
+        }
+      ],
+      "accepted_patterns": [
+        "small bugfixes and regression-test-backed changes",
+        "maintenance work that aligns with existing tooling and CI conventions",
+        "incremental features when they are narrow and clearly justified"
+      ],
+      "avoid_patterns": [
+        "speculative feature work without prior alignment",
+        "drive-by dependency or chore PRs unless explicitly requested"
+      ],
+      "merged_title_mix": {
+        "fix": 4,
+        "ci": 3,
+        "other": 2,
+        "deps": 2,
+        "feature": 1
+      },
+      "rejected_title_mix": {
+        "feature": 3,
+        "deps": 2,
+        "ci": 1,
+        "fix": 1,
+        "other": 1
+      },
+      "opportunity_areas": [
+        "bugfixes with regression tests",
+        "docs clarifications anchored to real issues",
+        "small scoped enhancements after issue-thread alignment"
+      ],
+      "activity_score": 21.0,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    },
+    {
+      "repo": "psf/black",
+      "stars": 41491,
+      "open_issues": 315,
+      "default_branch": "main",
+      "good_first_issue": true,
+      "help_wanted": true,
+      "signal_labels": [
+        "good first issue",
+        "help wanted",
+        "r: not a bug",
+        "t: bug",
+        "t: documentation",
+        "t: enhancement"
+      ],
+      "merged_samples": [
+        {
+          "number": 4021,
+          "title": "Permit standalone form feed characters at the module level",
+          "author": "tungol"
+        },
+        {
+          "number": 5080,
+          "title": "Fix blackd error handling: split SourceASTParseError from ASTSafetyError",
+          "author": "Bahtya"
+        },
+        {
+          "number": 4960,
+          "title": "Bump docutils, sphinx, myst-parser",
+          "author": "dependabot[bot]"
+        },
+        {
+          "number": 5115,
+          "title": "docs: update deprecated PEP URLs to peps.python.org",
+          "author": "cobaltt7"
+        },
+        {
+          "number": 5111,
+          "title": "[pre-commit.ci] pre-commit autoupdate",
+          "author": "pre-commit-ci[bot]"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 5116,
+          "title": "fix: improve diff shades helper edge case handling",
+          "author": "tzgate"
+        },
+        {
+          "number": 5093,
+          "title": "Fix crash when formatting `case case if ...:` with short line lengths",
+          "author": "lawrence3699"
+        },
+        {
+          "number": 5110,
+          "title": "docs: update deprecated PEP URLs to peps.python.org",
+          "author": "Bojun-Vvibe"
+        },
+        {
+          "number": 5106,
+          "title": "docs: fix line-splitting comment wording",
+          "author": "Rohan5commit"
+        }
+      ],
+      "accepted_patterns": [
+        "small bugfixes and regression-test-backed changes",
+        "docs clarifications tied to real behavior or workflow pain",
+        "maintenance work that aligns with existing tooling and CI conventions"
+      ],
+      "avoid_patterns": [
+        "speculative feature work without prior alignment",
+        "generic docs rewrites not tied to a concrete confusion or bug"
+      ],
+      "merged_title_mix": {
+        "deps": 5,
+        "docs": 3,
+        "ci": 3,
+        "other": 2,
+        "fix": 1
+      },
+      "rejected_title_mix": {
+        "fix": 4,
+        "docs": 4,
+        "feature": 2
+      },
+      "opportunity_areas": [
+        "maintainer-tagged onboarding issues"
+      ],
+      "activity_score": 21.0,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    },
+    {
+      "repo": "Textualize/textual",
+      "stars": 35647,
+      "open_issues": 281,
+      "default_branch": "main",
+      "good_first_issue": true,
+      "help_wanted": true,
+      "signal_labels": [
+        "bug",
+        "documentation",
+        "enhancement",
+        "good first issue",
+        "help wanted"
+      ],
+      "merged_samples": [
+        {
+          "number": 6503,
+          "title": "fix anchor release on trackpad",
+          "author": "willmcgugan"
+        },
+        {
+          "number": 6495,
+          "title": "docs: fix input validation typo",
+          "author": "Rohan5commit"
+        },
+        {
+          "number": 6478,
+          "title": "Update classes",
+          "author": "willmcgugan"
+        },
+        {
+          "number": 6462,
+          "title": "[docs] Fix syntax error in app exit code snippet",
+          "author": "IEBqp"
+        },
+        {
+          "number": 6473,
+          "title": "bump",
+          "author": "willmcgugan"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 6515,
+          "title": "docs: clarify CSS variable scope across stylesheets",
+          "author": "Rohan5commit"
+        },
+        {
+          "number": 6514,
+          "title": "docs: note that thread workers should stay short-lived",
+          "author": "Rohan5commit"
+        },
+        {
+          "number": 6512,
+          "title": "docs: document key identifier format",
+          "author": "Rohan5commit"
+        },
+        {
+          "number": 6509,
+          "title": "fix(work): parameterize Decorator return alias in @work",
+          "author": "Bojun-Vvibe"
+        }
+      ],
+      "accepted_patterns": [
+        "small bugfixes and regression-test-backed changes",
+        "docs clarifications tied to real behavior or workflow pain",
+        "incremental features when they are narrow and clearly justified"
+      ],
+      "avoid_patterns": [
+        "generic docs rewrites not tied to a concrete confusion or bug"
+      ],
+      "merged_title_mix": {
+        "fix": 3,
+        "other": 3,
+        "docs": 2,
+        "feature": 2,
+        "deps": 1,
+        "perf": 1
+      },
+      "rejected_title_mix": {
+        "docs": 4,
+        "fix": 2,
+        "other": 1
+      },
+      "opportunity_areas": [
+        "bugfixes with regression tests",
+        "docs clarifications anchored to real issues",
+        "small scoped enhancements after issue-thread alignment"
+      ],
+      "activity_score": 20.0,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    },
+    {
+      "repo": "astral-sh/ruff",
+      "stars": 47295,
+      "open_issues": 1967,
+      "default_branch": "main",
+      "good_first_issue": true,
+      "help_wanted": true,
+      "signal_labels": [
+        "bug",
+        "documentation",
+        "good first issue",
+        "help wanted"
+      ],
+      "merged_samples": [
+        {
+          "number": 24924,
+          "title": "Simplify the playground's markdown template",
+          "author": "MichaReiser"
+        },
+        {
+          "number": 24922,
+          "title": "Update renovate configuration",
+          "author": "MichaReiser"
+        },
+        {
+          "number": 24874,
+          "title": "Update Renovate configuration",
+          "author": "MichaReiser"
+        },
+        {
+          "number": 24902,
+          "title": "Semantic syntax errors: better error message for global vs parameter",
+          "author": "sharkdp"
+        },
+        {
+          "number": 24905,
+          "title": "[ty] Add missing error context node for protocol to protocol assignability",
+          "author": "sharkdp"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 24239,
+          "title": "Detect superfluous else on try/except (RET505-508)",
+          "author": "seroperson"
+        },
+        {
+          "number": 24870,
+          "title": "[ty] Make block folding ranges returned by the language server character-precise.",
+          "author": "lerebear"
+        },
+        {
+          "number": 24442,
+          "title": "Fix misleading SIM107 documentation example",
+          "author": "Chessing234"
+        },
+        {
+          "number": 24908,
+          "title": "[ty] Respect client's hover `contentFormat` priority order",
+          "author": "SAY-5"
+        }
+      ],
+      "accepted_patterns": [
+        "small bugfixes and regression-test-backed changes",
+        "incremental features when they are narrow and clearly justified"
+      ],
+      "avoid_patterns": [
+        "speculative feature work without prior alignment",
+        "generic docs rewrites not tied to a concrete confusion or bug"
+      ],
+      "merged_title_mix": {
+        "other": 7,
+        "refactor": 1,
+        "feature": 1,
+        "fix": 1
+      },
+      "rejected_title_mix": {
+        "fix": 2,
+        "perf": 1,
+        "ci": 1,
+        "docs": 1,
+        "other": 1,
+        "feature": 1
+      },
+      "opportunity_areas": [
+        "bugfixes with regression tests",
+        "docs clarifications anchored to real issues",
+        "maintainer-tagged onboarding issues"
+      ],
+      "activity_score": 20.0,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    },
+    {
+      "repo": "microsoft/markitdown",
+      "stars": 118571,
+      "open_issues": 647,
+      "default_branch": "main",
+      "good_first_issue": true,
+      "help_wanted": true,
+      "signal_labels": [
+        "bug",
+        "documentation",
+        "enhancement",
+        "good first issue",
+        "help wanted"
+      ],
+      "merged_samples": [
+        {
+          "number": 1541,
+          "title": "[MS] Add OCR layer service for embedded images and PDF scans",
+          "author": "lesyk"
+        },
+        {
+          "number": 1807,
+          "title": "Clarify security posture in READMEs",
+          "author": "afourney"
+        },
+        {
+          "number": 1644,
+          "title": "fix: handle deeply nested HTML that triggers RecursionError",
+          "author": "jigangz"
+        },
+        {
+          "number": 1551,
+          "title": "Remove onnxruntime<=1.20.1 Windows pin",
+          "author": "basnijholt"
+        },
+        {
+          "number": 1653,
+          "title": "Updated warning about binding to non-local interfaces.",
+          "author": "afourney"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 1842,
+          "title": "Incremental analysis test",
+          "author": "ivanmilevtues"
+        },
+        {
+          "number": 1840,
+          "title": "Add simple web UI for MarkItDown",
+          "author": "NickN0w4k"
+        },
+        {
+          "number": 1789,
+          "title": "fix: redetect plain-text charset after ASCII-only sniff",
+          "author": "lawrence3699"
+        },
+        {
+          "number": 1739,
+          "title": "fix: decode percent-encoded paths in file_uri_to_path",
+          "author": "Jah-yee"
+        }
+      ],
+      "accepted_patterns": [
+        "small bugfixes and regression-test-backed changes",
+        "docs clarifications tied to real behavior or workflow pain",
+        "incremental features when they are narrow and clearly justified"
+      ],
+      "avoid_patterns": [
+        "speculative feature work without prior alignment"
+      ],
+      "merged_title_mix": {
+        "fix": 3,
+        "other": 3,
+        "feature": 2,
+        "docs": 2,
+        "deps": 1
+      },
+      "rejected_title_mix": {
+        "feature": 3,
+        "fix": 2,
+        "tests": 1,
+        "ci": 1
+      },
+      "opportunity_areas": [
+        "bugfixes with regression tests",
+        "docs clarifications anchored to real issues",
+        "small scoped enhancements after issue-thread alignment"
+      ],
+      "activity_score": 20.0,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    },
+    {
+      "repo": "pallets/click",
+      "stars": 17446,
+      "open_issues": 137,
+      "default_branch": "main",
+      "good_first_issue": true,
+      "help_wanted": false,
+      "signal_labels": [
+        "bug",
+        "good first issue"
+      ],
+      "merged_samples": [
+        {
+          "number": 2933,
+          "title": "Flush `sys.stderr` when `CliRunner` finalizes",
+          "author": "sirosen"
+        },
+        {
+          "number": 3363,
+          "title": "Auto-detect `type=UNPROCESSED` when `flag_value` has non-basic types",
+          "author": "kdeldycke"
+        },
+        {
+          "number": 3390,
+          "title": "Fix bad merge in changes",
+          "author": "Rowlando13"
+        },
+        {
+          "number": 3364,
+          "title": "Split string values from `default_map` for multi-value parameters",
+          "author": "kdeldycke"
+        },
+        {
+          "number": 3389,
+          "title": "Merge stable into main. ",
+          "author": "Rowlando13"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 3392,
+          "title": "fix: avoid help option collisions with help arguments",
+          "author": "jaythehardcoder"
+        },
+        {
+          "number": 3338,
+          "title": "Use 'import typing as t' instead of 'import typing' (#3164)",
+          "author": "TanishqGupta1205"
+        },
+        {
+          "number": 3388,
+          "title": "Don't break usage option tokens at internal hyphens",
+          "author": "charlieleith"
+        },
+        {
+          "number": 3387,
+          "title": "Use a private duplicate of stdout/stderr fd in CliRunner",
+          "author": "charlieleith"
+        }
+      ],
+      "accepted_patterns": [
+        "small bugfixes and regression-test-backed changes",
+        "maintenance work that aligns with existing tooling and CI conventions",
+        "incremental features when they are narrow and clearly justified"
+      ],
+      "avoid_patterns": [
+        "broad changes that touch too much for the value delivered"
+      ],
+      "merged_title_mix": {
+        "other": 4,
+        "ci": 3,
+        "fix": 2,
+        "feature": 2,
+        "tests": 1
+      },
+      "rejected_title_mix": {
+        "fix": 3,
+        "other": 2,
+        "ci": 1
+      },
+      "opportunity_areas": [
+        "bugfixes with regression tests",
+        "docs clarifications anchored to real issues",
+        "maintainer-tagged onboarding issues"
+      ],
+      "activity_score": 20.0,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    },
+    {
+      "repo": "Textualize/rich",
+      "stars": 56224,
+      "open_issues": 315,
+      "default_branch": "master",
+      "good_first_issue": true,
+      "help_wanted": true,
+      "signal_labels": [
+        "bug",
+        "documentation",
+        "enhancement",
+        "good first issue",
+        "help wanted"
+      ],
+      "merged_samples": [
+        {
+          "number": 1643,
+          "title": "fix detect color",
+          "author": "willmcgugan"
+        },
+        {
+          "number": 3845,
+          "title": "Use faster generator for link IDs",
+          "author": "akx"
+        },
+        {
+          "number": 4077,
+          "title": "proxy isatty",
+          "author": "willmcgugan"
+        },
+        {
+          "number": 4080,
+          "title": "bump to 15.0.0",
+          "author": "willmcgugan"
+        },
+        {
+          "number": 4079,
+          "title": "Inline table code",
+          "author": "willmcgugan"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 4103,
+          "title": "Preserve CRLF content in ANSI decoding",
+          "author": "ShipItAndPray"
+        },
+        {
+          "number": 4101,
+          "title": "[DOCKER SEEDING] Add Docker config and run scripts",
+          "author": "BiniamGirmay"
+        },
+        {
+          "number": 4102,
+          "title": "Docker golden solution yml",
+          "author": "BiniamGirmay"
+        },
+        {
+          "number": 4100,
+          "title": "[DOCKER SEEDING] Add Docker config and run scripts",
+          "author": "BiniamGirmay"
+        }
+      ],
+      "accepted_patterns": [
+        "small bugfixes and regression-test-backed changes",
+        "maintenance work that aligns with existing tooling and CI conventions"
+      ],
+      "avoid_patterns": [
+        "speculative feature work without prior alignment",
+        "generic docs rewrites not tied to a concrete confusion or bug"
+      ],
+      "merged_title_mix": {
+        "other": 4,
+        "fix": 3,
+        "perf": 2,
+        "deps": 2,
+        "ci": 1
+      },
+      "rejected_title_mix": {
+        "docs": 3,
+        "other": 2,
+        "feature": 2,
+        "fix": 1
+      },
+      "opportunity_areas": [
+        "bugfixes with regression tests",
+        "docs clarifications anchored to real issues",
+        "small scoped enhancements after issue-thread alignment"
+      ],
+      "activity_score": 19.0,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    },
+    {
+      "repo": "fastapi/fastapi",
+      "stars": 97759,
+      "open_issues": 178,
+      "default_branch": "master",
+      "good_first_issue": true,
+      "help_wanted": true,
+      "signal_labels": [
+        "bug",
+        "enhancement",
+        "good first issue",
+        "help wanted"
+      ],
+      "merged_samples": [
+        {
+          "number": 1,
+          "title": "Add tests for path endpoints",
+          "author": "mariacamilagl"
+        },
+        {
+          "number": 15437,
+          "title": "\u2b06 Bump sqlmodel from 0.0.32 to 0.0.38",
+          "author": "dependabot[bot]"
+        },
+        {
+          "number": 15436,
+          "title": "\u2b06 Bump CodSpeedHQ/action from 4.12.1 to 4.14.0",
+          "author": "dependabot[bot]"
+        },
+        {
+          "number": 15439,
+          "title": "\u2b06 Bump pydantic from 2.12.5 to 2.13.2",
+          "author": "dependabot[bot]"
+        },
+        {
+          "number": 15417,
+          "title": "\u2b06 Bump pydantic-ai from 1.63.0 to 1.83.0",
+          "author": "dependabot[bot]"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 15452,
+          "title": "\u2b06 Bump click from 8.2.1 to 8.3.2",
+          "author": "dependabot[bot]"
+        },
+        {
+          "number": 15438,
+          "title": "\u2b06 Bump pydantic-ai from 1.83.0 to 1.84.1",
+          "author": "dependabot[bot]"
+        },
+        {
+          "number": 4968,
+          "title": "Customizable Request Handler in APIRoute",
+          "author": "sihrc"
+        },
+        {
+          "number": 13892,
+          "title": "md \uc218\uc81522222",
+          "author": "fastapi25"
+        }
+      ],
+      "accepted_patterns": [
+        "small bugfixes and regression-test-backed changes",
+        "incremental features when they are narrow and clearly justified"
+      ],
+      "avoid_patterns": [
+        "speculative feature work without prior alignment",
+        "drive-by dependency or chore PRs unless explicitly requested"
+      ],
+      "merged_title_mix": {
+        "deps": 7,
+        "feature": 2,
+        "tests": 1,
+        "perf": 1,
+        "other": 1
+      },
+      "rejected_title_mix": {
+        "deps": 3,
+        "fix": 1,
+        "other": 1,
+        "feature": 1
+      },
+      "opportunity_areas": [
+        "bugfixes with regression tests",
+        "docs clarifications anchored to real issues",
+        "small scoped enhancements after issue-thread alignment"
+      ],
+      "activity_score": 19.0,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    },
+    {
+      "repo": "python-poetry/poetry",
+      "stars": 34279,
+      "open_issues": 557,
+      "default_branch": "main",
+      "good_first_issue": true,
+      "help_wanted": false,
+      "signal_labels": [
+        "good first issue",
+        "kind/bug",
+        "kind/enhancement"
+      ],
+      "merged_samples": [
+        {
+          "number": 10790,
+          "title": "chore: require new poetry-core version",
+          "author": "radoering"
+        },
+        {
+          "number": 10791,
+          "title": "chore: update json and html fixtures",
+          "author": "radoering"
+        },
+        {
+          "number": 10792,
+          "title": "installer: fix path traversal",
+          "author": "radoering"
+        },
+        {
+          "number": 10793,
+          "title": "release: bump version to 2.3.3",
+          "author": "radoering"
+        },
+        {
+          "number": 10795,
+          "title": "chore: merge changelog from 2.3.3 and set dev version",
+          "author": "radoering"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 10732,
+          "title": "fix(publish): normalize legacy repository URL trailing slash",
+          "author": "LouisLau-art"
+        },
+        {
+          "number": 10859,
+          "title": "docs: add documentation build improvements and configuration",
+          "author": "tzgate"
+        },
+        {
+          "number": 10813,
+          "title": "feat: add exclude-newer to filter packages by publish date",
+          "author": "satyamsoni2211"
+        },
+        {
+          "number": 10763,
+          "title": "feat: deferred updates",
+          "author": "marabb01"
+        }
+      ],
+      "accepted_patterns": [
+        "small bugfixes and regression-test-backed changes",
+        "maintenance work that aligns with existing tooling and CI conventions"
+      ],
+      "avoid_patterns": [
+        "speculative feature work without prior alignment",
+        "generic docs rewrites not tied to a concrete confusion or bug"
+      ],
+      "merged_title_mix": {
+        "fix": 5,
+        "other": 3,
+        "tests": 1,
+        "deps": 1,
+        "ci": 1
+      },
+      "rejected_title_mix": {
+        "fix": 3,
+        "docs": 2,
+        "feature": 2,
+        "other": 1,
+        "tests": 1
+      },
+      "opportunity_areas": [
+        "maintainer-tagged onboarding issues"
+      ],
+      "activity_score": 19.0,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    },
+    {
+      "repo": "sphinx-doc/sphinx",
+      "stars": 7795,
+      "open_issues": 1462,
+      "default_branch": "master",
+      "good_first_issue": true,
+      "help_wanted": true,
+      "signal_labels": [
+        "good first issue",
+        "help wanted",
+        "type:bug",
+        "type:enhancement"
+      ],
+      "merged_samples": [
+        {
+          "number": 14219,
+          "title": "Add app.add_static_dir() API for copying extension static files",
+          "author": "jdillard"
+        },
+        {
+          "number": 14227,
+          "title": "LaTeX: Inhibit breaks for rows with merged vertical cells",
+          "author": "tim-nordell-nimbelink"
+        },
+        {
+          "number": 14225,
+          "title": "Polish CHANGES.rst",
+          "author": "jfbu"
+        },
+        {
+          "number": 14224,
+          "title": "LaTeX: restore 1.7 documentation of literalblockcappos",
+          "author": "jfbu"
+        },
+        {
+          "number": 14222,
+          "title": "LaTeX: improve (again...) some code comments in time for 9.1.0",
+          "author": "jfbu"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 14401,
+          "title": "docs: fix intersphinx wording typo",
+          "author": "Rohan5commit"
+        },
+        {
+          "number": 14358,
+          "title": "3.15 support: ensure translated messages are real strings in argparse help and description",
+          "author": "m-aciek"
+        },
+        {
+          "number": 14398,
+          "title": "Update AutoNumbering transform.",
+          "author": "gmilde"
+        },
+        {
+          "number": 14353,
+          "title": "docs: add SECURITY.md with vulnerability reporting policy",
+          "author": "sedat4ras"
+        }
+      ],
+      "accepted_patterns": [
+        "small bugfixes and regression-test-backed changes",
+        "docs clarifications tied to real behavior or workflow pain",
+        "incremental features when they are narrow and clearly justified"
+      ],
+      "avoid_patterns": [
+        "speculative feature work without prior alignment",
+        "generic docs rewrites not tied to a concrete confusion or bug"
+      ],
+      "merged_title_mix": {
+        "other": 5,
+        "docs": 2,
+        "fix": 2,
+        "feature": 1
+      },
+      "rejected_title_mix": {
+        "docs": 4,
+        "fix": 3,
+        "feature": 2,
+        "other": 1
+      },
+      "opportunity_areas": [
+        "maintainer-tagged onboarding issues"
+      ],
+      "activity_score": 19.0,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    },
+    {
+      "repo": "huggingface/datasets",
+      "stars": 21463,
+      "open_issues": 1088,
+      "default_branch": "main",
+      "good_first_issue": true,
+      "help_wanted": true,
+      "signal_labels": [
+        "bug",
+        "dataset bug",
+        "documentation",
+        "enhancement",
+        "good first issue",
+        "help wanted",
+        "metric bug"
+      ],
+      "merged_samples": [
+        {
+          "number": 8158,
+          "title": "Dev version",
+          "author": "lhoestq"
+        },
+        {
+          "number": 8137,
+          "title": "Fix: decode JSON type before to_list or to_dict is called",
+          "author": "ItsTania"
+        },
+        {
+          "number": 8157,
+          "title": "Release: 4.8.5",
+          "author": "lhoestq"
+        },
+        {
+          "number": 8147,
+          "title": "Fix iterable map resume state",
+          "author": "Brianzhengca"
+        },
+        {
+          "number": 8155,
+          "title": "Fix base_path in integration tests",
+          "author": "lhoestq"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 8127,
+          "title": "Support explicit harness field in agent traces",
+          "author": "jedisct1"
+        },
+        {
+          "number": 8144,
+          "title": "Add Apache TsFile packaged module and Time Series docs category",
+          "author": "Young-Leo"
+        },
+        {
+          "number": 8138,
+          "title": "chore: bump doc-builder SHA for main doc build workflow",
+          "author": "rtrompier"
+        },
+        {
+          "number": 8111,
+          "title": "add sample_by=\"document\" support for jsonl files",
+          "author": "cfahlgren1"
+        }
+      ],
+      "accepted_patterns": [
+        "small bugfixes and regression-test-backed changes",
+        "maintenance work that aligns with existing tooling and CI conventions"
+      ],
+      "avoid_patterns": [
+        "speculative feature work without prior alignment",
+        "generic docs rewrites not tied to a concrete confusion or bug",
+        "drive-by dependency or chore PRs unless explicitly requested"
+      ],
+      "merged_title_mix": {
+        "fix": 6,
+        "other": 4,
+        "tests": 2,
+        "ci": 1
+      },
+      "rejected_title_mix": {
+        "feature": 3,
+        "docs": 3,
+        "ci": 2,
+        "deps": 1,
+        "other": 1,
+        "fix": 1
+      },
+      "opportunity_areas": [
+        "bugfixes with regression tests",
+        "docs clarifications anchored to real issues",
+        "small scoped enhancements after issue-thread alignment"
+      ],
+      "activity_score": 18.0,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    },
+    {
+      "repo": "psf/requests",
+      "stars": 53935,
+      "open_issues": 228,
+      "default_branch": "main",
+      "good_first_issue": false,
+      "help_wanted": false,
+      "signal_labels": [
+        "bug",
+        "documentation",
+        "question/not a bug"
+      ],
+      "merged_samples": [
+        {
+          "number": 6939,
+          "title": "Bump actions/setup-python from 5.5.0 to 5.6.0",
+          "author": "dependabot[bot]"
+        },
+        {
+          "number": 7393,
+          "title": "Ruff rule UP038 has been removed",
+          "author": "DimitriPapadopoulos"
+        },
+        {
+          "number": 7390,
+          "title": "Bump https://github.com/astral-sh/ruff-pre-commit from v0.15.9 to 0.15.11 in the pre-commit group",
+          "author": "dependabot[bot]"
+        },
+        {
+          "number": 7387,
+          "title": "Create groups for GHA and pre-commit dependabot PRs",
+          "author": "nateprewitt"
+        },
+        {
+          "number": 6937,
+          "title": "ci: update to ubuntu-24.04 in workflow",
+          "author": "allrob23"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 6940,
+          "title": "3.0",
+          "author": "Abdulkarim28"
+        },
+        {
+          "number": 7004,
+          "title": "Fix-#7003: RequestsCookieJar cannot correctly retrieve zero value",
+          "author": "mengxunQAQ"
+        },
+        {
+          "number": 7394,
+          "title": "PEP 639 compliance",
+          "author": "DimitriPapadopoulos"
+        },
+        {
+          "number": 7396,
+          "title": "Enforce Ruff-specific rules (RUF)",
+          "author": "DimitriPapadopoulos"
+        }
+      ],
+      "accepted_patterns": [
+        "small bugfixes and regression-test-backed changes",
+        "docs clarifications tied to real behavior or workflow pain",
+        "maintenance work that aligns with existing tooling and CI conventions"
+      ],
+      "avoid_patterns": [
+        "broad changes that touch too much for the value delivered"
+      ],
+      "merged_title_mix": {
+        "other": 4,
+        "deps": 3,
+        "ci": 2,
+        "docs": 1,
+        "fix": 1
+      },
+      "rejected_title_mix": {
+        "other": 3,
+        "fix": 2,
+        "ci": 1
+      },
+      "opportunity_areas": [
+        "bugfixes with regression tests",
+        "docs clarifications anchored to real issues"
+      ],
+      "activity_score": 18.0,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    },
+    {
+      "repo": "tiangolo/typer",
+      "stars": 19308,
+      "open_issues": 73,
+      "default_branch": "master",
+      "good_first_issue": true,
+      "help_wanted": true,
+      "signal_labels": [
+        "bug",
+        "good first issue",
+        "help wanted"
+      ],
+      "merged_samples": [
+        {
+          "number": 1722,
+          "title": "\u2b06 Bump ruff from 0.15.11 to 0.15.12",
+          "author": "dependabot[bot]"
+        },
+        {
+          "number": 1723,
+          "title": "\u2b06 Bump prek from 0.3.10 to 0.3.11",
+          "author": "dependabot[bot]"
+        },
+        {
+          "number": 1695,
+          "title": "\ud83d\udeb8 Don't truncate code lines in traceback when formatted with Rich",
+          "author": "YuriiMotov"
+        },
+        {
+          "number": 1708,
+          "title": "\ud83d\udc1b Ensure that `typer.launch` forwards correctly when launching a file",
+          "author": "svlandeg"
+        },
+        {
+          "number": 1715,
+          "title": "\u2b06 Bump mypy from 1.20.1 to 1.20.2",
+          "author": "dependabot[bot]"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 1208,
+          "title": "\ud83d\udc1b Fix `launch` to pass wait and locate parameters to `click.launch`",
+          "author": "phamour"
+        },
+        {
+          "number": 1717,
+          "title": "fix: respect ZDOTDIR when installing zsh completion",
+          "author": "armorbreak001"
+        },
+        {
+          "number": 1709,
+          "title": "Fix typos in internal code comments",
+          "author": "Bojun-Vvibe"
+        },
+        {
+          "number": 1707,
+          "title": "\ud83d\udc1b Fix zsh completion install to respect `$ZDOTDIR`",
+          "author": "barry3406"
+        }
+      ],
+      "accepted_patterns": [
+        "small bugfixes and regression-test-backed changes"
+      ],
+      "avoid_patterns": [
+        "broad changes that touch too much for the value delivered"
+      ],
+      "merged_title_mix": {
+        "deps": 8,
+        "other": 1,
+        "fix": 1
+      },
+      "rejected_title_mix": {
+        "fix": 4,
+        "other": 2
+      },
+      "opportunity_areas": [
+        "bugfixes with regression tests",
+        "docs clarifications anchored to real issues",
+        "maintainer-tagged onboarding issues"
+      ],
+      "activity_score": 18.0,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    },
+    {
+      "repo": "pallets/jinja",
+      "stars": 11597,
+      "open_issues": 97,
+      "default_branch": "main",
+      "good_first_issue": true,
+      "help_wanted": false,
+      "signal_labels": [
+        "bug",
+        "good first issue"
+      ],
+      "merged_samples": [
+        {
+          "number": 2105,
+          "title": "remove slsa provenance",
+          "author": "davidism"
+        },
+        {
+          "number": 2102,
+          "title": "svg logo",
+          "author": "davidism"
+        },
+        {
+          "number": 2093,
+          "title": "Updated dependency management to uv",
+          "author": "aenglander"
+        },
+        {
+          "number": 2096,
+          "title": "drop end of life python versions",
+          "author": "davidism"
+        },
+        {
+          "number": 2097,
+          "title": "bump minimum versions of dependencies",
+          "author": "davidism"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 2121,
+          "title": "Test with python 3.14",
+          "author": "nsano-rururu"
+        },
+        {
+          "number": 2154,
+          "title": "fix(filters): do not append fill_with when items divide evenly across slices",
+          "author": "justDance-everybody"
+        },
+        {
+          "number": 2153,
+          "title": "Fix slice fill behavior when iterable divides evenly",
+          "author": "BlocksecPHD"
+        },
+        {
+          "number": 2152,
+          "title": "Fix #2118: Slice filter no longer adds extra fill_with items",
+          "author": "MuraveyApp"
+        }
+      ],
+      "accepted_patterns": [
+        "maintenance work that aligns with existing tooling and CI conventions"
+      ],
+      "avoid_patterns": [
+        "speculative feature work without prior alignment"
+      ],
+      "merged_title_mix": {
+        "other": 8,
+        "deps": 2,
+        "ci": 1
+      },
+      "rejected_title_mix": {
+        "fix": 4,
+        "tests": 1,
+        "feature": 1,
+        "perf": 1
+      },
+      "opportunity_areas": [
+        "bugfixes with regression tests",
+        "docs clarifications anchored to real issues",
+        "maintainer-tagged onboarding issues"
+      ],
+      "activity_score": 17.0,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    },
+    {
+      "repo": "pallets/flask",
+      "stars": 71468,
+      "open_issues": 3,
+      "default_branch": "main",
+      "good_first_issue": true,
+      "help_wanted": false,
+      "signal_labels": [
+        "bug",
+        "good first issue"
+      ],
+      "merged_samples": [
+        {
+          "number": 5962,
+          "title": "remove unicode host test",
+          "author": "davidism"
+        },
+        {
+          "number": 5945,
+          "title": "add zizmor to scan workflows",
+          "author": "davidism"
+        },
+        {
+          "number": 5928,
+          "title": "all teardown callbacks are called despite errors",
+          "author": "davidism"
+        },
+        {
+          "number": 5924,
+          "title": "release version 3.1.3",
+          "author": "davidism"
+        },
+        {
+          "number": 5917,
+          "title": "fix provide_automatic_options override",
+          "author": "davidism"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 5994,
+          "title": "<spam>",
+          "author": "samtang-oai"
+        },
+        {
+          "number": 6010,
+          "title": "Add regression tests for session membership access setting Vary: CookieTest patch",
+          "author": "Devansh-66"
+        },
+        {
+          "number": 6009,
+          "title": "Stage",
+          "author": "popeye-007"
+        },
+        {
+          "number": 5987,
+          "title": "fix: upgrade werkzeug to 3.0.3 (CVE-2024-34069)",
+          "author": "orbisai0security"
+        }
+      ],
+      "accepted_patterns": [
+        "small bugfixes and regression-test-backed changes",
+        "maintenance work that aligns with existing tooling and CI conventions",
+        "incremental features when they are narrow and clearly justified"
+      ],
+      "avoid_patterns": [
+        "speculative feature work without prior alignment",
+        "generic docs rewrites not tied to a concrete confusion or bug"
+      ],
+      "merged_title_mix": {
+        "other": 6,
+        "fix": 2,
+        "tests": 1,
+        "ci": 1,
+        "feature": 1
+      },
+      "rejected_title_mix": {
+        "other": 3,
+        "tests": 2,
+        "fix": 2,
+        "feature": 1,
+        "docs": 1
+      },
+      "opportunity_areas": [
+        "bugfixes with regression tests",
+        "docs clarifications anchored to real issues",
+        "maintainer-tagged onboarding issues"
+      ],
+      "activity_score": 16.12,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    },
+    {
+      "repo": "pydantic/pydantic",
+      "stars": 27626,
+      "open_issues": 559,
+      "default_branch": "main",
+      "good_first_issue": false,
+      "help_wanted": false,
+      "signal_labels": [
+        "bug v1",
+        "bug v2",
+        "documentation"
+      ],
+      "merged_samples": [
+        {
+          "number": 11987,
+          "title": "Add regex patterns to JSON schema for `Decimal` type",
+          "author": "Dima-Bulavenko"
+        },
+        {
+          "number": 11988,
+          "title": "Do not emit typechecking error for invalid `Field()` default with `validate_default` set to `True`",
+          "author": "Viicos"
+        },
+        {
+          "number": 13105,
+          "title": "Bump python-dotenv from 1.0.1 to 1.2.2",
+          "author": "dependabot[bot]"
+        },
+        {
+          "number": 13111,
+          "title": "Bump cairosvg from 2.7.1 to 2.9.0",
+          "author": "dependabot[bot]"
+        },
+        {
+          "number": 13109,
+          "title": "Bump libc from 0.2.155 to 0.2.185",
+          "author": "Viicos"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 13126,
+          "title": "fix(docs): preserve nested code block indentation",
+          "author": "nightcityblade"
+        },
+        {
+          "number": 13124,
+          "title": "docs: clarify before model validator input",
+          "author": "MestreY0d4-Uninter"
+        },
+        {
+          "number": 13119,
+          "title": "Raise clear TypeError when AliasPath first arg is not a str",
+          "author": "taedaniellim"
+        },
+        {
+          "number": 13120,
+          "title": "docs(validators): document model_validator execution order with inheritance",
+          "author": "MukundaKatta"
+        }
+      ],
+      "accepted_patterns": [
+        "small bugfixes and regression-test-backed changes",
+        "maintenance work that aligns with existing tooling and CI conventions",
+        "incremental features when they are narrow and clearly justified"
+      ],
+      "avoid_patterns": [
+        "generic docs rewrites not tied to a concrete confusion or bug"
+      ],
+      "merged_title_mix": {
+        "other": 3,
+        "deps": 3,
+        "fix": 3,
+        "ci": 1,
+        "feature": 1
+      },
+      "rejected_title_mix": {
+        "docs": 3,
+        "fix": 3,
+        "ci": 2,
+        "other": 1
+      },
+      "opportunity_areas": [
+        "docs clarifications anchored to real issues"
+      ],
+      "activity_score": 16.0,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    },
+    {
+      "repo": "urllib3/urllib3",
+      "stars": 4017,
+      "open_issues": 185,
+      "default_branch": "main",
+      "good_first_issue": false,
+      "help_wanted": false,
+      "signal_labels": [
+        "\ud83d\udc1b confirmed bug"
+      ],
+      "merged_samples": [
+        {
+          "number": 4973,
+          "title": "Upgrade `setup-chrome` and `setup-firefox` to fix warnings",
+          "author": "illia-v"
+        },
+        {
+          "number": 4967,
+          "title": "Prevent content caching after a partial read",
+          "author": "illia-v"
+        },
+        {
+          "number": 4977,
+          "title": "Bump actions/setup-node from 6.3.0 to 6.4.0",
+          "author": "dependabot[bot]"
+        },
+        {
+          "number": 4976,
+          "title": "Bump astral-sh/setup-uv from 8.0.0 to 8.1.0",
+          "author": "dependabot[bot]"
+        },
+        {
+          "number": 4960,
+          "title": "Fix full read with `amt=None` after a partial read",
+          "author": "illia-v"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 4975,
+          "title": "Fix dynamic default socket options",
+          "author": "ShipItAndPray"
+        },
+        {
+          "number": 3801,
+          "title": "Fix SOCKS proxy auth failure with percent-encoded userinfo",
+          "author": "Krishnachaitanyakc"
+        },
+        {
+          "number": 4963,
+          "title": "CS-2094: Python 3.7 compatibility",
+          "author": "martinPavesio"
+        },
+        {
+          "number": 3681,
+          "title": "Monitor GitHub Actions permissions",
+          "author": "pquentin"
+        }
+      ],
+      "accepted_patterns": [
+        "small bugfixes and regression-test-backed changes",
+        "docs clarifications tied to real behavior or workflow pain",
+        "maintenance work that aligns with existing tooling and CI conventions"
+      ],
+      "avoid_patterns": [
+        "broad changes that touch too much for the value delivered"
+      ],
+      "merged_title_mix": {
+        "fix": 5,
+        "deps": 4,
+        "docs": 2,
+        "ci": 1
+      },
+      "rejected_title_mix": {
+        "fix": 4,
+        "other": 1,
+        "ci": 1
+      },
+      "opportunity_areas": [
+        "small, well-tested fixes matching recent merged PR patterns"
+      ],
+      "activity_score": 16.0,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    },
+    {
+      "repo": "mkdocs/mkdocs",
+      "stars": 22035,
+      "open_issues": 149,
+      "default_branch": "master",
+      "good_first_issue": false,
+      "help_wanted": false,
+      "signal_labels": [
+        "bug",
+        "documentation",
+        "enhancement"
+      ],
+      "merged_samples": [
+        {
+          "number": 3477,
+          "title": "Move code to external mkdocs-get-deps dependency",
+          "author": "oprypin"
+        },
+        {
+          "number": 3631,
+          "title": "Release notes for 1.6.0",
+          "author": "oprypin"
+        },
+        {
+          "number": 3634,
+          "title": "Re-generate localization files",
+          "author": "oprypin"
+        },
+        {
+          "number": 3493,
+          "title": "Update mkdocs theme to bootstrap 5.3 and add support for dark mode.",
+          "author": "waylan"
+        },
+        {
+          "number": 3629,
+          "title": "Drop `changefreq` from `sitemap.xml`.",
+          "author": "lovelydinosaur"
+        }
+      ],
+      "rejected_samples": [
+        {
+          "number": 4101,
+          "title": "Fix: -v flag suppresses --strict anchor validation",
+          "author": "lawrence3699"
+        },
+        {
+          "number": 4094,
+          "title": "docs: Add details on common mkdocs serve errors",
+          "author": "gemini-25-pro-collab"
+        },
+        {
+          "number": 4008,
+          "title": "Catch exception during initialisation of scrollspy",
+          "author": "ghost"
+        },
+        {
+          "number": 4007,
+          "title": "Fix issue with handling `</>`",
+          "author": "facelessuser"
+        }
+      ],
+      "accepted_patterns": [
+        "docs clarifications tied to real behavior or workflow pain",
+        "incremental features when they are narrow and clearly justified"
+      ],
+      "avoid_patterns": [
+        "speculative feature work without prior alignment",
+        "generic docs rewrites not tied to a concrete confusion or bug"
+      ],
+      "merged_title_mix": {
+        "other": 6,
+        "feature": 3,
+        "docs": 2,
+        "deps": 1
+      },
+      "rejected_title_mix": {
+        "fix": 3,
+        "docs": 2,
+        "feature": 1,
+        "other": 1
+      },
+      "opportunity_areas": [
+        "bugfixes with regression tests",
+        "docs clarifications anchored to real issues",
+        "small scoped enhancements after issue-thread alignment"
+      ],
+      "activity_score": 15.0,
+      "why_good_target": "Active maintainers, visible merged external PR flow, and clear labels/scope signals for disciplined contributions."
+    }
+  ]
+}
