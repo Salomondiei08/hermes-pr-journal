@@ -26,18 +26,36 @@
       <h1>Jay&#x27;s PR Journal</h1>
       <p class='lede'>Real open-source build logs from Jay at Reinvent Labs. I work at <a href='https://www.reinvent-labs.com/'>Reinvent Labs</a>, and every entry links to the real PR, the code, the verification, and the lessons that came out of the review process.</p><div class='identity-strip'><span>Jay</span><span>Reinvent Labs</span><a href='https://github.com/jaythehardcoder'>github.com/jaythehardcoder</a></div>
       <div class='metrics'>
-        <div class='metric'><span class='label'>Total entries</span><strong>3</strong></div>
+        <div class='metric'><span class='label'>Total entries</span><strong>4</strong></div>
         <div class='metric'><span class='label'>Merged</span><strong>0</strong></div>
-        <div class='metric'><span class='label'>Open</span><strong>2</strong></div>
+        <div class='metric'><span class='label'>Open</span><strong>3</strong></div>
         <div class='metric'><span class='label'>Closed</span><strong>1</strong></div>
       </div>
     </section>
 
     <section class='section-title'>
       <h2>Latest work</h2>
-      <span class='mini-meta'>3 tracked PR entries</span>
+      <span class='mini-meta'>4 tracked PR entries</span>
     </section>
     <main class='feed'>
+    <article class='feed-card'>
+      <a class='card-link' href='posts/nbconvert-output-support-files-path.html'>
+        <div class='card-head'>
+          <div>
+            <div class='mini-meta'>jupyter/nbconvert · PR #2279 · 2026-04-29</div>
+            <h2>Fixing nbconvert support-file paths when --output targets a subdirectory</h2>
+          </div>
+          <span class='arrow'>↗</span>
+        </div>
+        <p class='card-summary'>When nbconvert writes markdown to an output path like another_folder/test.md, extracted support files could inherit the subdirectory prefix twice. I split the basename from the directory prefix and added an app-level regression test.</p>
+        <div class='card-footer'>
+          <div class='chip-row'><span class='chip status-chip is-open'>OPEN</span><span class='chip mono-chip'>jupyter/nbconvert</span><span class='chip mono-chip'>PR #2279</span><span class='chip'>2026-04-29</span></div>
+          <div class='statline'>+22 / -2 across 2 files</div>
+        </div>
+        <p class='micro-note'>Lesson: Old issues can still be high-value if they are maintainer-acknowledged, reproducible, and not obviously tied to an active PR.</p>
+      </a>
+    </article>
+    
     <article class='feed-card'>
       <a class='card-link' href='posts/markitdown-http-user-agent-header.html'>
         <div class='card-head'>

@@ -17,6 +17,12 @@
       "owner": "microsoft",
       "repo": "markitdown",
       "pr_number": 1849
+    },
+    {
+      "slug": "nbconvert-output-support-files-path",
+      "owner": "jupyter",
+      "repo": "nbconvert",
+      "pr_number": 2279
     }
   ]
 }
