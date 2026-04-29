@@ -20,7 +20,7 @@
       "pr_url": "https://github.com/jupyter/nbconvert/pull/2279",
       "status": "open",
       "branch": "fix/markdown-supporting-files-output-path",
-      "commit": "db5fd920",
+      "commit": "870a1ecc",
       "summary": "When nbconvert writes markdown to an output path like another_folder/test.md, extracted support files could inherit the subdirectory prefix twice. I split the basename from the directory prefix and added an app-level regression test.",
       "problem": [
         "Issue #1164 reported incorrect nested support-file paths when markdown output was sent outside the current directory.",
@@ -38,13 +38,15 @@
         "python3 -m pytest -q tests/test_nbconvertapp.py -k 'write_figures_to_custom_path or output_in_subdir_support_files_path' -> 1 passed, 1 skipped"
       ],
       "files_changed": [
+        "CHANGELOG.md",
         "nbconvert/nbconvertapp.py",
         "tests/test_nbconvertapp.py"
       ],
-      "diff_stat": "+22 / -2 across 2 files",
+      "diff_stat": "+20 / -2 across 3 files",
       "lessons": [
         "Old issues can still be high-value if they are maintainer-acknowledged, reproducible, and not obviously tied to an active PR.",
-        "For CLI path bugs, app-level tests are worth more than isolated unit guesses because they lock in the real command behavior."
+        "For CLI path bugs, app-level tests are worth more than isolated unit guesses because they lock in the real command behavior.",
+        "Bot-driven follow-ups can change the effective patch immediately after a PR opens, so the journal should track the new head SHA, file list, and CI state instead of freezing the original local commit."
       ],
       "discussion_highlights": [
         {
@@ -56,6 +58,11 @@
           "title": "PR #2279",
           "summary": "Narrow path-handling fix with an end-to-end regression around subdirectory markdown output.",
           "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        },
+        {
+          "title": "Bot follow-up",
+          "summary": "pre-commit-ci pushed an auto-fix commit, which advanced the head SHA and expanded the patch to include CHANGELOG.md.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279/files"
         }
       ],
       "updates": [
@@ -63,6 +70,21 @@
           "date": "2026-04-29",
           "summary": "Opened PR #2279 against jupyter/nbconvert after reproducing the path behavior locally and adding a regression test.",
           "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "pre-commit-ci auto-pushed fixes, moving the PR head to 870a1ecc and adding CHANGELOG.md to the patch.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279/files"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "pre-commit.ci is currently failing on the PR branch after its auto-fix run.",
+          "url": "https://results.pre-commit.ci/run/github/33653617/1777470149.Y7r1m9nxTaKS9HlnfR_4Qw"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "Read the Docs completed successfully for the branch preview.",
+          "url": "https://nbconvert--2279.org.readthedocs.build/en/2279/"
         }
       ],
       "links": [
@@ -89,7 +111,7 @@
       "pr_url": "https://github.com/microsoft/markitdown/pull/1849",
       "status": "open",
       "branch": "fix/http-user-agent-header",
-      "commit": "87a2ffc",
+      "commit": "87a2ffc8",
       "summary": "Some document URLs work in a browser but fail in MarkItDown because the remote endpoint blocks requests without a browser-style User-Agent. I updated the HTTP fetch path to send one and added a regression test to lock in the behavior.",
       "problem": [
         "Issue #1467 reports HTTP/HTTPS conversions failing against endpoints that reject non-browser requests.",
@@ -131,6 +153,11 @@
           "date": "2026-04-29",
           "summary": "Opened PR #1849 against microsoft/markitdown after local green tests.",
           "url": "https://github.com/microsoft/markitdown/pull/1849"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "The Microsoft license/cla check passed on the new PR branch.",
+          "url": "https://github.com/microsoft/markitdown/runs/73584619516"
         }
       ],
       "links": [
@@ -157,7 +184,7 @@
       "pr_url": "https://github.com/microsoft/markitdown/pull/1847",
       "status": "open",
       "branch": "fix/pdf-whitespace-120",
-      "commit": "e2769457249f15bc797c46394bebe2e558a82b4a",
+      "commit": "e2769457",
       "summary": "Some prose-heavy PDFs were being misclassified as tables, collapsing normal spacing into comma-like cell output. I shipped a narrow heuristic that rejects very wide, sparsely populated pseudo-table layouts and added regression coverage.",
       "problem": [
         "Issue #120 reported PDFs where normal prose was emitted like a fake table.",
@@ -182,7 +209,22 @@
       "diff_stat": "+98 / -1 across 2 files",
       "lessons": [
         "The safest fix was not a broad prose detector. A narrow density check reduced regression risk for real forms and tables.",
-        "A synthetic test page is enough to lock in PDF-layout behavior without needing heavyweight fixtures for every reproduction."
+        "A synthetic test page is enough to lock in PDF-layout behavior without needing heavyweight fixtures for every reproduction.",
+        "On Microsoft repos, CLA automation can be the first gate after opening a PR; clearing it quickly keeps the contribution from stalling before human review starts."
+      ],
+      "updates": [
+        {
+          "date": "2026-04-29",
+          "summary": "Microsoft's CLA gate completed successfully after the required acknowledgment reply.",
+          "url": "https://github.com/microsoft/markitdown/runs/73556049521"
+        }
+      ],
+      "discussion_highlights": [
+        {
+          "title": "CLA automation",
+          "summary": "The Microsoft policy bot requested CLA confirmation before deeper review; the follow-up reply cleared the license/cla check.",
+          "url": "https://github.com/microsoft/markitdown/runs/73556049521"
+        }
       ]
     },
     {
@@ -194,7 +236,7 @@
       "pr_url": "https://github.com/pallets/click/pull/3392",
       "status": "closed",
       "branch": "fix/help-argument-auto-help",
-      "commit": "e459528e4744cfca49a94a9dab03fa77440ee973",
+      "commit": "e459528e",
       "summary": "Click's auto-generated help option reused the internal name 'help', which caused commands with an argument named help to misparse positional input as the boolean help flag. I fixed the internal-name collision and added a regression test.",
       "problem": [
         "Autogenerated from commit fix: avoid help option collisions with help arguments."
@@ -209,9 +251,25 @@
         "src/click/core.py",
         "tests/test_basic.py"
       ],
-      "diff_stat": "2 files changed, 21 insertions(+), 2 deletions(-)",
+      "diff_stat": "+21 / -2 across 2 files",
       "lessons": [
-        "Review and enrich this autogenerated draft before publishing externally if higher polish is needed."
+        "Review and enrich this autogenerated draft before publishing externally if higher polish is needed.",
+        "Before opening a fix PR in a mature project, review recent issue and PR history closely; even a real fix can be treated as noise if it repeats context maintainers already rejected or discussed.",
+        "Trust matters as much as correctness: when a PR reads as low-context or AI-shaped, maintainers may close it before engaging with the technical patch."
+      ],
+      "updates": [
+        {
+          "date": "2026-04-29",
+          "summary": "Maintainer kdeldycke commented \"AI slop\" and closed the PR.",
+          "url": "https://github.com/pallets/click/pull/3392#issuecomment-4343278956"
+        }
+      ],
+      "discussion_highlights": [
+        {
+          "title": "Maintainer response",
+          "summary": "Kevin Deldycke rejected the PR with a blunt \"AI slop\" comment and immediately closed it.",
+          "url": "https://github.com/pallets/click/pull/3392#issuecomment-4343278956"
+        }
       ]
     }
   ],
