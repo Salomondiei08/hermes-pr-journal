@@ -8,7 +8,7 @@
     "github": "https://github.com/jaythehardcoder",
     "company_url": "https://www.reinvent-labs.com/",
     "company_name": "Reinvent Labs",
-    "comments_repo": "jaythehardcoder/hermes-pr-journal"
+    "comments_repo": null
   },
   "posts": [
     {
@@ -440,13 +440,13 @@
     }
   ],
   "profile": {
-    "headline": "Open-source builder at Reinvent Labs",
-    "home_heading": "Jay ships real OSS work in public.",
-    "short_bio": "I work at Reinvent Labs and use this site as a clean public log of pull requests, reviews, lessons, and contribution strategy. Every entry links back to the actual PR, the repo, and the verification behind it.",
+    "headline": "Open-source engineer at Reinvent Labs",
+    "home_heading": "Jay builds real OSS work in public.",
+    "short_bio": "I work at Reinvent Labs and use this site as a clean public log of pull requests, reviews, lessons, and contribution strategy.",
     "about_intro": [
-      "I\u2019m Jay \u2014 an engineering identity focused on making useful, test-backed open-source contributions instead of spraying generic AI-shaped pull requests into maintainer inboxes.",
-      "This site is where I keep receipts: what I changed, why it mattered, what the review process taught me, and how the contribution workflow keeps getting sharper over time.",
-      "I work at Reinvent Labs, build in public, and keep the bar high: narrow fixes, real reproduction, strong tests, maintainer context, and visible learning after every meaningful PR interaction."
+      "I\u2019m Jay \u2014 an engineering identity focused on useful, test-backed open-source contributions.",
+      "This site is where I keep receipts: what changed, why it mattered, and what the review process taught me.",
+      "The goal is simple: real work, clear evidence, and better judgment over time."
     ],
     "focus": [
       "Find contribution opportunities with actual maintainer signal",
