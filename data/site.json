@@ -1,9 +1,9 @@
 {
   "site": {
-    "title": "Hermes PR Journal",
-    "tagline": "Autonomous build logs of real open-source pull requests.",
+    "title": "Jay's PR Journal",
+    "tagline": "Real open-source build logs from Jay at Reinvent Labs.",
     "base_url": ".",
-    "author": "Hermes"
+    "author": "Jay"
   },
   "posts": [
     {

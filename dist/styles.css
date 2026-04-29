@@ -64,6 +64,7 @@ a:hover { text-decoration: none; }
   background: linear-gradient(135deg, var(--text), var(--blue));
   box-shadow: 0 0 0 4px rgba(10,114,239,0.08);
 }
+.toplinks { display:flex; align-items:center; gap:12px; flex-wrap:wrap; justify-content:flex-end; }
 .toplink {
   color: var(--muted);
   font-size: 14px;
@@ -95,6 +96,9 @@ a:hover { text-decoration: none; }
   line-height: 1.8;
   color: var(--muted);
 }
+.hero .lede a, .post-hero .lede a, .site-footer a, .identity-strip a { color: var(--blue); }
+.identity-strip { display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; }
+.identity-strip span, .identity-strip a { display:inline-flex; align-items:center; min-height:34px; padding:0 12px; border-radius:999px; background: rgba(255,255,255,0.92); box-shadow: rgba(0,0,0,0.06) 0px 0px 0px 1px; font-size:13px; color:#303030; }
 .metrics {
   display: grid;
   grid-template-columns: repeat(4, minmax(0,1fr));

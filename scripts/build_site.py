@@ -213,16 +213,16 @@ def render_post(post, site, posts):
     links = normalize_links(post)
     body = f"""
     <header class='topbar'>
-      <a class='brand' href='../index.html'>
+      <a class='brand' href='../index.html' aria-label='Jay PR Journal home'>
         <span class='brand-mark'></span>
         <span>{esc(site['title'])}</span>
       </a>
-      <a class='toplink' href='{esc(post['pr_url'])}'>View on GitHub</a>
+      <div class='toplinks'><a class='toplink' href='https://www.reinvent-labs.com/'>Reinvent Labs</a><a class='toplink' href='https://github.com/jaythehardcoder'>GitHub</a><a class='toplink' href='{esc(post['pr_url'])}'>View PR</a></div>
     </header>
 
     <main class='post-layout'>
       <section class='post-hero'>
-        <p class='eyebrow'>REAL OPEN SOURCE WORK</p>
+        <p class='eyebrow'>JAY · REAL OPEN SOURCE WORK</p>
         <h1>{esc(post['title'])}</h1>
         <p class='lede'>{esc(post.get('summary', ''))}</p>
         <div class='chip-row'>{render_meta_row(post)}</div>
@@ -358,6 +358,7 @@ a:hover { text-decoration: none; }
   background: linear-gradient(135deg, var(--text), var(--blue));
   box-shadow: 0 0 0 4px rgba(10,114,239,0.08);
 }
+.toplinks { display:flex; align-items:center; gap:12px; flex-wrap:wrap; justify-content:flex-end; }
 .toplink {
   color: var(--muted);
   font-size: 14px;
@@ -389,6 +390,9 @@ a:hover { text-decoration: none; }
   line-height: 1.8;
   color: var(--muted);
 }
+.hero .lede a, .post-hero .lede a, .site-footer a, .identity-strip a { color: var(--blue); }
+.identity-strip { display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; }
+.identity-strip span, .identity-strip a { display:inline-flex; align-items:center; min-height:34px; padding:0 12px; border-radius:999px; background: rgba(255,255,255,0.92); box-shadow: rgba(0,0,0,0.06) 0px 0px 0px 1px; font-size:13px; color:#303030; }
 .metrics {
   display: grid;
   grid-template-columns: repeat(4, minmax(0,1fr));
@@ -666,17 +670,17 @@ def main():
     cards = ''.join(render_card(post) for post in posts)
     index_body = f"""
     <header class='topbar'>
-      <a class='brand' href='index.html'>
+      <a class='brand' href='index.html' aria-label='Jay PR Journal home'>
         <span class='brand-mark'></span>
         <span>{esc(site['title'])}</span>
       </a>
-      <a class='toplink' href='https://github.com/jaythehardcoder/hermes-pr-journal'>Source repo</a>
+      <div class='toplinks'><a class='toplink' href='https://www.reinvent-labs.com/'>Reinvent Labs</a><a class='toplink' href='https://github.com/jaythehardcoder'>GitHub</a></div>
     </header>
 
     <section class='hero'>
-      <p class='eyebrow'>AUTONOMOUS OPEN SOURCE JOURNAL</p>
+      <p class='eyebrow'>JAY · REINVENT LABS · OPEN SOURCE JOURNAL</p>
       <h1>{esc(site['title'])}</h1>
-      <p class='lede'>{esc(site['tagline'])} Every entry links to the real PR, the code, the verification, and the lessons that came out of the review process.</p>
+      <p class='lede'>{esc(site['tagline'])} I work at <a href='https://www.reinvent-labs.com/'>Reinvent Labs</a>, and every entry links to the real PR, the code, the verification, and the lessons that came out of the review process.</p><div class='identity-strip'><span>Jay</span><span>Reinvent Labs</span><a href='https://github.com/jaythehardcoder'>github.com/jaythehardcoder</a></div>
       <div class='metrics'>
         <div class='metric'><span class='label'>Total entries</span><strong>{total}</strong></div>
         <div class='metric'><span class='label'>Merged</span><strong>{merged}</strong></div>
@@ -690,7 +694,7 @@ def main():
       <span class='mini-meta'>{total} tracked PR entr{'y' if total == 1 else 'ies'}</span>
     </section>
     <main class='feed'>{cards if cards else '<p>No posts yet.</p>'}</main>
-    <footer class='site-footer'>Built locally by Hermes. Clean notes, real pull requests, no fake shipping.</footer>
+    <footer class='site-footer'>Built by Jay at <a href='https://www.reinvent-labs.com/'>Reinvent Labs</a>. Real pull requests, clean notes, and direct links to the code on <a href='https://github.com/jaythehardcoder'>GitHub</a>.</footer>
     """
 
     (DIST / 'index.html').write_text(layout(site['title'], index_body, site['title'], '.'))

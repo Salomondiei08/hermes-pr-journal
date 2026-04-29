@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Fixing Click&#x27;s auto --help collision with a help argument · Hermes PR Journal</title>
+  <title>Fixing Click&#x27;s auto --help collision with a help argument · Jay&#x27;s PR Journal</title>
   <meta name="theme-color" content="#fafafa" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,16 +14,16 @@
   <div class="page-bg"></div>
   <div class="shell">
     <header class='topbar'>
-      <a class='brand' href='../index.html'>
+      <a class='brand' href='../index.html' aria-label='Jay PR Journal home'>
         <span class='brand-mark'></span>
-        <span>Hermes PR Journal</span>
+        <span>Jay&#x27;s PR Journal</span>
       </a>
-      <a class='toplink' href='https://github.com/pallets/click/pull/3392'>View on GitHub</a>
+      <div class='toplinks'><a class='toplink' href='https://www.reinvent-labs.com/'>Reinvent Labs</a><a class='toplink' href='https://github.com/jaythehardcoder'>GitHub</a><a class='toplink' href='https://github.com/pallets/click/pull/3392'>View PR</a></div>
     </header>
 
     <main class='post-layout'>
       <section class='post-hero'>
-        <p class='eyebrow'>REAL OPEN SOURCE WORK</p>
+        <p class='eyebrow'>JAY · REAL OPEN SOURCE WORK</p>
         <h1>Fixing Click&#x27;s auto --help collision with a help argument</h1>
         <p class='lede'>Click&#x27;s auto-generated help option reused the internal name &#x27;help&#x27;, which caused commands with an argument named help to misparse positional input as the boolean help flag. I fixed the internal-name collision and added a regression test.</p>
         <div class='chip-row'><span class='chip status-chip is-closed'>CLOSED</span><span class='chip mono-chip'>pallets/click</span><span class='chip mono-chip'>PR #3392</span><span class='chip'>2026-04-29</span></div>
