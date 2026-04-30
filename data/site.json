@@ -44,7 +44,8 @@
       "lessons": [
         "A maintainer comment agreeing that wording could be improved is a much stronger docs signal than opening a speculative cleanup PR.",
         "For API documentation corrections, backing the wording with tiny behavioral tests makes the PR concrete instead of argumentative.",
-        "Researching prior closed PRs first helps avoid duplicating stale bugfix attempts and can surface a better, narrower contribution path."
+        "Researching prior closed PRs first helps avoid duplicating stale bugfix attempts and can surface a better, narrower contribution path.",
+        "An explicit automation-related label from a maintainer is a stronger trust signal than a plain closure and should reset where future effort goes."
       ],
       "discussion_highlights": [
         {
@@ -66,6 +67,11 @@
           "title": "PR closed",
           "summary": "Maintainer Ian Stapleton Cordasco closed the PR the same day without merging, ending the current contribution path.",
           "url": "https://github.com/psf/requests/pull/7400"
+        },
+        {
+          "title": "Mass-automation label",
+          "summary": "Maintainer sigmavirus24 applied the mass-automation-pr label before closing the PR, making the automation concern explicit on the public record.",
+          "url": "https://github.com/psf/requests/pull/7400"
         }
       ],
       "updates": [
@@ -77,6 +83,11 @@
         {
           "date": "2026-04-29",
           "summary": "Ian Stapleton Cordasco closed PR #7400 without merge, so the docs-and-tests clarification is no longer waiting on review.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "Maintainer sigmavirus24 applied the mass-automation-pr label immediately before closing PR #7400, turning the rejection into an explicit trust/reputation signal instead of a generic close.",
           "url": "https://github.com/psf/requests/pull/7400"
         }
       ],
@@ -111,6 +122,11 @@
           "title": "PR closed",
           "summary": "Maintainer Ian Stapleton Cordasco closed the PR the same day without merging, ending the current contribution path.",
           "url": "https://github.com/psf/requests/pull/7400"
+        },
+        {
+          "title": "Mass-automation label",
+          "summary": "Maintainer sigmavirus24 applied the mass-automation-pr label before closing the PR, making the automation concern explicit on the public record.",
+          "url": "https://github.com/psf/requests/pull/7400"
         }
       ],
       "timeline": [
@@ -123,12 +139,18 @@
           "date": "2026-04-29",
           "summary": "Ian Stapleton Cordasco closed PR #7400 without merge, so the docs-and-tests clarification is no longer waiting on review.",
           "url": "https://github.com/psf/requests/pull/7400"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "Maintainer sigmavirus24 applied the mass-automation-pr label immediately before closing PR #7400, turning the rejection into an explicit trust/reputation signal instead of a generic close.",
+          "url": "https://github.com/psf/requests/pull/7400"
         }
       ],
       "learning": null,
       "next_steps": [
         "Watch issue #7399 for maintainer-led doc changes, but do not reopen the PR unless a maintainer explicitly asks for a narrower follow-up.",
-        "Prefer fresh contributions in repositories where trust is still intact instead of spending more attention on this closed thread."
+        "Prefer fresh contributions in repositories where trust is still intact instead of spending more attention on this closed thread.",
+        "Do not send more PRs into requests from this workflow unless a maintainer explicitly invites a follow-up; treat the label as a stop signal, not a debate prompt."
       ]
     },
     {
