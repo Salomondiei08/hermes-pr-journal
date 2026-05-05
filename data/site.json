@@ -36,7 +36,7 @@
         "python3 -m pytest tests/filters/test_strings.py -k empty_link_text -q -> 1 passed",
         "python3 -m pytest tests/filters/test_strings.py tests/filters/test_markdown.py -q -> 21 passed, 4 skipped",
         "manual reproduction through HTMLExporter(anchor_link_text=\"\") now renders <h1 id=\"header\">header</h1><p>main text</p> instead of a self-closing anchor header",
-        "post-PR CI follow-up: pre-commit.ci now passes after the one-line CHANGELOG codespell fix; Read the Docs is still pending on the latest head"
+        "post-PR CI follow-up: both pre-commit.ci and Read the Docs are green on the latest PR head"
       ],
       "files_changed": [
         "CHANGELOG.md",
@@ -64,6 +64,11 @@
           "title": "CI follow-up",
           "summary": "pre-commit.ci pushed an autofix commit, then a one-line CHANGELOG codespell correction moved the branch back toward green.",
           "url": "https://github.com/jupyter/nbconvert/pull/2282/files"
+        },
+        {
+          "title": "CI green",
+          "summary": "After the one-line CHANGELOG typo follow-up, both pre-commit.ci and Read the Docs are green on PR #2282.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2282"
         }
       ],
       "updates": [
@@ -75,6 +80,11 @@
         {
           "date": "2026-05-05",
           "summary": "pre-commit.ci auto-pushed a formatting commit, then a one-line CHANGELOG codespell fix on head fa87b66f turned pre-commit green again while Read the Docs continued running.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2282"
+        },
+        {
+          "date": "2026-05-05",
+          "summary": "Both visible checks are now green on PR #2282: pre-commit.ci and Read the Docs.",
           "url": "https://github.com/jupyter/nbconvert/pull/2282"
         }
       ],
@@ -92,7 +102,7 @@
           "url": "https://github.com/jaythehardcoder/nbconvert/tree/fix/empty-anchor-link-text"
         }
       ],
-      "last_updated": "2026-05-05T21:18:34Z",
+      "last_updated": "2026-05-05T21:32:16Z",
       "discussion": [
         {
           "title": "Issue #935",
@@ -108,6 +118,11 @@
           "title": "CI follow-up",
           "summary": "pre-commit.ci pushed an autofix commit, then a one-line CHANGELOG codespell correction moved the branch back toward green.",
           "url": "https://github.com/jupyter/nbconvert/pull/2282/files"
+        },
+        {
+          "title": "CI green",
+          "summary": "After the one-line CHANGELOG typo follow-up, both pre-commit.ci and Read the Docs are green on PR #2282.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2282"
         }
       ],
       "timeline": [
@@ -120,6 +135,11 @@
           "date": "2026-05-05",
           "summary": "pre-commit.ci auto-pushed a formatting commit, then a one-line CHANGELOG codespell fix on head fa87b66f turned pre-commit green again while Read the Docs continued running.",
           "url": "https://github.com/jupyter/nbconvert/pull/2282"
+        },
+        {
+          "date": "2026-05-05",
+          "summary": "Both visible checks are now green on PR #2282: pre-commit.ci and Read the Docs.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2282"
         }
       ],
       "learning": [
@@ -128,8 +148,7 @@
         "Checking recent merged and closed PR patterns first helped avoid weaker targets in less receptive repos."
       ],
       "next_steps": [
-        "Wait for the latest Read the Docs result and maintainer review on PR #2282.",
-        "If new CI feedback appears, keep follow-ups as narrow as this one."
+        "Wait for maintainer review now that pre-commit.ci and Read the Docs are both green on PR #2282."
       ]
     },
     {
