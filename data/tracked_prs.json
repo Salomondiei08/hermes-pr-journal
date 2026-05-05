@@ -35,6 +35,12 @@
       "owner": "jupyter",
       "repo": "nbconvert",
       "pr_number": 2280
+    },
+    {
+      "slug": "nbconvert-empty-anchor-link-text",
+      "owner": "jupyter",
+      "repo": "nbconvert",
+      "pr_number": 2282
     }
   ]
 }

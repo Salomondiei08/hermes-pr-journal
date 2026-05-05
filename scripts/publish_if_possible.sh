@@ -20,7 +20,7 @@ load_token() {
 from pathlib import Path
 for line in Path('/home/user/.hermes/.env').read_text(errors='ignore').splitlines():
     if line.startswith('GITHUB_TOKEN='):
-        print(line.split('=',1)[1].strip())
+        print(line.split('=', 1)[1].strip().strip('"').strip("'"))
         break
 PY
     return 0
