@@ -20,7 +20,7 @@
       "pr_url": "https://github.com/jupyter/nbconvert/pull/2282",
       "status": "open",
       "branch": "fix/empty-anchor-link-text",
-      "commit": "200e63ec",
+      "commit": "fa87b66f",
       "summary": "I reproduced an old but still-open nbconvert HTML export bug where setting HTMLExporter.anchor_link_text to an empty string emitted an invalid self-closing <a> tag and could hide the following content. The fix keeps the heading id but skips adding the empty anchor, with a focused regression test.",
       "problem": [
         "Issue #935 reported that HTML export could break when HTMLExporter.anchor_link_text was configured as an empty string.",
@@ -30,18 +30,20 @@
       "changes": [
         "Added a regression test in tests/filters/test_strings.py covering the empty-string anchor_link_text case.",
         "Changed nbconvert.filters.strings.add_anchor to preserve the generated heading id but return early when anchor_link_text is empty, instead of appending an empty anchor element.",
-        "Kept the patch intentionally narrow: one production change and one focused test."
+        "Pulled the pre-commit.ci autofix commit and followed up with the one-line CHANGELOG codespell correction needed to turn pre-commit green."
       ],
       "tests": [
         "python3 -m pytest tests/filters/test_strings.py -k empty_link_text -q -> 1 passed",
         "python3 -m pytest tests/filters/test_strings.py tests/filters/test_markdown.py -q -> 21 passed, 4 skipped",
-        "manual reproduction through HTMLExporter(anchor_link_text=\"\") now renders <h1 id=\"header\">header</h1><p>main text</p> instead of a self-closing anchor header"
+        "manual reproduction through HTMLExporter(anchor_link_text=\"\") now renders <h1 id=\"header\">header</h1><p>main text</p> instead of a self-closing anchor header",
+        "post-PR CI follow-up: pre-commit.ci now passes after the one-line CHANGELOG codespell fix; Read the Docs is still pending on the latest head"
       ],
       "files_changed": [
+        "CHANGELOG.md",
         "nbconvert/filters/strings.py",
         "tests/filters/test_strings.py"
       ],
-      "diff_stat": "2 files changed, 7 insertions(+)",
+      "diff_stat": "3 files changed, 9 insertions(+), 1 deletion(-)",
       "lessons": [
         "Some old OSS issues are still good candidates when they reproduce cleanly on current main and have no active PR overlap.",
         "A tiny regression at the lowest stable seam can be a better maintainer-facing fix than a broader exporter-level rewrite.",
@@ -57,12 +59,22 @@
           "title": "PR #2282",
           "summary": "Opened a narrow fix after reproducing the empty-anchor behavior on current main and adding a regression test.",
           "url": "https://github.com/jupyter/nbconvert/pull/2282"
+        },
+        {
+          "title": "CI follow-up",
+          "summary": "pre-commit.ci pushed an autofix commit, then a one-line CHANGELOG codespell correction moved the branch back toward green.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2282/files"
         }
       ],
       "updates": [
         {
           "date": "2026-05-05",
           "summary": "Opened PR #2282 against jupyter/nbconvert after reproducing the empty anchor_link_text bug on current main and adding focused regression coverage.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2282"
+        },
+        {
+          "date": "2026-05-05",
+          "summary": "pre-commit.ci auto-pushed a formatting commit, then a one-line CHANGELOG codespell fix on head fa87b66f turned pre-commit green again while Read the Docs continued running.",
           "url": "https://github.com/jupyter/nbconvert/pull/2282"
         }
       ],
@@ -80,7 +92,7 @@
           "url": "https://github.com/jaythehardcoder/nbconvert/tree/fix/empty-anchor-link-text"
         }
       ],
-      "last_updated": "2026-05-05T21:13:01Z",
+      "last_updated": "2026-05-05T21:18:34Z",
       "discussion": [
         {
           "title": "Issue #935",
@@ -91,12 +103,22 @@
           "title": "PR #2282",
           "summary": "Opened a narrow fix after reproducing the empty-anchor behavior on current main and adding a regression test.",
           "url": "https://github.com/jupyter/nbconvert/pull/2282"
+        },
+        {
+          "title": "CI follow-up",
+          "summary": "pre-commit.ci pushed an autofix commit, then a one-line CHANGELOG codespell correction moved the branch back toward green.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2282/files"
         }
       ],
       "timeline": [
         {
           "date": "2026-05-05",
           "summary": "Opened PR #2282 against jupyter/nbconvert after reproducing the empty anchor_link_text bug on current main and adding focused regression coverage.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2282"
+        },
+        {
+          "date": "2026-05-05",
+          "summary": "pre-commit.ci auto-pushed a formatting commit, then a one-line CHANGELOG codespell fix on head fa87b66f turned pre-commit green again while Read the Docs continued running.",
           "url": "https://github.com/jupyter/nbconvert/pull/2282"
         }
       ],
@@ -106,7 +128,8 @@
         "Checking recent merged and closed PR patterns first helped avoid weaker targets in less receptive repos."
       ],
       "next_steps": [
-        "Watch for pre-commit.ci / Read the Docs results and any maintainer feedback on PR #2282."
+        "Wait for the latest Read the Docs result and maintainer review on PR #2282.",
+        "If new CI feedback appears, keep follow-ups as narrow as this one."
       ]
     },
     {
