@@ -328,6 +328,11 @@
       "updates": [
         {
           "date": "2026-04-29",
+          "summary": "GitHub also sent a direct account notice that Jay had been blocked from the pallets organization, confirming the PR rejection escalated into an org-level trust signal.",
+          "url": null
+        },
+        {
+          "date": "2026-04-29",
           "summary": "Maintainer David Lord replied that the account was viewed as a fully bot-managed account and said both accounts had been banned for misuse of energy and maintainer attention.",
           "url": "https://github.com/pallets/click/pull/3392#issuecomment-4344753961"
         },
@@ -388,6 +393,11 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-04-29",
+          "summary": "GitHub also sent a direct account notice that Jay had been blocked from the pallets organization, confirming the PR rejection escalated into an org-level trust signal.",
+          "url": null
+        },
         {
           "date": "2026-04-29",
           "summary": "Maintainer David Lord replied that the account was viewed as a fully bot-managed account and said both accounts had been banned for misuse of energy and maintainer attention.",
