@@ -1,0 +1,260 @@
+{
+  "generated_at": "2026-05-06T21:57:40Z",
+  "prs": {
+    "markitdown-pdf-prose-fix": {
+      "state": "open",
+      "updated_at": "2026-04-29T10:05:52Z",
+      "head_sha": "e2769457249f15bc797c46394bebe2e558a82b4a",
+      "head_short": "e2769457",
+      "comments": 2,
+      "review_comments": 0,
+      "commits_count": 1,
+      "latest_commit": "e2769457249f15bc797c46394bebe2e558a82b4a",
+      "latest_commit_msg": "fix: avoid misclassifying sparse pdf prose as tables",
+      "latest_commit_author": "Jay",
+      "latest_commit_date": "2026-04-29T07:55:57Z",
+      "reviews": [],
+      "issue_comments": [
+        [
+          "jaythehardcoder",
+          "2026-04-29T10:04:26Z",
+          "46e292c4803b090967c7506c3ba51a381b038ac4"
+        ],
+        [
+          "jaythehardcoder",
+          "2026-04-29T10:05:52Z",
+          "ad9c2171945dbfe7d4b99550a2a4a8450681ffc7"
+        ]
+      ],
+      "ci": [
+        {
+          "name": "license/cla",
+          "status": "completed",
+          "conclusion": "success",
+          "updated_at": "2026-04-29T10:04:36Z"
+        }
+      ],
+      "combined_status": "pending",
+      "fingerprint": "4d18062d572f1bab291b3099cf26b84011c4a7998e1ef72cd56b81c1d0caba0c"
+    },
+    "click-help-argument-auto-help": {
+      "state": "closed",
+      "updated_at": "2026-04-29T14:39:37Z",
+      "head_sha": "e459528e4744cfca49a94a9dab03fa77440ee973",
+      "head_short": "e459528e",
+      "comments": 3,
+      "review_comments": 0,
+      "commits_count": 1,
+      "latest_commit": "e459528e4744cfca49a94a9dab03fa77440ee973",
+      "latest_commit_msg": "fix: avoid help option collisions with help arguments",
+      "latest_commit_author": "Jay",
+      "latest_commit_date": "2026-04-29T11:18:17Z",
+      "reviews": [],
+      "issue_comments": [
+        [
+          "kdeldycke",
+          "2026-04-29T11:31:04Z",
+          "4b4c314f67f279cf86e6fd51423fa51fb229819e"
+        ],
+        [
+          "jaythehardcoder",
+          "2026-04-29T12:21:58Z",
+          "e2fda25d913dac0cbd62f17cf2b3eb2db4cddde6"
+        ],
+        [
+          "davidism",
+          "2026-04-29T14:39:37Z",
+          "c64b9ea007a222a6548ed7a2dea8118615a05a54"
+        ]
+      ],
+      "ci": [
+        {
+          "name": "docs/readthedocs.org:pallets-click",
+          "status": "success",
+          "conclusion": "success",
+          "updated_at": "2026-04-29T11:19:19Z"
+        }
+      ],
+      "combined_status": "success",
+      "fingerprint": "edaa86559da6e263cd760315d9641b7e938eeb29c7d24a158bd25d9a56e51ffb"
+    },
+    "markitdown-http-user-agent-header": {
+      "state": "open",
+      "updated_at": "2026-04-29T13:13:27Z",
+      "head_sha": "87a2ffc82ddefb79b2b2480c5ae2205a18cb90fe",
+      "head_short": "87a2ffc8",
+      "comments": 0,
+      "review_comments": 0,
+      "commits_count": 1,
+      "latest_commit": "87a2ffc82ddefb79b2b2480c5ae2205a18cb90fe",
+      "latest_commit_msg": "fix: send browser user-agent for HTTP conversions",
+      "latest_commit_author": "Salomon DIEI",
+      "latest_commit_date": "2026-04-29T13:13:30Z",
+      "reviews": [],
+      "issue_comments": [],
+      "ci": [
+        {
+          "name": "license/cla",
+          "status": "completed",
+          "conclusion": "success",
+          "updated_at": "2026-04-29T13:13:38Z"
+        }
+      ],
+      "combined_status": "pending",
+      "fingerprint": "0815fce1ef23f385c9902b09cdfefb1d3c83c42d4fa3e5a87ea184324c9ab7c7"
+    },
+    "nbconvert-output-support-files-path": {
+      "state": "open",
+      "updated_at": "2026-04-30T21:04:27Z",
+      "head_sha": "8eed547bd8e36352cb07060a6e11e4be476530da",
+      "head_short": "8eed547b",
+      "comments": 0,
+      "review_comments": 0,
+      "commits_count": 3,
+      "latest_commit": "8eed547bd8e36352cb07060a6e11e4be476530da",
+      "latest_commit_msg": "fix: correct changelog codespell typo",
+      "latest_commit_author": "Jay",
+      "latest_commit_date": "2026-04-30T21:04:31Z",
+      "reviews": [],
+      "issue_comments": [],
+      "ci": [
+        {
+          "name": "docs/readthedocs.org:nbconvert",
+          "status": "success",
+          "conclusion": "success",
+          "updated_at": "2026-04-30T21:09:57Z"
+        },
+        {
+          "name": "pre-commit.ci - pr",
+          "status": "success",
+          "conclusion": "success",
+          "updated_at": "2026-04-30T21:05:06Z"
+        }
+      ],
+      "combined_status": "success",
+      "fingerprint": "dd447f3db8162bcc2c1947c3144a4bde0aa140555945de7bfafcdff6eaecdf94"
+    },
+    "requests-session-request-verify-inheritance": {
+      "state": "closed",
+      "updated_at": "2026-04-29T21:31:46Z",
+      "head_sha": "2e5e220537fbb05cad2100933cd3c87eda3d88ca",
+      "head_short": "2e5e2205",
+      "comments": 0,
+      "review_comments": 0,
+      "commits_count": 1,
+      "latest_commit": "2e5e220537fbb05cad2100933cd3c87eda3d88ca",
+      "latest_commit_msg": "docs: clarify Session.request verify inheritance",
+      "latest_commit_author": "Jay",
+      "latest_commit_date": "2026-04-29T21:12:05Z",
+      "reviews": [],
+      "issue_comments": [],
+      "ci": [
+        {
+          "name": "docs/readthedocs.org:requests",
+          "status": "success",
+          "conclusion": "success",
+          "updated_at": "2026-04-29T21:15:22Z"
+        }
+      ],
+      "combined_status": "success",
+      "fingerprint": "1834a2b901aab36f4664aef169454ec2a9e24dcf481e1665c7d26562f95ad420"
+    },
+    "nbconvert-duplicate-markdown-attachments": {
+      "state": "open",
+      "updated_at": "2026-04-30T21:16:29Z",
+      "head_sha": "0d692f96bf3df7cd38b0ab02e9abda88b8100787",
+      "head_short": "0d692f96",
+      "comments": 0,
+      "review_comments": 0,
+      "commits_count": 3,
+      "latest_commit": "0d692f96bf3df7cd38b0ab02e9abda88b8100787",
+      "latest_commit_msg": "fix: correct changelog codespell typo",
+      "latest_commit_author": "Jay",
+      "latest_commit_date": "2026-04-30T21:16:33Z",
+      "reviews": [],
+      "issue_comments": [],
+      "ci": [
+        {
+          "name": "docs/readthedocs.org:nbconvert",
+          "status": "success",
+          "conclusion": "success",
+          "updated_at": "2026-04-30T21:17:07Z"
+        },
+        {
+          "name": "pre-commit.ci - pr",
+          "status": "success",
+          "conclusion": "success",
+          "updated_at": "2026-04-30T21:16:44Z"
+        }
+      ],
+      "combined_status": "success",
+      "fingerprint": "0525da3e0484e7978ada96c38e174cf19112868a1cb83ef28526358d06cb01d9"
+    },
+    "nbconvert-empty-anchor-link-text": {
+      "state": "open",
+      "updated_at": "2026-05-05T21:17:13Z",
+      "head_sha": "fa87b66f1f5b7b37605e8df203aec6dfec81276e",
+      "head_short": "fa87b66f",
+      "comments": 0,
+      "review_comments": 0,
+      "commits_count": 3,
+      "latest_commit": "fa87b66f1f5b7b37605e8df203aec6dfec81276e",
+      "latest_commit_msg": "fix: correct changelog codespell typo",
+      "latest_commit_author": "Jay",
+      "latest_commit_date": "2026-05-05T21:17:18Z",
+      "reviews": [],
+      "issue_comments": [],
+      "ci": [
+        {
+          "name": "docs/readthedocs.org:nbconvert",
+          "status": "success",
+          "conclusion": "success",
+          "updated_at": "2026-05-05T21:32:16Z"
+        },
+        {
+          "name": "pre-commit.ci - pr",
+          "status": "success",
+          "conclusion": "success",
+          "updated_at": "2026-05-05T21:17:25Z"
+        }
+      ],
+      "combined_status": "success",
+      "fingerprint": "5a9e3575bbf68fa78ddf124bb2145d7d0a7bd2b76b07e7d119215de5fd99b8b7"
+    },
+    "nbconvert-rst-leading-block-quote-cell": {
+      "state": "open",
+      "updated_at": "2026-05-06T21:13:22Z",
+      "head_sha": "3f97df4cb40be47a960e7b6d0a157cfebc782fab",
+      "head_short": "3f97df4c",
+      "comments": 0,
+      "review_comments": 0,
+      "commits_count": 3,
+      "latest_commit": "3f97df4cb40be47a960e7b6d0a157cfebc782fab",
+      "latest_commit_msg": "fix: correct changelog codespell typo",
+      "latest_commit_author": "Jay",
+      "latest_commit_date": "2026-05-06T21:13:27Z",
+      "reviews": [],
+      "issue_comments": [],
+      "ci": [
+        {
+          "name": "docs/readthedocs.org:nbconvert",
+          "status": "success",
+          "conclusion": "success",
+          "updated_at": "2026-05-06T21:14:21Z"
+        },
+        {
+          "name": "pre-commit.ci - pr",
+          "status": "success",
+          "conclusion": "success",
+          "updated_at": "2026-05-06T21:13:32Z"
+        }
+      ],
+      "combined_status": "success",
+      "fingerprint": "3ac9f7f4dd00b13f12ac4fae15517097562b2abd86a55949a2620abf4b7b009e"
+    }
+  },
+  "processed_email_ids": [
+    "7949",
+    "7938"
+  ]
+}

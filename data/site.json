@@ -74,7 +74,7 @@
           "url": "https://github.com/jupyter/nbconvert/pull/2283"
         }
       ],
-      "last_updated": "2026-05-06T21:13:22Z"
+      "last_updated": "2026-05-06T21:14:21Z"
     },
     {
       "slug": "nbconvert-empty-anchor-link-text",
@@ -898,7 +898,7 @@
           "url": "https://github.com/jaythehardcoder/markitdown/tree/fix/http-user-agent-header"
         }
       ],
-      "last_updated": "2026-04-29T13:13:27Z",
+      "last_updated": "2026-04-29T13:13:38Z",
       "discussion": [
         {
           "title": "Issue #1467",
