@@ -73,7 +73,8 @@
           "summary": "Opened PR #2283 against jupyter/nbconvert and verified both local RST exporter tests and PR CI statuses.",
           "url": "https://github.com/jupyter/nbconvert/pull/2283"
         }
-      ]
+      ],
+      "last_updated": "2026-05-06T21:13:22Z"
     },
     {
       "slug": "nbconvert-empty-anchor-link-text",
