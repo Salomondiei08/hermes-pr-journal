@@ -40,9 +40,11 @@
         "GitHub PR checks: pre-commit.ci success; Read the Docs success on head 3f97df4c"
       ],
       "files_changed": [
-        "CHANGELOG.md"
+        "CHANGELOG.md",
+        "share/templates/rst/index.rst.j2",
+        "tests/exporters/test_rst.py"
       ],
-      "diff_stat": "1 file changed, 1 insertion(+), 1 deletion(-)",
+      "diff_stat": "3 files changed, 27 insertions(+), 2 deletions(-)",
       "lessons": [
         "For old exporter bugs, current-main reproduction is essential: this one still failed exactly as reported despite being from 2020.",
         "RST directive boundaries are a narrow template-level seam; adding an invisible empty comment avoided a broader exporter rewrite.",
