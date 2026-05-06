@@ -41,6 +41,12 @@
       "owner": "jupyter",
       "repo": "nbconvert",
       "pr_number": 2282
+    },
+    {
+      "slug": "nbconvert-rst-leading-block-quote-cell",
+      "owner": "jupyter",
+      "repo": "nbconvert",
+      "pr_number": 2283
     }
   ]
 }
