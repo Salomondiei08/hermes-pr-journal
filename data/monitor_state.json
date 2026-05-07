@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T06:10:38Z",
+  "generated_at": "2026-05-07T07:57:55Z",
   "prs": {
     "markitdown-pdf-prose-fix": {
       "state": "open",
@@ -23,14 +23,14 @@
         [
           "jaythehardcoder",
           "2026-04-29T10:04:26Z",
-          "IC_kwDONO81088AAAABAtiDIw",
+          4342711075,
           "https://github.com/microsoft/markitdown/pull/1847#issuecomment-4342711075",
-          "@microsoft-github-policy-service agree On Wed, Apr 29, 2026 at 5:10 PM microsoft-github-policy-service[bot] < ***@***.***> wrote: > *microsoft-github-policy-service[bot]* left a comment > (microsoft/markitdown#1847) > <h"
+          "@microsoft-github-policy-service agree On Wed, Apr 29, 2026 at 5:10 PM microsoft-github-policy-service[bot] < ***@***.***> wrote: > *microsoft-github-policy-service[bot]* left a comment > (microsoft/markitdown#1847) > <https://github.com/mi"
         ],
         [
           "jaythehardcoder",
           "2026-04-29T10:05:52Z",
-          "IC_kwDONO81088AAAABAtik-g",
+          4342719738,
           "https://github.com/microsoft/markitdown/pull/1847#issuecomment-4342719738",
           "@microsoft-github-policy-service agree"
         ]
@@ -61,9 +61,23 @@
           "jaythehardcoder",
           null,
           "e2769457249f15bc797c46394bebe2e558a82b4a"
+        ],
+        [
+          "commented",
+          "2026-04-29T10:04:26Z",
+          "jaythehardcoder",
+          null,
+          null
+        ],
+        [
+          "commented",
+          "2026-04-29T10:05:52Z",
+          "jaythehardcoder",
+          null,
+          null
         ]
       ],
-      "fingerprint": "bc42fb5c089e8ef672b677701c0a2fa456767a26a91d23fda5fd61daa6781097"
+      "fingerprint": "cf4be59c75536065c364861b73618860968ad50b20d3fd6e028863775179f44e"
     },
     "click-help-argument-auto-help": {
       "state": "closed",
@@ -87,21 +101,21 @@
         [
           "kdeldycke",
           "2026-04-29T11:31:04Z",
-          "IC_kwDOASN_zM8AAAABAuEtbA",
+          4343278956,
           "https://github.com/pallets/click/pull/3392#issuecomment-4343278956",
           "AI slop"
         ],
         [
           "jaythehardcoder",
           "2026-04-29T12:21:58Z",
-          "IC_kwDOASN_zM8AAAABAuYb4Q",
+          4343602145,
           "https://github.com/pallets/click/pull/3392#issuecomment-4343602145",
-          "Fair enough to close if this was duplicative or low-signal. For context, I did reproduce the bug locally and test the fix on my machine before opening the PR. My intent wasn't to dump generated code into the queue, but t"
+          "Fair enough to close if this was duplicative or low-signal. For context, I did reproduce the bug locally and test the fix on my machine before opening the PR. My intent wasn't to dump generated code into the queue, but to address the argume"
         ],
         [
           "davidism",
           "2026-04-29T14:39:37Z",
-          "IC_kwDOASN_zM8AAAABAvevKQ",
+          4344753961,
           "https://github.com/pallets/click/pull/3392#issuecomment-4344753961",
           "Note that this is a fully bot account apparently managed by @Salomondiei08. They've both been banned now, for the general misuse of energy and maintainer attention."
         ]
@@ -127,14 +141,35 @@
           null
         ],
         [
+          "commented",
+          "2026-04-29T11:31:04Z",
+          "kdeldycke",
+          null,
+          null
+        ],
+        [
           "closed",
           "2026-04-29T11:31:06Z",
           "kdeldycke",
           null,
           null
+        ],
+        [
+          "commented",
+          "2026-04-29T12:21:58Z",
+          "jaythehardcoder",
+          null,
+          null
+        ],
+        [
+          "commented",
+          "2026-04-29T14:39:37Z",
+          "davidism",
+          null,
+          null
         ]
       ],
-      "fingerprint": "b0b358e76d3388cc974b33a156da62400f15026a69f91ee47d8c273cf07591fe"
+      "fingerprint": "43219607683c28c0bd5c12500cf4f359a6a09f73ecb6c88a7b9718863d761960"
     },
     "markitdown-http-user-agent-header": {
       "state": "open",
@@ -176,7 +211,7 @@
           null
         ]
       ],
-      "fingerprint": "522591c0090da8151f8842cfe23c05d669cd8e83f846cfd13ff3a9727f21fbe4"
+      "fingerprint": "fd9a4561bc88bbd664a5de40eaeda24a2b9c89b37feb52bb376ac8a7d73fbcc8"
     },
     "nbconvert-output-support-files-path": {
       "state": "open",
@@ -239,7 +274,7 @@
           null
         ]
       ],
-      "fingerprint": "092cc1ccb69951df3fb273a44734b89cb35cd6b583899807612ed65789de7ab8"
+      "fingerprint": "baf51778b0e419a7838d91d7f14c06378e13ae9f5fc72930b15f697297b73a0a"
     },
     "requests-session-request-verify-inheritance": {
       "state": "closed",
@@ -297,7 +332,7 @@
           null
         ]
       ],
-      "fingerprint": "d431d2f90441393c7dde77172e49ea479ae2b01c6c2aa7e0b7092c96d1f413ac"
+      "fingerprint": "ed48622b0e9b1e619c09037a971bfb955c1c6f763d5ce096cbb26d606cc25b4b"
     },
     "nbconvert-duplicate-markdown-attachments": {
       "state": "open",
@@ -360,7 +395,7 @@
           null
         ]
       ],
-      "fingerprint": "f84062d52dc28871c7335e7cef5121e647dad5c0275e50038d7caeba54fa09c9"
+      "fingerprint": "90d6e269586810e8497ac37bc8a49a251dd2629fdda74d6635257911d50fa4d7"
     },
     "nbconvert-empty-anchor-link-text": {
       "state": "open",
@@ -423,7 +458,7 @@
           null
         ]
       ],
-      "fingerprint": "a046fa6d1981e83d15cda8ee0237b696962b5f08173899094d3f7c01383cc483"
+      "fingerprint": "244bc592ae4012b35c8fbdfdb91772c380caba0ab208d365d8669f3937b6b729"
     },
     "nbconvert-rst-leading-block-quote-cell": {
       "state": "open",
@@ -486,12 +521,18 @@
           null
         ]
       ],
-      "fingerprint": "d7a36c798b3e3923ba190374ade7f59fc7b349401dbfd0340a47da77d71654e7"
+      "fingerprint": "74fa97b44fc5fdb2d8872b3874b75e4422ac4016a5440b2d7b49d89c81652435"
     }
   },
   "processed_email_ids": [
+    "7862",
+    "7863",
+    "7866",
+    "7867",
+    "7870",
+    "7871",
+    "7886",
     "7938",
-    "7949",
-    "7886"
+    "7949"
   ]
 }
