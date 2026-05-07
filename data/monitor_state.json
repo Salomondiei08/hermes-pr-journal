@@ -1,8 +1,11 @@
 {
-  "generated_at": "2026-05-06T21:57:40Z",
+  "generated_at": "2026-05-07T00:54:38Z",
   "prs": {
     "markitdown-pdf-prose-fix": {
       "state": "open",
+      "draft": false,
+      "merged_at": null,
+      "closed_at": null,
       "updated_at": "2026-04-29T10:05:52Z",
       "head_sha": "e2769457249f15bc797c46394bebe2e558a82b4a",
       "head_short": "e2769457",
@@ -18,27 +21,46 @@
         [
           "jaythehardcoder",
           "2026-04-29T10:04:26Z",
-          "46e292c4803b090967c7506c3ba51a381b038ac4"
+          "46e292c4803b090967c7506c3ba51a381b038ac4",
+          "https://github.com/microsoft/markitdown/pull/1847#issuecomment-4342711075",
+          "@microsoft-github-policy-service agree On Wed, Apr 29, 2026 at 5:10 PM microsoft-github-policy-service[bot] < ***@***.***> wrote: > *microso"
         ],
         [
           "jaythehardcoder",
           "2026-04-29T10:05:52Z",
-          "ad9c2171945dbfe7d4b99550a2a4a8450681ffc7"
+          "ad9c2171945dbfe7d4b99550a2a4a8450681ffc7",
+          "https://github.com/microsoft/markitdown/pull/1847#issuecomment-4342719738",
+          "@microsoft-github-policy-service agree"
         ]
       ],
+      "labels": [],
       "ci": [
         {
           "name": "license/cla",
           "status": "completed",
           "conclusion": "success",
-          "updated_at": "2026-04-29T10:04:36Z"
+          "updated_at": "2026-04-29T10:04:36Z",
+          "url": "https://github.com/microsoft/markitdown/runs/73556049521"
         }
       ],
+      "statuses": [],
       "combined_status": "pending",
-      "fingerprint": "4d18062d572f1bab291b3099cf26b84011c4a7998e1ef72cd56b81c1d0caba0c"
+      "timeline": [
+        [
+          "head_ref_force_pushed",
+          "2026-04-29T09:59:41Z",
+          "jaythehardcoder",
+          null,
+          "e2769457249f15bc797c46394bebe2e558a82b4a"
+        ]
+      ],
+      "fingerprint": "ee40a229d5136edd43bcd563295aea381a64939ff6b77e49c0d0ef0f313e877a"
     },
     "click-help-argument-auto-help": {
       "state": "closed",
+      "draft": false,
+      "merged_at": null,
+      "closed_at": "2026-04-29T11:31:06Z",
       "updated_at": "2026-04-29T14:39:37Z",
       "head_sha": "e459528e4744cfca49a94a9dab03fa77440ee973",
       "head_short": "e459528e",
@@ -54,32 +76,52 @@
         [
           "kdeldycke",
           "2026-04-29T11:31:04Z",
-          "4b4c314f67f279cf86e6fd51423fa51fb229819e"
+          "4b4c314f67f279cf86e6fd51423fa51fb229819e",
+          "https://github.com/pallets/click/pull/3392#issuecomment-4343278956",
+          "AI slop"
         ],
         [
           "jaythehardcoder",
           "2026-04-29T12:21:58Z",
-          "e2fda25d913dac0cbd62f17cf2b3eb2db4cddde6"
+          "e2fda25d913dac0cbd62f17cf2b3eb2db4cddde6",
+          "https://github.com/pallets/click/pull/3392#issuecomment-4343602145",
+          "Fair enough to close if this was duplicative or low-signal. For context, I did reproduce the bug locally and test the fix on my machine befo"
         ],
         [
           "davidism",
           "2026-04-29T14:39:37Z",
-          "c64b9ea007a222a6548ed7a2dea8118615a05a54"
+          "c64b9ea007a222a6548ed7a2dea8118615a05a54",
+          "https://github.com/pallets/click/pull/3392#issuecomment-4344753961",
+          "Note that this is a fully bot account apparently managed by @Salomondiei08. They've both been banned now, for the general misuse of energy a"
         ]
       ],
-      "ci": [
+      "labels": [],
+      "ci": [],
+      "statuses": [
         {
-          "name": "docs/readthedocs.org:pallets-click",
-          "status": "success",
-          "conclusion": "success",
-          "updated_at": "2026-04-29T11:19:19Z"
+          "context": "docs/readthedocs.org:pallets-click",
+          "state": "success",
+          "updated_at": "2026-04-29T11:19:19Z",
+          "url": "https://pallets-click--3392.org.readthedocs.build/en/3392/"
         }
       ],
       "combined_status": "success",
-      "fingerprint": "edaa86559da6e263cd760315d9641b7e938eeb29c7d24a158bd25d9a56e51ffb"
+      "timeline": [
+        [
+          "closed",
+          "2026-04-29T11:31:06Z",
+          "kdeldycke",
+          null,
+          null
+        ]
+      ],
+      "fingerprint": "488d3ea1bf2db328583ef202717f6a76401f80eaf7814c94341ae39d4690d53b"
     },
     "markitdown-http-user-agent-header": {
       "state": "open",
+      "draft": false,
+      "merged_at": null,
+      "closed_at": null,
       "updated_at": "2026-04-29T13:13:27Z",
       "head_sha": "87a2ffc82ddefb79b2b2480c5ae2205a18cb90fe",
       "head_short": "87a2ffc8",
@@ -92,19 +134,26 @@
       "latest_commit_date": "2026-04-29T13:13:30Z",
       "reviews": [],
       "issue_comments": [],
+      "labels": [],
       "ci": [
         {
           "name": "license/cla",
           "status": "completed",
           "conclusion": "success",
-          "updated_at": "2026-04-29T13:13:38Z"
+          "updated_at": "2026-04-29T13:13:38Z",
+          "url": "https://github.com/microsoft/markitdown/runs/73584619516"
         }
       ],
+      "statuses": [],
       "combined_status": "pending",
-      "fingerprint": "0815fce1ef23f385c9902b09cdfefb1d3c83c42d4fa3e5a87ea184324c9ab7c7"
+      "timeline": [],
+      "fingerprint": "dc15db61a33d9c9968e8d669d0c3f538eb3b24a25ba99c64297f6b1ea5c15ac2"
     },
     "nbconvert-output-support-files-path": {
       "state": "open",
+      "draft": false,
+      "merged_at": null,
+      "closed_at": null,
       "updated_at": "2026-04-30T21:04:27Z",
       "head_sha": "8eed547bd8e36352cb07060a6e11e4be476530da",
       "head_short": "8eed547b",
@@ -117,25 +166,31 @@
       "latest_commit_date": "2026-04-30T21:04:31Z",
       "reviews": [],
       "issue_comments": [],
-      "ci": [
+      "labels": [],
+      "ci": [],
+      "statuses": [
         {
-          "name": "docs/readthedocs.org:nbconvert",
-          "status": "success",
-          "conclusion": "success",
-          "updated_at": "2026-04-30T21:09:57Z"
+          "context": "docs/readthedocs.org:nbconvert",
+          "state": "success",
+          "updated_at": "2026-04-30T21:09:57Z",
+          "url": "https://nbconvert--2279.org.readthedocs.build/en/2279/"
         },
         {
-          "name": "pre-commit.ci - pr",
-          "status": "success",
-          "conclusion": "success",
-          "updated_at": "2026-04-30T21:05:06Z"
+          "context": "pre-commit.ci - pr",
+          "state": "success",
+          "updated_at": "2026-04-30T21:05:06Z",
+          "url": "https://results.pre-commit.ci/run/github/33653617/1777583069.ANtwMMEjQYGl8oqfbF-pmA"
         }
       ],
       "combined_status": "success",
-      "fingerprint": "dd447f3db8162bcc2c1947c3144a4bde0aa140555945de7bfafcdff6eaecdf94"
+      "timeline": [],
+      "fingerprint": "8c110c4c257f0710e541de0836c4ba5942c5ca670fad4af865c046983bdebb4e"
     },
     "requests-session-request-verify-inheritance": {
       "state": "closed",
+      "draft": false,
+      "merged_at": null,
+      "closed_at": "2026-04-29T21:31:46Z",
       "updated_at": "2026-04-29T21:31:46Z",
       "head_sha": "2e5e220537fbb05cad2100933cd3c87eda3d88ca",
       "head_short": "2e5e2205",
@@ -148,19 +203,42 @@
       "latest_commit_date": "2026-04-29T21:12:05Z",
       "reviews": [],
       "issue_comments": [],
-      "ci": [
+      "labels": [
+        "mass-automation-pr"
+      ],
+      "ci": [],
+      "statuses": [
         {
-          "name": "docs/readthedocs.org:requests",
-          "status": "success",
-          "conclusion": "success",
-          "updated_at": "2026-04-29T21:15:22Z"
+          "context": "docs/readthedocs.org:requests",
+          "state": "success",
+          "updated_at": "2026-04-29T21:15:22Z",
+          "url": "https://requests--7400.org.readthedocs.build/en/7400/"
         }
       ],
       "combined_status": "success",
-      "fingerprint": "1834a2b901aab36f4664aef169454ec2a9e24dcf481e1665c7d26562f95ad420"
+      "timeline": [
+        [
+          "labeled",
+          "2026-04-29T21:31:41Z",
+          "sigmavirus24",
+          "mass-automation-pr",
+          null
+        ],
+        [
+          "closed",
+          "2026-04-29T21:31:47Z",
+          "sigmavirus24",
+          null,
+          null
+        ]
+      ],
+      "fingerprint": "cb946b586a58bb75b66ea57645fdd17a5eb156bec08e39208cf29d42696c12f6"
     },
     "nbconvert-duplicate-markdown-attachments": {
       "state": "open",
+      "draft": false,
+      "merged_at": null,
+      "closed_at": null,
       "updated_at": "2026-04-30T21:16:29Z",
       "head_sha": "0d692f96bf3df7cd38b0ab02e9abda88b8100787",
       "head_short": "0d692f96",
@@ -173,25 +251,31 @@
       "latest_commit_date": "2026-04-30T21:16:33Z",
       "reviews": [],
       "issue_comments": [],
-      "ci": [
+      "labels": [],
+      "ci": [],
+      "statuses": [
         {
-          "name": "docs/readthedocs.org:nbconvert",
-          "status": "success",
-          "conclusion": "success",
-          "updated_at": "2026-04-30T21:17:07Z"
+          "context": "docs/readthedocs.org:nbconvert",
+          "state": "success",
+          "updated_at": "2026-04-30T21:17:07Z",
+          "url": "https://nbconvert--2280.org.readthedocs.build/en/2280/"
         },
         {
-          "name": "pre-commit.ci - pr",
-          "status": "success",
-          "conclusion": "success",
-          "updated_at": "2026-04-30T21:16:44Z"
+          "context": "pre-commit.ci - pr",
+          "state": "success",
+          "updated_at": "2026-04-30T21:16:44Z",
+          "url": "https://results.pre-commit.ci/run/github/33653617/1777583791.WQwYZDnQQq2ozgCGgkcHMw"
         }
       ],
       "combined_status": "success",
-      "fingerprint": "0525da3e0484e7978ada96c38e174cf19112868a1cb83ef28526358d06cb01d9"
+      "timeline": [],
+      "fingerprint": "77c6896ab287a69c4bb3dba453c53141fa5cb5915138fc7e02ebe0d6c9f665e1"
     },
     "nbconvert-empty-anchor-link-text": {
       "state": "open",
+      "draft": false,
+      "merged_at": null,
+      "closed_at": null,
       "updated_at": "2026-05-05T21:17:13Z",
       "head_sha": "fa87b66f1f5b7b37605e8df203aec6dfec81276e",
       "head_short": "fa87b66f",
@@ -204,25 +288,31 @@
       "latest_commit_date": "2026-05-05T21:17:18Z",
       "reviews": [],
       "issue_comments": [],
-      "ci": [
+      "labels": [],
+      "ci": [],
+      "statuses": [
         {
-          "name": "docs/readthedocs.org:nbconvert",
-          "status": "success",
-          "conclusion": "success",
-          "updated_at": "2026-05-05T21:32:16Z"
+          "context": "docs/readthedocs.org:nbconvert",
+          "state": "success",
+          "updated_at": "2026-05-05T21:32:16Z",
+          "url": "https://nbconvert--2282.org.readthedocs.build/en/2282/"
         },
         {
-          "name": "pre-commit.ci - pr",
-          "status": "success",
-          "conclusion": "success",
-          "updated_at": "2026-05-05T21:17:25Z"
+          "context": "pre-commit.ci - pr",
+          "state": "success",
+          "updated_at": "2026-05-05T21:17:25Z",
+          "url": "https://results.pre-commit.ci/run/github/33653617/1778015834.Utv6uEXrRxG_2TccewpteA"
         }
       ],
       "combined_status": "success",
-      "fingerprint": "5a9e3575bbf68fa78ddf124bb2145d7d0a7bd2b76b07e7d119215de5fd99b8b7"
+      "timeline": [],
+      "fingerprint": "304192be57f2c41cbcfd70fe5de8cafdfbfcf5003562c8904f5f612774a0b2a6"
     },
     "nbconvert-rst-leading-block-quote-cell": {
       "state": "open",
+      "draft": false,
+      "merged_at": null,
+      "closed_at": null,
       "updated_at": "2026-05-06T21:13:22Z",
       "head_sha": "3f97df4cb40be47a960e7b6d0a157cfebc782fab",
       "head_short": "3f97df4c",
@@ -235,26 +325,29 @@
       "latest_commit_date": "2026-05-06T21:13:27Z",
       "reviews": [],
       "issue_comments": [],
-      "ci": [
+      "labels": [],
+      "ci": [],
+      "statuses": [
         {
-          "name": "docs/readthedocs.org:nbconvert",
-          "status": "success",
-          "conclusion": "success",
-          "updated_at": "2026-05-06T21:14:21Z"
+          "context": "docs/readthedocs.org:nbconvert",
+          "state": "success",
+          "updated_at": "2026-05-06T21:14:21Z",
+          "url": "https://nbconvert--2283.org.readthedocs.build/en/2283/"
         },
         {
-          "name": "pre-commit.ci - pr",
-          "status": "success",
-          "conclusion": "success",
-          "updated_at": "2026-05-06T21:13:32Z"
+          "context": "pre-commit.ci - pr",
+          "state": "success",
+          "updated_at": "2026-05-06T21:13:32Z",
+          "url": "https://results.pre-commit.ci/run/github/33653617/1778102003.rihViw2nTNmmllHS3kYoRg"
         }
       ],
       "combined_status": "success",
-      "fingerprint": "3ac9f7f4dd00b13f12ac4fae15517097562b2abd86a55949a2620abf4b7b009e"
+      "timeline": [],
+      "fingerprint": "24834d23fd3671e93ef35a942e30caba63797b1fe060cf67104a2c9ad329ae79"
     }
   },
   "processed_email_ids": [
-    "7949",
-    "7938"
+    "7938",
+    "7949"
   ]
 }
