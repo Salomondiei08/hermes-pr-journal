@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T00:54:38Z",
+  "generated_at": "2026-05-07T03:46:00Z",
   "prs": {
     "markitdown-pdf-prose-fix": {
       "state": "open",
@@ -21,14 +21,14 @@
         [
           "jaythehardcoder",
           "2026-04-29T10:04:26Z",
-          "46e292c4803b090967c7506c3ba51a381b038ac4",
+          "IC_kwDONO81088AAAABAtiDIw",
           "https://github.com/microsoft/markitdown/pull/1847#issuecomment-4342711075",
-          "@microsoft-github-policy-service agree On Wed, Apr 29, 2026 at 5:10 PM microsoft-github-policy-service[bot] < ***@***.***> wrote: > *microso"
+          "@microsoft-github-policy-service agree On Wed, Apr 29, 2026 at 5:10 PM microsoft-github-policy-service[bot] < ***@***.***> wrote: > *microsoft-github-policy-ser"
         ],
         [
           "jaythehardcoder",
           "2026-04-29T10:05:52Z",
-          "ad9c2171945dbfe7d4b99550a2a4a8450681ffc7",
+          "IC_kwDONO81088AAAABAtik-g",
           "https://github.com/microsoft/markitdown/pull/1847#issuecomment-4342719738",
           "@microsoft-github-policy-service agree"
         ]
@@ -54,7 +54,7 @@
           "e2769457249f15bc797c46394bebe2e558a82b4a"
         ]
       ],
-      "fingerprint": "ee40a229d5136edd43bcd563295aea381a64939ff6b77e49c0d0ef0f313e877a"
+      "fingerprint": "385c0ffaae543d23d96c6818b511b31a1ce102ef3730d06fa67a47d7074a8433"
     },
     "click-help-argument-auto-help": {
       "state": "closed",
@@ -76,23 +76,23 @@
         [
           "kdeldycke",
           "2026-04-29T11:31:04Z",
-          "4b4c314f67f279cf86e6fd51423fa51fb229819e",
+          "IC_kwDOASN_zM8AAAABAuEtbA",
           "https://github.com/pallets/click/pull/3392#issuecomment-4343278956",
           "AI slop"
         ],
         [
           "jaythehardcoder",
           "2026-04-29T12:21:58Z",
-          "e2fda25d913dac0cbd62f17cf2b3eb2db4cddde6",
+          "IC_kwDOASN_zM8AAAABAuYb4Q",
           "https://github.com/pallets/click/pull/3392#issuecomment-4343602145",
-          "Fair enough to close if this was duplicative or low-signal. For context, I did reproduce the bug locally and test the fix on my machine befo"
+          "Fair enough to close if this was duplicative or low-signal. For context, I did reproduce the bug locally and test the fix on my machine before opening the PR. M"
         ],
         [
           "davidism",
           "2026-04-29T14:39:37Z",
-          "c64b9ea007a222a6548ed7a2dea8118615a05a54",
+          "IC_kwDOASN_zM8AAAABAvevKQ",
           "https://github.com/pallets/click/pull/3392#issuecomment-4344753961",
-          "Note that this is a fully bot account apparently managed by @Salomondiei08. They've both been banned now, for the general misuse of energy a"
+          "Note that this is a fully bot account apparently managed by @Salomondiei08. They've both been banned now, for the general misuse of energy and maintainer attent"
         ]
       ],
       "labels": [],
@@ -115,7 +115,7 @@
           null
         ]
       ],
-      "fingerprint": "488d3ea1bf2db328583ef202717f6a76401f80eaf7814c94341ae39d4690d53b"
+      "fingerprint": "d9947b0ad1ce3c1525e6b035d371daccbfaaca922efabfa374490aab055c2dfa"
     },
     "markitdown-http-user-agent-header": {
       "state": "open",
@@ -345,9 +345,5 @@
       "timeline": [],
       "fingerprint": "24834d23fd3671e93ef35a942e30caba63797b1fe060cf67104a2c9ad329ae79"
     }
-  },
-  "processed_email_ids": [
-    "7938",
-    "7949"
-  ]
+  }
 }
