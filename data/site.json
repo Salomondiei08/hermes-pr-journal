@@ -72,9 +72,21 @@
           "date": "2026-05-06",
           "summary": "Opened PR #2283 against jupyter/nbconvert and verified both local RST exporter tests and PR CI statuses.",
           "url": "https://github.com/jupyter/nbconvert/pull/2283"
+        },
+        {
+          "date": "2026-05-07",
+          "summary": "CI changed on PR #2283: docs/readthedocs.org:nbconvert success; pre-commit.ci - pr success.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2283"
         }
       ],
-      "last_updated": "2026-05-06T21:14:21Z"
+      "last_updated": "2026-05-07T06:10:38Z",
+      "timeline": [
+        {
+          "date": "2026-05-07",
+          "summary": "CI changed on PR #2283: docs/readthedocs.org:nbconvert success; pre-commit.ci - pr success.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2283"
+        }
+      ]
     },
     {
       "slug": "nbconvert-empty-anchor-link-text",
@@ -151,6 +163,11 @@
           "date": "2026-05-05",
           "summary": "Both visible checks are now green on PR #2282: pre-commit.ci and Read the Docs.",
           "url": "https://github.com/jupyter/nbconvert/pull/2282"
+        },
+        {
+          "date": "2026-05-07",
+          "summary": "CI changed on PR #2282: docs/readthedocs.org:nbconvert success; pre-commit.ci - pr success.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2282"
         }
       ],
       "links": [
@@ -167,7 +184,7 @@
           "url": "https://github.com/jaythehardcoder/nbconvert/tree/fix/empty-anchor-link-text"
         }
       ],
-      "last_updated": "2026-05-05T21:32:16Z",
+      "last_updated": "2026-05-07T06:10:38Z",
       "discussion": [
         {
           "title": "Issue #935",
@@ -204,6 +221,11 @@
         {
           "date": "2026-05-05",
           "summary": "Both visible checks are now green on PR #2282: pre-commit.ci and Read the Docs.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2282"
+        },
+        {
+          "date": "2026-05-07",
+          "summary": "CI changed on PR #2282: docs/readthedocs.org:nbconvert success; pre-commit.ci - pr success.",
           "url": "https://github.com/jupyter/nbconvert/pull/2282"
         }
       ],
@@ -292,6 +314,11 @@
           "date": "2026-04-30",
           "summary": "Both visible checks are green on PR #2280: pre-commit.ci and Read the Docs.",
           "url": "https://github.com/jupyter/nbconvert/pull/2280"
+        },
+        {
+          "date": "2026-05-07",
+          "summary": "CI changed on PR #2280: docs/readthedocs.org:nbconvert success; pre-commit.ci - pr success.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2280"
         }
       ],
       "links": [
@@ -308,7 +335,7 @@
           "url": "https://github.com/jaythehardcoder/nbconvert/tree/fix/duplicate-markdown-attachment-filenames"
         }
       ],
-      "last_updated": "2026-04-30T21:17:07Z",
+      "last_updated": "2026-05-07T06:10:38Z",
       "discussion": [
         {
           "title": "Issue #2163",
@@ -345,6 +372,11 @@
         {
           "date": "2026-04-30",
           "summary": "Both visible checks are green on PR #2280: pre-commit.ci and Read the Docs.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2280"
+        },
+        {
+          "date": "2026-05-07",
+          "summary": "CI changed on PR #2280: docs/readthedocs.org:nbconvert success; pre-commit.ci - pr success.",
           "url": "https://github.com/jupyter/nbconvert/pull/2280"
         }
       ],
@@ -457,6 +489,11 @@
           "date": "2026-04-30",
           "summary": "Both visible checks are now green on PR #2279: pre-commit.ci and Read the Docs.",
           "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        },
+        {
+          "date": "2026-05-07",
+          "summary": "CI changed on PR #2279: docs/readthedocs.org:nbconvert success; pre-commit.ci - pr success.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279"
         }
       ],
       "links": [
@@ -473,7 +510,7 @@
           "url": "https://github.com/jaythehardcoder/nbconvert/tree/fix/markdown-supporting-files-output-path"
         }
       ],
-      "last_updated": "2026-04-30T21:09:57Z",
+      "last_updated": "2026-05-07T06:10:38Z",
       "discussion": [
         {
           "title": "Issue #1164",
@@ -535,6 +572,11 @@
         {
           "date": "2026-04-30",
           "summary": "Both visible checks are now green on PR #2279: pre-commit.ci and Read the Docs.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        },
+        {
+          "date": "2026-05-07",
+          "summary": "CI changed on PR #2279: docs/readthedocs.org:nbconvert success; pre-commit.ci - pr success.",
           "url": "https://github.com/jupyter/nbconvert/pull/2279"
         }
       ],
@@ -626,6 +668,11 @@
           "date": "2026-04-29",
           "summary": "Maintainer sigmavirus24 applied the mass-automation-pr label immediately before closing PR #7400, turning the rejection into an explicit trust/reputation signal instead of a generic close.",
           "url": "https://github.com/psf/requests/pull/7400"
+        },
+        {
+          "date": "2026-05-07",
+          "summary": "CI changed on PR #7400: docs/readthedocs.org:requests success.",
+          "url": "https://github.com/psf/requests/pull/7400"
         }
       ],
       "links": [
@@ -638,7 +685,7 @@
           "url": "https://github.com/jaythehardcoder/requests/tree/docs/session-request-verify-clarify"
         }
       ],
-      "last_updated": "2026-04-29T21:31:46Z",
+      "last_updated": "2026-05-07T06:10:38Z",
       "discussion": [
         {
           "title": "Issue #7399",
@@ -680,6 +727,11 @@
         {
           "date": "2026-04-29",
           "summary": "Maintainer sigmavirus24 applied the mass-automation-pr label immediately before closing PR #7400, turning the rejection into an explicit trust/reputation signal instead of a generic close.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        },
+        {
+          "date": "2026-05-07",
+          "summary": "CI changed on PR #7400: docs/readthedocs.org:requests success.",
           "url": "https://github.com/psf/requests/pull/7400"
         }
       ],
@@ -751,6 +803,11 @@
           "date": "2026-04-29",
           "summary": "Maintainer David Lord later added a public comment stating the bot account and its manager had both been banned for misuse of maintainer attention, escalating the rejection into an explicit, on-record trust failure.",
           "url": "https://github.com/pallets/click/pull/3392#issuecomment-4344753961"
+        },
+        {
+          "date": "2026-05-07",
+          "summary": "davidism commented on PR #3392: Note that this is a fully bot account apparently managed by @Salomondiei08. They've both been banned now, for the general misuse of energy and maintainer attention.",
+          "url": "https://github.com/pallets/click/pull/3392"
         }
       ],
       "discussion_highlights": [
@@ -775,7 +832,7 @@
           "url": "https://github.com/pallets/click/pull/3392#issuecomment-4344753961"
         }
       ],
-      "last_updated": "2026-04-29T14:39:37Z",
+      "last_updated": "2026-05-07T06:10:38Z",
       "discussion": [
         {
           "title": "Maintainer response",
@@ -808,6 +865,11 @@
           "date": "2026-04-29",
           "summary": "docs/readthedocs.org:pallets-click is success. Read the Docs build succeeded!",
           "url": "https://pallets-click--3392.org.readthedocs.build/en/3392/"
+        },
+        {
+          "date": "2026-05-07",
+          "summary": "davidism commented on PR #3392: Note that this is a fully bot account apparently managed by @Salomondiei08. They've both been banned now, for the general misuse of energy and maintainer attention.",
+          "url": "https://github.com/pallets/click/pull/3392"
         }
       ],
       "learning": [
@@ -882,6 +944,11 @@
           "date": "2026-04-29",
           "summary": "license/cla concluded with success.",
           "url": "https://github.com/apps/microsoft-github-policy-service"
+        },
+        {
+          "date": "2026-05-07",
+          "summary": "Timeline changed on PR #1849.",
+          "url": "https://github.com/microsoft/markitdown/pull/1849"
         }
       ],
       "links": [
@@ -898,7 +965,7 @@
           "url": "https://github.com/jaythehardcoder/markitdown/tree/fix/http-user-agent-header"
         }
       ],
-      "last_updated": "2026-04-29T13:13:38Z",
+      "last_updated": "2026-05-07T06:10:38Z",
       "discussion": [
         {
           "title": "Issue #1467",
@@ -926,6 +993,11 @@
           "date": "2026-04-29",
           "summary": "license/cla concluded with success.",
           "url": "https://github.com/apps/microsoft-github-policy-service"
+        },
+        {
+          "date": "2026-05-07",
+          "summary": "Timeline changed on PR #1849.",
+          "url": "https://github.com/microsoft/markitdown/pull/1849"
         }
       ],
       "learning": [
@@ -980,6 +1052,11 @@
           "date": "2026-04-29",
           "summary": "license/cla concluded with success.",
           "url": "https://github.com/apps/microsoft-github-policy-service"
+        },
+        {
+          "date": "2026-05-07",
+          "summary": "jaythehardcoder commented on PR #1847: @microsoft-github-policy-service agree",
+          "url": "https://github.com/microsoft/markitdown/pull/1847"
         }
       ],
       "discussion_highlights": [
@@ -989,7 +1066,7 @@
           "url": "https://github.com/microsoft/markitdown/runs/73556049521"
         }
       ],
-      "last_updated": "2026-04-29T10:05:52Z",
+      "last_updated": "2026-05-07T06:10:38Z",
       "discussion": [
         {
           "title": "CLA automation",
@@ -1007,6 +1084,11 @@
           "date": "2026-04-29",
           "summary": "license/cla concluded with success.",
           "url": "https://github.com/apps/microsoft-github-policy-service"
+        },
+        {
+          "date": "2026-05-07",
+          "summary": "jaythehardcoder commented on PR #1847: @microsoft-github-policy-service agree",
+          "url": "https://github.com/microsoft/markitdown/pull/1847"
         }
       ],
       "learning": [
@@ -1021,7 +1103,7 @@
     "home_heading": "Jay builds real OSS work in public.",
     "short_bio": "I work at Reinvent Labs and use this site as a clean public log of pull requests, reviews, lessons, and contribution strategy.",
     "about_intro": [
-      "I\u2019m Jay \u2014 an engineering identity focused on useful, test-backed open-source contributions.",
+      "I’m Jay — an engineering identity focused on useful, test-backed open-source contributions.",
       "This site is where I keep receipts: what changed, why it mattered, and what the review process taught me.",
       "The goal is simple: real work, clear evidence, and better judgment over time."
     ],

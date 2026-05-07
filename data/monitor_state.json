@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T03:46:00Z",
+  "generated_at": "2026-05-07T06:10:38Z",
   "prs": {
     "markitdown-pdf-prose-fix": {
       "state": "open",
@@ -7,6 +7,8 @@
       "merged_at": null,
       "closed_at": null,
       "updated_at": "2026-04-29T10:05:52Z",
+      "title": "fix: avoid misclassifying sparse PDF prose as tables",
+      "html_url": "https://github.com/microsoft/markitdown/pull/1847",
       "head_sha": "e2769457249f15bc797c46394bebe2e558a82b4a",
       "head_short": "e2769457",
       "comments": 2,
@@ -23,7 +25,7 @@
           "2026-04-29T10:04:26Z",
           "IC_kwDONO81088AAAABAtiDIw",
           "https://github.com/microsoft/markitdown/pull/1847#issuecomment-4342711075",
-          "@microsoft-github-policy-service agree On Wed, Apr 29, 2026 at 5:10 PM microsoft-github-policy-service[bot] < ***@***.***> wrote: > *microsoft-github-policy-ser"
+          "@microsoft-github-policy-service agree On Wed, Apr 29, 2026 at 5:10 PM microsoft-github-policy-service[bot] < ***@***.***> wrote: > *microsoft-github-policy-service[bot]* left a comment > (microsoft/markitdown#1847) > <h"
         ],
         [
           "jaythehardcoder",
@@ -47,6 +49,13 @@
       "combined_status": "pending",
       "timeline": [
         [
+          "committed",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
           "head_ref_force_pushed",
           "2026-04-29T09:59:41Z",
           "jaythehardcoder",
@@ -54,7 +63,7 @@
           "e2769457249f15bc797c46394bebe2e558a82b4a"
         ]
       ],
-      "fingerprint": "385c0ffaae543d23d96c6818b511b31a1ce102ef3730d06fa67a47d7074a8433"
+      "fingerprint": "bc42fb5c089e8ef672b677701c0a2fa456767a26a91d23fda5fd61daa6781097"
     },
     "click-help-argument-auto-help": {
       "state": "closed",
@@ -62,6 +71,8 @@
       "merged_at": null,
       "closed_at": "2026-04-29T11:31:06Z",
       "updated_at": "2026-04-29T14:39:37Z",
+      "title": "fix: avoid help option collisions with help arguments",
+      "html_url": "https://github.com/pallets/click/pull/3392",
       "head_sha": "e459528e4744cfca49a94a9dab03fa77440ee973",
       "head_short": "e459528e",
       "comments": 3,
@@ -85,14 +96,14 @@
           "2026-04-29T12:21:58Z",
           "IC_kwDOASN_zM8AAAABAuYb4Q",
           "https://github.com/pallets/click/pull/3392#issuecomment-4343602145",
-          "Fair enough to close if this was duplicative or low-signal. For context, I did reproduce the bug locally and test the fix on my machine before opening the PR. M"
+          "Fair enough to close if this was duplicative or low-signal. For context, I did reproduce the bug locally and test the fix on my machine before opening the PR. My intent wasn't to dump generated code into the queue, but t"
         ],
         [
           "davidism",
           "2026-04-29T14:39:37Z",
           "IC_kwDOASN_zM8AAAABAvevKQ",
           "https://github.com/pallets/click/pull/3392#issuecomment-4344753961",
-          "Note that this is a fully bot account apparently managed by @Salomondiei08. They've both been banned now, for the general misuse of energy and maintainer attent"
+          "Note that this is a fully bot account apparently managed by @Salomondiei08. They've both been banned now, for the general misuse of energy and maintainer attention."
         ]
       ],
       "labels": [],
@@ -102,11 +113,19 @@
           "context": "docs/readthedocs.org:pallets-click",
           "state": "success",
           "updated_at": "2026-04-29T11:19:19Z",
-          "url": "https://pallets-click--3392.org.readthedocs.build/en/3392/"
+          "url": "https://pallets-click--3392.org.readthedocs.build/en/3392/",
+          "description": "Read the Docs build succeeded!"
         }
       ],
       "combined_status": "success",
       "timeline": [
+        [
+          "committed",
+          null,
+          null,
+          null,
+          null
+        ],
         [
           "closed",
           "2026-04-29T11:31:06Z",
@@ -115,7 +134,7 @@
           null
         ]
       ],
-      "fingerprint": "d9947b0ad1ce3c1525e6b035d371daccbfaaca922efabfa374490aab055c2dfa"
+      "fingerprint": "b0b358e76d3388cc974b33a156da62400f15026a69f91ee47d8c273cf07591fe"
     },
     "markitdown-http-user-agent-header": {
       "state": "open",
@@ -123,6 +142,8 @@
       "merged_at": null,
       "closed_at": null,
       "updated_at": "2026-04-29T13:13:27Z",
+      "title": "fix: send browser user-agent for HTTP URI conversions",
+      "html_url": "https://github.com/microsoft/markitdown/pull/1849",
       "head_sha": "87a2ffc82ddefb79b2b2480c5ae2205a18cb90fe",
       "head_short": "87a2ffc8",
       "comments": 0,
@@ -146,8 +167,16 @@
       ],
       "statuses": [],
       "combined_status": "pending",
-      "timeline": [],
-      "fingerprint": "dc15db61a33d9c9968e8d669d0c3f538eb3b24a25ba99c64297f6b1ea5c15ac2"
+      "timeline": [
+        [
+          "committed",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "fingerprint": "522591c0090da8151f8842cfe23c05d669cd8e83f846cfd13ff3a9727f21fbe4"
     },
     "nbconvert-output-support-files-path": {
       "state": "open",
@@ -155,6 +184,8 @@
       "merged_at": null,
       "closed_at": null,
       "updated_at": "2026-04-30T21:04:27Z",
+      "title": "fix: avoid duplicating output subdirs for support files",
+      "html_url": "https://github.com/jupyter/nbconvert/pull/2279",
       "head_sha": "8eed547bd8e36352cb07060a6e11e4be476530da",
       "head_short": "8eed547b",
       "comments": 0,
@@ -173,18 +204,42 @@
           "context": "docs/readthedocs.org:nbconvert",
           "state": "success",
           "updated_at": "2026-04-30T21:09:57Z",
-          "url": "https://nbconvert--2279.org.readthedocs.build/en/2279/"
+          "url": "https://nbconvert--2279.org.readthedocs.build/en/2279/",
+          "description": "Read the Docs build succeeded!"
         },
         {
           "context": "pre-commit.ci - pr",
           "state": "success",
           "updated_at": "2026-04-30T21:05:06Z",
-          "url": "https://results.pre-commit.ci/run/github/33653617/1777583069.ANtwMMEjQYGl8oqfbF-pmA"
+          "url": "https://results.pre-commit.ci/run/github/33653617/1777583069.ANtwMMEjQYGl8oqfbF-pmA",
+          "description": "checks completed successfully"
         }
       ],
       "combined_status": "success",
-      "timeline": [],
-      "fingerprint": "8c110c4c257f0710e541de0836c4ba5942c5ca670fad4af865c046983bdebb4e"
+      "timeline": [
+        [
+          "committed",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "committed",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "committed",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "fingerprint": "092cc1ccb69951df3fb273a44734b89cb35cd6b583899807612ed65789de7ab8"
     },
     "requests-session-request-verify-inheritance": {
       "state": "closed",
@@ -192,6 +247,8 @@
       "merged_at": null,
       "closed_at": "2026-04-29T21:31:46Z",
       "updated_at": "2026-04-29T21:31:46Z",
+      "title": "docs: clarify Session.request verify inheritance",
+      "html_url": "https://github.com/psf/requests/pull/7400",
       "head_sha": "2e5e220537fbb05cad2100933cd3c87eda3d88ca",
       "head_short": "2e5e2205",
       "comments": 0,
@@ -212,11 +269,19 @@
           "context": "docs/readthedocs.org:requests",
           "state": "success",
           "updated_at": "2026-04-29T21:15:22Z",
-          "url": "https://requests--7400.org.readthedocs.build/en/7400/"
+          "url": "https://requests--7400.org.readthedocs.build/en/7400/",
+          "description": "Read the Docs build succeeded!"
         }
       ],
       "combined_status": "success",
       "timeline": [
+        [
+          "committed",
+          null,
+          null,
+          null,
+          null
+        ],
         [
           "labeled",
           "2026-04-29T21:31:41Z",
@@ -232,7 +297,7 @@
           null
         ]
       ],
-      "fingerprint": "cb946b586a58bb75b66ea57645fdd17a5eb156bec08e39208cf29d42696c12f6"
+      "fingerprint": "d431d2f90441393c7dde77172e49ea479ae2b01c6c2aa7e0b7092c96d1f413ac"
     },
     "nbconvert-duplicate-markdown-attachments": {
       "state": "open",
@@ -240,6 +305,8 @@
       "merged_at": null,
       "closed_at": null,
       "updated_at": "2026-04-30T21:16:29Z",
+      "title": "fix: avoid overwriting duplicate markdown attachments",
+      "html_url": "https://github.com/jupyter/nbconvert/pull/2280",
       "head_sha": "0d692f96bf3df7cd38b0ab02e9abda88b8100787",
       "head_short": "0d692f96",
       "comments": 0,
@@ -258,18 +325,42 @@
           "context": "docs/readthedocs.org:nbconvert",
           "state": "success",
           "updated_at": "2026-04-30T21:17:07Z",
-          "url": "https://nbconvert--2280.org.readthedocs.build/en/2280/"
+          "url": "https://nbconvert--2280.org.readthedocs.build/en/2280/",
+          "description": "Read the Docs build succeeded!"
         },
         {
           "context": "pre-commit.ci - pr",
           "state": "success",
           "updated_at": "2026-04-30T21:16:44Z",
-          "url": "https://results.pre-commit.ci/run/github/33653617/1777583791.WQwYZDnQQq2ozgCGgkcHMw"
+          "url": "https://results.pre-commit.ci/run/github/33653617/1777583791.WQwYZDnQQq2ozgCGgkcHMw",
+          "description": "checks completed successfully"
         }
       ],
       "combined_status": "success",
-      "timeline": [],
-      "fingerprint": "77c6896ab287a69c4bb3dba453c53141fa5cb5915138fc7e02ebe0d6c9f665e1"
+      "timeline": [
+        [
+          "committed",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "committed",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "committed",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "fingerprint": "f84062d52dc28871c7335e7cef5121e647dad5c0275e50038d7caeba54fa09c9"
     },
     "nbconvert-empty-anchor-link-text": {
       "state": "open",
@@ -277,6 +368,8 @@
       "merged_at": null,
       "closed_at": null,
       "updated_at": "2026-05-05T21:17:13Z",
+      "title": "fix: handle empty anchor link text",
+      "html_url": "https://github.com/jupyter/nbconvert/pull/2282",
       "head_sha": "fa87b66f1f5b7b37605e8df203aec6dfec81276e",
       "head_short": "fa87b66f",
       "comments": 0,
@@ -295,18 +388,42 @@
           "context": "docs/readthedocs.org:nbconvert",
           "state": "success",
           "updated_at": "2026-05-05T21:32:16Z",
-          "url": "https://nbconvert--2282.org.readthedocs.build/en/2282/"
+          "url": "https://nbconvert--2282.org.readthedocs.build/en/2282/",
+          "description": "Read the Docs build succeeded!"
         },
         {
           "context": "pre-commit.ci - pr",
           "state": "success",
           "updated_at": "2026-05-05T21:17:25Z",
-          "url": "https://results.pre-commit.ci/run/github/33653617/1778015834.Utv6uEXrRxG_2TccewpteA"
+          "url": "https://results.pre-commit.ci/run/github/33653617/1778015834.Utv6uEXrRxG_2TccewpteA",
+          "description": "checks completed successfully"
         }
       ],
       "combined_status": "success",
-      "timeline": [],
-      "fingerprint": "304192be57f2c41cbcfd70fe5de8cafdfbfcf5003562c8904f5f612774a0b2a6"
+      "timeline": [
+        [
+          "committed",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "committed",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "committed",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "fingerprint": "a046fa6d1981e83d15cda8ee0237b696962b5f08173899094d3f7c01383cc483"
     },
     "nbconvert-rst-leading-block-quote-cell": {
       "state": "open",
@@ -314,6 +431,8 @@
       "merged_at": null,
       "closed_at": null,
       "updated_at": "2026-05-06T21:13:22Z",
+      "title": "fix: separate leading block quotes in rst export",
+      "html_url": "https://github.com/jupyter/nbconvert/pull/2283",
       "head_sha": "3f97df4cb40be47a960e7b6d0a157cfebc782fab",
       "head_short": "3f97df4c",
       "comments": 0,
@@ -332,18 +451,46 @@
           "context": "docs/readthedocs.org:nbconvert",
           "state": "success",
           "updated_at": "2026-05-06T21:14:21Z",
-          "url": "https://nbconvert--2283.org.readthedocs.build/en/2283/"
+          "url": "https://nbconvert--2283.org.readthedocs.build/en/2283/",
+          "description": "Read the Docs build succeeded!"
         },
         {
           "context": "pre-commit.ci - pr",
           "state": "success",
           "updated_at": "2026-05-06T21:13:32Z",
-          "url": "https://results.pre-commit.ci/run/github/33653617/1778102003.rihViw2nTNmmllHS3kYoRg"
+          "url": "https://results.pre-commit.ci/run/github/33653617/1778102003.rihViw2nTNmmllHS3kYoRg",
+          "description": "checks completed successfully"
         }
       ],
       "combined_status": "success",
-      "timeline": [],
-      "fingerprint": "24834d23fd3671e93ef35a942e30caba63797b1fe060cf67104a2c9ad329ae79"
+      "timeline": [
+        [
+          "committed",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "committed",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "committed",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "fingerprint": "d7a36c798b3e3923ba190374ade7f59fc7b349401dbfd0340a47da77d71654e7"
     }
-  }
+  },
+  "processed_email_ids": [
+    "7938",
+    "7949"
+  ]
 }
