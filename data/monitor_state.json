@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T07:57:55Z",
+  "generated_at": "2026-05-07T10:55:58Z",
   "prs": {
     "markitdown-pdf-prose-fix": {
       "state": "open",
@@ -25,7 +25,7 @@
           "2026-04-29T10:04:26Z",
           4342711075,
           "https://github.com/microsoft/markitdown/pull/1847#issuecomment-4342711075",
-          "@microsoft-github-policy-service agree On Wed, Apr 29, 2026 at 5:10 PM microsoft-github-policy-service[bot] < ***@***.***> wrote: > *microsoft-github-policy-service[bot]* left a comment > (microsoft/markitdown#1847) > <https://github.com/mi"
+          "@microsoft-github-policy-service agree On Wed, Apr 29, 2026 at 5:10 PM microsoft-github-policy-service[bot] < ***@***.***> wrote: > *microsoft-github-policy-service[bot]* left a comment > (microsoft/markitdown#1847) > <https://github.com/microsoft/markitdown/pull/1847#issuecommen"
         ],
         [
           "jaythehardcoder",
@@ -53,7 +53,7 @@
           null,
           null,
           null,
-          null
+          "e2769457249f15bc797c46394bebe2e558a82b4a"
         ],
         [
           "head_ref_force_pushed",
@@ -77,7 +77,7 @@
           null
         ]
       ],
-      "fingerprint": "cf4be59c75536065c364861b73618860968ad50b20d3fd6e028863775179f44e"
+      "fingerprint": "9e8bebb1e8aa07ef1f827030ccd2d5ec0c53457f0a50e4d7a4e1872b992a94fc"
     },
     "click-help-argument-auto-help": {
       "state": "closed",
@@ -110,7 +110,7 @@
           "2026-04-29T12:21:58Z",
           4343602145,
           "https://github.com/pallets/click/pull/3392#issuecomment-4343602145",
-          "Fair enough to close if this was duplicative or low-signal. For context, I did reproduce the bug locally and test the fix on my machine before opening the PR. My intent wasn't to dump generated code into the queue, but to address the argume"
+          "Fair enough to close if this was duplicative or low-signal. For context, I did reproduce the bug locally and test the fix on my machine before opening the PR. My intent wasn't to dump generated code into the queue, but to address the argument-name case from #2819 with a minimal p"
         ],
         [
           "davidism",
@@ -126,9 +126,9 @@
         {
           "context": "docs/readthedocs.org:pallets-click",
           "state": "success",
+          "description": "Read the Docs build succeeded!",
           "updated_at": "2026-04-29T11:19:19Z",
-          "url": "https://pallets-click--3392.org.readthedocs.build/en/3392/",
-          "description": "Read the Docs build succeeded!"
+          "url": "https://pallets-click--3392.org.readthedocs.build/en/3392/"
         }
       ],
       "combined_status": "success",
@@ -138,7 +138,7 @@
           null,
           null,
           null,
-          null
+          "e459528e4744cfca49a94a9dab03fa77440ee973"
         ],
         [
           "commented",
@@ -169,7 +169,7 @@
           null
         ]
       ],
-      "fingerprint": "43219607683c28c0bd5c12500cf4f359a6a09f73ecb6c88a7b9718863d761960"
+      "fingerprint": "25b70bda5b4a17e7dc6687825a2c0c0f16ef9cb00986ca0f9d682c3c6d548415"
     },
     "markitdown-http-user-agent-header": {
       "state": "open",
@@ -208,10 +208,10 @@
           null,
           null,
           null,
-          null
+          "87a2ffc82ddefb79b2b2480c5ae2205a18cb90fe"
         ]
       ],
-      "fingerprint": "fd9a4561bc88bbd664a5de40eaeda24a2b9c89b37feb52bb376ac8a7d73fbcc8"
+      "fingerprint": "86e47ddb00d1202f2f92cc5a63048dc69379d888dbc0373ad7430a1b3ebf8b7d"
     },
     "nbconvert-output-support-files-path": {
       "state": "open",
@@ -238,16 +238,16 @@
         {
           "context": "docs/readthedocs.org:nbconvert",
           "state": "success",
+          "description": "Read the Docs build succeeded!",
           "updated_at": "2026-04-30T21:09:57Z",
-          "url": "https://nbconvert--2279.org.readthedocs.build/en/2279/",
-          "description": "Read the Docs build succeeded!"
+          "url": "https://nbconvert--2279.org.readthedocs.build/en/2279/"
         },
         {
           "context": "pre-commit.ci - pr",
           "state": "success",
+          "description": "checks completed successfully",
           "updated_at": "2026-04-30T21:05:06Z",
-          "url": "https://results.pre-commit.ci/run/github/33653617/1777583069.ANtwMMEjQYGl8oqfbF-pmA",
-          "description": "checks completed successfully"
+          "url": "https://results.pre-commit.ci/run/github/33653617/1777583069.ANtwMMEjQYGl8oqfbF-pmA"
         }
       ],
       "combined_status": "success",
@@ -257,24 +257,24 @@
           null,
           null,
           null,
-          null
+          "db5fd920b7c6b55f3e84904cf6d1fc621fb78ed3"
         ],
         [
           "committed",
           null,
           null,
           null,
-          null
+          "870a1ecced5a73bbf574067d665e68d0a3035883"
         ],
         [
           "committed",
           null,
           null,
           null,
-          null
+          "8eed547bd8e36352cb07060a6e11e4be476530da"
         ]
       ],
-      "fingerprint": "baf51778b0e419a7838d91d7f14c06378e13ae9f5fc72930b15f697297b73a0a"
+      "fingerprint": "2fd8efeb2fafcc15a70dbf6f99c58ceee1823d29e12bd98adb8d79e87b99a3c5"
     },
     "requests-session-request-verify-inheritance": {
       "state": "closed",
@@ -303,9 +303,9 @@
         {
           "context": "docs/readthedocs.org:requests",
           "state": "success",
+          "description": "Read the Docs build succeeded!",
           "updated_at": "2026-04-29T21:15:22Z",
-          "url": "https://requests--7400.org.readthedocs.build/en/7400/",
-          "description": "Read the Docs build succeeded!"
+          "url": "https://requests--7400.org.readthedocs.build/en/7400/"
         }
       ],
       "combined_status": "success",
@@ -315,7 +315,7 @@
           null,
           null,
           null,
-          null
+          "2e5e220537fbb05cad2100933cd3c87eda3d88ca"
         ],
         [
           "labeled",
@@ -332,7 +332,7 @@
           null
         ]
       ],
-      "fingerprint": "ed48622b0e9b1e619c09037a971bfb955c1c6f763d5ce096cbb26d606cc25b4b"
+      "fingerprint": "a899652014bab787929538ff24d238e07b25e34ee708024136a84010b2494f65"
     },
     "nbconvert-duplicate-markdown-attachments": {
       "state": "open",
@@ -359,16 +359,16 @@
         {
           "context": "docs/readthedocs.org:nbconvert",
           "state": "success",
+          "description": "Read the Docs build succeeded!",
           "updated_at": "2026-04-30T21:17:07Z",
-          "url": "https://nbconvert--2280.org.readthedocs.build/en/2280/",
-          "description": "Read the Docs build succeeded!"
+          "url": "https://nbconvert--2280.org.readthedocs.build/en/2280/"
         },
         {
           "context": "pre-commit.ci - pr",
           "state": "success",
+          "description": "checks completed successfully",
           "updated_at": "2026-04-30T21:16:44Z",
-          "url": "https://results.pre-commit.ci/run/github/33653617/1777583791.WQwYZDnQQq2ozgCGgkcHMw",
-          "description": "checks completed successfully"
+          "url": "https://results.pre-commit.ci/run/github/33653617/1777583791.WQwYZDnQQq2ozgCGgkcHMw"
         }
       ],
       "combined_status": "success",
@@ -378,24 +378,24 @@
           null,
           null,
           null,
-          null
+          "9067eb4faa5f6e1188b611c4dfa544103cc69934"
         ],
         [
           "committed",
           null,
           null,
           null,
-          null
+          "9cf9556e03659974ce1a5df5d6719a6f35153c4d"
         ],
         [
           "committed",
           null,
           null,
           null,
-          null
+          "0d692f96bf3df7cd38b0ab02e9abda88b8100787"
         ]
       ],
-      "fingerprint": "90d6e269586810e8497ac37bc8a49a251dd2629fdda74d6635257911d50fa4d7"
+      "fingerprint": "ee3e02d40c9b50330302da47d23d49aa79403a1fb2991dc9cad7bed71025b4b2"
     },
     "nbconvert-empty-anchor-link-text": {
       "state": "open",
@@ -422,16 +422,16 @@
         {
           "context": "docs/readthedocs.org:nbconvert",
           "state": "success",
+          "description": "Read the Docs build succeeded!",
           "updated_at": "2026-05-05T21:32:16Z",
-          "url": "https://nbconvert--2282.org.readthedocs.build/en/2282/",
-          "description": "Read the Docs build succeeded!"
+          "url": "https://nbconvert--2282.org.readthedocs.build/en/2282/"
         },
         {
           "context": "pre-commit.ci - pr",
           "state": "success",
+          "description": "checks completed successfully",
           "updated_at": "2026-05-05T21:17:25Z",
-          "url": "https://results.pre-commit.ci/run/github/33653617/1778015834.Utv6uEXrRxG_2TccewpteA",
-          "description": "checks completed successfully"
+          "url": "https://results.pre-commit.ci/run/github/33653617/1778015834.Utv6uEXrRxG_2TccewpteA"
         }
       ],
       "combined_status": "success",
@@ -441,24 +441,24 @@
           null,
           null,
           null,
-          null
+          "200e63ec45865c07ee309980c54dad35eb4fa4dc"
         ],
         [
           "committed",
           null,
           null,
           null,
-          null
+          "fffc85054204d02e4e66104fae05dc86ffb3fb76"
         ],
         [
           "committed",
           null,
           null,
           null,
-          null
+          "fa87b66f1f5b7b37605e8df203aec6dfec81276e"
         ]
       ],
-      "fingerprint": "244bc592ae4012b35c8fbdfdb91772c380caba0ab208d365d8669f3937b6b729"
+      "fingerprint": "60d2a06f60cf6112181e0a2186364eb000dae8cab887964bc4c259539e7ceccd"
     },
     "nbconvert-rst-leading-block-quote-cell": {
       "state": "open",
@@ -485,16 +485,16 @@
         {
           "context": "docs/readthedocs.org:nbconvert",
           "state": "success",
+          "description": "Read the Docs build succeeded!",
           "updated_at": "2026-05-06T21:14:21Z",
-          "url": "https://nbconvert--2283.org.readthedocs.build/en/2283/",
-          "description": "Read the Docs build succeeded!"
+          "url": "https://nbconvert--2283.org.readthedocs.build/en/2283/"
         },
         {
           "context": "pre-commit.ci - pr",
           "state": "success",
+          "description": "checks completed successfully",
           "updated_at": "2026-05-06T21:13:32Z",
-          "url": "https://results.pre-commit.ci/run/github/33653617/1778102003.rihViw2nTNmmllHS3kYoRg",
-          "description": "checks completed successfully"
+          "url": "https://results.pre-commit.ci/run/github/33653617/1778102003.rihViw2nTNmmllHS3kYoRg"
         }
       ],
       "combined_status": "success",
@@ -504,24 +504,24 @@
           null,
           null,
           null,
-          null
+          "2ee300ca3270c0823b8b30997e864208ddb9c731"
         ],
         [
           "committed",
           null,
           null,
           null,
-          null
+          "86708e94f0e2011606bbdf24cec14c997943b81e"
         ],
         [
           "committed",
           null,
           null,
           null,
-          null
+          "3f97df4cb40be47a960e7b6d0a157cfebc782fab"
         ]
       ],
-      "fingerprint": "74fa97b44fc5fdb2d8872b3874b75e4422ac4016a5440b2d7b49d89c81652435"
+      "fingerprint": "d8a1977c6d1187aacbfd0a177194b660dc77f8ac53caa342423385428570ca07"
     }
   },
   "processed_email_ids": [
@@ -532,6 +532,7 @@
     "7870",
     "7871",
     "7886",
+    "7922",
     "7938",
     "7949"
   ]
