@@ -34,7 +34,7 @@
       "tests": [
         "Ran a Python check for the documented xr.DataArray(data, coords=[times, locs], dims=[\"time\", \"space\"]) example and verified dimensions/coordinates.",
         "Checked that the stale \"list of tuples\" wording was removed from the user guide.",
-        "GitHub checks were pending at PR creation: pre-commit.ci, Read the Docs, and label workflow."
+        "GitHub: pre-commit.ci passed; label workflow passed; Read the Docs was still pending after polling."
       ],
       "files_changed": [
         "doc/user-guide/data-structures.rst"
