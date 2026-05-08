@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T17:25:31Z",
+  "generated_at": "2026-05-08T21:25:12Z",
   "prs": {
     "markitdown-pdf-prose-fix": {
       "state": "open",
@@ -25,7 +25,7 @@
           "2026-04-29T10:04:26Z",
           4342711075,
           "https://github.com/microsoft/markitdown/pull/1847#issuecomment-4342711075",
-          "@microsoft-github-policy-service agree On Wed, Apr 29, 2026 at 5:10 PM microsoft-github-policy-service[bot] < ***@***.***> wrote: > *microsoft-github-policy-service[bot]* left a comment > (microsoft/markitdown#1847) > <https://github.com/microsoft/markitdown/pull/1847#issuecomment-4341928992> > > @jaythehardcoder <https://github.com/jaythehardcoder> please r"
+          "@microsoft-github-policy-service agree\r\n\r\nOn Wed, Apr 29, 2026 at 5:10\u202fPM microsoft-github-policy-service[bot] <\r\n***@***.***> wrote:\r\n\r\n> *microsoft-github-policy-service[bot]* left a comment\r\n> (microsoft/markitdown#1847)\r\n> <https://github.com/microsoft/markitdown/pull/1847#issuecomment-4341928992>\r\n>\r\n> @jaythehardcoder <https://github.com/jaythehardcoder> please read the\r\n> following Contributor License Agreement(CLA). If you agree with the CLA,\r\n> please reply with the following informatio"
         ],
         [
           "jaythehardcoder",
@@ -47,7 +47,7 @@
       ],
       "statuses": [],
       "combined_status": "pending",
-      "fingerprint": "7072b2ae7279196292f0829a047f6be448314c503b2517f585b9493c76430903"
+      "fingerprint": "cfc9119ab1ee7a8c208070c5b6c8b8f5d1f5e0be83a5b4bff2867bf7c97c8d43"
     },
     "click-help-argument-auto-help": {
       "state": "closed",
@@ -80,7 +80,7 @@
           "2026-04-29T12:21:58Z",
           4343602145,
           "https://github.com/pallets/click/pull/3392#issuecomment-4343602145",
-          "Fair enough to close if this was duplicative or low-signal. For context, I did reproduce the bug locally and test the fix on my machine before opening the PR. My intent wasn't to dump generated code into the queue, but to address the argument-name case from #2819 with a minimal patch plus regression coverage. Looking back, I can see I should have engaged mor"
+          "Fair enough to close if this was duplicative or low-signal.\n\nFor context, I did reproduce the bug locally and test the fix on my machine before opening the PR. My intent wasn't to dump generated code into the queue, but to address the argument-name case from #2819 with a minimal patch plus regression coverage.\n\nLooking back, I can see I should have engaged more directly with the existing history around #2819, #2859, and #3368 before opening a new PR.\n\nIf you're willing to clarify: was the main p"
         ],
         [
           "davidism",
@@ -102,7 +102,7 @@
         }
       ],
       "combined_status": "success",
-      "fingerprint": "c4374a4dae4a9db339a53bb1320826a0870a009b1f1806406a53c3313ea868e5"
+      "fingerprint": "d276e5fd0381e46d9e06f96ca6ef8ca86a5466a8155a03c7483f38af2fa14ee1"
     },
     "markitdown-http-user-agent-header": {
       "state": "open",
@@ -135,7 +135,7 @@
       ],
       "statuses": [],
       "combined_status": "pending",
-      "fingerprint": "6c0f438fbeae19b3d789adaa435a775a54fd9f01063a6dc9f11b49781da8d9bd"
+      "fingerprint": "79ed4b2dcb218e09f905826896e1fe4e666646e06717ea4238b407ffeeb40e67"
     },
     "nbconvert-output-support-files-path": {
       "state": "open",
@@ -175,7 +175,7 @@
         }
       ],
       "combined_status": "success",
-      "fingerprint": "b38acf4c52fba11cc5690ea0addefbf714b716114f54a09cd8c15f7225ccc164"
+      "fingerprint": "e1d25c383e92520b8b527e8790d71d252e770f89d7acda608885e087bac99f70"
     },
     "requests-session-request-verify-inheritance": {
       "state": "closed",
@@ -210,7 +210,7 @@
         }
       ],
       "combined_status": "success",
-      "fingerprint": "467e9783a909a034ff885abac44768b0c790d6da93cf4e326574bd75432efcb5"
+      "fingerprint": "a0642e6311e9ef116ed0737f77e2720ad6164936be3adad1a708313759acc22b"
     },
     "nbconvert-duplicate-markdown-attachments": {
       "state": "open",
@@ -250,7 +250,7 @@
         }
       ],
       "combined_status": "success",
-      "fingerprint": "30d73026cefa4e32ff32d1241817f9c84bcaba31d02a11d9a220c930477a5685"
+      "fingerprint": "5b4c907a12b914edd56d55c2580ff59e3c547e5523b39c9a41400ff995e97ba3"
     },
     "nbconvert-empty-anchor-link-text": {
       "state": "open",
@@ -290,7 +290,7 @@
         }
       ],
       "combined_status": "success",
-      "fingerprint": "0861f9f216e0fedb02dd158dafe83f4590d846c0b34baaa41c22a4b34f04445f"
+      "fingerprint": "c07eec150369107624391f60dfa2801029f0df417d05810181badc7f71415cb6"
     },
     "nbconvert-rst-leading-block-quote-cell": {
       "state": "open",
@@ -330,7 +330,57 @@
         }
       ],
       "combined_status": "success",
-      "fingerprint": "d25c618cdf9470d759588875d870cbc9e7fc2199fe089b7229ab261874efe5ca"
+      "fingerprint": "4d2376ea7bcd62569ab06b78ebbd856de2d7c4e624c62da2b554794171105035"
+    },
+    "xarray-dataarray-coords-description": {
+      "state": "open",
+      "draft": false,
+      "merged_at": null,
+      "closed_at": null,
+      "updated_at": "2026-05-08T21:11:50Z",
+      "title": "docs: clarify DataArray coords list description",
+      "html_url": "https://github.com/pydata/xarray/pull/11326",
+      "head_sha": "194b49c776e049613645d4d6ca2ec980026ae317",
+      "head_short": "194b49c7",
+      "comments": 0,
+      "review_comments": 0,
+      "commits_count": 1,
+      "latest_commit": "194b49c776e049613645d4d6ca2ec980026ae317",
+      "latest_commit_msg": "docs: clarify DataArray coords list description",
+      "latest_commit_author": "Jay",
+      "latest_commit_date": "2026-05-08T21:11:03Z",
+      "reviews": [],
+      "issue_comments": [],
+      "labels": [
+        "topic-documentation"
+      ],
+      "ci": [
+        {
+          "name": "label",
+          "status": "completed",
+          "conclusion": "success",
+          "updated_at": "2026-05-08T21:11:52Z",
+          "url": "https://github.com/pydata/xarray/actions/runs/25579759688/job/75095633780"
+        }
+      ],
+      "statuses": [
+        {
+          "context": "docs/readthedocs.org:xray",
+          "state": "success",
+          "description": "Read the Docs build succeeded!",
+          "updated_at": "2026-05-08T21:20:24Z",
+          "url": "https://xray--11326.org.readthedocs.build/en/11326/"
+        },
+        {
+          "context": "pre-commit.ci - pr",
+          "state": "success",
+          "description": "checks completed successfully",
+          "updated_at": "2026-05-08T21:11:58Z",
+          "url": "https://results.pre-commit.ci/run/github/13221727/1778274696.jzMmvjgBQXGUBTwysJN8aA"
+        }
+      ],
+      "combined_status": "success",
+      "fingerprint": "e4e0180c14d7d99378e4b21a52d11d3d8a156c025f156e67313a346bd82175a3"
     }
   },
   "processed_email_ids": [

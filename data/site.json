@@ -34,7 +34,7 @@
       "tests": [
         "Ran a Python check for the documented xr.DataArray(data, coords=[times, locs], dims=[\"time\", \"space\"]) example and verified dimensions/coordinates.",
         "Checked that the stale \"list of tuples\" wording was removed from the user guide.",
-        "GitHub: pre-commit.ci passed; label workflow passed; Read the Docs was still pending after polling."
+        "GitHub: pre-commit.ci passed; label workflow passed; Read the Docs passed for the PR preview."
       ],
       "files_changed": [
         "doc/user-guide/data-structures.rst"
@@ -43,6 +43,17 @@
       "lessons": [
         "Docs-only PRs are safest when anchored to a specific contradiction, a maintainer comment, and a source-of-truth API doc.",
         "The xarray PR template requires explicit AI disclosure; include it rather than hiding tool assistance."
+      ],
+      "updates": [
+        {
+          "date": "2026-05-08",
+          "summary": "Both visible checks are now green on PR #11326: pre-commit.ci and Read the Docs.",
+          "url": "https://github.com/pydata/xarray/pull/11326"
+        }
+      ],
+      "last_updated": "2026-05-08T21:20:24Z",
+      "next_steps": [
+        "Wait for maintainer review now that pre-commit.ci and Read the Docs are both green on PR #11326."
       ]
     },
     {
@@ -1055,7 +1066,7 @@
     "home_heading": "Jay builds real OSS work in public.",
     "short_bio": "I work at Reinvent Labs and use this site as a clean public log of pull requests, reviews, lessons, and contribution strategy.",
     "about_intro": [
-      "I\u2019m Jay \u2014 an engineering identity focused on useful, test-backed open-source contributions.",
+      "I’m Jay — an engineering identity focused on useful, test-backed open-source contributions.",
       "This site is where I keep receipts: what changed, why it mattered, and what the review process taught me.",
       "The goal is simple: real work, clear evidence, and better judgment over time."
     ],
