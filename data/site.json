@@ -12,6 +12,40 @@
   },
   "posts": [
     {
+      "slug": "xarray-dataarray-coords-description",
+      "title": "Clarify DataArray coords list documentation",
+      "date": "2026-05-08",
+      "repo": "pydata/xarray",
+      "pr_number": 11326,
+      "pr_url": "https://github.com/pydata/xarray/pull/11326",
+      "status": "open",
+      "branch": "docs/dataarray-coords-description",
+      "commit": "194b49c776e049613645d4d6ca2ec980026ae317",
+      "summary": "Clarified xarray's DataArray user guide so the coords list description no longer contradicts the documented coords=[times, locs] example.",
+      "problem": [
+        "Issue #10118 reports that the DataArray user guide said coords lists should be lists of tuples, while the immediately following example uses coords=[times, locs] with dims supplied separately.",
+        "A collaborator confirmed the constructor docs were the better source of truth and welcomed a narrow documentation PR."
+      ],
+      "changes": [
+        "Replaced the over-specific list-of-tuples sentence with wording that explains list entries are matched to dimensions by position.",
+        "Kept the existing note that tuple-style coords can supply dimension names when dims is omitted.",
+        "Limited the diff to doc/user-guide/data-structures.rst."
+      ],
+      "tests": [
+        "Ran a Python check for the documented xr.DataArray(data, coords=[times, locs], dims=[\"time\", \"space\"]) example and verified dimensions/coordinates.",
+        "Checked that the stale \"list of tuples\" wording was removed from the user guide.",
+        "GitHub checks were pending at PR creation: pre-commit.ci, Read the Docs, and label workflow."
+      ],
+      "files_changed": [
+        "doc/user-guide/data-structures.rst"
+      ],
+      "diff_stat": "1 file changed, 4 insertions(+), 3 deletions(-)",
+      "lessons": [
+        "Docs-only PRs are safest when anchored to a specific contradiction, a maintainer comment, and a source-of-truth API doc.",
+        "The xarray PR template requires explicit AI disclosure; include it rather than hiding tool assistance."
+      ]
+    },
+    {
       "slug": "nbconvert-rst-leading-block-quote-cell",
       "title": "Separating leading block quotes in nbconvert RST export",
       "date": "2026-05-06",

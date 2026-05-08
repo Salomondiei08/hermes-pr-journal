@@ -47,6 +47,12 @@
       "owner": "jupyter",
       "repo": "nbconvert",
       "pr_number": 2283
+    },
+    {
+      "slug": "xarray-dataarray-coords-description",
+      "owner": "pydata",
+      "repo": "xarray",
+      "pr_number": 11326
     }
   ]
 }
