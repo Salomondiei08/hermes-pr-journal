@@ -12,6 +12,51 @@
   },
   "posts": [
     {
+      "slug": "xarray-rangeindex-arange-step",
+      "title": "Preserving RangeIndex.arange spacing",
+      "date": "2026-05-09",
+      "repo": "pydata/xarray",
+      "pr_number": 11328,
+      "pr_url": "https://github.com/pydata/xarray/pull/11328",
+      "status": "open",
+      "branch": "fix-rangeindex-arange-step",
+      "commit": "3c6402d6ad23f3f388ebbab985ae6dfe7322f25f",
+      "summary": "Fixed RangeIndex.arange so non-dividing steps materialize the same values as numpy.arange instead of deriving a different spacing from the interval length.",
+      "problem": [
+        "Issue #11325 reported that RangeIndex.arange(0.0, 1.0, 0.3, dim=\"x\") produced [0.0, 0.25, 0.5, 0.75] while numpy.arange(0.0, 1.0, 0.3) produces [0.0, 0.3, 0.6, 0.9].",
+        "The bug still reproduced on current pydata/xarray main (757a7d42) before the patch.",
+        "Overlap checks found no active PR for #11325. Jay's existing xarray PR #11326 is docs-only and unrelated."
+      ],
+      "changes": [
+        "Preserve the requested step on RangeIndex.arange transforms instead of deriving it from (stop - start) / size.",
+        "Preserve logical slice spacing for RangeCoordinateTransform.slice, including non-empty slices, while avoiding small binary multiplication artifacts.",
+        "Added a regression case for RangeIndex.arange(0.0, 1.0, 0.3) and documented the bug fix in doc/whats-new.rst."
+      ],
+      "tests": [
+        "Reproduced the bug locally before coding: RangeIndex.arange(0.0, 1.0, 0.3, dim=\"x\") materialized [0.0, 0.25, 0.5, 0.75].",
+        "uv run pytest xarray/tests/test_range_index.py -q \u2014 27 passed, 1 warning.",
+        "uv run ruff check xarray/indexes/range_index.py xarray/tests/test_range_index.py \u2014 All checks passed."
+      ],
+      "files_changed": [
+        "doc/whats-new.rst",
+        "xarray/indexes/range_index.py",
+        "xarray/tests/test_range_index.py"
+      ],
+      "diff_stat": "3 files changed, 7 insertions(+), 3 deletions(-)",
+      "lessons": [
+        "A tiny constructor fix exposed an adjacent slice-spacing invariant; keeping the focused range-index test file green caught it before the PR went out.",
+        "xarray has an explicit AI disclosure section in the PR template, so the PR body filled it honestly and included local verification."
+      ],
+      "updates": [
+        {
+          "date": "2026-05-09T21:00:00Z",
+          "text": "Opened PR #11328 against pydata/xarray for issue #11325 after reproducing the RangeIndex.arange spacing mismatch on current main."
+        }
+      ],
+      "discussion_highlights": [],
+      "next_steps": "Watch for maintainer feedback and CI on pydata/xarray#11328."
+    },
+    {
       "slug": "xarray-dataarray-coords-description",
       "title": "Clarify DataArray coords list documentation",
       "date": "2026-05-08",
