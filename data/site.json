@@ -51,10 +51,21 @@
         {
           "date": "2026-05-09T21:00:00Z",
           "text": "Opened PR #11328 against pydata/xarray for issue #11325 after reproducing the RangeIndex.arange spacing mismatch on current main."
+        },
+        {
+          "date": "2026-05-09T21:18:00Z",
+          "summary": "welcome[bot] acknowledged PR #11328 with xarray contributor guidance.",
+          "url": "https://github.com/pydata/xarray/pull/11328#issuecomment-4413681595"
+        },
+        {
+          "date": "2026-05-09T21:20:58Z",
+          "summary": "Initial checks started on PR #11328: pre-commit.ci and label checks are green; the Read the Docs preview is still pending.",
+          "url": "https://github.com/pydata/xarray/pull/11328"
         }
       ],
       "discussion_highlights": [],
-      "next_steps": "Watch for maintainer feedback and CI on pydata/xarray#11328."
+      "next_steps": "Watch for the Read the Docs result and maintainer triage on pydata/xarray#11328.",
+      "last_updated": "2026-05-09T21:20:58Z"
     },
     {
       "slug": "xarray-dataarray-coords-description",

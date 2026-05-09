@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T14:19:23Z",
+  "generated_at": "2026-05-09T21:20:58Z",
   "prs": {
     "markitdown-pdf-prose-fix": {
       "state": "open",
@@ -142,7 +142,6 @@
         {
           "context": "docs/readthedocs.org:pallets-click",
           "state": "success",
-          "description": "Read the Docs build succeeded!",
           "target_url": "https://pallets-click--3392.org.readthedocs.build/en/3392/"
         }
       ],
@@ -282,16 +281,14 @@
       "ci": [],
       "statuses": [
         {
-          "context": "docs/readthedocs.org:nbconvert",
-          "state": "success",
-          "description": "Read the Docs build succeeded!",
-          "target_url": "https://nbconvert--2279.org.readthedocs.build/en/2279/"
-        },
-        {
           "context": "pre-commit.ci - pr",
           "state": "success",
-          "description": "checks completed successfully",
           "target_url": "https://results.pre-commit.ci/run/github/33653617/1777583069.ANtwMMEjQYGl8oqfbF-pmA"
+        },
+        {
+          "context": "docs/readthedocs.org:nbconvert",
+          "state": "success",
+          "target_url": "https://nbconvert--2279.org.readthedocs.build/en/2279/"
         }
       ],
       "combined_status": {
@@ -362,7 +359,6 @@
         {
           "context": "docs/readthedocs.org:requests",
           "state": "success",
-          "description": "Read the Docs build succeeded!",
           "target_url": "https://requests--7400.org.readthedocs.build/en/7400/"
         }
       ],
@@ -437,16 +433,14 @@
       "ci": [],
       "statuses": [
         {
-          "context": "docs/readthedocs.org:nbconvert",
-          "state": "success",
-          "description": "Read the Docs build succeeded!",
-          "target_url": "https://nbconvert--2280.org.readthedocs.build/en/2280/"
-        },
-        {
           "context": "pre-commit.ci - pr",
           "state": "success",
-          "description": "checks completed successfully",
           "target_url": "https://results.pre-commit.ci/run/github/33653617/1777583791.WQwYZDnQQq2ozgCGgkcHMw"
+        },
+        {
+          "context": "docs/readthedocs.org:nbconvert",
+          "state": "success",
+          "target_url": "https://nbconvert--2280.org.readthedocs.build/en/2280/"
         }
       ],
       "combined_status": {
@@ -525,16 +519,14 @@
       "ci": [],
       "statuses": [
         {
-          "context": "docs/readthedocs.org:nbconvert",
-          "state": "success",
-          "description": "Read the Docs build succeeded!",
-          "target_url": "https://nbconvert--2282.org.readthedocs.build/en/2282/"
-        },
-        {
           "context": "pre-commit.ci - pr",
           "state": "success",
-          "description": "checks completed successfully",
           "target_url": "https://results.pre-commit.ci/run/github/33653617/1778015834.Utv6uEXrRxG_2TccewpteA"
+        },
+        {
+          "context": "docs/readthedocs.org:nbconvert",
+          "state": "success",
+          "target_url": "https://nbconvert--2282.org.readthedocs.build/en/2282/"
         }
       ],
       "combined_status": {
@@ -613,16 +605,14 @@
       "ci": [],
       "statuses": [
         {
-          "context": "docs/readthedocs.org:nbconvert",
-          "state": "success",
-          "description": "Read the Docs build succeeded!",
-          "target_url": "https://nbconvert--2283.org.readthedocs.build/en/2283/"
-        },
-        {
           "context": "pre-commit.ci - pr",
           "state": "success",
-          "description": "checks completed successfully",
           "target_url": "https://results.pre-commit.ci/run/github/33653617/1778102003.rihViw2nTNmmllHS3kYoRg"
+        },
+        {
+          "context": "docs/readthedocs.org:nbconvert",
+          "state": "success",
+          "target_url": "https://nbconvert--2283.org.readthedocs.build/en/2283/"
         }
       ],
       "combined_status": {
@@ -698,16 +688,14 @@
       ],
       "statuses": [
         {
-          "context": "docs/readthedocs.org:xray",
-          "state": "success",
-          "description": "Read the Docs build succeeded!",
-          "target_url": "https://xray--11326.org.readthedocs.build/en/11326/"
-        },
-        {
           "context": "pre-commit.ci - pr",
           "state": "success",
-          "description": "checks completed successfully",
           "target_url": "https://results.pre-commit.ci/run/github/13221727/1778274696.jzMmvjgBQXGUBTwysJN8aA"
+        },
+        {
+          "context": "docs/readthedocs.org:xray",
+          "state": "success",
+          "target_url": "https://xray--11326.org.readthedocs.build/en/11326/"
         }
       ],
       "combined_status": {
@@ -745,6 +733,102 @@
             "pre-commit.ci - pr",
             "success",
             "https://results.pre-commit.ci/run/github/13221727/1778274696.jzMmvjgBQXGUBTwysJN8aA"
+          ]
+        ]
+      }
+    },
+    "xarray-rangeindex-arange-step": {
+      "state": "open",
+      "draft": false,
+      "merged_at": null,
+      "closed_at": null,
+      "updated_at": "2026-05-09T21:11:38Z",
+      "title": "fix: preserve RangeIndex.arange step",
+      "html_url": "https://github.com/pydata/xarray/pull/11328",
+      "head_sha": "3c6402d6ad23f3f388ebbab985ae6dfe7322f25f",
+      "head_short": "3c6402d6",
+      "comments": 1,
+      "review_comments": 0,
+      "commits_count": 1,
+      "latest_commit": "3c6402d6ad23f3f388ebbab985ae6dfe7322f25f",
+      "latest_commit_msg": "fix: preserve RangeIndex.arange step",
+      "latest_commit_author": "Jay",
+      "latest_commit_date": "2026-05-09T21:11:17Z",
+      "commits": [
+        {
+          "sha": "3c6402d6ad23f3f388ebbab985ae6dfe7322f25f",
+          "message": "fix: preserve RangeIndex.arange step",
+          "author": "Jay",
+          "date": "2026-05-09T21:11:17Z"
+        }
+      ],
+      "reviews": [],
+      "issue_comments": [
+        {
+          "id": 4413681595,
+          "user": "welcome[bot]",
+          "created_at": "2026-05-09T21:11:38Z",
+          "updated_at": "2026-05-09T21:11:38Z",
+          "body": "Thank you for opening this pull request! It may take us a few days to respond here, so thank you for being patient.\nIf you have questions, some answers may be found in our [contributing guidelines](https://docs.xarray.dev/en/stable/contributing.html).\n",
+          "html_url": "https://github.com/pydata/xarray/pull/11328#issuecomment-4413681595"
+        }
+      ],
+      "labels": [],
+      "ci": [
+        {
+          "name": "label",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pydata/xarray/actions/runs/25611918416/job/75183466442"
+        }
+      ],
+      "statuses": [
+        {
+          "context": "docs/readthedocs.org:xray",
+          "state": "pending",
+          "target_url": "https://app.readthedocs.org/projects/xray/builds/32619256/"
+        },
+        {
+          "context": "pre-commit.ci - pr",
+          "state": "success",
+          "target_url": "https://results.pre-commit.ci/run/github/13221727/1778361097.wDN59IbcTkKFdd94rQ2kGg"
+        }
+      ],
+      "combined_status": {
+        "state": "pending",
+        "total_count": 2
+      },
+      "fingerprint": {
+        "state": "open",
+        "draft": false,
+        "merged_at": null,
+        "closed_at": null,
+        "head_sha": "3c6402d6ad23f3f388ebbab985ae6dfe7322f25f",
+        "labels": [],
+        "comment_ids": [
+          4413681595
+        ],
+        "review_ids_states": [],
+        "commit_shas": [
+          "3c6402d6ad23f3f388ebbab985ae6dfe7322f25f"
+        ],
+        "checks": [
+          [
+            "label",
+            "completed",
+            "success"
+          ]
+        ],
+        "statuses": [
+          [
+            "docs/readthedocs.org:xray",
+            "pending",
+            "https://app.readthedocs.org/projects/xray/builds/32619256/"
+          ],
+          [
+            "pre-commit.ci - pr",
+            "success",
+            "https://results.pre-commit.ci/run/github/13221727/1778361097.wDN59IbcTkKFdd94rQ2kGg"
           ]
         ]
       }
@@ -791,6 +875,7 @@
     "7971",
     "7972",
     "7973",
-    "7974"
+    "7974",
+    "7979"
   ]
 }
