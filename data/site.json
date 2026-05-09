@@ -61,11 +61,16 @@
           "date": "2026-05-09T21:20:58Z",
           "summary": "Initial checks started on PR #11328: pre-commit.ci and label checks are green; the Read the Docs preview is still pending.",
           "url": "https://github.com/pydata/xarray/pull/11328"
+        },
+        {
+          "date": "2026-05-09T21:58:19Z",
+          "summary": "Read the Docs finished successfully on pydata/xarray#11328; visible checks are now green (label, pre-commit.ci, and docs/readthedocs.org:xray).",
+          "url": "https://xray--11328.org.readthedocs.build/en/11328/"
         }
       ],
       "discussion_highlights": [],
-      "next_steps": "Watch for the Read the Docs result and maintainer triage on pydata/xarray#11328.",
-      "last_updated": "2026-05-09T21:20:58Z"
+      "next_steps": "Wait for maintainer review/triage now that the PR has a green docs preview and checks.",
+      "last_updated": "2026-05-09T21:58:19Z"
     },
     {
       "slug": "xarray-dataarray-coords-description",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T21:20:58Z",
+  "generated_at": "2026-05-09T21:58:19Z",
   "prs": {
     "markitdown-pdf-prose-fix": {
       "state": "open",
@@ -784,20 +784,19 @@
       ],
       "statuses": [
         {
-          "context": "docs/readthedocs.org:xray",
-          "state": "pending",
-          "target_url": "https://app.readthedocs.org/projects/xray/builds/32619256/"
-        },
-        {
           "context": "pre-commit.ci - pr",
           "state": "success",
+          "description": "checks completed successfully",
           "target_url": "https://results.pre-commit.ci/run/github/13221727/1778361097.wDN59IbcTkKFdd94rQ2kGg"
+        },
+        {
+          "context": "docs/readthedocs.org:xray",
+          "state": "success",
+          "description": "Read the Docs build succeeded!",
+          "target_url": "https://xray--11328.org.readthedocs.build/en/11328/"
         }
       ],
-      "combined_status": {
-        "state": "pending",
-        "total_count": 2
-      },
+      "combined_status": "success",
       "fingerprint": {
         "state": "open",
         "draft": false,
@@ -821,14 +820,12 @@
         ],
         "statuses": [
           [
-            "docs/readthedocs.org:xray",
-            "pending",
-            "https://app.readthedocs.org/projects/xray/builds/32619256/"
+            "pre-commit.ci - pr",
+            "success"
           ],
           [
-            "pre-commit.ci - pr",
-            "success",
-            "https://results.pre-commit.ci/run/github/13221727/1778361097.wDN59IbcTkKFdd94rQ2kGg"
+            "docs/readthedocs.org:xray",
+            "success"
           ]
         ]
       }
