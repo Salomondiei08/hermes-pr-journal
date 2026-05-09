@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T05:59:44Z",
+  "generated_at": "2026-05-09T07:08:07Z",
   "prs": {
     "markitdown-pdf-prose-fix": {
       "state": "open",
@@ -33,7 +33,7 @@
           "2026-04-29T10:04:26Z",
           4342711075,
           "https://github.com/microsoft/markitdown/pull/1847#issuecomment-4342711075",
-          "@microsoft-github-policy-service agree On Wed, Apr 29, 2026 at 5:10 PM microsoft-github-policy-service[bot] < ***@***.***> wrote: > *microsoft-github-policy-service[bot]* left a comment > (microsoft/markitdown#1847) > <https://github.com/microsoft/markitdown/pull/1847#issuecomment-4341928992> > > @jaythehardcoder <https://github.com/jaythehardcoder> please read the > following Contributor License Agreement(CLA). If you agree with the CLA, > please reply with the following information. > > @micro"
+          "@microsoft-github-policy-service agree \n \nOn Wed, Apr 29, 2026 at 5:10 PM microsoft-github-policy-service[bot] < \n***@***.***> wrote: \n \n> *microsoft-github-policy-service[bot]* left a comment \n> (microsoft/markitdown#1847) \n> <https://github.com/microsoft/markitdown/pull/1847#issuecomment-4341928992> \n> \n> @jaythehardcoder <https://github.com/jaythehardcoder> please read the \n> following Contributor License Agreement(CLA). If you agree with the CLA, \n> please reply with the following informatio"
         ],
         [
           "jaythehardcoder",
@@ -55,7 +55,7 @@
       ],
       "statuses": [],
       "combined_status": "pending",
-      "fingerprint": "b163df046ed353b2c6ea6dc31bba740bfca5d6af2b149046f383d701f2e2d890"
+      "fingerprint": "28fd932bf670dea83613c77056db2338b67451587b12bd0582c90c8bfb6d7ef6"
     },
     "click-help-argument-auto-help": {
       "state": "closed",
@@ -96,7 +96,7 @@
           "2026-04-29T12:21:58Z",
           4343602145,
           "https://github.com/pallets/click/pull/3392#issuecomment-4343602145",
-          "Fair enough to close if this was duplicative or low-signal. For context, I did reproduce the bug locally and test the fix on my machine before opening the PR. My intent wasn't to dump generated code into the queue, but to address the argument-name case from #2819 with a minimal patch plus regression coverage. Looking back, I can see I should have engaged more directly with the existing history around #2819, #2859, and #3368 before opening a new PR. If you're willing to clarify: was the main prob"
+          "Fair enough to close if this was duplicative or low-signal.\n\nFor context, I did reproduce the bug locally and test the fix on my machine before opening the PR. My intent wasn't to dump generated code into the queue, but to address the argument-name case from #2819 with a minimal patch plus regression coverage.\n\nLooking back, I can see I should have engaged more directly with the existing history around #2819, #2859, and #3368 before opening a new PR.\n\nIf you're willing to clarify: was the main p"
         ],
         [
           "davidism",
@@ -118,7 +118,7 @@
         }
       ],
       "combined_status": "success",
-      "fingerprint": "4eaed14998dfbb3ee3e171ca28e21afb678060bcb30c97611db04deda804ce7c"
+      "fingerprint": "a4f5a8c1dac36a2cc7a39a92dcf134043f627670e3483a6641b24600ff38400e"
     },
     "markitdown-http-user-agent-header": {
       "state": "open",
@@ -159,7 +159,7 @@
       ],
       "statuses": [],
       "combined_status": "pending",
-      "fingerprint": "e337b688b05887f573e92d80a86415d7c8e7d282180e2c1899ab72c2fcc424a1"
+      "fingerprint": "95d0513ad8e2666c2fc29e5e375ed0c0d442047881b1bb7a4de194716c34cc0e"
     },
     "nbconvert-output-support-files-path": {
       "state": "open",
@@ -219,7 +219,7 @@
         }
       ],
       "combined_status": "success",
-      "fingerprint": "e83c4649dc90e02c718a0e346c9bdf68fd6c74e410f43db9444f4e4b6cef7bd1"
+      "fingerprint": "6223be835e00db61502dda3283acc3682972fb23cdb5970a434ecf844d927c4f"
     },
     "requests-session-request-verify-inheritance": {
       "state": "closed",
@@ -262,7 +262,7 @@
         }
       ],
       "combined_status": "success",
-      "fingerprint": "d5df8b8850641852f12999346a3e5a686da22337e69c2eb1abecfbe76cd7abdc"
+      "fingerprint": "162b0e8cdb623b2aa15717f153472ab540d44f0051c5d695188915ba11ad8cc0"
     },
     "nbconvert-duplicate-markdown-attachments": {
       "state": "open",
@@ -322,7 +322,7 @@
         }
       ],
       "combined_status": "success",
-      "fingerprint": "55f44ec29f3a77aa7045b53d2755846fdc3717a3e9d552d46877170e36d172fa"
+      "fingerprint": "b3a43eb13466ab06243112d0b064235a724118b79610ffbf510b910163f848ca"
     },
     "nbconvert-empty-anchor-link-text": {
       "state": "open",
@@ -382,7 +382,7 @@
         }
       ],
       "combined_status": "success",
-      "fingerprint": "c53923d4d2d0035b443dd92cdd04d565649a68460fcf117dc2efd78de6f8cea4"
+      "fingerprint": "398f5ec21c82b8c3080523f13474b83cf5ae083bb19869fc44e86d062f22422c"
     },
     "nbconvert-rst-leading-block-quote-cell": {
       "state": "open",
@@ -442,7 +442,7 @@
         }
       ],
       "combined_status": "success",
-      "fingerprint": "21cc497b534f73d74aa267f8cb755d17a9d996461c2991e8262aed9d73f33cfa"
+      "fingerprint": "3bb8ffec8baf5d1d8690f192b9c986e384d0f8f2d27deaaba06664951cf434e0"
     },
     "xarray-dataarray-coords-description": {
       "state": "open",
@@ -500,7 +500,7 @@
         }
       ],
       "combined_status": "success",
-      "fingerprint": "8e5f53b7a833d667b763c68eb4d2262e5f7871c56b9958e1a45a91973e0d35a0"
+      "fingerprint": "ca658c99994335e106b1393088a8fee1756b15149a92bde3a791a4e3cfd26ee6"
     }
   },
   "processed_email_ids": [
@@ -513,7 +513,35 @@
     "7886",
     "7922",
     "7938",
+    "7945",
+    "7946",
+    "7947",
+    "7948",
     "7949",
-    "7972"
+    "7950",
+    "7951",
+    "7952",
+    "7953",
+    "7954",
+    "7955",
+    "7956",
+    "7957",
+    "7958",
+    "7959",
+    "7960",
+    "7961",
+    "7962",
+    "7963",
+    "7964",
+    "7965",
+    "7966",
+    "7967",
+    "7968",
+    "7969",
+    "7970",
+    "7971",
+    "7972",
+    "7973",
+    "7974"
   ]
 }
