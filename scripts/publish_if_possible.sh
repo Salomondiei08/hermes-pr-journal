@@ -34,6 +34,7 @@ if git remote get-url origin >/dev/null 2>&1; then
   if [ -n "$TOKEN" ] && [[ "$REMOTE" == https://github.com/* ]]; then
     PUSH_URL="https://jaythehardcoder:${TOKEN}@${REMOTE#https://}"
     if git push -u "$PUSH_URL" HEAD >/tmp/hermes-pr-blog-push.txt 2>&1; then
+      git update-ref refs/remotes/origin/main HEAD >/dev/null 2>&1 || true
       git branch --set-upstream-to=origin/main main >/dev/null 2>&1 || true
       echo "pushed"
       exit 0
