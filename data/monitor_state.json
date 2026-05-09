@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T21:25:12Z",
+  "generated_at": "2026-05-09T00:16:43Z",
   "prs": {
     "markitdown-pdf-prose-fix": {
       "state": "open",
@@ -18,6 +18,14 @@
       "latest_commit_msg": "fix: avoid misclassifying sparse pdf prose as tables",
       "latest_commit_author": "Jay",
       "latest_commit_date": "2026-04-29T07:55:57Z",
+      "commits": [
+        {
+          "sha": "e2769457249f15bc797c46394bebe2e558a82b4a",
+          "message": "fix: avoid misclassifying sparse pdf prose as tables",
+          "author": "Jay",
+          "date": "2026-04-29T07:55:57Z"
+        }
+      ],
       "reviews": [],
       "issue_comments": [
         [
@@ -25,7 +33,7 @@
           "2026-04-29T10:04:26Z",
           4342711075,
           "https://github.com/microsoft/markitdown/pull/1847#issuecomment-4342711075",
-          "@microsoft-github-policy-service agree\r\n\r\nOn Wed, Apr 29, 2026 at 5:10\u202fPM microsoft-github-policy-service[bot] <\r\n***@***.***> wrote:\r\n\r\n> *microsoft-github-policy-service[bot]* left a comment\r\n> (microsoft/markitdown#1847)\r\n> <https://github.com/microsoft/markitdown/pull/1847#issuecomment-4341928992>\r\n>\r\n> @jaythehardcoder <https://github.com/jaythehardcoder> please read the\r\n> following Contributor License Agreement(CLA). If you agree with the CLA,\r\n> please reply with the following informatio"
+          "@microsoft-github-policy-service agree On Wed, Apr 29, 2026 at 5:10 PM microsoft-github-policy-service[bot] < ***@***.***> wrote: > *microsoft-github-policy-service[bot]* left a comment > (microsoft/markitdown#1847) > <https://github.com/microsoft/markitdown/pull/1847#issuecomment-4341928992> > > @jaythehardcoder <https://github.com/jaythehardcoder> please read the > following Contributor License Agreement(CLA). If you agree with the CLA, > please reply with the following information. > > @micro"
         ],
         [
           "jaythehardcoder",
@@ -41,13 +49,13 @@
           "name": "license/cla",
           "status": "completed",
           "conclusion": "success",
-          "updated_at": "2026-04-29T10:04:36Z",
+          "updated_at": "",
           "url": "https://github.com/microsoft/markitdown/runs/73556049521"
         }
       ],
       "statuses": [],
       "combined_status": "pending",
-      "fingerprint": "cfc9119ab1ee7a8c208070c5b6c8b8f5d1f5e0be83a5b4bff2867bf7c97c8d43"
+      "fingerprint": "02935483288799aa59d53ae0bc4ef4bf9f44e0aebe3d0f123f3f17d96eae2582"
     },
     "click-help-argument-auto-help": {
       "state": "closed",
@@ -66,6 +74,14 @@
       "latest_commit_msg": "fix: avoid help option collisions with help arguments",
       "latest_commit_author": "Jay",
       "latest_commit_date": "2026-04-29T11:18:17Z",
+      "commits": [
+        {
+          "sha": "e459528e4744cfca49a94a9dab03fa77440ee973",
+          "message": "fix: avoid help option collisions with help arguments",
+          "author": "Jay",
+          "date": "2026-04-29T11:18:17Z"
+        }
+      ],
       "reviews": [],
       "issue_comments": [
         [
@@ -80,7 +96,7 @@
           "2026-04-29T12:21:58Z",
           4343602145,
           "https://github.com/pallets/click/pull/3392#issuecomment-4343602145",
-          "Fair enough to close if this was duplicative or low-signal.\n\nFor context, I did reproduce the bug locally and test the fix on my machine before opening the PR. My intent wasn't to dump generated code into the queue, but to address the argument-name case from #2819 with a minimal patch plus regression coverage.\n\nLooking back, I can see I should have engaged more directly with the existing history around #2819, #2859, and #3368 before opening a new PR.\n\nIf you're willing to clarify: was the main p"
+          "Fair enough to close if this was duplicative or low-signal. For context, I did reproduce the bug locally and test the fix on my machine before opening the PR. My intent wasn't to dump generated code into the queue, but to address the argument-name case from #2819 with a minimal patch plus regression coverage. Looking back, I can see I should have engaged more directly with the existing history around #2819, #2859, and #3368 before opening a new PR. If you're willing to clarify: was the main prob"
         ],
         [
           "davidism",
@@ -94,15 +110,15 @@
       "ci": [],
       "statuses": [
         {
-          "context": "docs/readthedocs.org:pallets-click",
-          "state": "success",
-          "description": "Read the Docs build succeeded!",
+          "name": "docs/readthedocs.org:pallets-click",
+          "status": "success",
+          "conclusion": "",
           "updated_at": "2026-04-29T11:19:19Z",
           "url": "https://pallets-click--3392.org.readthedocs.build/en/3392/"
         }
       ],
       "combined_status": "success",
-      "fingerprint": "d276e5fd0381e46d9e06f96ca6ef8ca86a5466a8155a03c7483f38af2fa14ee1"
+      "fingerprint": "53ce7c9647c9ab4af6a46b62ea19c5a310808e43b2da69f2caeda2a2e74b0476"
     },
     "markitdown-http-user-agent-header": {
       "state": "open",
@@ -121,6 +137,14 @@
       "latest_commit_msg": "fix: send browser user-agent for HTTP conversions",
       "latest_commit_author": "Salomon DIEI",
       "latest_commit_date": "2026-04-29T13:13:30Z",
+      "commits": [
+        {
+          "sha": "87a2ffc82ddefb79b2b2480c5ae2205a18cb90fe",
+          "message": "fix: send browser user-agent for HTTP conversions",
+          "author": "Salomon DIEI",
+          "date": "2026-04-29T13:13:30Z"
+        }
+      ],
       "reviews": [],
       "issue_comments": [],
       "labels": [],
@@ -129,13 +153,13 @@
           "name": "license/cla",
           "status": "completed",
           "conclusion": "success",
-          "updated_at": "2026-04-29T13:13:38Z",
+          "updated_at": "",
           "url": "https://github.com/microsoft/markitdown/runs/73584619516"
         }
       ],
       "statuses": [],
       "combined_status": "pending",
-      "fingerprint": "79ed4b2dcb218e09f905826896e1fe4e666646e06717ea4238b407ffeeb40e67"
+      "fingerprint": "97a2bddd8e750c433eed4ddc3b8b6757444c5cfd6191caf8181acf8b02101e67"
     },
     "nbconvert-output-support-files-path": {
       "state": "open",
@@ -154,28 +178,48 @@
       "latest_commit_msg": "fix: correct changelog codespell typo",
       "latest_commit_author": "Jay",
       "latest_commit_date": "2026-04-30T21:04:31Z",
+      "commits": [
+        {
+          "sha": "db5fd920b7c6b55f3e84904cf6d1fc621fb78ed3",
+          "message": "fix: avoid duplicating output subdirs for support files",
+          "author": "Jay",
+          "date": "2026-04-29T13:41:59Z"
+        },
+        {
+          "sha": "870a1ecced5a73bbf574067d665e68d0a3035883",
+          "message": "[pre-commit.ci] auto fixes from pre-commit.com hooks",
+          "author": "pre-commit-ci[bot]",
+          "date": "2026-04-29T13:42:24Z"
+        },
+        {
+          "sha": "8eed547bd8e36352cb07060a6e11e4be476530da",
+          "message": "fix: correct changelog codespell typo",
+          "author": "Jay",
+          "date": "2026-04-30T21:04:31Z"
+        }
+      ],
       "reviews": [],
       "issue_comments": [],
       "labels": [],
       "ci": [],
       "statuses": [
         {
-          "context": "docs/readthedocs.org:nbconvert",
-          "state": "success",
-          "description": "Read the Docs build succeeded!",
-          "updated_at": "2026-04-30T21:09:57Z",
-          "url": "https://nbconvert--2279.org.readthedocs.build/en/2279/"
-        },
-        {
-          "context": "pre-commit.ci - pr",
-          "state": "success",
-          "description": "checks completed successfully",
+          "name": "pre-commit.ci - pr",
+          "status": "success",
+          "conclusion": "",
           "updated_at": "2026-04-30T21:05:06Z",
           "url": "https://results.pre-commit.ci/run/github/33653617/1777583069.ANtwMMEjQYGl8oqfbF-pmA"
+        },
+        {
+          "name": "docs/readthedocs.org:nbconvert",
+          "status": "success",
+          "conclusion": "",
+          "updated_at": "2026-04-30T21:09:57Z",
+          "url": "https://nbconvert--2279.org.readthedocs.build/en/2279/"
         }
       ],
       "combined_status": "success",
-      "fingerprint": "e1d25c383e92520b8b527e8790d71d252e770f89d7acda608885e087bac99f70"
+      "fingerprint": "47e6343025620f0c1a996552540046807b3cf3cc03a4d99e1754a8a8412cc5fd"
     },
     "requests-session-request-verify-inheritance": {
       "state": "closed",
@@ -194,6 +238,14 @@
       "latest_commit_msg": "docs: clarify Session.request verify inheritance",
       "latest_commit_author": "Jay",
       "latest_commit_date": "2026-04-29T21:12:05Z",
+      "commits": [
+        {
+          "sha": "2e5e220537fbb05cad2100933cd3c87eda3d88ca",
+          "message": "docs: clarify Session.request verify inheritance",
+          "author": "Jay",
+          "date": "2026-04-29T21:12:05Z"
+        }
+      ],
       "reviews": [],
       "issue_comments": [],
       "labels": [
@@ -202,15 +254,15 @@
       "ci": [],
       "statuses": [
         {
-          "context": "docs/readthedocs.org:requests",
-          "state": "success",
-          "description": "Read the Docs build succeeded!",
+          "name": "docs/readthedocs.org:requests",
+          "status": "success",
+          "conclusion": "",
           "updated_at": "2026-04-29T21:15:22Z",
           "url": "https://requests--7400.org.readthedocs.build/en/7400/"
         }
       ],
       "combined_status": "success",
-      "fingerprint": "a0642e6311e9ef116ed0737f77e2720ad6164936be3adad1a708313759acc22b"
+      "fingerprint": "b4e61c3d11b61294c58a77cf940e4cb3e66e2f7b5dad7a40510e1be90c0e6db5"
     },
     "nbconvert-duplicate-markdown-attachments": {
       "state": "open",
@@ -229,28 +281,48 @@
       "latest_commit_msg": "fix: correct changelog codespell typo",
       "latest_commit_author": "Jay",
       "latest_commit_date": "2026-04-30T21:16:33Z",
+      "commits": [
+        {
+          "sha": "9067eb4faa5f6e1188b611c4dfa544103cc69934",
+          "message": "fix: avoid overwriting duplicate markdown attachments",
+          "author": "Jay",
+          "date": "2026-04-30T21:14:50Z"
+        },
+        {
+          "sha": "9cf9556e03659974ce1a5df5d6719a6f35153c4d",
+          "message": "[pre-commit.ci] auto fixes from pre-commit.com hooks",
+          "author": "pre-commit-ci[bot]",
+          "date": "2026-04-30T21:15:02Z"
+        },
+        {
+          "sha": "0d692f96bf3df7cd38b0ab02e9abda88b8100787",
+          "message": "fix: correct changelog codespell typo",
+          "author": "Jay",
+          "date": "2026-04-30T21:16:33Z"
+        }
+      ],
       "reviews": [],
       "issue_comments": [],
       "labels": [],
       "ci": [],
       "statuses": [
         {
-          "context": "docs/readthedocs.org:nbconvert",
-          "state": "success",
-          "description": "Read the Docs build succeeded!",
-          "updated_at": "2026-04-30T21:17:07Z",
-          "url": "https://nbconvert--2280.org.readthedocs.build/en/2280/"
-        },
-        {
-          "context": "pre-commit.ci - pr",
-          "state": "success",
-          "description": "checks completed successfully",
+          "name": "pre-commit.ci - pr",
+          "status": "success",
+          "conclusion": "",
           "updated_at": "2026-04-30T21:16:44Z",
           "url": "https://results.pre-commit.ci/run/github/33653617/1777583791.WQwYZDnQQq2ozgCGgkcHMw"
+        },
+        {
+          "name": "docs/readthedocs.org:nbconvert",
+          "status": "success",
+          "conclusion": "",
+          "updated_at": "2026-04-30T21:17:07Z",
+          "url": "https://nbconvert--2280.org.readthedocs.build/en/2280/"
         }
       ],
       "combined_status": "success",
-      "fingerprint": "5b4c907a12b914edd56d55c2580ff59e3c547e5523b39c9a41400ff995e97ba3"
+      "fingerprint": "40c5ec58ebf4a34f6624dc714a4e5e7b6369f95d144b380ae292092be1eedde8"
     },
     "nbconvert-empty-anchor-link-text": {
       "state": "open",
@@ -269,28 +341,48 @@
       "latest_commit_msg": "fix: correct changelog codespell typo",
       "latest_commit_author": "Jay",
       "latest_commit_date": "2026-05-05T21:17:18Z",
+      "commits": [
+        {
+          "sha": "200e63ec45865c07ee309980c54dad35eb4fa4dc",
+          "message": "fix: handle empty anchor link text",
+          "author": "Jay",
+          "date": "2026-05-05T21:10:54Z"
+        },
+        {
+          "sha": "fffc85054204d02e4e66104fae05dc86ffb3fb76",
+          "message": "[pre-commit.ci] auto fixes from pre-commit.com hooks",
+          "author": "pre-commit-ci[bot]",
+          "date": "2026-05-05T21:11:29Z"
+        },
+        {
+          "sha": "fa87b66f1f5b7b37605e8df203aec6dfec81276e",
+          "message": "fix: correct changelog codespell typo",
+          "author": "Jay",
+          "date": "2026-05-05T21:17:18Z"
+        }
+      ],
       "reviews": [],
       "issue_comments": [],
       "labels": [],
       "ci": [],
       "statuses": [
         {
-          "context": "docs/readthedocs.org:nbconvert",
-          "state": "success",
-          "description": "Read the Docs build succeeded!",
-          "updated_at": "2026-05-05T21:32:16Z",
-          "url": "https://nbconvert--2282.org.readthedocs.build/en/2282/"
-        },
-        {
-          "context": "pre-commit.ci - pr",
-          "state": "success",
-          "description": "checks completed successfully",
+          "name": "pre-commit.ci - pr",
+          "status": "success",
+          "conclusion": "",
           "updated_at": "2026-05-05T21:17:25Z",
           "url": "https://results.pre-commit.ci/run/github/33653617/1778015834.Utv6uEXrRxG_2TccewpteA"
+        },
+        {
+          "name": "docs/readthedocs.org:nbconvert",
+          "status": "success",
+          "conclusion": "",
+          "updated_at": "2026-05-05T21:32:16Z",
+          "url": "https://nbconvert--2282.org.readthedocs.build/en/2282/"
         }
       ],
       "combined_status": "success",
-      "fingerprint": "c07eec150369107624391f60dfa2801029f0df417d05810181badc7f71415cb6"
+      "fingerprint": "aaf743028209803d58f24e5c6c0f7015af00ed053b501f39694d78bf0a8723de"
     },
     "nbconvert-rst-leading-block-quote-cell": {
       "state": "open",
@@ -309,28 +401,48 @@
       "latest_commit_msg": "fix: correct changelog codespell typo",
       "latest_commit_author": "Jay",
       "latest_commit_date": "2026-05-06T21:13:27Z",
+      "commits": [
+        {
+          "sha": "2ee300ca3270c0823b8b30997e864208ddb9c731",
+          "message": "fix: separate leading block quotes in rst export",
+          "author": "Jay",
+          "date": "2026-05-06T21:12:01Z"
+        },
+        {
+          "sha": "86708e94f0e2011606bbdf24cec14c997943b81e",
+          "message": "[pre-commit.ci] auto fixes from pre-commit.com hooks",
+          "author": "pre-commit-ci[bot]",
+          "date": "2026-05-06T21:12:28Z"
+        },
+        {
+          "sha": "3f97df4cb40be47a960e7b6d0a157cfebc782fab",
+          "message": "fix: correct changelog codespell typo",
+          "author": "Jay",
+          "date": "2026-05-06T21:13:27Z"
+        }
+      ],
       "reviews": [],
       "issue_comments": [],
       "labels": [],
       "ci": [],
       "statuses": [
         {
-          "context": "docs/readthedocs.org:nbconvert",
-          "state": "success",
-          "description": "Read the Docs build succeeded!",
-          "updated_at": "2026-05-06T21:14:21Z",
-          "url": "https://nbconvert--2283.org.readthedocs.build/en/2283/"
-        },
-        {
-          "context": "pre-commit.ci - pr",
-          "state": "success",
-          "description": "checks completed successfully",
+          "name": "pre-commit.ci - pr",
+          "status": "success",
+          "conclusion": "",
           "updated_at": "2026-05-06T21:13:32Z",
           "url": "https://results.pre-commit.ci/run/github/33653617/1778102003.rihViw2nTNmmllHS3kYoRg"
+        },
+        {
+          "name": "docs/readthedocs.org:nbconvert",
+          "status": "success",
+          "conclusion": "",
+          "updated_at": "2026-05-06T21:14:21Z",
+          "url": "https://nbconvert--2283.org.readthedocs.build/en/2283/"
         }
       ],
       "combined_status": "success",
-      "fingerprint": "4d2376ea7bcd62569ab06b78ebbd856de2d7c4e624c62da2b554794171105035"
+      "fingerprint": "0237a047ba3bd8ea11accd32931ac352b8f3434c0d8916f43df31d2c87442784"
     },
     "xarray-dataarray-coords-description": {
       "state": "open",
@@ -349,6 +461,14 @@
       "latest_commit_msg": "docs: clarify DataArray coords list description",
       "latest_commit_author": "Jay",
       "latest_commit_date": "2026-05-08T21:11:03Z",
+      "commits": [
+        {
+          "sha": "194b49c776e049613645d4d6ca2ec980026ae317",
+          "message": "docs: clarify DataArray coords list description",
+          "author": "Jay",
+          "date": "2026-05-08T21:11:03Z"
+        }
+      ],
       "reviews": [],
       "issue_comments": [],
       "labels": [
@@ -359,28 +479,28 @@
           "name": "label",
           "status": "completed",
           "conclusion": "success",
-          "updated_at": "2026-05-08T21:11:52Z",
+          "updated_at": "",
           "url": "https://github.com/pydata/xarray/actions/runs/25579759688/job/75095633780"
         }
       ],
       "statuses": [
         {
-          "context": "docs/readthedocs.org:xray",
-          "state": "success",
-          "description": "Read the Docs build succeeded!",
-          "updated_at": "2026-05-08T21:20:24Z",
-          "url": "https://xray--11326.org.readthedocs.build/en/11326/"
-        },
-        {
-          "context": "pre-commit.ci - pr",
-          "state": "success",
-          "description": "checks completed successfully",
+          "name": "pre-commit.ci - pr",
+          "status": "success",
+          "conclusion": "",
           "updated_at": "2026-05-08T21:11:58Z",
           "url": "https://results.pre-commit.ci/run/github/13221727/1778274696.jzMmvjgBQXGUBTwysJN8aA"
+        },
+        {
+          "name": "docs/readthedocs.org:xray",
+          "status": "success",
+          "conclusion": "",
+          "updated_at": "2026-05-08T21:20:24Z",
+          "url": "https://xray--11326.org.readthedocs.build/en/11326/"
         }
       ],
       "combined_status": "success",
-      "fingerprint": "e4e0180c14d7d99378e4b21a52d11d3d8a156c025f156e67313a346bd82175a3"
+      "fingerprint": "fb7e518bceea3efcb7a8354ae404cd6aac7a7a9ab4935a5aff464508e0b10581"
     }
   },
   "processed_email_ids": [

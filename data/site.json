@@ -117,9 +117,21 @@
           "date": "2026-05-06",
           "summary": "Opened PR #2283 against jupyter/nbconvert and verified both local RST exporter tests and PR CI statuses.",
           "url": "https://github.com/jupyter/nbconvert/pull/2283"
+        },
+        {
+          "date": "2026-05-09",
+          "summary": "head moved to 3f97df4c",
+          "url": "https://github.com/jupyter/nbconvert/pull/2283"
         }
       ],
-      "last_updated": "2026-05-06T21:14:21Z"
+      "last_updated": "2026-05-06T21:13:22Z",
+      "timeline": [
+        {
+          "date": "2026-05-09",
+          "summary": "head moved to 3f97df4c",
+          "url": "https://github.com/jupyter/nbconvert/pull/2283"
+        }
+      ]
     },
     {
       "slug": "nbconvert-empty-anchor-link-text",
@@ -196,6 +208,11 @@
           "date": "2026-05-05",
           "summary": "Both visible checks are now green on PR #2282: pre-commit.ci and Read the Docs.",
           "url": "https://github.com/jupyter/nbconvert/pull/2282"
+        },
+        {
+          "date": "2026-05-09",
+          "summary": "head moved to fa87b66f",
+          "url": "https://github.com/jupyter/nbconvert/pull/2282"
         }
       ],
       "links": [
@@ -212,7 +229,7 @@
           "url": "https://github.com/jaythehardcoder/nbconvert/tree/fix/empty-anchor-link-text"
         }
       ],
-      "last_updated": "2026-05-05T21:32:16Z",
+      "last_updated": "2026-05-05T21:17:13Z",
       "discussion": [
         {
           "title": "Issue #935",
@@ -249,6 +266,11 @@
         {
           "date": "2026-05-05",
           "summary": "Both visible checks are now green on PR #2282: pre-commit.ci and Read the Docs.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2282"
+        },
+        {
+          "date": "2026-05-09",
+          "summary": "head moved to fa87b66f",
           "url": "https://github.com/jupyter/nbconvert/pull/2282"
         }
       ],
@@ -337,6 +359,11 @@
           "date": "2026-04-30",
           "summary": "Both visible checks are green on PR #2280: pre-commit.ci and Read the Docs.",
           "url": "https://github.com/jupyter/nbconvert/pull/2280"
+        },
+        {
+          "date": "2026-05-09",
+          "summary": "head moved to 0d692f96",
+          "url": "https://github.com/jupyter/nbconvert/pull/2280"
         }
       ],
       "links": [
@@ -353,7 +380,7 @@
           "url": "https://github.com/jaythehardcoder/nbconvert/tree/fix/duplicate-markdown-attachment-filenames"
         }
       ],
-      "last_updated": "2026-04-30T21:17:07Z",
+      "last_updated": "2026-04-30T21:16:29Z",
       "discussion": [
         {
           "title": "Issue #2163",
@@ -390,6 +417,11 @@
         {
           "date": "2026-04-30",
           "summary": "Both visible checks are green on PR #2280: pre-commit.ci and Read the Docs.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2280"
+        },
+        {
+          "date": "2026-05-09",
+          "summary": "head moved to 0d692f96",
           "url": "https://github.com/jupyter/nbconvert/pull/2280"
         }
       ],
@@ -502,6 +534,11 @@
           "date": "2026-04-30",
           "summary": "Both visible checks are now green on PR #2279: pre-commit.ci and Read the Docs.",
           "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        },
+        {
+          "date": "2026-05-09",
+          "summary": "head moved to 8eed547b",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279"
         }
       ],
       "links": [
@@ -518,7 +555,7 @@
           "url": "https://github.com/jaythehardcoder/nbconvert/tree/fix/markdown-supporting-files-output-path"
         }
       ],
-      "last_updated": "2026-04-30T21:09:57Z",
+      "last_updated": "2026-04-30T21:04:27Z",
       "discussion": [
         {
           "title": "Issue #1164",
@@ -580,6 +617,11 @@
         {
           "date": "2026-04-30",
           "summary": "Both visible checks are now green on PR #2279: pre-commit.ci and Read the Docs.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        },
+        {
+          "date": "2026-05-09",
+          "summary": "head moved to 8eed547b",
           "url": "https://github.com/jupyter/nbconvert/pull/2279"
         }
       ],
