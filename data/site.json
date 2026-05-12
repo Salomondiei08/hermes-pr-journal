@@ -1178,5 +1178,45 @@
         "url": "https://jay.reinvent-labs.com/rss.xml"
       }
     ]
-  }
+  },
+  "updates": [
+    {
+      "id": "microsoft/markitdown#1847",
+      "repo": "microsoft/markitdown",
+      "pr_number": 1847,
+      "title": "fix: avoid misclassifying sparse PDF prose as tables",
+      "status": "open",
+      "timestamp": "2026-04-29T10:05:52Z",
+      "type": "open"
+    },
+    {
+      "id": "microsoft/markitdown#1849",
+      "repo": "microsoft/markitdown",
+      "pr_number": 1849,
+      "title": "fix: send browser user-agent for HTTP URI conversions",
+      "status": "open",
+      "timestamp": "2026-04-29T13:13:27Z",
+      "type": "open"
+    },
+    {
+      "id": "jupyter/nbconvert#2279",
+      "repo": "jupyter/nbconvert",
+      "pr_number": 2279,
+      "title": "fix: avoid duplicating output subdirs for support files",
+      "status": "open",
+      "timestamp": "2026-04-30T21:04:27Z",
+      "type": "open"
+    },
+    {
+      "id": "pallets/click#3392",
+      "repo": "pallets/click",
+      "pr_number": 3392,
+      "title": "fix: avoid help option collisions with help arguments",
+      "status": "closed",
+      "timestamp": "2026-04-29T14:39:37Z",
+      "type": "closed",
+      "note": "PR was closed (not merged)"
+    }
+  ],
+  "last_updated": "2026-05-12T18:38:51.631315+00:00"
 }
