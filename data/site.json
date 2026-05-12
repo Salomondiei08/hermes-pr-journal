@@ -66,11 +66,22 @@
           "date": "2026-05-09T21:58:19Z",
           "summary": "Read the Docs finished successfully on pydata/xarray#11328; visible checks are now green (label, pre-commit.ci, and docs/readthedocs.org:xray).",
           "url": "https://xray--11328.org.readthedocs.build/en/11328/"
+        },
+        {
+          "date": "2026-05-10T00:16:59Z",
+          "summary": "cfriedland5 left the first human review on PR #11328 with an inline comment on range_index.py:284 questioning whether overriding transform._step is brittle compared to recomputing from the property cache.",
+          "url": "https://github.com/pydata/xarray/pull/11328#discussion_r"
         }
       ],
-      "discussion_highlights": [],
-      "next_steps": "Wait for maintainer review/triage now that the PR has a green docs preview and checks.",
-      "last_updated": "2026-05-09T21:58:19Z"
+      "discussion_highlights": [
+        {
+          "title": "First review from cfriedland5",
+          "summary": "cfriedland5 reviewed PR #11328 with an inline concern on range_index.py:284: 'Assigning a different value than would be computed to a property's cache seems brittle.' This is the first human reviewer feedback \u2014 signals active maintainer attention.",
+          "url": "https://github.com/pydata/xarray/pull/11328#pullrequestreview-4258610040"
+        }
+      ],
+      "next_steps": "Address cfriedland5's concern about overriding transform._step \u2014 consider whether a cleaner interface exists, or explain why direct cache assignment is safe in this context given the RangeCoordinateTransform contract.",
+      "last_updated": "2026-05-10T00:16:59Z"
     },
     {
       "slug": "xarray-dataarray-coords-description",
