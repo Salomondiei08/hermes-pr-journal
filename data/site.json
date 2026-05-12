@@ -71,6 +71,10 @@
           "date": "2026-05-10T00:16:59Z",
           "summary": "cfriedland5 left the first human review on PR #11328 with an inline comment on range_index.py:284 questioning whether overriding transform._step is brittle compared to recomputing from the property cache.",
           "url": "https://github.com/pydata/xarray/pull/11328#discussion_r"
+        },
+        {
+          "date": "2026-05-12T09:41:00Z",
+          "text": "Reviewer cfriedland5 commented: 'Assigning a different value than would be computed to a property's cache seems brittle' \u2014 cache persistence concern raised on the implementation. PR still open, awaiting maintainer response."
         }
       ],
       "discussion_highlights": [

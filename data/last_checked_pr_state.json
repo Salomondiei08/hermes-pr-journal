@@ -1,0 +1,207 @@
+{
+  "microsoft/markitdown#1847": {
+    "state": "open",
+    "title": "fix: avoid misclassifying sparse PDF prose as tables",
+    "updated_at": "2026-04-29T10:05:52Z",
+    "created_at": "2026-04-29T08:09:31Z",
+    "merged": false,
+    "merged_at": null,
+    "closed_at": null,
+    "latest_sha7": "e276945",
+    "draft": false,
+    "comments": 2,
+    "review_comments": 0,
+    "check_runs": {
+      "total": 1,
+      "statuses": [
+        "license/cla: success"
+      ]
+    }
+  },
+  "pallets/click#3392": {
+    "state": "closed",
+    "title": "fix: avoid help option collisions with help arguments",
+    "updated_at": "2026-04-29T14:39:37Z",
+    "created_at": "2026-04-29T11:18:50Z",
+    "merged": false,
+    "merged_at": null,
+    "closed_at": "2026-04-29T11:31:06Z",
+    "latest_sha7": "e459528",
+    "draft": false,
+    "comments": 3,
+    "review_comments": 0,
+    "check_runs": {
+      "total": 0,
+      "statuses": []
+    },
+    "commit_statuses": [
+      "docs/readthedocs.org:pallets-click: success"
+    ]
+  },
+  "microsoft/markitdown#1849": {
+    "state": "open",
+    "title": "fix: send browser user-agent for HTTP URI conversions",
+    "updated_at": "2026-04-29T13:13:27Z",
+    "created_at": "2026-04-29T13:13:27Z",
+    "merged": false,
+    "merged_at": null,
+    "closed_at": null,
+    "latest_sha7": "87a2ffc",
+    "draft": false,
+    "comments": 0,
+    "review_comments": 0,
+    "check_runs": {
+      "total": 1,
+      "statuses": [
+        "license/cla: success"
+      ]
+    }
+  },
+  "jupyter/nbconvert#2279": {
+    "state": "open",
+    "title": "fix: avoid duplicating output subdirs for support files",
+    "updated_at": "2026-04-30T21:04:27Z",
+    "created_at": "2026-04-29T13:41:55Z",
+    "merged": false,
+    "merged_at": null,
+    "closed_at": null,
+    "latest_sha7": "8eed547",
+    "draft": false,
+    "comments": 0,
+    "review_comments": 0,
+    "check_runs": {
+      "total": 0,
+      "statuses": []
+    },
+    "commit_statuses": [
+      "pre-commit.ci - pr: success",
+      "docs/readthedocs.org:nbconvert: success"
+    ]
+  },
+  "psf/requests#7400": {
+    "state": "closed",
+    "title": "docs: clarify Session.request verify inheritance",
+    "updated_at": "2026-04-29T21:31:46Z",
+    "created_at": "2026-04-29T21:12:29Z",
+    "merged": false,
+    "merged_at": null,
+    "closed_at": "2026-04-29T21:31:46Z",
+    "latest_sha7": "2e5e220",
+    "draft": false,
+    "comments": 0,
+    "review_comments": 0,
+    "check_runs": {
+      "total": 0,
+      "statuses": []
+    },
+    "commit_statuses": [
+      "docs/readthedocs.org:requests: success"
+    ]
+  },
+  "jupyter/nbconvert#2280": {
+    "state": "open",
+    "title": "fix: avoid overwriting duplicate markdown attachments",
+    "updated_at": "2026-04-30T21:16:29Z",
+    "created_at": "2026-04-30T21:14:46Z",
+    "merged": false,
+    "merged_at": null,
+    "closed_at": null,
+    "latest_sha7": "0d692f9",
+    "draft": false,
+    "comments": 0,
+    "review_comments": 0,
+    "check_runs": {
+      "total": 0,
+      "statuses": []
+    },
+    "commit_statuses": [
+      "pre-commit.ci - pr: success",
+      "docs/readthedocs.org:nbconvert: success"
+    ]
+  },
+  "jupyter/nbconvert#2282": {
+    "state": "open",
+    "title": "fix: handle empty anchor link text",
+    "updated_at": "2026-05-05T21:17:13Z",
+    "created_at": "2026-05-05T21:11:14Z",
+    "merged": false,
+    "merged_at": null,
+    "closed_at": null,
+    "latest_sha7": "fa87b66",
+    "draft": false,
+    "comments": 0,
+    "review_comments": 0,
+    "check_runs": {
+      "total": 0,
+      "statuses": []
+    },
+    "commit_statuses": [
+      "pre-commit.ci - pr: success",
+      "docs/readthedocs.org:nbconvert: success"
+    ]
+  },
+  "jupyter/nbconvert#2283": {
+    "state": "open",
+    "title": "fix: separate leading block quotes in rst export",
+    "updated_at": "2026-05-06T21:13:22Z",
+    "created_at": "2026-05-06T21:12:15Z",
+    "merged": false,
+    "merged_at": null,
+    "closed_at": null,
+    "latest_sha7": "3f97df4",
+    "draft": false,
+    "comments": 0,
+    "review_comments": 0,
+    "check_runs": {
+      "total": 0,
+      "statuses": []
+    },
+    "commit_statuses": [
+      "pre-commit.ci - pr: success",
+      "docs/readthedocs.org:nbconvert: success"
+    ]
+  },
+  "pydata/xarray#11326": {
+    "state": "open",
+    "title": "docs: clarify DataArray coords list description",
+    "updated_at": "2026-05-08T21:11:50Z",
+    "created_at": "2026-05-08T21:11:33Z",
+    "merged": false,
+    "merged_at": null,
+    "closed_at": null,
+    "latest_sha7": "194b49c",
+    "draft": false,
+    "comments": 0,
+    "review_comments": 0,
+    "check_runs": {
+      "total": 1,
+      "statuses": [
+        "label: success"
+      ]
+    }
+  },
+  "pydata/xarray#11328": {
+    "state": "open",
+    "title": "fix: preserve RangeIndex.arange step",
+    "updated_at": "2026-05-09T23:16:59Z",
+    "created_at": "2026-05-09T21:11:34Z",
+    "merged": false,
+    "merged_at": null,
+    "closed_at": null,
+    "latest_sha7": "3c6402d",
+    "draft": false,
+    "comments": 1,
+    "review_comments": 1,
+    "last_comment": {
+      "user": "cfriedland5",
+      "created_at": "2026-05-09T23:16:59Z",
+      "body_preview": "Assigning a different value than would be computed to a property's cache seems brittle"
+    },
+    "check_runs": {
+      "total": 1,
+      "statuses": [
+        "label: success"
+      ]
+    }
+  }
+}
