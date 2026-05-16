@@ -872,6 +872,11 @@
           "date": "2026-04-29",
           "summary": "Maintainer David Lord later added a public comment stating the bot account and its manager had both been banned for misuse of maintainer attention, escalating the rejection into an explicit, on-record trust failure.",
           "url": "https://github.com/pallets/click/pull/3392#issuecomment-4344753961"
+        },
+        {
+          "date": "2026-05-14T00:48:35Z",
+          "summary": "github-actions[bot] locked the click PR #3392 thread, finalizing the conversation and making re-engagement impossible.",
+          "url": "https://github.com/pallets/click/pull/3392"
         }
       ],
       "discussion_highlights": [
@@ -896,7 +901,7 @@
           "url": "https://github.com/pallets/click/pull/3392#issuecomment-4344753961"
         }
       ],
-      "last_updated": "2026-04-29T14:39:37Z",
+      "last_updated": "2026-05-14T00:48:35Z",
       "discussion": [
         {
           "title": "Maintainer response",
@@ -929,6 +934,11 @@
           "date": "2026-04-29",
           "summary": "docs/readthedocs.org:pallets-click is success. Read the Docs build succeeded!",
           "url": "https://pallets-click--3392.org.readthedocs.build/en/3392/"
+        },
+        {
+          "date": "2026-05-14T00:48:35Z",
+          "summary": "github-actions[bot] locked the click PR #3392 thread, formally ending the conversation.",
+          "url": "https://github.com/pallets/click/pull/3392"
         }
       ],
       "learning": [
