@@ -11,7 +11,12 @@
     "draft": false,
     "comments": 2,
     "review_comments": 0,
-    "check_runs": { "total": 1, "statuses": ["license/cla: success"] }
+    "check_runs": {
+      "total": 1,
+      "statuses": [
+        "license/cla: success"
+      ]
+    }
   },
   "pallets/click#3392": {
     "state": "closed",
@@ -25,8 +30,13 @@
     "draft": false,
     "comments": 3,
     "review_comments": 0,
-    "check_runs": { "total": 0, "statuses": [] },
-    "commit_statuses": ["docs/readthedocs.org:pallets-click: success"]
+    "check_runs": {
+      "total": 0,
+      "statuses": []
+    },
+    "commit_statuses": [
+      "docs/readthedocs.org:pallets-click: success"
+    ]
   },
   "microsoft/markitdown#1849": {
     "state": "open",
@@ -40,7 +50,12 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
-    "check_runs": { "total": 1, "statuses": ["license/cla: success"] }
+    "check_runs": {
+      "total": 1,
+      "statuses": [
+        "license/cla: success"
+      ]
+    }
   },
   "jupyter/nbconvert#2279": {
     "state": "open",
@@ -54,8 +69,14 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
-    "check_runs": { "total": 0, "statuses": [] },
-    "commit_statuses": ["pre-commit.ci - pr: success", "docs/readthedocs.org:nbconvert: success"]
+    "check_runs": {
+      "total": 0,
+      "statuses": []
+    },
+    "commit_statuses": [
+      "pre-commit.ci - pr: success",
+      "docs/readthedocs.org:nbconvert: success"
+    ]
   },
   "psf/requests#7400": {
     "state": "closed",
@@ -69,8 +90,13 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
-    "check_runs": { "total": 0, "statuses": [] },
-    "commit_statuses": ["docs/readthedocs.org:requests: success"]
+    "check_runs": {
+      "total": 0,
+      "statuses": []
+    },
+    "commit_statuses": [
+      "docs/readthedocs.org:requests: success"
+    ]
   },
   "jupyter/nbconvert#2280": {
     "state": "open",
@@ -84,8 +110,14 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
-    "check_runs": { "total": 0, "statuses": [] },
-    "commit_statuses": ["pre-commit.ci - pr: success", "docs/readthedocs.org:nbconvert: success"]
+    "check_runs": {
+      "total": 0,
+      "statuses": []
+    },
+    "commit_statuses": [
+      "pre-commit.ci - pr: success",
+      "docs/readthedocs.org:nbconvert: success"
+    ]
   },
   "jupyter/nbconvert#2282": {
     "state": "open",
@@ -99,8 +131,14 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
-    "check_runs": { "total": 0, "statuses": [] },
-    "commit_statuses": ["pre-commit.ci - pr: success", "docs/readthedocs.org:nbconvert: success"]
+    "check_runs": {
+      "total": 0,
+      "statuses": []
+    },
+    "commit_statuses": [
+      "pre-commit.ci - pr: success",
+      "docs/readthedocs.org:nbconvert: success"
+    ]
   },
   "jupyter/nbconvert#2283": {
     "state": "open",
@@ -114,8 +152,14 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
-    "check_runs": { "total": 0, "statuses": [] },
-    "commit_statuses": ["pre-commit.ci - pr: success", "docs/readthedocs.org:nbconvert: success"]
+    "check_runs": {
+      "total": 0,
+      "statuses": []
+    },
+    "commit_statuses": [
+      "pre-commit.ci - pr: success",
+      "docs/readthedocs.org:nbconvert: success"
+    ]
   },
   "pydata/xarray#11326": {
     "state": "open",
@@ -129,7 +173,12 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
-    "check_runs": { "total": 1, "statuses": ["label: success"] }
+    "check_runs": {
+      "total": 1,
+      "statuses": [
+        "label: success"
+      ]
+    }
   },
   "pydata/xarray#11328": {
     "state": "open",
@@ -143,6 +192,15 @@
     "draft": false,
     "comments": 1,
     "review_comments": 1,
-    "check_runs": { "total": 1, "statuses": ["label: success"] }
+    "check_runs": {
+      "total": 1,
+      "statuses": [
+        "label: success"
+      ]
+    },
+    "commit_statuses": [
+      "pre-commit.ci - pr: success",
+      "docs/readthedocs.org:xray: success"
+    ]
   }
 }

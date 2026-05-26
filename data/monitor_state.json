@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T06:15:00Z",
+  "generated_at": "2026-05-26T08:51:47Z",
   "prs": {
     "markitdown-pdf-prose-fix": {
       "state": "open",
@@ -768,7 +768,15 @@
           "date": "2026-05-26T06:12:46Z"
         }
       ],
-      "reviews": [],
+      "reviews": [
+        {
+          "id": 4258610040,
+          "user": "cfriedland5",
+          "state": "COMMENTED",
+          "body": "",
+          "submitted_at": "2026-05-09T23:16:58Z"
+        }
+      ],
       "issue_comments": [
         {
           "id": 4413681595,
@@ -813,7 +821,12 @@
         "comment_ids": [
           4413681595
         ],
-        "review_ids_states": [],
+        "review_ids_states": [
+          [
+            4258610040,
+            "COMMENTED"
+          ]
+        ],
         "commit_shas": [
           "3c6402d6ad23f3f388ebbab985ae6dfe7322f25f",
           "c87694d6440a25e4dbdb6c789cc4e598d46a0cc5"
@@ -834,8 +847,20 @@
             "docs/readthedocs.org:xray",
             "success"
           ]
+        ],
+        "review_comment_ids": [
+          3214027866
         ]
-      }
+      },
+      "pr_review_comments": [
+        {
+          "id": 3214027866,
+          "user": "cfriedland5",
+          "path": "xarray/indexes/range_index.py",
+          "body": "Assigning a different value than would be computed to a property's cache seems brittle",
+          "created_at": "2026-05-09T23:16:59Z"
+        }
+      ]
     }
   },
   "processed_email_ids": [
