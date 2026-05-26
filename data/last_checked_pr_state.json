@@ -11,17 +11,12 @@
     "draft": false,
     "comments": 2,
     "review_comments": 0,
-    "check_runs": {
-      "total": 1,
-      "statuses": [
-        "license/cla: success"
-      ]
-    }
+    "check_runs": { "total": 1, "statuses": ["license/cla: success"] }
   },
   "pallets/click#3392": {
     "state": "closed",
     "title": "fix: avoid help option collisions with help arguments",
-    "updated_at": "2026-04-29T14:39:37Z",
+    "updated_at": "2026-05-14T00:48:35Z",
     "created_at": "2026-04-29T11:18:50Z",
     "merged": false,
     "merged_at": null,
@@ -30,13 +25,8 @@
     "draft": false,
     "comments": 3,
     "review_comments": 0,
-    "check_runs": {
-      "total": 0,
-      "statuses": []
-    },
-    "commit_statuses": [
-      "docs/readthedocs.org:pallets-click: success"
-    ]
+    "check_runs": { "total": 0, "statuses": [] },
+    "commit_statuses": ["docs/readthedocs.org:pallets-click: success"]
   },
   "microsoft/markitdown#1849": {
     "state": "open",
@@ -50,12 +40,7 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
-    "check_runs": {
-      "total": 1,
-      "statuses": [
-        "license/cla: success"
-      ]
-    }
+    "check_runs": { "total": 1, "statuses": ["license/cla: success"] }
   },
   "jupyter/nbconvert#2279": {
     "state": "open",
@@ -69,14 +54,8 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
-    "check_runs": {
-      "total": 0,
-      "statuses": []
-    },
-    "commit_statuses": [
-      "pre-commit.ci - pr: success",
-      "docs/readthedocs.org:nbconvert: success"
-    ]
+    "check_runs": { "total": 0, "statuses": [] },
+    "commit_statuses": ["pre-commit.ci - pr: success", "docs/readthedocs.org:nbconvert: success"]
   },
   "psf/requests#7400": {
     "state": "closed",
@@ -90,13 +69,8 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
-    "check_runs": {
-      "total": 0,
-      "statuses": []
-    },
-    "commit_statuses": [
-      "docs/readthedocs.org:requests: success"
-    ]
+    "check_runs": { "total": 0, "statuses": [] },
+    "commit_statuses": ["docs/readthedocs.org:requests: success"]
   },
   "jupyter/nbconvert#2280": {
     "state": "open",
@@ -110,14 +84,8 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
-    "check_runs": {
-      "total": 0,
-      "statuses": []
-    },
-    "commit_statuses": [
-      "pre-commit.ci - pr: success",
-      "docs/readthedocs.org:nbconvert: success"
-    ]
+    "check_runs": { "total": 0, "statuses": [] },
+    "commit_statuses": ["pre-commit.ci - pr: success", "docs/readthedocs.org:nbconvert: success"]
   },
   "jupyter/nbconvert#2282": {
     "state": "open",
@@ -131,14 +99,8 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
-    "check_runs": {
-      "total": 0,
-      "statuses": []
-    },
-    "commit_statuses": [
-      "pre-commit.ci - pr: success",
-      "docs/readthedocs.org:nbconvert: success"
-    ]
+    "check_runs": { "total": 0, "statuses": [] },
+    "commit_statuses": ["pre-commit.ci - pr: success", "docs/readthedocs.org:nbconvert: success"]
   },
   "jupyter/nbconvert#2283": {
     "state": "open",
@@ -152,14 +114,8 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
-    "check_runs": {
-      "total": 0,
-      "statuses": []
-    },
-    "commit_statuses": [
-      "pre-commit.ci - pr: success",
-      "docs/readthedocs.org:nbconvert: success"
-    ]
+    "check_runs": { "total": 0, "statuses": [] },
+    "commit_statuses": ["pre-commit.ci - pr: success", "docs/readthedocs.org:nbconvert: success"]
   },
   "pydata/xarray#11326": {
     "state": "open",
@@ -173,35 +129,20 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
-    "check_runs": {
-      "total": 1,
-      "statuses": [
-        "label: success"
-      ]
-    }
+    "check_runs": { "total": 1, "statuses": ["label: success"] }
   },
   "pydata/xarray#11328": {
     "state": "open",
     "title": "fix: preserve RangeIndex.arange step",
-    "updated_at": "2026-05-09T23:16:59Z",
+    "updated_at": "2026-05-26T06:12:57Z",
     "created_at": "2026-05-09T21:11:34Z",
     "merged": false,
     "merged_at": null,
     "closed_at": null,
-    "latest_sha7": "3c6402d",
+    "latest_sha7": "c87694d",
     "draft": false,
     "comments": 1,
     "review_comments": 1,
-    "last_comment": {
-      "user": "cfriedland5",
-      "created_at": "2026-05-09T23:16:59Z",
-      "body_preview": "Assigning a different value than would be computed to a property's cache seems brittle"
-    },
-    "check_runs": {
-      "total": 1,
-      "statuses": [
-        "label: success"
-      ]
-    }
+    "check_runs": { "total": 1, "statuses": ["label: success"] }
   }
 }

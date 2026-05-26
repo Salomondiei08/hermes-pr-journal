@@ -75,6 +75,10 @@
         {
           "date": "2026-05-12T09:41:00Z",
           "text": "Reviewer cfriedland5 commented: 'Assigning a different value than would be computed to a property's cache seems brittle' \u2014 cache persistence concern raised on the implementation. PR still open, awaiting maintainer response."
+        },
+        {
+          "date": "2026-05-26T06:12:57Z",
+          "text": "Addressed cfriedland5's review \u2014 pushed commit c87694d that replaces the brittle _step cache override with canonical stop computation. The step property now produces the requested value via its own formula (stop - start) / size without touching private state. Tests updated to match consistent stop behavior."
         }
       ],
       "discussion_highlights": [
@@ -84,8 +88,8 @@
           "url": "https://github.com/pydata/xarray/pull/11328#pullrequestreview-4258610040"
         }
       ],
-      "next_steps": "Address cfriedland5's concern about overriding transform._step \u2014 consider whether a cleaner interface exists, or explain why direct cache assignment is safe in this context given the RangeCoordinateTransform contract.",
-      "last_updated": "2026-05-10T00:16:59Z"
+      "next_steps": "Reviewers need to re-review the updated approach \u2014 cfriedland5's cache-brittle concern has been addressed with a cleaner stop computation.",
+      "last_updated": "2026-05-26T06:12:57Z"
     },
     {
       "slug": "xarray-dataarray-coords-description",

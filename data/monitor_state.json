@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T15:58:00Z",
+  "generated_at": "2026-05-26T06:15:00Z",
   "prs": {
     "markitdown-pdf-prose-fix": {
       "state": "open",
@@ -742,24 +742,30 @@
       "draft": false,
       "merged_at": null,
       "closed_at": null,
-      "updated_at": "2026-05-09T21:11:38Z",
+      "updated_at": "2026-05-26T06:12:57Z",
       "title": "fix: preserve RangeIndex.arange step",
       "html_url": "https://github.com/pydata/xarray/pull/11328",
-      "head_sha": "3c6402d6ad23f3f388ebbab985ae6dfe7322f25f",
-      "head_short": "3c6402d6",
+      "head_sha": "c87694d6440a25e4dbdb6c789cc4e598d46a0cc5",
+      "head_short": "c87694d6",
       "comments": 1,
-      "review_comments": 0,
-      "commits_count": 1,
-      "latest_commit": "3c6402d6ad23f3f388ebbab985ae6dfe7322f25f",
-      "latest_commit_msg": "fix: preserve RangeIndex.arange step",
+      "review_comments": 1,
+      "commits_count": 2,
+      "latest_commit": "c87694d6440a25e4dbdb6c789cc4e598d46a0cc5",
+      "latest_commit_msg": "fix: resolve brittle cache override in RangeIndex.arange\n\nReplaced direct _step cache assignment with canonical stop\ncomputation, so the step property naturally produces the\nrequested value via its own formula (stop - start) / size.\n\nReviewer cfriedland5 correctly flagged that assigning a\ndifferent value than the property would compute to a private\ncache field (transform._step = step) is brittle. The fix\ncomputes stop = start + size * step where size is already\ndetermined by ceil((stop - start) / step), so the step\nproperty's formula returns the requested step without\ntouching private state.\n\nUpdated the equals_exact and isel tests to match the new\nconsistent stop behavior \u2014 arange and slicing now produce\nthe same stop when parameters align, so exact equality holds.\n\nCo-authored-by: Claude <noreply@anthropic.com>",
       "latest_commit_author": "Jay",
-      "latest_commit_date": "2026-05-09T21:11:17Z",
+      "latest_commit_date": "2026-05-26T06:12:46Z",
       "commits": [
         {
           "sha": "3c6402d6ad23f3f388ebbab985ae6dfe7322f25f",
           "message": "fix: preserve RangeIndex.arange step",
           "author": "Jay",
           "date": "2026-05-09T21:11:17Z"
+        },
+        {
+          "sha": "c87694d6440a25e4dbdb6c789cc4e598d46a0cc5",
+          "message": "fix: resolve brittle cache override in RangeIndex.arange\n\nReplaced direct _step cache assignment with canonical stop\ncomputation, so the step property naturally produces the\nrequested value via its own formula (stop - start) / size.\n\nReviewer cfriedland5 correctly flagged that assigning a\ndifferent value than the property would compute to a private\ncache field (transform._step = step) is brittle. The fix\ncomputes stop = start + size * step where size is already\ndetermined by ceil((stop - start) / step), so the step\nproperty's formula returns the requested step without\ntouching private state.\n\nUpdated the equals_exact and isel tests to match the new\nconsistent stop behavior \u2014 arange and slicing now produce\nthe same stop when parameters align, so exact equality holds.\n\nCo-authored-by: Claude <noreply@anthropic.com>",
+          "author": "Jay",
+          "date": "2026-05-26T06:12:46Z"
         }
       ],
       "reviews": [],
@@ -802,14 +808,15 @@
         "draft": false,
         "merged_at": null,
         "closed_at": null,
-        "head_sha": "3c6402d6ad23f3f388ebbab985ae6dfe7322f25f",
+        "head_sha": "c87694d6440a25e4dbdb6c789cc4e598d46a0cc5",
         "labels": [],
         "comment_ids": [
           4413681595
         ],
         "review_ids_states": [],
         "commit_shas": [
-          "3c6402d6ad23f3f388ebbab985ae6dfe7322f25f"
+          "3c6402d6ad23f3f388ebbab985ae6dfe7322f25f",
+          "c87694d6440a25e4dbdb6c789cc4e598d46a0cc5"
         ],
         "checks": [
           [
