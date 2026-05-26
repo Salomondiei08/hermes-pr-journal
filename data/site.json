@@ -79,6 +79,10 @@
         {
           "date": "2026-05-26T06:12:57Z",
           "text": "Addressed cfriedland5's review \u2014 pushed commit c87694d that replaces the brittle _step cache override with canonical stop computation. The step property now produces the requested value via its own formula (stop - start) / size without touching private state. Tests updated to match consistent stop behavior."
+        },
+        {
+          "date": "2026-05-26T10:00:00Z",
+          "text": "CI detected merge conflicts on the follow-up commit c87694d \\u2014 the pydata.xarray check was skipped due to conflicts with main (base moved). pre-commit.ci also shows error. Branch needs rebasing before further review."
         }
       ],
       "discussion_highlights": [
@@ -88,8 +92,8 @@
           "url": "https://github.com/pydata/xarray/pull/11328#pullrequestreview-4258610040"
         }
       ],
-      "next_steps": "Reviewers need to re-review the updated approach \u2014 cfriedland5's cache-brittle concern has been addressed with a cleaner stop computation.",
-      "last_updated": "2026-05-26T06:12:57Z"
+      "next_steps": "Rebase the fix-rangeindex-arange-step branch onto current xarray main to resolve merge conflicts, then re-push so pre-commit.ci and the pydata.xarray check can run again.",
+      "last_updated": "2026-05-26T10:00:00Z"
     },
     {
       "slug": "xarray-dataarray-coords-description",
