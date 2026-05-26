@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T08:51:47Z",
+  "generated_at": "2026-05-26T23:23:00Z",
   "prs": {
     "markitdown-pdf-prose-fix": {
       "state": "open",
@@ -33,7 +33,7 @@
           "user": "jaythehardcoder",
           "created_at": "2026-04-29T10:04:26Z",
           "updated_at": "2026-04-29T10:04:26Z",
-          "body": "@microsoft-github-policy-service agree\r\n\r\nOn Wed, Apr 29, 2026 at 5:10\u202fPM microsoft-github-policy-service[bot] <\r\n***@***.***> wrote:\r\n\r\n> *microsoft-github-policy-service[bot]* left a comment\r\n> (microsoft/markitdown#1847)\r\n> <https://github.com/microsoft/markitdown/pull/1847#issuecomment-4341928992>\r\n>\r\n> @jaythehardcoder <https://github.com/jaythehardcoder> please read the\r\n> following Contributor License Agreement(CLA). If you agree with the CLA,\r\n> please reply with the following informatio",
+          "body": "@microsoft-github-policy-service agree\r\n\r\nOn Wed, Apr 29, 2026 at 5:10 PM microsoft-github-policy-service[bot] <\r\n***@***.***> wrote:\r\n\r\n> *microsoft-github-policy-service[bot]* left a comment\r\n> (microsoft/markitdown#1847)\r\n> <https://github.com/microsoft/markitdown/pull/1847#issuecomment-4341928992>\r\n>\r\n> @jaythehardcoder <https://github.com/jaythehardcoder> please read the\r\n> following Contributor License Agreement(CLA). If you agree with the CLA,\r\n> please reply with the following informatio",
           "html_url": "https://github.com/microsoft/markitdown/pull/1847#issuecomment-4342711075"
         },
         {
@@ -742,28 +742,28 @@
       "draft": false,
       "merged_at": null,
       "closed_at": null,
-      "updated_at": "2026-05-26T06:12:57Z",
+      "updated_at": "2026-05-26T22:03:28Z",
       "title": "fix: preserve RangeIndex.arange step",
       "html_url": "https://github.com/pydata/xarray/pull/11328",
-      "head_sha": "c87694d6440a25e4dbdb6c789cc4e598d46a0cc5",
-      "head_short": "c87694d6",
+      "head_sha": "3ba554ff7f79cb40a1da555181c7fd075cfb162d",
+      "head_short": "3ba554ff",
       "comments": 1,
       "review_comments": 1,
       "commits_count": 2,
-      "latest_commit": "c87694d6440a25e4dbdb6c789cc4e598d46a0cc5",
-      "latest_commit_msg": "fix: resolve brittle cache override in RangeIndex.arange\n\nReplaced direct _step cache assignment with canonical stop\ncomputation, so the step property naturally produces the\nrequested value via its own formula (stop - start) / size.\n\nReviewer cfriedland5 correctly flagged that assigning a\ndifferent value than the property would compute to a private\ncache field (transform._step = step) is brittle. The fix\ncomputes stop = start + size * step where size is already\ndetermined by ceil((stop - start) / step), so the step\nproperty's formula returns the requested step without\ntouching private state.\n\nUpdated the equals_exact and isel tests to match the new\nconsistent stop behavior \u2014 arange and slicing now produce\nthe same stop when parameters align, so exact equality holds.\n\nCo-authored-by: Claude <noreply@anthropic.com>",
+      "latest_commit": "3ba554ff7f79cb40a1da555181c7fd075cfb162d",
+      "latest_commit_msg": "fix: resolve brittle cache override in RangeIndex.arange\n\nReplaced direct _step cache assignment with canonical stop\ncomputation, so the step property naturally produces the\nrequested value via its own formula (stop - start) / size.\n\nReviewer cfriedland5 correctly flagged that assigning a\ndifferent value than the property would compute to a private\ncache field (transform._step = step) is brittle. The fix\ncomputes stop = start + size * step where size is already\ndetermined by ceil((stop - start) / step), so the step\nproperty's formula returns the requested step without\ntouching private state.\n\nUpdated the equals_exact and isel tests to match the new\nconsistent stop behavior — arange and slicing now produce\nthe same stop when parameters align, so exact equality holds.\n\nCo-authored-by: Claude <noreply@anthropic.com>",
       "latest_commit_author": "Jay",
       "latest_commit_date": "2026-05-26T06:12:46Z",
       "commits": [
         {
-          "sha": "3c6402d6ad23f3f388ebbab985ae6dfe7322f25f",
+          "sha": "52d5b063ceb501cfd0de8e032e7a7370a397732b",
           "message": "fix: preserve RangeIndex.arange step",
           "author": "Jay",
           "date": "2026-05-09T21:11:17Z"
         },
         {
-          "sha": "c87694d6440a25e4dbdb6c789cc4e598d46a0cc5",
-          "message": "fix: resolve brittle cache override in RangeIndex.arange\n\nReplaced direct _step cache assignment with canonical stop\ncomputation, so the step property naturally produces the\nrequested value via its own formula (stop - start) / size.\n\nReviewer cfriedland5 correctly flagged that assigning a\ndifferent value than the property would compute to a private\ncache field (transform._step = step) is brittle. The fix\ncomputes stop = start + size * step where size is already\ndetermined by ceil((stop - start) / step), so the step\nproperty's formula returns the requested step without\ntouching private state.\n\nUpdated the equals_exact and isel tests to match the new\nconsistent stop behavior \u2014 arange and slicing now produce\nthe same stop when parameters align, so exact equality holds.\n\nCo-authored-by: Claude <noreply@anthropic.com>",
+          "sha": "3ba554ff7f79cb40a1da555181c7fd075cfb162d",
+          "message": "fix: resolve brittle cache override in RangeIndex.arange\n\nReplaced direct _step cache assignment with canonical stop\ncomputation, so the step property naturally produces the\nrequested value via its own formula (stop - start) / size.\n\nReviewer cfriedland5 correctly flagged that assigning a\ndifferent value than the property would compute to a private\ncache field (transform._step = step) is brittle. The fix\ncomputes stop = start + size * step where size is already\ndetermined by ceil((stop - start) / step), so the step\nproperty's formula returns the requested step without\ntouching private state.\n\nUpdated the equals_exact and isel tests to match the new\nconsistent stop behavior — arange and slicing now produce\nthe same stop when parameters align, so exact equality holds.\n\nCo-authored-by: Claude <noreply@anthropic.com>",
           "author": "Jay",
           "date": "2026-05-26T06:12:46Z"
         }
