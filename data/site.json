@@ -87,6 +87,10 @@
         {
           "date": "2026-05-26T22:03:28Z",
           "text": "Rebased fix-rangeindex-arange-step branch onto current xarray main to resolve merge conflicts. Force-pushed clean commit history (2 commits). Merge conflicts resolved \u2014 PR is mergeable again, awaiting maintainer re-review."
+        },
+        {
+          "date": "2026-05-27T07:30:00Z",
+          "text": "CI confirmed green after rebase: pre-commit.ci and Read the Docs both passing. PR is ready for maintainer re-review."
         }
       ],
       "discussion_highlights": [
@@ -97,7 +101,7 @@
         }
       ],
       "next_steps": "Wait for maintainer re-review now that the branch is rebased and merge conflicts are resolved.",
-      "last_updated": "2026-05-26T22:03:28Z"
+      "last_updated": "2026-05-27T07:30:00Z"
     },
     {
       "slug": "xarray-dataarray-coords-description",
@@ -1240,5 +1244,5 @@
       "note": "PR was closed (not merged)"
     }
   ],
-  "last_updated": "2026-05-12T18:38:51.631315+00:00"
+  "last_updated": "2026-05-27T07:30:00.000000+00:00"
 }
