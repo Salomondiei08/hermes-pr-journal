@@ -53,6 +53,12 @@
       "owner": "pydata",
       "repo": "xarray",
       "pr_number": 11328
+    },
+    {
+      "slug": "xarray-module-available-none",
+      "owner": "pydata",
+      "repo": "xarray",
+      "pr_number": 11358
     }
   ]
 }
