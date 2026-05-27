@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T23:23:00Z",
+  "generated_at": "2026-05-27T22:50:53Z",
   "prs": {
     "markitdown-pdf-prose-fix": {
       "state": "open",
@@ -33,7 +33,7 @@
           "user": "jaythehardcoder",
           "created_at": "2026-04-29T10:04:26Z",
           "updated_at": "2026-04-29T10:04:26Z",
-          "body": "@microsoft-github-policy-service agree\r\n\r\nOn Wed, Apr 29, 2026 at 5:10\u202fPM microsoft-github-policy-service[bot] <\r\n***@***.***> wrote:\r\n\r\n> *microsoft-github-policy-service[bot]* left a comment\r\n> (microsoft/markitdown#1847)\r\n> <https://github.com/microsoft/markitdown/pull/1847#issuecomment-4341928992>\r\n>\r\n> @jaythehardcoder <https://github.com/jaythehardcoder> please read the\r\n> following Contributor License Agreement(CLA). If you agree with the CLA,\r\n> please reply with the following informatio",
+          "body": "@microsoft-github-policy-service agree\r\n\r\nOn Wed, Apr 29, 2026 at 5:10 PM microsoft-github-policy-service[bot] <\r\n***@***.***> wrote:\r\n\r\n> *microsoft-github-policy-service[bot]* left a comment\r\n> (microsoft/markitdown#1847)\r\n> <https://github.com/microsoft/markitdown/pull/1847#issuecomment-4341928992>\r\n>\r\n> @jaythehardcoder <https://github.com/jaythehardcoder> please read the\r\n> following Contributor License Agreement(CLA). If you agree with the CLA,\r\n> please reply with the following informatio",
           "html_url": "https://github.com/microsoft/markitdown/pull/1847#issuecomment-4342711075"
         },
         {
@@ -751,19 +751,19 @@
       "review_comments": 1,
       "commits_count": 2,
       "latest_commit": "3ba554ff7f79cb40a1da555181c7fd075cfb162d",
-      "latest_commit_msg": "fix: resolve brittle cache override in RangeIndex.arange\n\nReplaced direct _step cache assignment with canonical stop\ncomputation, so the step property naturally produces the\nrequested value via its own formula (stop - start) / size.\n\nReviewer cfriedland5 correctly flagged that assigning a\ndifferent value than the property would compute to a private\ncache field (transform._step = step) is brittle. The fix\ncomputes stop = start + size * step where size is already\ndetermined by ceil((stop - start) / step), so the step\nproperty's formula returns the requested step without\ntouching private state.\n\nUpdated the equals_exact and isel tests to match the new\nconsistent stop behavior \u2014 arange and slicing now produce\nthe same stop when parameters align, so exact equality holds.\n\nCo-authored-by: Claude <noreply@anthropic.com>",
+      "latest_commit_msg": "fix: resolve brittle cache override in RangeIndex.arange",
       "latest_commit_author": "Jay",
       "latest_commit_date": "2026-05-26T06:12:46Z",
       "commits": [
         {
-          "sha": "52d5b063ceb501cfd0de8e032e7a7370a397732b",
+          "sha": "52d5b063b694014c45348e157c7de221376af722",
           "message": "fix: preserve RangeIndex.arange step",
           "author": "Jay",
           "date": "2026-05-09T21:11:17Z"
         },
         {
           "sha": "3ba554ff7f79cb40a1da555181c7fd075cfb162d",
-          "message": "fix: resolve brittle cache override in RangeIndex.arange\n\nReplaced direct _step cache assignment with canonical stop\ncomputation, so the step property naturally produces the\nrequested value via its own formula (stop - start) / size.\n\nReviewer cfriedland5 correctly flagged that assigning a\ndifferent value than the property would compute to a private\ncache field (transform._step = step) is brittle. The fix\ncomputes stop = start + size * step where size is already\ndetermined by ceil((stop - start) / step), so the step\nproperty's formula returns the requested step without\ntouching private state.\n\nUpdated the equals_exact and isel tests to match the new\nconsistent stop behavior \u2014 arange and slicing now produce\nthe same stop when parameters align, so exact equality holds.\n\nCo-authored-by: Claude <noreply@anthropic.com>",
+          "message": "fix: resolve brittle cache override in RangeIndex.arange",
           "author": "Jay",
           "date": "2026-05-26T06:12:46Z"
         }
@@ -793,7 +793,7 @@
           "name": "label",
           "status": "completed",
           "conclusion": "success",
-          "html_url": "https://github.com/pydata/xarray/actions/runs/25611918416/job/75183466442"
+          "html_url": "https://github.com/pydata/xarray/actions/runs/26477764550/job/77967572134"
         }
       ],
       "statuses": [
@@ -801,7 +801,7 @@
           "context": "pre-commit.ci - pr",
           "state": "success",
           "description": "checks completed successfully",
-          "target_url": "https://results.pre-commit.ci/run/github/13221727/1778361097.wDN59IbcTkKFdd94rQ2kGg"
+          "target_url": "https://results.pre-commit.ci/run/github/13221727/1779833009.yxltGjTrQOixrhnUWhk6YQ"
         },
         {
           "context": "docs/readthedocs.org:xray",
@@ -810,13 +810,16 @@
           "target_url": "https://xray--11328.org.readthedocs.build/en/11328/"
         }
       ],
-      "combined_status": "success",
+      "combined_status": {
+        "state": "success",
+        "total_count": 3
+      },
       "fingerprint": {
         "state": "open",
         "draft": false,
         "merged_at": null,
         "closed_at": null,
-        "head_sha": "c87694d6440a25e4dbdb6c789cc4e598d46a0cc5",
+        "head_sha": "3ba554ff7f79cb40a1da555181c7fd075cfb162d",
         "labels": [],
         "comment_ids": [
           4413681595
@@ -827,9 +830,12 @@
             "COMMENTED"
           ]
         ],
+        "review_comment_ids": [
+          3214027866
+        ],
         "commit_shas": [
-          "3c6402d6ad23f3f388ebbab985ae6dfe7322f25f",
-          "c87694d6440a25e4dbdb6c789cc4e598d46a0cc5"
+          "52d5b063b694014c45348e157c7de221376af722",
+          "3ba554ff7f79cb40a1da555181c7fd075cfb162d"
         ],
         "checks": [
           [
@@ -841,15 +847,14 @@
         "statuses": [
           [
             "pre-commit.ci - pr",
-            "success"
+            "success",
+            "https://results.pre-commit.ci/run/github/13221727/1779833009.yxltGjTrQOixrhnUWhk6YQ"
           ],
           [
             "docs/readthedocs.org:xray",
-            "success"
+            "success",
+            "https://xray--11328.org.readthedocs.build/en/11328/"
           ]
-        ],
-        "review_comment_ids": [
-          3214027866
         ]
       },
       "pr_review_comments": [
@@ -867,49 +872,170 @@
       "draft": false,
       "merged_at": null,
       "closed_at": null,
-      "updated_at": "2026-05-27T21:46:31Z",
+      "updated_at": "2026-05-27T22:09:18Z",
       "title": "fix: correct format specifiers in fa and el PO translations",
       "html_url": "https://github.com/sphinx-doc/sphinx/pull/14452",
-      "head_sha": "656eebd34615dbaf303025943b51b99e0088b158",
+      "head_sha": "656eebd34bb9008b6b03bd4a84e05c5917e9356a",
       "head_short": "656eebd3",
       "comments": 0,
       "review_comments": 0,
       "commits_count": 1,
-      "latest_commit": "656eebd34615dbaf303025943b51b99e0088b158",
+      "latest_commit": "656eebd34bb9008b6b03bd4a84e05c5917e9356a",
       "latest_commit_msg": "fix: correct format specifiers in fa and el PO translations",
       "latest_commit_author": "Jay",
-      "latest_commit_date": "2026-05-27T21:46:31Z",
+      "latest_commit_date": "2026-05-27T22:09:15Z",
       "commits": [
         {
-          "sha": "656eebd34615dbaf303025943b51b99e0088b158",
+          "sha": "656eebd34bb9008b6b03bd4a84e05c5917e9356a",
           "message": "fix: correct format specifiers in fa and el PO translations",
           "author": "Jay",
-          "date": "2026-05-27T21:46:31Z"
+          "date": "2026-05-27T22:09:15Z"
         }
       ],
       "reviews": [],
       "issue_comments": [],
       "labels": [],
       "ci": [],
-      "statuses": [],
+      "statuses": [
+        {
+          "context": "docs/readthedocs.org:sphinx",
+          "state": "success",
+          "description": "Read the Docs build succeeded!",
+          "target_url": "https://sphinx--14452.org.readthedocs.build/en/14452/"
+        }
+      ],
       "combined_status": {
-        "state": "pending",
-        "total_count": 0
+        "state": "success",
+        "total_count": 1
       },
       "fingerprint": {
         "state": "open",
         "draft": false,
         "merged_at": null,
         "closed_at": null,
-        "head_sha": "656eebd34615dbaf303025943b51b99e0088b158",
+        "head_sha": "656eebd34bb9008b6b03bd4a84e05c5917e9356a",
         "labels": [],
         "comment_ids": [],
         "review_ids_states": [],
+        "review_comment_ids": [],
         "commit_shas": [
-          "656eebd34615dbaf303025943b51b99e0088b158"
+          "656eebd34bb9008b6b03bd4a84e05c5917e9356a"
         ],
         "checks": [],
-        "statuses": []
+        "statuses": [
+          [
+            "docs/readthedocs.org:sphinx",
+            "success",
+            "https://sphinx--14452.org.readthedocs.build/en/14452/"
+          ]
+        ]
+      },
+      "pr_review_comments": []
+    },
+    "xarray-module-available-none": {
+      "state": "open",
+      "draft": false,
+      "merged_at": null,
+      "closed_at": null,
+      "updated_at": "2026-05-27T13:40:59Z",
+      "title": "fix: handle None module in module_available",
+      "html_url": "https://github.com/pydata/xarray/pull/11358",
+      "head_sha": "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7",
+      "head_short": "bfa0b8c3",
+      "comments": 0,
+      "review_comments": 0,
+      "commits_count": 1,
+      "latest_commit": "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7",
+      "latest_commit_msg": "fix: handle None module in module_available",
+      "latest_commit_author": "Jay",
+      "latest_commit_date": "2026-05-26T22:04:09Z",
+      "commits": [
+        {
+          "sha": "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7",
+          "message": "fix: handle None module in module_available",
+          "author": "Jay",
+          "date": "2026-05-26T22:04:09Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 4372809867,
+          "user": "Illviljan",
+          "state": "CHANGES_REQUESTED",
+          "body": "How do we get a None as input? This function does not allow anything else than str. \nIs this an actual problem in xarray?",
+          "submitted_at": "2026-05-27T13:40:59Z"
+        }
+      ],
+      "issue_comments": [],
+      "pr_review_comments": [],
+      "labels": [
+        "topic-NamedArray"
+      ],
+      "ci": [
+        {
+          "name": "label",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pydata/xarray/actions/runs/26477815594/job/77967743326"
+        }
+      ],
+      "statuses": [
+        {
+          "context": "pre-commit.ci - pr",
+          "state": "success",
+          "description": "checks completed successfully",
+          "target_url": "https://results.pre-commit.ci/run/github/13221727/1779833084.slIRwdL5Ra23oSbx9gxXtQ"
+        },
+        {
+          "context": "docs/readthedocs.org:xray",
+          "state": "success",
+          "description": "Read the Docs build succeeded!",
+          "target_url": "https://xray--11358.org.readthedocs.build/en/11358/"
+        }
+      ],
+      "combined_status": {
+        "state": "success",
+        "total_count": 3
+      },
+      "fingerprint": {
+        "state": "open",
+        "draft": false,
+        "merged_at": null,
+        "closed_at": null,
+        "head_sha": "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7",
+        "labels": [
+          "topic-NamedArray"
+        ],
+        "comment_ids": [],
+        "review_ids_states": [
+          [
+            4372809867,
+            "CHANGES_REQUESTED"
+          ]
+        ],
+        "review_comment_ids": [],
+        "commit_shas": [
+          "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7"
+        ],
+        "checks": [
+          [
+            "label",
+            "completed",
+            "success"
+          ]
+        ],
+        "statuses": [
+          [
+            "pre-commit.ci - pr",
+            "success",
+            "https://results.pre-commit.ci/run/github/13221727/1779833084.slIRwdL5Ra23oSbx9gxXtQ"
+          ],
+          [
+            "docs/readthedocs.org:xray",
+            "success",
+            "https://xray--11358.org.readthedocs.build/en/11358/"
+          ]
+        ]
       }
     }
   },
