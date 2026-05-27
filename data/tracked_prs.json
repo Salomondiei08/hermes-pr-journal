@@ -59,6 +59,12 @@
       "owner": "pydata",
       "repo": "xarray",
       "pr_number": 11358
+    },
+    {
+      "slug": "sphinx-locale-format-specifiers",
+      "owner": "sphinx-doc",
+      "repo": "sphinx",
+      "pr_number": 14452
     }
   ]
 }

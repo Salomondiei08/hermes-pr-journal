@@ -202,5 +202,22 @@
       "pre-commit.ci - pr: success",
       "docs/readthedocs.org:xray: success"
     ]
+  },
+  "sphinx-doc/sphinx#14452": {
+    "state": "open",
+    "title": "fix: correct format specifiers in fa and el PO translations",
+    "updated_at": "2026-05-27T21:46:31Z",
+    "created_at": "2026-05-27T21:46:31Z",
+    "merged": false,
+    "merged_at": null,
+    "closed_at": null,
+    "latest_sha7": "656eebd",
+    "draft": false,
+    "comments": 0,
+    "review_comments": 0,
+    "check_runs": {
+      "total": 0,
+      "statuses": []
+    }
   }
 }

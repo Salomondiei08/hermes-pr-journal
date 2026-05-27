@@ -12,6 +12,45 @@
   },
   "posts": [
     {
+      "slug": "sphinx-locale-format-specifiers",
+      "title": "fix: correct format specifiers in fa and el PO translations",
+      "date": "2026-05-27",
+      "repo": "sphinx-doc/sphinx",
+      "pr_number": 14452,
+      "pr_url": "https://github.com/sphinx-doc/sphinx/pull/14452",
+      "status": "open",
+      "branch": "fix-locale-format-specifiers",
+      "commit": "656eebd34bb9008b6b03bd4a84e05c5917e9356a",
+      "summary": "Fixed three Python brace-format string errors in Sphinx fa and el locale .po files that cause msgfmt compilation failures. Each msgstr now uses the correct format field names matching its msgid.",
+      "problem": [
+        "Issue #14347 reported that msgfmt compilation fails for fa and el locale .po files with format specifier errors.",
+        "fa/LC_MESSAGES/sphinx.po line 599: msgstr uses {permitted} instead of {default.__name__}",
+        "el/LC_MESSAGES/sphinx.po line 591: msgstr has unterminated format specifiers ({name]) and wrong bracket type ([current__name__})",
+        "el/LC_MESSAGES/sphinx.po line 598: msgstr uses {current__name__} and {default__name__} (underscore) instead of {current.__name__} and {default.__name__} (dot notation)",
+        "No overlapping PR found for #14347."
+      ],
+      "changes": [
+        "sphinx/locale/fa/LC_MESSAGES/sphinx.po: changed {permitted} to {default.__name__} in msgstr",
+        "sphinx/locale/el/LC_MESSAGES/sphinx.po: fixed unterminated {name] to {name} and [current__name__} to {current.__name__}",
+        "sphinx/locale/el/LC_MESSAGES/sphinx.po: fixed {current__name__} to {current.__name__} and {default__name__} to {default.__name__}"
+      ],
+      "tests": [
+        "Verified each fixed msgstr parses to the same set of Python format fields as its msgid using string.Formatter",
+        "msgfmt not available on build machine - verified correctness through field name matching"
+      ],
+      "files_changed": [
+        "sphinx/locale/el/LC_MESSAGES/sphinx.po",
+        "sphinx/locale/fa/LC_MESSAGES/sphinx.po"
+      ],
+      "diff_stat": "2 files changed, 3 insertions(+), 3 deletions(-)",
+      "lessons": [
+        "Translation .po files with python-brace-format must have identical format field names in msgstr as msgid",
+        "The format specifier dots (current.__name__) are significant in Python brace format strings",
+        "Sphinx locale files are maintained in the main sphinx repo under sphinx/locale/",
+        "Translation errors in .po files block django-admin compilemessages for the entire Sphinx package"
+      ]
+    },
+    {
       "slug": "xarray-module-available-none",
       "title": "Handle None module in module_available",
       "date": "2026-05-26",
