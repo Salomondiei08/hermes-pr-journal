@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T22:50:53Z",
+  "generated_at": "2026-05-28T06:33:00Z",
   "prs": {
     "markitdown-pdf-prose-fix": {
       "state": "open",
@@ -33,7 +33,7 @@
           "user": "jaythehardcoder",
           "created_at": "2026-04-29T10:04:26Z",
           "updated_at": "2026-04-29T10:04:26Z",
-          "body": "@microsoft-github-policy-service agree\r\n\r\nOn Wed, Apr 29, 2026 at 5:10 PM microsoft-github-policy-service[bot] <\r\n***@***.***> wrote:\r\n\r\n> *microsoft-github-policy-service[bot]* left a comment\r\n> (microsoft/markitdown#1847)\r\n> <https://github.com/microsoft/markitdown/pull/1847#issuecomment-4341928992>\r\n>\r\n> @jaythehardcoder <https://github.com/jaythehardcoder> please read the\r\n> following Contributor License Agreement(CLA). If you agree with the CLA,\r\n> please reply with the following informatio",
+          "body": "@microsoft-github-policy-service agree\r\n\r\nOn Wed, Apr 29, 2026 at 5:10\u202fPM microsoft-github-policy-service[bot] <\r\n***@***.***> wrote:\r\n\r\n> *microsoft-github-policy-service[bot]* left a comment\r\n> (microsoft/markitdown#1847)\r\n> <https://github.com/microsoft/markitdown/pull/1847#issuecomment-4341928992>\r\n>\r\n> @jaythehardcoder <https://github.com/jaythehardcoder> please read the\r\n> following Contributor License Agreement(CLA). If you agree with the CLA,\r\n> please reply with the following informatio",
           "html_url": "https://github.com/microsoft/markitdown/pull/1847#issuecomment-4342711075"
         },
         {
@@ -948,13 +948,13 @@
       "latest_commit": "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7",
       "latest_commit_msg": "fix: handle None module in module_available",
       "latest_commit_author": "Jay",
-      "latest_commit_date": "2026-05-26T22:04:09Z",
+      "latest_commit_date": "2026-05-26T22:04:42Z",
       "commits": [
         {
           "sha": "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7",
           "message": "fix: handle None module in module_available",
           "author": "Jay",
-          "date": "2026-05-26T22:04:09Z"
+          "date": "2026-05-26T22:04:42Z"
         }
       ],
       "reviews": [
@@ -967,16 +967,19 @@
         }
       ],
       "issue_comments": [],
-      "pr_review_comments": [],
-      "labels": [
-        "topic-NamedArray"
-      ],
+      "labels": [],
       "ci": [
         {
-          "name": "label",
+          "name": "pre-commit.ci - pr",
           "status": "completed",
           "conclusion": "success",
-          "html_url": "https://github.com/pydata/xarray/actions/runs/26477815594/job/77967743326"
+          "html_url": "https://results.pre-commit.ci/run/github/13221727/1779833084.slIRwdL5Ra23oSbx9gxXtQ"
+        },
+        {
+          "name": "docs/readthedocs.org:xray",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://xray--11358.org.readthedocs.build/en/11358/"
         }
       ],
       "statuses": [
@@ -995,7 +998,7 @@
       ],
       "combined_status": {
         "state": "success",
-        "total_count": 3
+        "total_count": 2
       },
       "fingerprint": {
         "state": "open",
@@ -1003,9 +1006,7 @@
         "merged_at": null,
         "closed_at": null,
         "head_sha": "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7",
-        "labels": [
-          "topic-NamedArray"
-        ],
+        "labels": [],
         "comment_ids": [],
         "review_ids_states": [
           [
@@ -1017,13 +1018,7 @@
         "commit_shas": [
           "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7"
         ],
-        "checks": [
-          [
-            "label",
-            "completed",
-            "success"
-          ]
-        ],
+        "checks": [],
         "statuses": [
           [
             "pre-commit.ci - pr",

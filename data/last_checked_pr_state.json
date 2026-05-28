@@ -219,5 +219,29 @@
       "total": 0,
       "statuses": []
     }
+  },
+  "pydata/xarray#11358": {
+    "state": "open",
+    "title": "fix: handle None module in module_available",
+    "updated_at": "2026-05-27T13:40:59Z",
+    "created_at": "2026-05-26T22:04:42Z",
+    "merged": false,
+    "merged_at": null,
+    "closed_at": null,
+    "latest_sha7": "bfa0b8c3",
+    "draft": false,
+    "comments": 0,
+    "review_comments": 0,
+    "check_runs": {
+      "total": 2,
+      "statuses": [
+        "pre-commit.ci - pr: success",
+        "docs/readthedocs.org:xray: success"
+      ]
+    },
+    "commit_statuses": [
+      "pre-commit.ci - pr: success",
+      "docs/readthedocs.org:xray: success"
+    ]
   }
 }
