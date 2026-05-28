@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T06:33:00Z",
+  "generated_at": "2026-05-28T23:10:00Z",
   "prs": {
     "markitdown-pdf-prose-fix": {
       "state": "open",
@@ -89,7 +89,7 @@
       "draft": false,
       "merged_at": null,
       "closed_at": "2026-04-29T11:31:06Z",
-      "updated_at": "2026-04-29T14:39:37Z",
+      "updated_at": "2026-05-14T00:48:35Z",
       "title": "fix: avoid help option collisions with help arguments",
       "html_url": "https://github.com/pallets/click/pull/3392",
       "head_sha": "e459528e4744cfca49a94a9dab03fa77440ee973",
@@ -172,8 +172,14 @@
             "success",
             "https://pallets-click--3392.org.readthedocs.build/en/3392/"
           ]
-        ]
-      }
+        ],
+        "updated_at": "2026-05-14T00:48:35Z"
+      },
+      "comment_ids": [
+        4343602145,
+        4343278956,
+        4344753961
+      ]
     },
     "markitdown-http-user-agent-header": {
       "state": "open",
@@ -1029,6 +1035,81 @@
             "docs/readthedocs.org:xray",
             "success",
             "https://xray--11358.org.readthedocs.build/en/11358/"
+          ]
+        ]
+      }
+    },
+    "sphinx-source-file-count-plural": {
+      "state": "open",
+      "draft": false,
+      "merged_at": null,
+      "closed_at": null,
+      "updated_at": "2026-05-28T22:11:48Z",
+      "title": "fix: use correct singular/plural forms for source file count strings",
+      "html_url": "https://github.com/sphinx-doc/sphinx/pull/14456",
+      "head_sha": "373dbe88d12972fdd67ece8acd7f55227d51795e",
+      "head_short": "373dbe88",
+      "comments": 0,
+      "review_comments": 0,
+      "commits_count": 1,
+      "latest_commit": "373dbe88d12972fdd67ece8acd7f55227d51795e",
+      "latest_commit_msg": "fix: use correct singular/plural forms for source file count strings\n\nThe build_specific and build_update summary messages used hardcoded\nplural strings even when the count was 1, producing grammar errors\nlike \"1 source files given on command line\".\n\nThis fix uses conditional string selection to produce correct\nsingular/plural forms based on the actual file count.\n\nFixes #12903",
+      "latest_commit_author": "Jay",
+      "latest_commit_date": "2026-05-28T22:11:47Z",
+      "commits": [
+        {
+          "sha": "373dbe88d12972fdd67ece8acd7f55227d51795e",
+          "message": "fix: use correct singular/plural forms for source file count strings\n\nThe build_specific and build_update summary messages used hardcoded\nplural strings even when the count was 1, producing grammar errors\nlike \"1 source files given on command line\".\n\nThis fix uses conditional string selection to produce correct\nsingular/plural forms based on the actual file count.\n\nFixes #12903",
+          "author": "Jay",
+          "date": "2026-05-28T22:11:47Z"
+        }
+      ],
+      "reviews": [],
+      "issue_comments": [],
+      "labels": [],
+      "ci": [
+        {
+          "name": "docs/readthedocs.org:sphinx",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://sphinx--14456.org.readthedocs.build/en/14456/"
+        }
+      ],
+      "statuses": [
+        {
+          "context": "docs/readthedocs.org:sphinx",
+          "state": "success",
+          "target_url": "https://sphinx--14456.org.readthedocs.build/en/14456/"
+        }
+      ],
+      "combined_status": {
+        "state": "success",
+        "total_count": 1
+      },
+      "fingerprint": {
+        "state": "open",
+        "draft": false,
+        "merged_at": null,
+        "closed_at": null,
+        "head_sha": "373dbe88d12972fdd67ece8acd7f55227d51795e",
+        "labels": [],
+        "comment_ids": [],
+        "review_ids_states": [],
+        "commit_shas": [
+          "373dbe88d12972fdd67ece8acd7f55227d51795e"
+        ],
+        "checks": [
+          [
+            "docs/readthedocs.org:sphinx",
+            "completed",
+            "success"
+          ]
+        ],
+        "statuses": [
+          [
+            "docs/readthedocs.org:sphinx",
+            "success",
+            "https://sphinx--14456.org.readthedocs.build/en/14456/"
           ]
         ]
       }
