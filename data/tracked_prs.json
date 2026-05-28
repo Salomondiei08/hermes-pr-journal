@@ -65,6 +65,12 @@
       "owner": "sphinx-doc",
       "repo": "sphinx",
       "pr_number": 14452
+    },
+    {
+      "slug": "sphinx-source-file-count-plural",
+      "owner": "sphinx-doc",
+      "repo": "sphinx",
+      "pr_number": 14456
     }
   ]
 }

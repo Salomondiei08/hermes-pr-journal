@@ -12,6 +12,46 @@
   },
   "posts": [
     {
+      "slug": "sphinx-source-file-count-plural",
+      "title": "fix: use correct singular/plural forms for source file count strings",
+      "date": "2026-05-28",
+      "repo": "sphinx-doc/sphinx",
+      "pr_number": 14456,
+      "pr_url": "https://github.com/sphinx-doc/sphinx/pull/14456",
+      "status": "open",
+      "branch": "fix-plural-ngettext",
+      "commit": "373dbe88d12972fdd67ece8acd7f55227d51795e",
+      "summary": "The build_specific and build_update summary messages used hardcoded plural strings even when the count is 1, producing grammar errors like \"1 source files given on command line\". This fix uses conditional string selection for correct singular/plural forms.",
+      "problem": [
+        "The build_specific() method uses a hardcoded plural summary string \"%d source files given on command line\" even when len(docnames) == 1, producing grammatically incorrect output like \"1 source files given on command line\".",
+        "The same issue affects build_update() with \"targets for %d source files that are out of date\".",
+        "Issue #12903 reported the bug with a clear reproduction: run sphinx-build with a single source file and see \"building [html]: 1 source files given on command line\"."
+      ],
+      "changes": [
+        "sphinx/builders/__init__.py: Changed build_specific() summary to use conditional string selection (\"%d source file given on command line\" for 1, \"%d source files given on command line\" otherwise).",
+        "sphinx/builders/__init__.py: Changed build_update() summary similarly (\"target for %d source file that is out of date\" for 1, \"targets for %d source files that are out of date\" otherwise).",
+        "tests/test_application.py: Added test_build_specific_single_file() that verifies the singular form is produced when building one file.",
+        "Used Sphinx's existing __() translation function for both strings so translators can handle both forms separately."
+      ],
+      "tests": [
+        "test_build_specific: Verifies multi-file case still produces \"3 source files given on command line\" - PASSED.",
+        "test_build_specific_single_file: New test verifying single file produces \"1 source file given on command line\" - PASSED.",
+        "Full test_application.py suite: 9/9 tests pass."
+      ],
+      "files_changed": [
+        "sphinx/builders/__init__.py",
+        "tests/test_application.py"
+      ],
+      "diff_stat": "2 files changed, 23 insertions(+), 2 deletions(-)",
+      "lessons": [
+        "Sphinx's locale system uses _TranslationProxy with gettext only \u2014 no ngettext support. Conditional string selection before the __() call is the practical approach.",
+        "Always check if the locale system supports ngettext before trying to use it. Sphinx's proxy only wraps gettext.",
+        "The issue was stale (from Sphinx 8.0.2, current is 9.1.0) but still reproducible. Don't assume age = fixed.",
+        "No overlap \u2014 the issue had 0 comments and no linked PRs, making it a clean candidate.",
+        "Translation .po bugs (like #14347/#14452) are a proven repeatable pattern. Pluralization/inflection bugs in console output are the next tier of high-signal targets."
+      ]
+    },
+    {
       "slug": "sphinx-locale-format-specifiers",
       "title": "fix: correct format specifiers in fa and el PO translations",
       "date": "2026-05-27",
