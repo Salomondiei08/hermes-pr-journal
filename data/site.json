@@ -49,7 +49,16 @@
         "The issue was stale (from Sphinx 8.0.2, current is 9.1.0) but still reproducible. Don't assume age = fixed.",
         "No overlap \u2014 the issue had 0 comments and no linked PRs, making it a clean candidate.",
         "Translation .po bugs (like #14347/#14452) are a proven repeatable pattern. Pluralization/inflection bugs in console output are the next tier of high-signal targets."
-      ]
+      ],
+      "updates": [
+        {
+          "date": "2026-05-28T23:44:27Z",
+          "summary": "Read the Docs build completed successfully for PR #14456. Combined CI status is green (success).",
+          "url": "https://github.com/sphinx-doc/sphinx/pull/14456"
+        }
+      ],
+      "last_updated": "2026-05-28T23:44:27Z",
+      "next_steps": "Waiting for maintainer review now that CI is fully green."
     },
     {
       "slug": "sphinx-locale-format-specifiers",
