@@ -48,7 +48,16 @@
         "The format specifier dots (current.__name__) are significant in Python brace format strings",
         "Sphinx locale files are maintained in the main sphinx repo under sphinx/locale/",
         "Translation errors in .po files block django-admin compilemessages for the entire Sphinx package"
-      ]
+      ],
+      "updates": [
+        {
+          "date": "2026-05-27T22:10:24Z",
+          "summary": "Read the Docs build completed successfully for PR #14452. Combined CI status is now all green (success).",
+          "url": "https://github.com/sphinx-doc/sphinx/pull/14452"
+        }
+      ],
+      "last_updated": "2026-05-27T22:10:24Z",
+      "next_steps": "Waiting for maintainer review now that CI is fully green."
     },
     {
       "slug": "xarray-module-available-none",
