@@ -206,14 +206,14 @@
   "sphinx-doc/sphinx#14452": {
     "state": "open",
     "title": "fix: correct format specifiers in fa and el PO translations",
-    "updated_at": "2026-05-27T21:46:31Z",
-    "created_at": "2026-05-27T21:46:31Z",
+    "updated_at": "2026-05-29T14:27:17Z",
+    "created_at": "2026-05-27T22:09:18Z",
     "merged": false,
     "merged_at": null,
     "closed_at": null,
     "latest_sha7": "656eebd",
     "draft": false,
-    "comments": 0,
+    "comments": 1,
     "review_comments": 0,
     "check_runs": {
       "total": 0,
