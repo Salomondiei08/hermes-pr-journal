@@ -113,7 +113,7 @@
       "discussion_highlights": [
         {
           "title": "Maintainer question from m-aciek",
-          "summary": "m-aciek asked: 'shouldn't it be also fixed upstream, on the Transifex translations platform, where translations are sourced from?' — signals maintainer attention and a reasonable upstream-first question.",
+          "summary": "m-aciek asked: 'shouldn't it be also fixed upstream, on the Transifex translations platform, where translations are sourced from?' \u2014 signals maintainer attention and a reasonable upstream-first question.",
           "url": "https://github.com/sphinx-doc/sphinx/pull/14452#issuecomment-4576269858"
         }
       ],
