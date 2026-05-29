@@ -243,5 +243,22 @@
       "pre-commit.ci - pr: success",
       "docs/readthedocs.org:xray: success"
     ]
+  },
+  "sphinx-doc/sphinx#14456": {
+    "state": "open",
+    "title": "fix: use correct singular/plural forms for source file count strings",
+    "updated_at": "2026-05-28T22:11:48Z",
+    "created_at": "2026-05-28T22:11:48Z",
+    "merged": false,
+    "merged_at": null,
+    "closed_at": null,
+    "latest_sha7": "373dbe8",
+    "draft": false,
+    "comments": 0,
+    "review_comments": 0,
+    "check_runs": {
+      "total": 0,
+      "statuses": []
+    }
   }
 }
