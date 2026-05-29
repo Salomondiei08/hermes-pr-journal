@@ -150,6 +150,11 @@
           "date": "2026-05-27T13:40:59Z",
           "summary": "Illviljan requested changes on PR #11358, questioning whether None input is a real problem in xarray.",
           "url": "https://github.com/pydata/xarray/pull/11358#pullrequestreview-4372809867"
+        },
+        {
+          "date": "2026-05-29T06:00:00Z",
+          "summary": "Xarray maintainers labeled PR #11358 with topic-NamedArray, signaling active triage and categorization.",
+          "url": "https://github.com/pydata/xarray/pull/11358"
         }
       ],
       "discussion_highlights": [
@@ -160,7 +165,7 @@
         }
       ],
       "next_steps": "Respond to Illviljan's review with context from issue #11344 showing that external tooling can pass None. This is the first human review on this PR.",
-      "last_updated": "2026-05-27T13:40:59Z"
+      "last_updated": "2026-05-29T06:00:00Z"
     },
     {
       "slug": "xarray-rangeindex-arange-step",
