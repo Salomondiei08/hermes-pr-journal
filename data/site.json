@@ -103,10 +103,22 @@
           "date": "2026-05-27T22:10:24Z",
           "summary": "Read the Docs build completed successfully for PR #14452. Combined CI status is now all green (success).",
           "url": "https://github.com/sphinx-doc/sphinx/pull/14452"
+        },
+        {
+          "date": "2026-05-29T14:27:17Z",
+          "summary": "Maintainer m-aciek left a comment on PR #14452 asking if the fix should also be applied upstream on Transifex (where translations are sourced).",
+          "url": "https://github.com/sphinx-doc/sphinx/pull/14452#issuecomment-4576269858"
         }
       ],
-      "last_updated": "2026-05-27T22:10:24Z",
-      "next_steps": "Waiting for maintainer review now that CI is fully green."
+      "discussion_highlights": [
+        {
+          "title": "Maintainer question from m-aciek",
+          "summary": "m-aciek asked: 'shouldn't it be also fixed upstream, on the Transifex translations platform, where translations are sourced from?' — signals maintainer attention and a reasonable upstream-first question.",
+          "url": "https://github.com/sphinx-doc/sphinx/pull/14452#issuecomment-4576269858"
+        }
+      ],
+      "last_updated": "2026-05-29T14:27:17Z",
+      "next_steps": "Respond to m-aciek's question about whether to fix upstream on Transifex in addition to this PR."
     },
     {
       "slug": "xarray-module-available-none",
