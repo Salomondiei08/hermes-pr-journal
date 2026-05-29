@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T23:10:00Z",
+  "generated_at": "2026-05-29T06:00:00Z",
   "prs": {
     "markitdown-pdf-prose-fix": {
       "state": "open",
@@ -973,7 +973,7 @@
         }
       ],
       "issue_comments": [],
-      "labels": [],
+      "labels": ["topic-NamedArray"],
       "ci": [
         {
           "name": "pre-commit.ci - pr",
@@ -1012,7 +1012,7 @@
         "merged_at": null,
         "closed_at": null,
         "head_sha": "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7",
-        "labels": [],
+        "labels": ["topic-NamedArray"],
         "comment_ids": [],
         "review_ids_states": [
           [
