@@ -71,6 +71,12 @@
       "owner": "sphinx-doc",
       "repo": "sphinx",
       "pr_number": 14456
+    },
+    {
+      "slug": "click-help-argument-collision",
+      "owner": "pallets",
+      "repo": "click",
+      "pr_number": 3392
     }
   ]
 }
