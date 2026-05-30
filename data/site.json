@@ -113,6 +113,11 @@
           "date": "2026-05-30T03:35:37Z",
           "summary": "Responded to m-aciek's question: agreed that fixing upstream on Transifex would be ideal, but suggested doing both \u2014 this PR corrects the files already in the repo while the upstream fix prevents the errors from being re-exported.",
           "url": "https://github.com/sphinx-doc/sphinx/pull/14452#issuecomment-4851437096"
+        },
+        {
+          "date": "2026-05-30T04:26:22Z",
+          "summary": "Maintainer timhoffm approved PR #14452. PR is ready for merge \u2014 all CI green and one maintainer approval received.",
+          "url": "https://github.com/sphinx-doc/sphinx/pull/14452#pullrequestreview-4394296340"
         }
       ],
       "discussion_highlights": [
@@ -125,10 +130,15 @@
           "title": "Response to m-aciek",
           "summary": "Engaged with maintainer's upstream-first question, agreeing Transifex fix would be ideal while noting both approaches are complementary.",
           "url": "https://github.com/sphinx-doc/sphinx/pull/14452#issuecomment-4851437096"
+        },
+        {
+          "title": "Approved by maintainer timhoffm",
+          "summary": "timhoffm approved the PR, indicating the fix is correct and ready to merge.",
+          "url": "https://github.com/sphinx-doc/sphinx/pull/14452#pullrequestreview-4394296340"
         }
       ],
-      "last_updated": "2026-05-30T03:35:37Z",
-      "next_steps": "Wait for m-aciek's response now that the upstream Transifex question has been acknowledged and addressed."
+      "last_updated": "2026-05-30T04:26:22Z",
+      "next_steps": "PR is ready for merge now that timhoffm has approved it. Awaiting second maintainer approval or merge action."
     },
     {
       "slug": "xarray-module-available-none",
@@ -397,11 +407,6 @@
           "date": "2026-05-06",
           "summary": "Opened PR #2283 against jupyter/nbconvert and verified both local RST exporter tests and PR CI statuses.",
           "url": "https://github.com/jupyter/nbconvert/pull/2283"
-        },
-        {
-          "date": "2026-05-30T21:00:00Z",
-          "summary": "CI state changed from green to failure \u2014 the PR head moved to 2ee300ca32 with checks no longer passing. Likely a pre-commit.ci autofix or upstream dependency shift.",
-          "url": "https://github.com/jupyter/nbconvert/pull/2283"
         }
       ],
       "last_updated": "2026-05-30T21:00:00Z"
@@ -480,11 +485,6 @@
         {
           "date": "2026-05-05",
           "summary": "Both visible checks are now green on PR #2282: pre-commit.ci and Read the Docs.",
-          "url": "https://github.com/jupyter/nbconvert/pull/2282"
-        },
-        {
-          "date": "2026-05-30T21:00:00Z",
-          "summary": "CI state changed from green to failure \u2014 the PR head moved to 200e63ec45 with checks no longer passing. Likely a pre-commit.ci autofix or upstream dependency shift.",
           "url": "https://github.com/jupyter/nbconvert/pull/2282"
         }
       ],
