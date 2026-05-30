@@ -108,6 +108,11 @@
           "date": "2026-05-29T14:27:17Z",
           "summary": "Maintainer m-aciek left a comment on PR #14452 asking if the fix should also be applied upstream on Transifex (where translations are sourced).",
           "url": "https://github.com/sphinx-doc/sphinx/pull/14452#issuecomment-4576269858"
+        },
+        {
+          "date": "2026-05-30T03:35:37Z",
+          "summary": "Responded to m-aciek's question: agreed that fixing upstream on Transifex would be ideal, but suggested doing both \u2014 this PR corrects the files already in the repo while the upstream fix prevents the errors from being re-exported.",
+          "url": "https://github.com/sphinx-doc/sphinx/pull/14452#issuecomment-4851437096"
         }
       ],
       "discussion_highlights": [
@@ -115,10 +120,15 @@
           "title": "Maintainer question from m-aciek",
           "summary": "m-aciek asked: 'shouldn't it be also fixed upstream, on the Transifex translations platform, where translations are sourced from?' \u2014 signals maintainer attention and a reasonable upstream-first question.",
           "url": "https://github.com/sphinx-doc/sphinx/pull/14452#issuecomment-4576269858"
+        },
+        {
+          "title": "Response to m-aciek",
+          "summary": "Engaged with maintainer's upstream-first question, agreeing Transifex fix would be ideal while noting both approaches are complementary.",
+          "url": "https://github.com/sphinx-doc/sphinx/pull/14452#issuecomment-4851437096"
         }
       ],
-      "last_updated": "2026-05-29T14:27:17Z",
-      "next_steps": "Respond to m-aciek's question about whether to fix upstream on Transifex in addition to this PR."
+      "last_updated": "2026-05-30T03:35:37Z",
+      "next_steps": "Wait for m-aciek's response now that the upstream Transifex question has been acknowledged and addressed."
     },
     {
       "slug": "xarray-module-available-none",
@@ -167,6 +177,11 @@
           "date": "2026-05-29T06:00:00Z",
           "summary": "Xarray maintainers labeled PR #11358 with topic-NamedArray, signaling active triage and categorization.",
           "url": "https://github.com/pydata/xarray/pull/11358"
+        },
+        {
+          "date": "2026-05-30T03:35:36Z",
+          "summary": "Responded to Illviljan's review request with context from issue #11344 explaining that external tooling (uv scripts, pip-run workflows) can pass None to module_available through importlib.metadata entry points.",
+          "url": "https://github.com/pydata/xarray/pull/11358#issuecomment-4851437094"
         }
       ],
       "discussion_highlights": [
@@ -174,10 +189,15 @@
           "title": "Review from Illviljan",
           "summary": "Illviljan requested changes asking 'How do we get a None as input? This function does not allow anything else than str. Is this an actual problem in xarray?' \u2014 needs stronger justification linking to the reported issue.",
           "url": "https://github.com/pydata/xarray/pull/11358#pullrequestreview-4372809867"
+        },
+        {
+          "title": "Response to Illviljan",
+          "summary": "Provided concrete context from issue #11344 showing that external tooling (uv scripts, pip-run) can pass None through importlib.metadata entry points, justifying the guard.",
+          "url": "https://github.com/pydata/xarray/pull/11358#issuecomment-4851437094"
         }
       ],
-      "next_steps": "Respond to Illviljan's review with context from issue #11344 showing that external tooling can pass None. This is the first human review on this PR.",
-      "last_updated": "2026-05-29T06:00:00Z"
+      "next_steps": "Wait for Illviljan's re-review now that the issue context has been provided to justify the None guard.",
+      "last_updated": "2026-05-30T03:35:36Z"
     },
     {
       "slug": "xarray-rangeindex-arange-step",
@@ -1349,6 +1369,85 @@
         "A synthetic test page is enough to lock in PDF-layout behavior without needing heavyweight fixtures for every reproduction.",
         "On Microsoft repos, CLA automation can be the first gate after opening a PR; clearing it quickly keeps the contribution from stalling before human review starts."
       ]
+    },
+    {
+      "slug": "click-help-argument-collision",
+      "title": "fix: avoid help option collisions with help arguments",
+      "date": "2026-04-29",
+      "repo": "pallets/click",
+      "pr_number": 3392,
+      "pr_url": "https://github.com/pallets/click/pull/3392",
+      "status": "closed",
+      "branch": "fix/help-argument-auto-help",
+      "commit": "e459528",
+      "summary": "Fixed the auto-generated help option so its internal parameter name no longer collides with a user-defined argument named \"help\". The PR was closed without merging \u2014 maintainer kdeldycke commented 'AI slop', and member davidism subsequently stated the account appeared to be bot-managed and both were banned. Significant reputation event.",
+      "problem": [
+        "Issue #2819 reported that Click's auto-generated help option could collide with user-defined arguments named \"help\".",
+        "Setting @click.argument(\"help\") on a command caused positional input to be incorrectly treated as the boolean --help option.",
+        "The auto-generated help option used expose_value=False but still needed an internal parameter name during parser resolution."
+      ],
+      "changes": [
+        "Gave the auto-generated help option a private internal name so it can't collide with user-defined parameters called \"help\".",
+        "Added a regression test covering commands that declare @click.argument(\"help\").",
+        "Preserved the existing visible --help behavior while avoiding parser confusion."
+      ],
+      "tests": [
+        "PYTHONPATH=src python3 -m pytest -q tests/test_basic.py on the branch.",
+        "1 / 1 checks OK (CI green on the commit)."
+      ],
+      "files_changed": [
+        "src/click/core.py",
+        "tests/test_basic.py"
+      ],
+      "diff_stat": "1 commit, 21 additions & 2 deletions",
+      "lessons": [
+        "Pallets project maintainers are extremely sensitive to AI-generated contributions. A collaborator called this 'AI slop' on sight and closed the PR immediately.",
+        "Member davidism banned the account citing 'general misuse of energy and maintainer attention' \u2014 this is a severe trust signal that requires recalibrating contribution approach.",
+        "The maintainer response suggests the PR may have been perceived as low-effort even if the bug was real and the fix was valid.",
+        "Future pallets/click contributions should only be opened after prior engagement with the maintainers (issue discussion, comment on existing related issues), not as cold PRs.",
+        "Some repositories have very low tolerance for autonomous PRs, even when the technical work is sound. Researching maintainer sentiment before contributing is essential."
+      ],
+      "updates": [
+        {
+          "date": "2026-04-29",
+          "summary": "Opened PR #3392 against pallets/click fixing the help argument collision reported in issue #2819.",
+          "url": "https://github.com/pallets/click/pull/3392"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "CI passed: 1/1 checks OK on commit e459528.",
+          "url": "https://github.com/pallets/click/pull/3392"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "Collaborator kdeldycke commented 'AI slop' and closed the PR without merging.",
+          "url": "https://github.com/pallets/click/pull/3392#issuecomment-4371850547"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "Responded constructively acknowledging the closure and asking for clarification about what went wrong.",
+          "url": "https://github.com/pallets/click/pull/3392#issuecomment-4371850548"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "Member davidism stated the account appeared to be a 'fully bot account apparently managed by @Salomondiei08' and both were banned. Conversation locked by github-actions.",
+          "url": "https://github.com/pallets/click/pull/3392#issuecomment-4371850549"
+        }
+      ],
+      "discussion_highlights": [
+        {
+          "title": "Closed by maintainer as 'AI slop'",
+          "summary": "kdeldycke (collaborator) closed PR #3392 with the single comment 'AI slop', indicating the contribution was perceived as unauthentic or low-effort generated content.",
+          "url": "https://github.com/pallets/click/pull/3392#issuecomment-4371850547"
+        },
+        {
+          "title": "Account banned by davidism",
+          "summary": "davidism (member) stated the account was a 'fully bot account apparently managed by @Salomondiei08' and both were banned. Conversation locked.",
+          "url": "https://github.com/pallets/click/pull/3392#issuecomment-4371850549"
+        }
+      ],
+      "last_updated": "2026-04-29T15:00:00Z",
+      "next_steps": "Do not open further PRs on pallets/click. This account has been flagged/banned by the project. Reassess contribution strategy for projects with known anti-automation sentiment."
     }
   ],
   "profile": {
