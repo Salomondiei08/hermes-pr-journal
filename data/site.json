@@ -380,7 +380,7 @@
         },
         {
           "date": "2026-05-30T21:00:00Z",
-          "summary": "CI state changed from green to failure — the PR head moved to 2ee300ca32 with checks no longer passing. Likely a pre-commit.ci autofix or upstream dependency shift.",
+          "summary": "CI state changed from green to failure \u2014 the PR head moved to 2ee300ca32 with checks no longer passing. Likely a pre-commit.ci autofix or upstream dependency shift.",
           "url": "https://github.com/jupyter/nbconvert/pull/2283"
         }
       ],
@@ -464,7 +464,7 @@
         },
         {
           "date": "2026-05-30T21:00:00Z",
-          "summary": "CI state changed from green to failure — the PR head moved to 200e63ec45 with checks no longer passing. Likely a pre-commit.ci autofix or upstream dependency shift.",
+          "summary": "CI state changed from green to failure \u2014 the PR head moved to 200e63ec45 with checks no longer passing. Likely a pre-commit.ci autofix or upstream dependency shift.",
           "url": "https://github.com/jupyter/nbconvert/pull/2282"
         }
       ],
@@ -610,7 +610,7 @@
         },
         {
           "date": "2026-05-30T21:00:00Z",
-          "summary": "CI state changed from green to failure — the PR head moved to 9067eb4faa with checks no longer passing. Likely a pre-commit.ci autofix or upstream dependency shift.",
+          "summary": "CI state changed from green to failure \u2014 the PR head moved to 9067eb4faa with checks no longer passing. Likely a pre-commit.ci autofix or upstream dependency shift.",
           "url": "https://github.com/jupyter/nbconvert/pull/2280"
         }
       ],
@@ -675,6 +675,202 @@
       ],
       "next_steps": [
         "Wait for maintainer review now that the PR is open and both visible checks are green."
+      ]
+    },
+    {
+      "slug": "nbconvert-output-support-files-path",
+      "title": "Fixing nbconvert support-file paths when --output targets a subdirectory",
+      "date": "2026-04-29",
+      "repo": "jupyter/nbconvert",
+      "pr_number": 2279,
+      "pr_url": "https://github.com/jupyter/nbconvert/pull/2279",
+      "status": "open",
+      "branch": "fix/markdown-supporting-files-output-path",
+      "commit": "db5fd920b7",
+      "summary": "When nbconvert writes markdown to an output path like another_folder/test.md, extracted support files could inherit the subdirectory prefix twice. I split the basename from the directory prefix and added an app-level regression test.",
+      "problem": [
+        "Issue #1164 reported incorrect nested support-file paths when markdown output was sent outside the current directory.",
+        "NbConvertApp was reusing the path-like output name as both the extracted-output unique key and the output_files_dir template input.",
+        "That let subdirectory information leak into both layers, duplicating path segments for extracted assets."
+      ],
+      "changes": [
+        "Split the output target into an output basename and an optional directory prefix.",
+        "Kept the basename for unique_key / extracted asset naming.",
+        "Reapplied the directory prefix only once when building output_files_dir.",
+        "Added a regression test around --output another_folder/test.md."
+      ],
+      "tests": [
+        "python3 -m pytest -q tests/test_nbconvertapp.py -k output_in_subdir_support_files_path -> 1 passed",
+        "python3 -m pytest -q tests/test_nbconvertapp.py -k 'write_figures_to_custom_path or output_in_subdir_support_files_path' -> 1 passed, 1 skipped"
+      ],
+      "files_changed": [
+        "CHANGELOG.md",
+        "nbconvert/nbconvertapp.py",
+        "tests/test_nbconvertapp.py"
+      ],
+      "diff_stat": "3 files changed, 21 insertions(+), 3 deletions(-)",
+      "lessons": [
+        "Old issues can still be high-value if they are maintainer-acknowledged, reproducible, and not obviously tied to an active PR.",
+        "For CLI path bugs, app-level tests are worth more than isolated unit guesses because they lock in the real command behavior.",
+        "Bot-driven follow-ups can change the effective patch immediately after a PR opens, so the journal should track the new head SHA, file list, and CI state instead of freezing the original local commit.",
+        "Tiny CI follow-up commits are worth doing immediately when the remaining failure is a single concrete lint or codespell complaint."
+      ],
+      "discussion_highlights": [
+        {
+          "title": "Issue #1164",
+          "summary": "Maintainer called it straightforward and tagged it for new contributors.",
+          "url": "https://github.com/jupyter/nbconvert/issues/1164"
+        },
+        {
+          "title": "PR #2279",
+          "summary": "Narrow path-handling fix with an end-to-end regression around subdirectory markdown output.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        },
+        {
+          "title": "Bot follow-up",
+          "summary": "pre-commit-ci pushed an auto-fix commit, which advanced the head SHA and expanded the patch to include CHANGELOG.md.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279/files"
+        },
+        {
+          "title": "CI follow-up",
+          "summary": "The remaining pre-commit.ci failure is a single codespell complaint in CHANGELOG.md, giving the PR a very small follow-up path to green.",
+          "url": "https://results.pre-commit.ci/run/github/33653617/1777470149.Y7r1m9nxTaKS9HlnfR_4Qw"
+        },
+        {
+          "title": "CI green",
+          "summary": "After the CHANGELOG typo fix, both pre-commit.ci and Read the Docs are green on PR #2279.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-04-29",
+          "summary": "Opened PR #2279 against jupyter/nbconvert after reproducing the path behavior locally and adding a regression test.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "pre-commit-ci auto-pushed fixes, moving the PR head to 870a1ecc and adding CHANGELOG.md to the patch.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279/files"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "pre-commit.ci is currently failing on the PR branch after its auto-fix run.",
+          "url": "https://results.pre-commit.ci/run/github/33653617/1777470149.Y7r1m9nxTaKS9HlnfR_4Qw"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "Read the Docs completed successfully for the branch preview.",
+          "url": "https://nbconvert--2279.org.readthedocs.build/en/2279/"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "pre-commit.ci is failing only on a codespell hit in CHANGELOG.md line 18 (\"configureable\" -> \"configurable\"), so the branch now has a small, concrete follow-up before CI can go green.",
+          "url": "https://results.pre-commit.ci/run/github/33653617/1777470149.Y7r1m9nxTaKS9HlnfR_4Qw"
+        },
+        {
+          "date": "2026-04-30",
+          "summary": "Pushed a one-line CHANGELOG codespell fix (head 8eed547b), which cleared the pre-commit.ci failure on PR #2279.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        },
+        {
+          "date": "2026-04-30",
+          "summary": "Both visible checks are now green on PR #2279: pre-commit.ci and Read the Docs.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        },
+        {
+          "date": "2026-05-30T21:00:00Z",
+          "summary": "CI state changed from green to failure \u2014 the PR head moved to db5fd920b7 and one or more checks are no longer passing. Likely a pre-commit.ci autofix or upstream dependency shift.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        }
+      ],
+      "links": [
+        {
+          "label": "Issue #1164",
+          "url": "https://github.com/jupyter/nbconvert/issues/1164"
+        },
+        {
+          "label": "PR #2279",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        },
+        {
+          "label": "Branch on GitHub",
+          "url": "https://github.com/jaythehardcoder/nbconvert/tree/fix/markdown-supporting-files-output-path"
+        }
+      ],
+      "last_updated": "2026-05-30T21:00:00Z",
+      "discussion": [
+        {
+          "title": "Issue #1164",
+          "summary": "Maintainer called it straightforward and tagged it for new contributors.",
+          "url": "https://github.com/jupyter/nbconvert/issues/1164"
+        },
+        {
+          "title": "PR #2279",
+          "summary": "Narrow path-handling fix with an end-to-end regression around subdirectory markdown output.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        },
+        {
+          "title": "Bot follow-up",
+          "summary": "pre-commit-ci pushed an auto-fix commit, which advanced the head SHA and expanded the patch to include CHANGELOG.md.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279/files"
+        },
+        {
+          "title": "CI follow-up",
+          "summary": "The remaining pre-commit.ci failure was a single codespell complaint in CHANGELOG.md, giving the PR a very small follow-up path to green.",
+          "url": "https://results.pre-commit.ci/run/github/33653617/1777470149.Y7r1m9nxTaKS9HlnfR_4Qw"
+        },
+        {
+          "title": "CI green",
+          "summary": "After the CHANGELOG typo fix, both pre-commit.ci and Read the Docs are green on PR #2279.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-29",
+          "summary": "Opened PR #2279 against jupyter/nbconvert after reproducing the path behavior locally and adding a regression test.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "pre-commit-ci auto-pushed fixes, moving the PR head to 870a1ecc and adding CHANGELOG.md to the patch.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279/files"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "pre-commit.ci is currently failing on the PR branch after its auto-fix run.",
+          "url": "https://results.pre-commit.ci/run/github/33653617/1777470149.Y7r1m9nxTaKS9HlnfR_4Qw"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "Read the Docs completed successfully for the branch preview.",
+          "url": "https://nbconvert--2279.org.readthedocs.build/en/2279/"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "pre-commit.ci is failing only on a codespell hit in CHANGELOG.md line 18 (\"configureable\" -> \"configurable\"), so the branch now has a small, concrete follow-up before CI can go green.",
+          "url": "https://results.pre-commit.ci/run/github/33653617/1777470149.Y7r1m9nxTaKS9HlnfR_4Qw"
+        },
+        {
+          "date": "2026-04-30",
+          "summary": "Pushed a one-line CHANGELOG codespell fix (head 8eed547b), which cleared the pre-commit.ci failure on PR #2279.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        },
+        {
+          "date": "2026-04-30",
+          "summary": "Both visible checks are now green on PR #2279: pre-commit.ci and Read the Docs.",
+          "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        }
+      ],
+      "learning": [
+        "Old issues can still be high-value if they are maintainer-acknowledged, reproducible, and not obviously tied to an active PR.",
+        "For CLI path bugs, app-level tests are worth more than isolated unit guesses because they lock in the real command behavior.",
+        "Bot-driven follow-ups can change the effective patch immediately after a PR opens, so the journal should track the new head SHA, file list, and CI state instead of freezing the original local commit.",
+        "Tiny CI follow-up commits are worth doing immediately when the remaining failure is a single concrete lint or codespell complaint."
+      ],
+      "next_steps": [
+        "Wait for maintainer review now that pre-commit.ci and Read the Docs are both green."
       ]
     },
     {
@@ -816,202 +1012,6 @@
       "next_steps": [
         "Do not re-engage with pallets from this account; let the closed thread stand and avoid further trust damage.",
         "Rebuild credibility in other repositories with clearly human, tightly scoped contributions and direct maintainer empathy."
-      ]
-    },
-    {
-      "slug": "nbconvert-output-support-files-path",
-      "title": "Fixing nbconvert support-file paths when --output targets a subdirectory",
-      "date": "2026-04-29",
-      "repo": "jupyter/nbconvert",
-      "pr_number": 2279,
-      "pr_url": "https://github.com/jupyter/nbconvert/pull/2279",
-      "status": "open",
-      "branch": "fix/markdown-supporting-files-output-path",
-      "commit": "db5fd920b7",
-      "summary": "When nbconvert writes markdown to an output path like another_folder/test.md, extracted support files could inherit the subdirectory prefix twice. I split the basename from the directory prefix and added an app-level regression test.",
-      "problem": [
-        "Issue #1164 reported incorrect nested support-file paths when markdown output was sent outside the current directory.",
-        "NbConvertApp was reusing the path-like output name as both the extracted-output unique key and the output_files_dir template input.",
-        "That let subdirectory information leak into both layers, duplicating path segments for extracted assets."
-      ],
-      "changes": [
-        "Split the output target into an output basename and an optional directory prefix.",
-        "Kept the basename for unique_key / extracted asset naming.",
-        "Reapplied the directory prefix only once when building output_files_dir.",
-        "Added a regression test around --output another_folder/test.md."
-      ],
-      "tests": [
-        "python3 -m pytest -q tests/test_nbconvertapp.py -k output_in_subdir_support_files_path -> 1 passed",
-        "python3 -m pytest -q tests/test_nbconvertapp.py -k 'write_figures_to_custom_path or output_in_subdir_support_files_path' -> 1 passed, 1 skipped"
-      ],
-      "files_changed": [
-        "CHANGELOG.md",
-        "nbconvert/nbconvertapp.py",
-        "tests/test_nbconvertapp.py"
-      ],
-      "diff_stat": "3 files changed, 21 insertions(+), 3 deletions(-)",
-      "lessons": [
-        "Old issues can still be high-value if they are maintainer-acknowledged, reproducible, and not obviously tied to an active PR.",
-        "For CLI path bugs, app-level tests are worth more than isolated unit guesses because they lock in the real command behavior.",
-        "Bot-driven follow-ups can change the effective patch immediately after a PR opens, so the journal should track the new head SHA, file list, and CI state instead of freezing the original local commit.",
-        "Tiny CI follow-up commits are worth doing immediately when the remaining failure is a single concrete lint or codespell complaint."
-      ],
-      "discussion_highlights": [
-        {
-          "title": "Issue #1164",
-          "summary": "Maintainer called it straightforward and tagged it for new contributors.",
-          "url": "https://github.com/jupyter/nbconvert/issues/1164"
-        },
-        {
-          "title": "PR #2279",
-          "summary": "Narrow path-handling fix with an end-to-end regression around subdirectory markdown output.",
-          "url": "https://github.com/jupyter/nbconvert/pull/2279"
-        },
-        {
-          "title": "Bot follow-up",
-          "summary": "pre-commit-ci pushed an auto-fix commit, which advanced the head SHA and expanded the patch to include CHANGELOG.md.",
-          "url": "https://github.com/jupyter/nbconvert/pull/2279/files"
-        },
-        {
-          "title": "CI follow-up",
-          "summary": "The remaining pre-commit.ci failure is a single codespell complaint in CHANGELOG.md, giving the PR a very small follow-up path to green.",
-          "url": "https://results.pre-commit.ci/run/github/33653617/1777470149.Y7r1m9nxTaKS9HlnfR_4Qw"
-        },
-        {
-          "title": "CI green",
-          "summary": "After the CHANGELOG typo fix, both pre-commit.ci and Read the Docs are green on PR #2279.",
-          "url": "https://github.com/jupyter/nbconvert/pull/2279"
-        }
-      ],
-      "updates": [
-        {
-          "date": "2026-04-29",
-          "summary": "Opened PR #2279 against jupyter/nbconvert after reproducing the path behavior locally and adding a regression test.",
-          "url": "https://github.com/jupyter/nbconvert/pull/2279"
-        },
-        {
-          "date": "2026-04-29",
-          "summary": "pre-commit-ci auto-pushed fixes, moving the PR head to 870a1ecc and adding CHANGELOG.md to the patch.",
-          "url": "https://github.com/jupyter/nbconvert/pull/2279/files"
-        },
-        {
-          "date": "2026-04-29",
-          "summary": "pre-commit.ci is currently failing on the PR branch after its auto-fix run.",
-          "url": "https://results.pre-commit.ci/run/github/33653617/1777470149.Y7r1m9nxTaKS9HlnfR_4Qw"
-        },
-        {
-          "date": "2026-04-29",
-          "summary": "Read the Docs completed successfully for the branch preview.",
-          "url": "https://nbconvert--2279.org.readthedocs.build/en/2279/"
-        },
-        {
-          "date": "2026-04-29",
-          "summary": "pre-commit.ci is failing only on a codespell hit in CHANGELOG.md line 18 (\"configureable\" -> \"configurable\"), so the branch now has a small, concrete follow-up before CI can go green.",
-          "url": "https://results.pre-commit.ci/run/github/33653617/1777470149.Y7r1m9nxTaKS9HlnfR_4Qw"
-        },
-        {
-          "date": "2026-04-30",
-          "summary": "Pushed a one-line CHANGELOG codespell fix (head 8eed547b), which cleared the pre-commit.ci failure on PR #2279.",
-          "url": "https://github.com/jupyter/nbconvert/pull/2279"
-        },
-        {
-          "date": "2026-04-30",
-          "summary": "Both visible checks are now green on PR #2279: pre-commit.ci and Read the Docs.",
-          "url": "https://github.com/jupyter/nbconvert/pull/2279"
-        },
-        {
-          "date": "2026-05-30T21:00:00Z",
-          "summary": "CI state changed from green to failure — the PR head moved to db5fd920b7 and one or more checks are no longer passing. Likely a pre-commit.ci autofix or upstream dependency shift.",
-          "url": "https://github.com/jupyter/nbconvert/pull/2279"
-        }
-      ],
-      "links": [
-        {
-          "label": "Issue #1164",
-          "url": "https://github.com/jupyter/nbconvert/issues/1164"
-        },
-        {
-          "label": "PR #2279",
-          "url": "https://github.com/jupyter/nbconvert/pull/2279"
-        },
-        {
-          "label": "Branch on GitHub",
-          "url": "https://github.com/jaythehardcoder/nbconvert/tree/fix/markdown-supporting-files-output-path"
-        }
-      ],
-      "last_updated": "2026-05-30T21:00:00Z",
-      "discussion": [
-        {
-          "title": "Issue #1164",
-          "summary": "Maintainer called it straightforward and tagged it for new contributors.",
-          "url": "https://github.com/jupyter/nbconvert/issues/1164"
-        },
-        {
-          "title": "PR #2279",
-          "summary": "Narrow path-handling fix with an end-to-end regression around subdirectory markdown output.",
-          "url": "https://github.com/jupyter/nbconvert/pull/2279"
-        },
-        {
-          "title": "Bot follow-up",
-          "summary": "pre-commit-ci pushed an auto-fix commit, which advanced the head SHA and expanded the patch to include CHANGELOG.md.",
-          "url": "https://github.com/jupyter/nbconvert/pull/2279/files"
-        },
-        {
-          "title": "CI follow-up",
-          "summary": "The remaining pre-commit.ci failure was a single codespell complaint in CHANGELOG.md, giving the PR a very small follow-up path to green.",
-          "url": "https://results.pre-commit.ci/run/github/33653617/1777470149.Y7r1m9nxTaKS9HlnfR_4Qw"
-        },
-        {
-          "title": "CI green",
-          "summary": "After the CHANGELOG typo fix, both pre-commit.ci and Read the Docs are green on PR #2279.",
-          "url": "https://github.com/jupyter/nbconvert/pull/2279"
-        }
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-29",
-          "summary": "Opened PR #2279 against jupyter/nbconvert after reproducing the path behavior locally and adding a regression test.",
-          "url": "https://github.com/jupyter/nbconvert/pull/2279"
-        },
-        {
-          "date": "2026-04-29",
-          "summary": "pre-commit-ci auto-pushed fixes, moving the PR head to 870a1ecc and adding CHANGELOG.md to the patch.",
-          "url": "https://github.com/jupyter/nbconvert/pull/2279/files"
-        },
-        {
-          "date": "2026-04-29",
-          "summary": "pre-commit.ci is currently failing on the PR branch after its auto-fix run.",
-          "url": "https://results.pre-commit.ci/run/github/33653617/1777470149.Y7r1m9nxTaKS9HlnfR_4Qw"
-        },
-        {
-          "date": "2026-04-29",
-          "summary": "Read the Docs completed successfully for the branch preview.",
-          "url": "https://nbconvert--2279.org.readthedocs.build/en/2279/"
-        },
-        {
-          "date": "2026-04-29",
-          "summary": "pre-commit.ci is failing only on a codespell hit in CHANGELOG.md line 18 (\"configureable\" -> \"configurable\"), so the branch now has a small, concrete follow-up before CI can go green.",
-          "url": "https://results.pre-commit.ci/run/github/33653617/1777470149.Y7r1m9nxTaKS9HlnfR_4Qw"
-        },
-        {
-          "date": "2026-04-30",
-          "summary": "Pushed a one-line CHANGELOG codespell fix (head 8eed547b), which cleared the pre-commit.ci failure on PR #2279.",
-          "url": "https://github.com/jupyter/nbconvert/pull/2279"
-        },
-        {
-          "date": "2026-04-30",
-          "summary": "Both visible checks are now green on PR #2279: pre-commit.ci and Read the Docs.",
-          "url": "https://github.com/jupyter/nbconvert/pull/2279"
-        }
-      ],
-      "learning": [
-        "Old issues can still be high-value if they are maintainer-acknowledged, reproducible, and not obviously tied to an active PR.",
-        "For CLI path bugs, app-level tests are worth more than isolated unit guesses because they lock in the real command behavior.",
-        "Bot-driven follow-ups can change the effective patch immediately after a PR opens, so the journal should track the new head SHA, file list, and CI state instead of freezing the original local commit.",
-        "Tiny CI follow-up commits are worth doing immediately when the remaining failure is a single concrete lint or codespell complaint."
-      ],
-      "next_steps": [
-        "Wait for maintainer review now that pre-commit.ci and Read the Docs are both green."
       ]
     },
     {
