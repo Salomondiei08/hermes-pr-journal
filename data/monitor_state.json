@@ -615,11 +615,11 @@
       "merged": false,
       "draft": false,
       "head_sha": "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7",
-      "comments_count": 0,
+      "comments_count": 1,
       "review_comments_count": 0,
       "closed_at": null,
       "merged_at": null,
-      "updated_at": "2026-05-27T13:40:59Z",
+      "updated_at": "2026-05-30T03:35:36Z",
       "labels": [
         "topic-NamedArray"
       ],
@@ -627,7 +627,9 @@
       "active_lock_reason": null,
       "fingerprint": {
         "head_sha": "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7",
-        "comment_ids": [],
+        "comment_ids": [
+          4581518733
+        ],
         "review_ids_states": [
           "Illviljan:CHANGES_REQUESTED"
         ],
@@ -656,7 +658,14 @@
           "submitted_at": "2026-05-27T13:40:59Z"
         }
       ],
-      "issue_comments": [],
+      "issue_comments": [
+        {
+          "user": "jaythehardcoder",
+          "id": 4581518733,
+          "body": "It happens when external tooling (like `uv` scripts / `pip-run` workflows) imports xarray. In some P",
+          "created_at": "2026-05-30T03:35:36Z"
+        }
+      ],
       "review_comments": [],
       "statuses": {
         "state": "success",
@@ -693,20 +702,23 @@
       "merged": false,
       "draft": false,
       "head_sha": "656eebd34bb9008b6b03bd4a84e05c5917e9356a",
-      "comments_count": 1,
+      "comments_count": 2,
       "review_comments_count": 0,
       "closed_at": null,
       "merged_at": null,
-      "updated_at": "2026-05-29T14:27:17Z",
+      "updated_at": "2026-05-30T03:51:15Z",
       "labels": [],
       "locked": false,
       "active_lock_reason": null,
       "fingerprint": {
         "head_sha": "656eebd34bb9008b6b03bd4a84e05c5917e9356a",
         "comment_ids": [
-          4576269858
+          4576269858,
+          4581518757
         ],
-        "review_ids_states": [],
+        "review_ids_states": [
+          4394296340
+        ],
         "commit_shas": [
           "656eebd34bb9008b6b03bd4a84e05c5917e9356a"
         ],
@@ -722,13 +734,27 @@
           "message": "fix: correct format specifiers in fa and el PO translations"
         }
       ],
-      "reviews": [],
+      "reviews": [
+        {
+          "id": 4394296340,
+          "user": "timhoffm",
+          "state": "APPROVED",
+          "body": "",
+          "submitted_at": "2026-05-30T03:51:15Z"
+        }
+      ],
       "issue_comments": [
         {
           "user": "m-aciek",
           "id": 4576269858,
           "body": "shouldn't it be also fixed upstream, on the Transifex translations platform, where translations are ",
           "created_at": "2026-05-29T14:27:17Z"
+        },
+        {
+          "user": "jaythehardcoder",
+          "id": 4581518757,
+          "body": "Good point. Fixing upstream on Transifex would be ideal, but I'd suggest doing both: this PR corrects",
+          "created_at": "2026-05-30T03:35:37Z"
         }
       ],
       "review_comments": [],
