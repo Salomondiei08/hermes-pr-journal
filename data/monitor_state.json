@@ -1837,7 +1837,7 @@
       "state": "open",
       "merged": false,
       "head_sha": "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7",
-      "comments_count": 1,
+      "comments_count": 2,
       "labels": [
         "topic-NamedArray"
       ],
@@ -1845,7 +1845,8 @@
       "fingerprint": {
         "head_sha": "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7",
         "comment_ids": [
-          4581518733
+          4581518733,
+          4586428899
         ],
         "review_ids_states": [
           "Illviljan:CHANGES_REQUESTED"
@@ -1897,6 +1898,51 @@
           "author_association": "NONE",
           "reactions": {
             "url": "https://api.github.com/repos/pydata/xarray/issues/comments/4581518733/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null
+        },
+        {
+          "url": "https://api.github.com/repos/pydata/xarray/issues/comments/4586428899",
+          "html_url": "https://github.com/pydata/xarray/pull/11358#issuecomment-4586428899",
+          "issue_url": "https://api.github.com/repos/pydata/xarray/issues/11358",
+          "id": 4586428899,
+          "node_id": "IC_kwDOAMm_X88AAAABEV9Z4w",
+          "user": {
+            "login": "Illviljan",
+            "id": 14371165,
+            "node_id": "MDQ6VXNlcjE0MzcxMTY1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/14371165?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Illviljan",
+            "html_url": "https://github.com/Illviljan",
+            "followers_url": "https://api.github.com/users/Illviljan/followers",
+            "following_url": "https://api.github.com/users/Illviljan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Illviljan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Illviljan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Illviljan/subscriptions",
+            "organizations_url": "https://api.github.com/users/Illviljan/orgs",
+            "repos_url": "https://api.github.com/users/Illviljan/repos",
+            "events_url": "https://api.github.com/users/Illviljan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Illviljan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-05-31T10:34:01Z",
+          "updated_at": "2026-05-31T10:34:01Z",
+          "body": "No the traceback shows a string is input in that example.",
+          "author_association": "CONTRIBUTOR",
+          "reactions": {
+            "url": "https://api.github.com/repos/pydata/xarray/issues/comments/4586428899/reactions",
             "total_count": 0,
             "+1": 0,
             "-1": 0,
