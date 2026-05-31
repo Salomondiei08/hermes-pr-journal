@@ -192,6 +192,11 @@
           "date": "2026-05-30T03:35:36Z",
           "summary": "Responded to Illviljan's review request with context from issue #11344 explaining that external tooling (uv scripts, pip-run workflows) can pass None to module_available through importlib.metadata entry points.",
           "url": "https://github.com/pydata/xarray/pull/11358#issuecomment-4851437094"
+        },
+        {
+          "date": "2026-05-31T10:34:01Z",
+          "summary": "Illviljan pushed back on the response, commenting: 'No the traceback shows a string is input in that example.' — they're arguing the original traceback shows a string (not None) being passed to module_available.",
+          "url": "https://github.com/pydata/xarray/pull/11358#issuecomment-4586428899"
         }
       ],
       "discussion_highlights": [
@@ -204,10 +209,15 @@
           "title": "Response to Illviljan",
           "summary": "Provided concrete context from issue #11344 showing that external tooling (uv scripts, pip-run) can pass None through importlib.metadata entry points, justifying the guard.",
           "url": "https://github.com/pydata/xarray/pull/11358#issuecomment-4851437094"
+        },
+        {
+          "title": "Illviljan pushes back on premise",
+          "summary": "Illviljan replied: 'No the traceback shows a string is input in that example.' — they're arguing the traceback from issue #11344 shows a string (not None) being passed. The PR's justification needs to be re-examined.",
+          "url": "https://github.com/pydata/xarray/pull/11358#issuecomment-4586428899"
         }
       ],
-      "next_steps": "Wait for Illviljan's re-review now that the issue context has been provided to justify the None guard.",
-      "last_updated": "2026-05-30T03:35:36Z"
+      "next_steps": "Illviljan pushed back on the None-precondition explanation, saying the traceback shows a string input. Need to re-examine issue #11344 more carefully and either strengthen the justification or adjust the fix.",
+      "last_updated": "2026-05-31T10:34:01Z"
     },
     {
       "slug": "xarray-rangeindex-arange-step",
