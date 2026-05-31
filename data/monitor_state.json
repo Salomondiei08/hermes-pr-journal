@@ -14,14 +14,17 @@
           4342719738
         ],
         "review_ids_states": [],
+        "pr_comment_ids": [],
         "commit_shas": [
           "e2769457249f15bc797c46394bebe2e558a82b4a"
         ],
-        "pr_comment_ids": [],
         "labels": [],
-        "merged": false,
         "state": "open",
-        "locked": false
+        "merged": false,
+        "locked": false,
+        "draft": false,
+        "merged_at": null,
+        "closed_at": null
       },
       "comments": [
         {
@@ -199,7 +202,8 @@
             }
           ]
         }
-      ]
+      ],
+      "draft": false
     },
     "markitdown-http-user-agent-header": {
       "state": "open",
@@ -212,14 +216,17 @@
         "head_sha": "87a2ffc82ddefb79b2b2480c5ae2205a18cb90fe",
         "comment_ids": [],
         "review_ids_states": [],
+        "pr_comment_ids": [],
         "commit_shas": [
           "87a2ffc82ddefb79b2b2480c5ae2205a18cb90fe"
         ],
-        "pr_comment_ids": [],
         "labels": [],
-        "merged": false,
         "state": "open",
-        "locked": false
+        "merged": false,
+        "locked": false,
+        "draft": false,
+        "merged_at": null,
+        "closed_at": null
       },
       "comments": [],
       "reviews": [],
@@ -306,7 +313,8 @@
             }
           ]
         }
-      ]
+      ],
+      "draft": false
     },
     "nbconvert-output-support-files-path": {
       "state": "open",
@@ -319,16 +327,19 @@
         "head_sha": "8eed547bd8e36352cb07060a6e11e4be476530da",
         "comment_ids": [],
         "review_ids_states": [],
-        "commit_shas": [
-          "db5fd920b7c6b55f3e84904cf6d1fc621fb78ed3",
-          "870a1ecced5a73bbf574067d665e68d0a3035883",
-          "8eed547bd8e36352cb07060a6e11e4be476530da"
-        ],
         "pr_comment_ids": [],
+        "commit_shas": [
+          "870a1ecced5a73bbf574067d665e68d0a3035883",
+          "8eed547bd8e36352cb07060a6e11e4be476530da",
+          "db5fd920b7c6b55f3e84904cf6d1fc621fb78ed3"
+        ],
         "labels": [],
-        "merged": false,
         "state": "open",
-        "locked": false
+        "merged": false,
+        "locked": false,
+        "draft": false,
+        "merged_at": null,
+        "closed_at": null
       },
       "comments": [],
       "reviews": [],
@@ -579,7 +590,8 @@
             }
           ]
         }
-      ]
+      ],
+      "draft": false
     },
     "nbconvert-duplicate-markdown-attachments": {
       "state": "open",
@@ -592,16 +604,19 @@
         "head_sha": "0d692f96bf3df7cd38b0ab02e9abda88b8100787",
         "comment_ids": [],
         "review_ids_states": [],
-        "commit_shas": [
-          "9067eb4faa5f6e1188b611c4dfa544103cc69934",
-          "9cf9556e03659974ce1a5df5d6719a6f35153c4d",
-          "0d692f96bf3df7cd38b0ab02e9abda88b8100787"
-        ],
         "pr_comment_ids": [],
+        "commit_shas": [
+          "0d692f96bf3df7cd38b0ab02e9abda88b8100787",
+          "9067eb4faa5f6e1188b611c4dfa544103cc69934",
+          "9cf9556e03659974ce1a5df5d6719a6f35153c4d"
+        ],
         "labels": [],
-        "merged": false,
         "state": "open",
-        "locked": false
+        "merged": false,
+        "locked": false,
+        "draft": false,
+        "merged_at": null,
+        "closed_at": null
       },
       "comments": [],
       "reviews": [],
@@ -852,7 +867,8 @@
             }
           ]
         }
-      ]
+      ],
+      "draft": false
     },
     "nbconvert-empty-anchor-link-text": {
       "state": "open",
@@ -865,16 +881,19 @@
         "head_sha": "fa87b66f1f5b7b37605e8df203aec6dfec81276e",
         "comment_ids": [],
         "review_ids_states": [],
+        "pr_comment_ids": [],
         "commit_shas": [
           "200e63ec45865c07ee309980c54dad35eb4fa4dc",
-          "fffc85054204d02e4e66104fae05dc86ffb3fb76",
-          "fa87b66f1f5b7b37605e8df203aec6dfec81276e"
+          "fa87b66f1f5b7b37605e8df203aec6dfec81276e",
+          "fffc85054204d02e4e66104fae05dc86ffb3fb76"
         ],
-        "pr_comment_ids": [],
         "labels": [],
-        "merged": false,
         "state": "open",
-        "locked": false
+        "merged": false,
+        "locked": false,
+        "draft": false,
+        "merged_at": null,
+        "closed_at": null
       },
       "comments": [],
       "reviews": [],
@@ -1125,7 +1144,8 @@
             }
           ]
         }
-      ]
+      ],
+      "draft": false
     },
     "nbconvert-rst-leading-block-quote-cell": {
       "state": "open",
@@ -1138,16 +1158,19 @@
         "head_sha": "3f97df4cb40be47a960e7b6d0a157cfebc782fab",
         "comment_ids": [],
         "review_ids_states": [],
+        "pr_comment_ids": [],
         "commit_shas": [
           "2ee300ca3270c0823b8b30997e864208ddb9c731",
-          "86708e94f0e2011606bbdf24cec14c997943b81e",
-          "3f97df4cb40be47a960e7b6d0a157cfebc782fab"
+          "3f97df4cb40be47a960e7b6d0a157cfebc782fab",
+          "86708e94f0e2011606bbdf24cec14c997943b81e"
         ],
-        "pr_comment_ids": [],
         "labels": [],
-        "merged": false,
         "state": "open",
-        "locked": false
+        "merged": false,
+        "locked": false,
+        "draft": false,
+        "merged_at": null,
+        "closed_at": null
       },
       "comments": [],
       "reviews": [],
@@ -1398,7 +1421,8 @@
             }
           ]
         }
-      ]
+      ],
+      "draft": false
     },
     "xarray-dataarray-coords-description": {
       "state": "open",
@@ -1413,16 +1437,19 @@
         "head_sha": "194b49c776e049613645d4d6ca2ec980026ae317",
         "comment_ids": [],
         "review_ids_states": [],
+        "pr_comment_ids": [],
         "commit_shas": [
           "194b49c776e049613645d4d6ca2ec980026ae317"
         ],
-        "pr_comment_ids": [],
         "labels": [
           "topic-documentation"
         ],
-        "merged": false,
         "state": "open",
-        "locked": false
+        "merged": false,
+        "locked": false,
+        "draft": false,
+        "merged_at": null,
+        "closed_at": null
       },
       "comments": [],
       "reviews": [],
@@ -1509,7 +1536,8 @@
             }
           ]
         }
-      ]
+      ],
+      "draft": false
     },
     "xarray-rangeindex-arange-step": {
       "state": "open",
@@ -1524,17 +1552,20 @@
           4413681595
         ],
         "review_ids_states": [
-          "cfriedland5:COMMENTED"
-        ],
-        "commit_shas": [
-          "52d5b063b694014c45348e157c7de221376af722",
-          "3ba554ff7f79cb40a1da555181c7fd075cfb162d"
+          "4258610040:COMMENTED"
         ],
         "pr_comment_ids": [],
+        "commit_shas": [
+          "3ba554ff7f79cb40a1da555181c7fd075cfb162d",
+          "52d5b063b694014c45348e157c7de221376af722"
+        ],
         "labels": [],
-        "merged": false,
         "state": "open",
-        "locked": false
+        "merged": false,
+        "locked": false,
+        "draft": false,
+        "merged_at": null,
+        "closed_at": null
       },
       "comments": [
         {
@@ -1831,7 +1862,8 @@
             }
           ]
         }
-      ]
+      ],
+      "draft": false
     },
     "xarray-module-available-none": {
       "state": "open",
@@ -1849,20 +1881,21 @@
           4586428899
         ],
         "review_ids_states": [
-          "Illviljan:CHANGES_REQUESTED"
+          "4372809867:CHANGES_REQUESTED"
         ],
+        "pr_comment_ids": [],
         "commit_shas": [
           "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7"
-        ],
-        "pr_comment_ids": [
-          4372809867
         ],
         "labels": [
           "topic-NamedArray"
         ],
-        "merged": false,
         "state": "open",
-        "locked": false
+        "merged": false,
+        "locked": false,
+        "draft": false,
+        "merged_at": null,
+        "closed_at": null
       },
       "comments": [
         {
@@ -2081,7 +2114,8 @@
             }
           ]
         }
-      ]
+      ],
+      "draft": false
     },
     "sphinx-locale-format-specifiers": {
       "state": "open",
@@ -2097,16 +2131,19 @@
           4581518757
         ],
         "review_ids_states": [
-          "timhoffm:APPROVED"
+          "4394296340:APPROVED"
         ],
+        "pr_comment_ids": [],
         "commit_shas": [
           "656eebd34bb9008b6b03bd4a84e05c5917e9356a"
         ],
-        "pr_comment_ids": [],
         "labels": [],
-        "merged": false,
         "state": "open",
-        "locked": false
+        "merged": false,
+        "locked": false,
+        "draft": false,
+        "merged_at": null,
+        "closed_at": null
       },
       "comments": [
         {
@@ -2325,7 +2362,8 @@
             }
           ]
         }
-      ]
+      ],
+      "draft": false
     },
     "sphinx-source-file-count-plural": {
       "state": "open",
@@ -2338,14 +2376,17 @@
         "head_sha": "373dbe88d12972fdd67ece8acd7f55227d51795e",
         "comment_ids": [],
         "review_ids_states": [],
+        "pr_comment_ids": [],
         "commit_shas": [
           "373dbe88d12972fdd67ece8acd7f55227d51795e"
         ],
-        "pr_comment_ids": [],
         "labels": [],
-        "merged": false,
         "state": "open",
-        "locked": false
+        "merged": false,
+        "locked": false,
+        "draft": false,
+        "merged_at": null,
+        "closed_at": null
       },
       "comments": [],
       "reviews": [],
@@ -2432,7 +2473,8 @@
             }
           ]
         }
-      ]
+      ],
+      "draft": false
     },
     "click-help-argument-collision": {
       "state": "closed",
@@ -2449,14 +2491,17 @@
           4344753961
         ],
         "review_ids_states": [],
+        "pr_comment_ids": [],
         "commit_shas": [
           "e459528e4744cfca49a94a9dab03fa77440ee973"
         ],
-        "pr_comment_ids": [],
         "labels": [],
-        "merged": false,
         "state": "closed",
-        "locked": true
+        "merged": false,
+        "locked": true,
+        "draft": false,
+        "merged_at": null,
+        "closed_at": "2026-04-29T11:31:06Z"
       },
       "comments": [
         {
@@ -2679,7 +2724,8 @@
             }
           ]
         }
-      ]
+      ],
+      "draft": false
     },
     "requests-session-request-verify-inheritance": {
       "state": "closed",
@@ -2694,16 +2740,19 @@
         "head_sha": "2e5e220537fbb05cad2100933cd3c87eda3d88ca",
         "comment_ids": [],
         "review_ids_states": [],
+        "pr_comment_ids": [],
         "commit_shas": [
           "2e5e220537fbb05cad2100933cd3c87eda3d88ca"
         ],
-        "pr_comment_ids": [],
         "labels": [
           "mass-automation-pr"
         ],
-        "merged": false,
         "state": "closed",
-        "locked": false
+        "merged": false,
+        "locked": false,
+        "draft": false,
+        "merged_at": null,
+        "closed_at": "2026-04-29T21:31:46Z"
       },
       "comments": [],
       "reviews": [],
@@ -2790,12 +2839,14 @@
             }
           ]
         }
-      ]
+      ],
+      "draft": false
     }
   },
   "processed_email_ids": [
     "8226",
-    "8232"
+    "8232",
+    "8252"
   ],
-  "generated_at": "2026-05-31T18:00:00Z"
+  "generated_at": "2026-05-31T13:00:00Z"
 }
