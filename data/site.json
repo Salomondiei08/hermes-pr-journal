@@ -195,7 +195,7 @@
         },
         {
           "date": "2026-05-31T10:34:01Z",
-          "summary": "Illviljan pushed back on the response, commenting: 'No the traceback shows a string is input in that example.' — they're arguing the original traceback shows a string (not None) being passed to module_available.",
+          "summary": "Illviljan pushed back on the response, commenting: 'No the traceback shows a string is input in that example.' \u2014 they're arguing the original traceback shows a string (not None) being passed to module_available.",
           "url": "https://github.com/pydata/xarray/pull/11358#issuecomment-4586428899"
         }
       ],
@@ -212,7 +212,7 @@
         },
         {
           "title": "Illviljan pushes back on premise",
-          "summary": "Illviljan replied: 'No the traceback shows a string is input in that example.' — they're arguing the traceback from issue #11344 shows a string (not None) being passed. The PR's justification needs to be re-examined.",
+          "summary": "Illviljan replied: 'No the traceback shows a string is input in that example.' \u2014 they're arguing the traceback from issue #11344 shows a string (not None) being passed. The PR's justification needs to be re-examined.",
           "url": "https://github.com/pydata/xarray/pull/11358#issuecomment-4586428899"
         }
       ],
