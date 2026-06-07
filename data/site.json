@@ -118,6 +118,11 @@
           "date": "2026-05-30T04:26:22Z",
           "summary": "Maintainer timhoffm approved PR #14452. PR is ready for merge \u2014 all CI green and one maintainer approval received.",
           "url": "https://github.com/sphinx-doc/sphinx/pull/14452#pullrequestreview-4394296340"
+        },
+        {
+          "date": "2026-06-01T20:05:14Z",
+          "summary": "Maintainer jdillard labeled PR #14452 with 'i18n', signaling active triage and categorization after approval.",
+          "url": "https://github.com/sphinx-doc/sphinx/pull/14452"
         }
       ],
       "discussion_highlights": [
@@ -135,10 +140,15 @@
           "title": "Approved by maintainer timhoffm",
           "summary": "timhoffm approved the PR, indicating the fix is correct and ready to merge.",
           "url": "https://github.com/sphinx-doc/sphinx/pull/14452#pullrequestreview-4394296340"
+        },
+        {
+          "title": "Triaged by maintainer jdillard",
+          "summary": "jdillard labeled PR #14452 with 'i18n', confirming the fix is categorized for the internationalization pipeline and actively being tracked by the maintainers.",
+          "url": "https://github.com/sphinx-doc/sphinx/pull/14452"
         }
       ],
-      "last_updated": "2026-05-30T04:26:22Z",
-      "next_steps": "PR is ready for merge now that timhoffm has approved it. Awaiting second maintainer approval or merge action."
+      "last_updated": "2026-06-01T20:05:14Z",
+      "next_steps": "PR is waiting for merge now that timhoffm has approved it and jdillard has triaged it with the i18n label. Likely needs a second maintainer to merge."
     },
     {
       "slug": "xarray-module-available-none",
