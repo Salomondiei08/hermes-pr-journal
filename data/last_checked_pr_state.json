@@ -181,7 +181,7 @@
     }
   },
   "pydata/xarray#11328": {
-    "state": "open",
+    "state": "closed",
     "title": "fix: preserve RangeIndex.arange step",
     "updated_at": "2026-05-26T22:03:28Z",
     "created_at": "2026-05-09T21:11:34Z",
@@ -260,5 +260,8 @@
       "total": 0,
       "statuses": []
     }
+  },
+  "_meta": {
+    "last_checked": "2026-06-07T23:00:00Z"
   }
 }

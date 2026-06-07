@@ -1540,7 +1540,7 @@
       "draft": false
     },
     "xarray-rangeindex-arange-step": {
-      "state": "open",
+      "state": "closed",
       "merged": false,
       "head_sha": "3ba554ff7f79cb40a1da555181c7fd075cfb162d",
       "comments_count": 1,
@@ -1560,12 +1560,12 @@
           "52d5b063b694014c45348e157c7de221376af722"
         ],
         "labels": [],
-        "state": "open",
+        "state": "closed",
         "merged": false,
         "locked": false,
         "draft": false,
         "merged_at": null,
-        "closed_at": null
+        "closed_at": "2026-06-07T22:34:25Z"
       },
       "comments": [
         {
@@ -2848,5 +2848,5 @@
     "8232",
     "8252"
   ],
-  "generated_at": "2026-05-31T13:00:00Z"
+  "generated_at": "2026-06-07T23:00:00Z"
 }
