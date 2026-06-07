@@ -236,7 +236,7 @@
       "repo": "pydata/xarray",
       "pr_number": 11328,
       "pr_url": "https://github.com/pydata/xarray/pull/11328",
-      "status": "open",
+      "status": "closed",
       "branch": "fix-rangeindex-arange-step",
       "commit": "3c6402d6ad23f3f388ebbab985ae6dfe7322f25f",
       "summary": "Fixed RangeIndex.arange so non-dividing steps materialize the same values as numpy.arange instead of deriving a different spacing from the interval length.",
