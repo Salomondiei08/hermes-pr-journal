@@ -16,7 +16,8 @@
       "statuses": [
         "license/cla: success"
       ]
-    }
+    },
+    "commit_statuses": []
   },
   "pallets/click#3392": {
     "state": "closed",
@@ -183,14 +184,14 @@
   "pydata/xarray#11328": {
     "state": "closed",
     "title": "fix: preserve RangeIndex.arange step",
-    "updated_at": "2026-05-26T22:03:28Z",
+    "updated_at": "2026-06-07T22:34:25Z",
     "created_at": "2026-05-09T21:11:34Z",
     "merged": false,
     "merged_at": null,
-    "closed_at": null,
+    "closed_at": "2026-06-07T22:34:25Z",
     "latest_sha7": "3ba554f",
     "draft": false,
-    "comments": 1,
+    "comments": 2,
     "review_comments": 1,
     "check_runs": {
       "total": 1,
@@ -204,39 +205,41 @@
     ]
   },
   "sphinx-doc/sphinx#14452": {
-    "state": "open",
+    "state": "closed",
     "title": "fix: correct format specifiers in fa and el PO translations",
-    "updated_at": "2026-05-29T14:27:17Z",
+    "updated_at": "2026-06-08T02:52:02Z",
     "created_at": "2026-05-27T22:09:18Z",
     "merged": false,
     "merged_at": null,
-    "closed_at": null,
+    "closed_at": "2026-06-08T02:49:35Z",
     "latest_sha7": "656eebd",
     "draft": false,
-    "comments": 1,
+    "comments": 3,
     "review_comments": 0,
     "check_runs": {
       "total": 0,
       "statuses": []
-    }
+    },
+    "commit_statuses": [
+      "docs/readthedocs.org:sphinx: success"
+    ]
   },
   "pydata/xarray#11358": {
     "state": "open",
     "title": "fix: handle None module in module_available",
-    "updated_at": "2026-05-27T13:40:59Z",
+    "updated_at": "2026-05-31T10:34:01Z",
     "created_at": "2026-05-26T22:04:42Z",
     "merged": false,
     "merged_at": null,
     "closed_at": null,
-    "latest_sha7": "bfa0b8c3",
+    "latest_sha7": "bfa0b8c",
     "draft": false,
-    "comments": 0,
+    "comments": 2,
     "review_comments": 0,
     "check_runs": {
-      "total": 2,
+      "total": 1,
       "statuses": [
-        "pre-commit.ci - pr: success",
-        "docs/readthedocs.org:xray: success"
+        "label: success"
       ]
     },
     "commit_statuses": [
@@ -262,6 +265,6 @@
     }
   },
   "_meta": {
-    "last_checked": "2026-06-07T23:00:00Z"
+    "last_checked": "2026-06-08T09:36:02Z"
   }
 }

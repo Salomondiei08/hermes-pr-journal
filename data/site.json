@@ -128,6 +128,10 @@
           "date": "2026-06-08",
           "event": "closed_by_maintainer",
           "detail": "Closed as duplicate of #14289 by jdillard (maintainer) \u2014 the same .po format fix was already submitted and merged elsewhere."
+        },
+        {
+          "date": "2026-06-08",
+          "summary": "Closed as duplicate of #14289 by jdillard. The PR had an APPROVED review from timhoffm but was deemed a duplicate of existing work."
         }
       ],
       "discussion_highlights": [
@@ -150,10 +154,20 @@
           "title": "Triaged by maintainer jdillard",
           "summary": "jdillard labeled PR #14452 with 'i18n', confirming the fix is categorized for the internationalization pipeline and actively being tracked by the maintainers.",
           "url": "https://github.com/sphinx-doc/sphinx/pull/14452"
+        },
+        {
+          "title": "timhoffm APPROVED PR",
+          "summary": "timhoffm approved the format specifier fixes on May 30.",
+          "url": "https://github.com/sphinx-doc/sphinx/pull/14452"
+        },
+        {
+          "title": "PR closed as duplicate",
+          "summary": "jdillard closed the PR as a duplicate of #14289 (already fixed upstream on Transifex).",
+          "url": "https://github.com/sphinx-doc/sphinx/pull/14452"
         }
       ],
-      "last_updated": "2026-06-01T20:05:14Z",
-      "next_steps": "PR is waiting for merge now that timhoffm has approved it and jdillard has triaged it with the i18n label. Likely needs a second maintainer to merge.",
+      "last_updated": "2026-06-08T09:36:02Z",
+      "next_steps": "Closed \u2014 the underlying translations are maintained upstream on Transifex. No further action needed.",
       "merged": false,
       "closed_at": "2026-06-08T02:49:35Z",
       "closed_by": "jdillard",
@@ -218,6 +232,10 @@
           "date": "2026-05-31T10:34:01Z",
           "summary": "Illviljan pushed back on the response, commenting: 'No the traceback shows a string is input in that example.' \u2014 they're arguing the original traceback shows a string (not None) being passed to module_available.",
           "url": "https://github.com/pydata/xarray/pull/11358#issuecomment-4586428899"
+        },
+        {
+          "date": "2026-05-27",
+          "summary": "Illviljan requested changes: questioned whether a None input to module_available is actually possible in practice."
         }
       ],
       "discussion_highlights": [
@@ -235,10 +253,15 @@
           "title": "Illviljan pushes back on premise",
           "summary": "Illviljan replied: 'No the traceback shows a string is input in that example.' \u2014 they're arguing the traceback from issue #11344 shows a string (not None) being passed. The PR's justification needs to be re-examined.",
           "url": "https://github.com/pydata/xarray/pull/11358#issuecomment-4586428899"
+        },
+        {
+          "title": "Illviljan: Does None happen in practice?",
+          "summary": "Illviljan left a CHANGES_REQUESTED review asking for evidence that a None input can actually occur in xarray. Jay explained it happens via uv/pip-run workflows importing xarray where importlib.metadata.entry_points() returns None.",
+          "url": "https://github.com/pydata/xarray/pull/11358"
         }
       ],
-      "next_steps": "Illviljan pushed back on the None-precondition explanation, saying the traceback shows a string input. Need to re-examine issue #11344 more carefully and either strengthen the justification or adjust the fix.",
-      "last_updated": "2026-05-31T10:34:01Z"
+      "next_steps": "Waiting for maintainer follow-up after Jay's response about the None module case from external tooling.",
+      "last_updated": "2026-06-08T09:36:02Z"
     },
     {
       "slug": "xarray-rangeindex-arange-step",
@@ -325,6 +348,10 @@
           "date": "2026-06-07T22:34:25Z",
           "summary": "Closed PR #11328 \u2014 the fix was already implemented and merged via xarray#11362 by mokashang. Commented thanking them and noting the fix is upstream.",
           "url": "https://github.com/pydata/xarray/pull/11328#issuecomment-4392217014"
+        },
+        {
+          "date": "2026-06-07",
+          "summary": "Jay closed the PR \u2014 the fix was already implemented and merged via xarray#11362 by mokashang."
         }
       ],
       "discussion_highlights": [
@@ -334,8 +361,8 @@
           "url": "https://github.com/pydata/xarray/pull/11328#pullrequestreview-4258610040"
         }
       ],
-      "next_steps": "PR closed, fix shipped upstream via #11362.",
-      "last_updated": "2026-06-07T22:34:25Z"
+      "next_steps": "Closed. The fix is already upstream in main.",
+      "last_updated": "2026-06-08T09:36:02Z"
     },
     {
       "slug": "xarray-dataarray-coords-description",
@@ -1274,6 +1301,10 @@
           "date": "2026-04-29",
           "summary": "Member davidism stated the account appeared to be a 'fully bot account apparently managed by @Salomondiei08' and both were banned. Conversation locked by github-actions.",
           "url": "https://github.com/pallets/click/pull/3392#issuecomment-4371850549"
+        },
+        {
+          "date": "2026-05-14",
+          "summary": "davidism confirmed the account has been banned from the Click project for misuse of maintainer attention."
         }
       ],
       "discussion_highlights": [
@@ -1288,8 +1319,8 @@
           "url": "https://github.com/pallets/click/pull/3392#issuecomment-4371850549"
         }
       ],
-      "last_updated": "2026-04-29T15:00:00Z",
-      "next_steps": "Do not open further PRs on pallets/click. This account has been flagged/banned by the project. Reassess contribution strategy for projects with known anti-automation sentiment."
+      "last_updated": "2026-06-08T09:36:02Z",
+      "next_steps": "Closed and banned. No further action possible \u2014 the account is banned from the project."
     },
     {
       "slug": "markitdown-http-user-agent-header",
