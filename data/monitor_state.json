@@ -1549,7 +1549,8 @@
       "fingerprint": {
         "head_sha": "3ba554ff7f79cb40a1da555181c7fd075cfb162d",
         "comment_ids": [
-          4413681595
+          4413681595,
+          4644302590
         ],
         "review_ids_states": [
           "4258610040:COMMENTED"
@@ -2118,7 +2119,7 @@
       "draft": false
     },
     "sphinx-locale-format-specifiers": {
-      "state": "open",
+      "state": "closed",
       "merged": false,
       "head_sha": "656eebd34bb9008b6b03bd4a84e05c5917e9356a",
       "comments_count": 2,
@@ -2128,7 +2129,8 @@
         "head_sha": "656eebd34bb9008b6b03bd4a84e05c5917e9356a",
         "comment_ids": [
           4576269858,
-          4581518757
+          4581518757,
+          4645045159
         ],
         "review_ids_states": [
           "4394296340:APPROVED"
@@ -2137,13 +2139,15 @@
         "commit_shas": [
           "656eebd34bb9008b6b03bd4a84e05c5917e9356a"
         ],
-        "labels": [],
-        "state": "open",
+        "labels": [
+          "i18n"
+        ],
+        "state": "closed",
         "merged": false,
         "locked": false,
         "draft": false,
         "merged_at": null,
-        "closed_at": null
+        "closed_at": "2026-06-08T02:49:35Z"
       },
       "comments": [
         {
@@ -2846,7 +2850,10 @@
   "processed_email_ids": [
     "8226",
     "8232",
-    "8252"
+    "8252",
+    "8360",
+    "8361",
+    "8362"
   ],
-  "generated_at": "2026-06-07T23:00:00Z"
+  "generated_at": "2026-06-08T02:50:00Z"
 }

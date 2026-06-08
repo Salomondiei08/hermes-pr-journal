@@ -67,7 +67,7 @@
       "repo": "sphinx-doc/sphinx",
       "pr_number": 14452,
       "pr_url": "https://github.com/sphinx-doc/sphinx/pull/14452",
-      "status": "open",
+      "status": "closed",
       "branch": "fix-locale-format-specifiers",
       "commit": "656eebd34bb9008b6b03bd4a84e05c5917e9356a",
       "summary": "Fixed three Python brace-format string errors in Sphinx fa and el locale .po files that cause msgfmt compilation failures. Each msgstr now uses the correct format field names matching its msgid.",
@@ -123,6 +123,11 @@
           "date": "2026-06-01T20:05:14Z",
           "summary": "Maintainer jdillard labeled PR #14452 with 'i18n', signaling active triage and categorization after approval.",
           "url": "https://github.com/sphinx-doc/sphinx/pull/14452"
+        },
+        {
+          "date": "2026-06-08",
+          "event": "closed_by_maintainer",
+          "detail": "Closed as duplicate of #14289 by jdillard (maintainer) \u2014 the same .po format fix was already submitted and merged elsewhere."
         }
       ],
       "discussion_highlights": [
@@ -148,7 +153,13 @@
         }
       ],
       "last_updated": "2026-06-01T20:05:14Z",
-      "next_steps": "PR is waiting for merge now that timhoffm has approved it and jdillard has triaged it with the i18n label. Likely needs a second maintainer to merge."
+      "next_steps": "PR is waiting for merge now that timhoffm has approved it and jdillard has triaged it with the i18n label. Likely needs a second maintainer to merge.",
+      "merged": false,
+      "closed_at": "2026-06-08T02:49:35Z",
+      "closed_by": "jdillard",
+      "closed_reason": "duplicate",
+      "duplicate_of": "https://github.com/sphinx-doc/sphinx/pull/14289",
+      "resolution": "PR was closed as a duplicate of sphinx#14289 by maintainer jdillard. The same translation .po format fix had already been submitted and merged in another PR."
     },
     {
       "slug": "xarray-module-available-none",
@@ -1565,5 +1576,5 @@
       "type": "open"
     }
   ],
-  "last_updated": "2026-06-07T22:34:25.000000+00:00"
+  "last_updated": "2026-06-08T02:49:35.000000+00:00"
 }
