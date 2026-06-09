@@ -310,25 +310,8 @@
           "3ba554ff7f79cb40a1da555181c7fd075cfb162d",
           "52d5b063b694014c45348e157c7de221376af722"
         ],
-        "checks": [
-          [
-            "label",
-            "completed",
-            "success"
-          ]
-        ],
-        "statuses": [
-          [
-            "docs/readthedocs.org:xray",
-            "success",
-            "https://xray--11328.org.readthedocs.build/en/11328/"
-          ],
-          [
-            "pre-commit.ci - pr",
-            "success",
-            "https://results.pre-commit.ci/run/github/13221727/1779833009.yxltGjTrQOixrhnUWhk6YQ"
-          ]
-        ]
+        "checks": [],
+        "statuses": []
       },
       "_reviews_semantic": [
         [
@@ -434,13 +417,7 @@
           "656eebd34bb9008b6b03bd4a84e05c5917e9356a"
         ],
         "checks": [],
-        "statuses": [
-          [
-            "docs/readthedocs.org:sphinx",
-            "success",
-            "https://sphinx--14452.org.readthedocs.build/en/14452/"
-          ]
-        ]
+        "statuses": []
       },
       "_reviews_semantic": [
         [
@@ -509,13 +486,7 @@
           "e459528e4744cfca49a94a9dab03fa77440ee973"
         ],
         "checks": [],
-        "statuses": [
-          [
-            "docs/readthedocs.org:pallets-click",
-            "success",
-            "https://pallets-click--3392.org.readthedocs.build/en/3392/"
-          ]
-        ]
+        "statuses": []
       },
       "_reviews_semantic": []
     },
@@ -546,13 +517,7 @@
           "2e5e220537fbb05cad2100933cd3c87eda3d88ca"
         ],
         "checks": [],
-        "statuses": [
-          [
-            "docs/readthedocs.org:requests",
-            "success",
-            "https://requests--7400.org.readthedocs.build/en/7400/"
-          ]
-        ]
+        "statuses": []
       },
       "_reviews_semantic": []
     }
@@ -575,5 +540,5 @@
     "8361",
     "8362"
   ],
-  "generated_at": "2026-06-09T12:00:00Z"
+  "generated_at": "2026-06-09T17:45:00Z"
 }
