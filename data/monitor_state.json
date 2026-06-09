@@ -321,10 +321,10 @@
       ]
     },
     "xarray-module-available-none": {
-      "state": "open",
+      "state": "closed",
       "merged": false,
       "head_sha": "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7",
-      "comments_count": 2,
+      "comments_count": 3,
       "review_comments_count": 0,
       "labels": [
         "topic-NamedArray"
@@ -332,17 +332,18 @@
       "locked": false,
       "draft": false,
       "fingerprint": {
-        "state": "open",
+        "state": "closed",
         "draft": false,
         "merged_at": null,
-        "closed_at": null,
+        "closed_at": "2026-06-09T22:02:33Z",
         "head_sha": "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7",
         "labels": [
           "topic-NamedArray"
         ],
         "comment_ids": [
           4581518733,
-          4586428899
+          4586428899,
+          4664463883
         ],
         "review_ids_states": [
           [
@@ -379,7 +380,8 @@
           "Illviljan",
           "CHANGES_REQUESTED"
         ]
-      ]
+      ],
+      "closed_at": "2026-06-09T22:02:33Z"
     },
     "sphinx-locale-format-specifiers": {
       "state": "closed",
@@ -520,6 +522,64 @@
         "statuses": []
       },
       "_reviews_semantic": []
+    },
+    "xarray-module-available-version-none": {
+      "state": "open",
+      "merged": false,
+      "head_sha": "df2daa7629511d7c4414aafb33fd7bcbc7a8f433",
+      "comments_count": 0,
+      "review_comments_count": 0,
+      "labels": [
+        "topic-NamedArray"
+      ],
+      "locked": false,
+      "draft": false,
+      "fingerprint": {
+        "state": "open",
+        "draft": false,
+        "merged_at": null,
+        "closed_at": null,
+        "head_sha": "df2daa7629511d7c4414aafb33fd7bcbc7a8f433",
+        "labels": [
+          "topic-NamedArray"
+        ],
+        "comment_ids": [],
+        "review_ids_states": [],
+        "review_comment_ids": [],
+        "commit_shas": [
+          "df2daa7629511d7c4414aafb33fd7bcbc7a8f433"
+        ],
+        "checks": [
+          [
+            "label",
+            "completed",
+            "success"
+          ],
+          [
+            "pre-commit.ci - pr",
+            "completed",
+            "success"
+          ],
+          [
+            "docs/readthedocs.org:xray",
+            "completed",
+            "success"
+          ]
+        ],
+        "statuses": [
+          [
+            "pre-commit.ci - pr",
+            "success",
+            "https://results.pre-commit.ci/run/github/13221727/1781042649.SwT30SpXSHqiGGj44QFOCw"
+          ],
+          [
+            "docs/readthedocs.org:xray",
+            "success",
+            "https://xray--11379.org.readthedocs.build/en/11379/"
+          ]
+        ]
+      },
+      "_reviews_semantic": []
     }
   },
   "processed_email_ids": [
@@ -538,7 +598,10 @@
     "8252",
     "8360",
     "8361",
-    "8362"
+    "8362",
+    "8396",
+    "8397",
+    "8398"
   ],
-  "generated_at": "2026-06-09T17:45:00Z"
+  "generated_at": "2026-06-09T22:38:32Z"
 }
