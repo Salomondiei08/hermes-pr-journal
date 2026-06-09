@@ -225,16 +225,16 @@
     ]
   },
   "pydata/xarray#11358": {
-    "state": "open",
+    "state": "closed",
     "title": "fix: handle None module in module_available",
-    "updated_at": "2026-05-31T10:34:01Z",
+    "updated_at": "2026-06-09T22:02:33Z",
     "created_at": "2026-05-26T22:04:42Z",
     "merged": false,
     "merged_at": null,
-    "closed_at": null,
+    "closed_at": "2026-06-09T22:02:33Z",
     "latest_sha7": "bfa0b8c",
     "draft": false,
-    "comments": 2,
+    "comments": 3,
     "review_comments": 0,
     "check_runs": {
       "total": 1,
@@ -265,6 +265,24 @@
     }
   },
   "_meta": {
-    "last_checked": "2026-06-09T11:38:20Z"
+    "last_checked": "2026-06-09T22:50:00Z"
+  },
+  "pydata/xarray#11379": {
+    "state": "open",
+    "title": "fix: guard against None version in module_available",
+    "updated_at": "2026-06-09T22:04:17Z",
+    "created_at": "2026-06-09T22:04:07Z",
+    "merged": false,
+    "merged_at": null,
+    "closed_at": null,
+    "latest_sha7": "df2daa7",
+    "draft": false,
+    "comments": 0,
+    "review_comments": 0,
+    "check_runs": {
+      "total": 0,
+      "statuses": []
+    },
+    "commit_statuses": []
   }
 }

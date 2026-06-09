@@ -61,6 +61,12 @@
       "pr_number": 11358
     },
     {
+      "slug": "xarray-module-available-version-none",
+      "owner": "pydata",
+      "repo": "xarray",
+      "pr_number": 11379
+    },
+    {
       "slug": "sphinx-locale-format-specifiers",
       "owner": "sphinx-doc",
       "repo": "sphinx",

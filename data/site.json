@@ -60,7 +60,14 @@
         }
       ],
       "last_updated": "2026-06-09T22:37:15Z",
-      "next_steps": "CI is green on required checks (pre-commit.ci, RTD). Some matrix runners failing \u2014 likely infrastructure, not related to the change. Waiting for maintainer review."
+      "next_steps": "CI is green on required checks (pre-commit.ci, RTD). Some matrix runners failing \u2014 likely infrastructure, not related to the change. Waiting for maintainer review.",
+      "discussion_highlights": [
+        {
+          "title": "Replaced PR #11358",
+          "summary": "Closed PR #11358 after acknowledging Illviljan was correct about the root cause. Reopened as PR #11379 with the correct fix guarding importlib.metadata.version() returning None.",
+          "url": "https://github.com/pydata/xarray/pull/11379"
+        }
+      ]
     },
     {
       "slug": "sphinx-source-file-count-plural",
@@ -287,6 +294,10 @@
         {
           "date": "2026-05-27",
           "summary": "Illviljan requested changes: questioned whether a None input to module_available is actually possible in practice."
+        },
+        {
+          "date": "2026-06-09T22:02:30Z",
+          "summary": "Closed PR #11358 without merge \u2014 acknowledged Illviljan was correct: the actual crash in #11344 is from importlib.metadata.version() returning None, not from module=None being passed in. Opened PR #11379 with the correct fix."
         }
       ],
       "discussion_highlights": [
@@ -311,8 +322,8 @@
           "url": "https://github.com/pydata/xarray/pull/11358"
         }
       ],
-      "next_steps": "Waiting for maintainer follow-up after Jay's response about the None module case from external tooling.",
-      "last_updated": "2026-06-08T09:36:02Z"
+      "next_steps": "Closed gracefully. Replaced by PR #11379 with the correct fix.",
+      "last_updated": "2026-06-09T22:02:33Z"
     },
     {
       "slug": "xarray-rangeindex-arange-step",
