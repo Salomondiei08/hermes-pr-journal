@@ -546,7 +546,13 @@
           "2e5e220537fbb05cad2100933cd3c87eda3d88ca"
         ],
         "checks": [],
-        "statuses": []
+        "statuses": [
+          [
+            "docs/readthedocs.org:requests",
+            "success",
+            "https://requests--7400.org.readthedocs.build/en/7400/"
+          ]
+        ]
       },
       "_reviews_semantic": []
     }
@@ -569,5 +575,5 @@
     "8361",
     "8362"
   ],
-  "generated_at": "2026-06-09T09:43:30Z"
+  "generated_at": "2026-06-09T12:00:00Z"
 }
