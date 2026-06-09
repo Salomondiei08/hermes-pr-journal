@@ -21,7 +21,7 @@
           4342719738
         ],
         "review_ids_states": [],
-        "pr_comment_ids": [],
+        "review_comment_ids": [],
         "commit_shas": [
           "e2769457249f15bc797c46394bebe2e558a82b4a"
         ],
@@ -54,7 +54,7 @@
         "labels": [],
         "comment_ids": [],
         "review_ids_states": [],
-        "pr_comment_ids": [],
+        "review_comment_ids": [],
         "commit_shas": [
           "87a2ffc82ddefb79b2b2480c5ae2205a18cb90fe"
         ],
@@ -87,7 +87,7 @@
         "labels": [],
         "comment_ids": [],
         "review_ids_states": [],
-        "pr_comment_ids": [],
+        "review_comment_ids": [],
         "commit_shas": [
           "870a1ecced5a73bbf574067d665e68d0a3035883",
           "8eed547bd8e36352cb07060a6e11e4be476530da",
@@ -127,7 +127,7 @@
         "labels": [],
         "comment_ids": [],
         "review_ids_states": [],
-        "pr_comment_ids": [],
+        "review_comment_ids": [],
         "commit_shas": [
           "0d692f96bf3df7cd38b0ab02e9abda88b8100787",
           "9067eb4faa5f6e1188b611c4dfa544103cc69934",
@@ -167,7 +167,7 @@
         "labels": [],
         "comment_ids": [],
         "review_ids_states": [],
-        "pr_comment_ids": [],
+        "review_comment_ids": [],
         "commit_shas": [
           "200e63ec45865c07ee309980c54dad35eb4fa4dc",
           "fa87b66f1f5b7b37605e8df203aec6dfec81276e",
@@ -207,7 +207,7 @@
         "labels": [],
         "comment_ids": [],
         "review_ids_states": [],
-        "pr_comment_ids": [],
+        "review_comment_ids": [],
         "commit_shas": [
           "2ee300ca3270c0823b8b30997e864208ddb9c731",
           "3f97df4cb40be47a960e7b6d0a157cfebc782fab",
@@ -251,7 +251,7 @@
         ],
         "comment_ids": [],
         "review_ids_states": [],
-        "pr_comment_ids": [],
+        "review_comment_ids": [],
         "commit_shas": [
           "194b49c776e049613645d4d6ca2ec980026ae317"
         ],
@@ -303,7 +303,7 @@
             "COMMENTED"
           ]
         ],
-        "pr_comment_ids": [
+        "review_comment_ids": [
           3214027866
         ],
         "commit_shas": [
@@ -367,7 +367,7 @@
             "CHANGES_REQUESTED"
           ]
         ],
-        "pr_comment_ids": [],
+        "review_comment_ids": [],
         "commit_shas": [
           "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7"
         ],
@@ -429,7 +429,7 @@
             "APPROVED"
           ]
         ],
-        "pr_comment_ids": [],
+        "review_comment_ids": [],
         "commit_shas": [
           "656eebd34bb9008b6b03bd4a84e05c5917e9356a"
         ],
@@ -467,7 +467,7 @@
         "labels": [],
         "comment_ids": [],
         "review_ids_states": [],
-        "pr_comment_ids": [],
+        "review_comment_ids": [],
         "commit_shas": [
           "373dbe88d12972fdd67ece8acd7f55227d51795e"
         ],
@@ -504,7 +504,7 @@
           4344753961
         ],
         "review_ids_states": [],
-        "pr_comment_ids": [],
+        "review_comment_ids": [],
         "commit_shas": [
           "e459528e4744cfca49a94a9dab03fa77440ee973"
         ],
@@ -541,7 +541,7 @@
         ],
         "comment_ids": [],
         "review_ids_states": [],
-        "pr_comment_ids": [],
+        "review_comment_ids": [],
         "commit_shas": [
           "2e5e220537fbb05cad2100933cd3c87eda3d88ca"
         ],
@@ -565,5 +565,5 @@
     "8361",
     "8362"
   ],
-  "generated_at": "2026-06-08T23:00:00Z"
+  "generated_at": "2026-06-09T00:00:00Z"
 }
