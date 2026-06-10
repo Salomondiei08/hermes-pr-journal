@@ -551,31 +551,166 @@
         ],
         "checks": [
           [
-            "label",
+            "Doctests",
             "completed",
             "success"
           ],
           [
-            "pre-commit.ci - pr",
+            "Minimum Version Policy",
             "completed",
             "success"
           ],
           [
-            "docs/readthedocs.org:xray",
+            "Mypy",
+            "completed",
+            "failure"
+          ],
+          [
+            "Mypy 3.11",
+            "completed",
+            "failure"
+          ],
+          [
+            "Pyright | ${{ matrix.pixi-env }}\"",
+            "completed",
+            "skipped"
+          ],
+          [
+            "Slow Hypothesis Tests",
+            "completed",
+            "skipped"
+          ],
+          [
+            "Stubtest",
+            "completed",
+            "success"
+          ],
+          [
+            "cache-pixi-lock",
+            "completed",
+            "skipped"
+          ],
+          [
+            "cache-pixi-lock",
+            "completed",
+            "skipped"
+          ],
+          [
+            "cache-pixi-lock",
+            "completed",
+            "success"
+          ],
+          [
+            "cache-pixi-lock",
+            "completed",
+            "success"
+          ],
+          [
+            "create-issue",
+            "completed",
+            "skipped"
+          ],
+          [
+            "macos-latest | test-py311",
+            "completed",
+            "failure"
+          ],
+          [
+            "macos-latest | test-py313",
+            "completed",
+            "failure"
+          ],
+          [
+            "mypy-upstream-dev",
+            "completed",
+            "skipped"
+          ],
+          [
+            "test-built-dist",
+            "completed",
+            "skipped"
+          ],
+          [
+            "ubuntu-latest | test-py311",
+            "completed",
+            "failure"
+          ],
+          [
+            "ubuntu-latest | test-py311-bare-min-and-scipy",
+            "completed",
+            "failure"
+          ],
+          [
+            "ubuntu-latest | test-py311-bare-minimum",
+            "completed",
+            "failure"
+          ],
+          [
+            "ubuntu-latest | test-py311-min-versions",
+            "completed",
+            "failure"
+          ],
+          [
+            "ubuntu-latest | test-py311-with-typing (mypy)",
+            "completed",
+            "success"
+          ],
+          [
+            "ubuntu-latest | test-py313",
+            "completed",
+            "failure"
+          ],
+          [
+            "ubuntu-latest | test-py313 (flaky)",
+            "completed",
+            "success"
+          ],
+          [
+            "ubuntu-latest | test-py313-no-dask",
+            "completed",
+            "failure"
+          ],
+          [
+            "ubuntu-latest | test-py313-no-numba",
+            "completed",
+            "failure"
+          ],
+          [
+            "ubuntu-latest | test-py313-with-typing",
+            "completed",
+            "success"
+          ],
+          [
+            "upstream-dev",
+            "completed",
+            "skipped"
+          ],
+          [
+            "windows-latest | test-py311",
+            "completed",
+            "failure"
+          ],
+          [
+            "windows-latest | test-py313",
+            "completed",
+            "failure"
+          ],
+          [
+            "zizmor",
             "completed",
             "success"
           ]
         ],
         "statuses": [
           [
-            "pre-commit.ci - pr",
-            "success",
-            "https://results.pre-commit.ci/run/github/13221727/1781042649.SwT30SpXSHqiGGj44QFOCw"
-          ],
-          [
             "docs/readthedocs.org:xray",
             "success",
             "https://xray--11379.org.readthedocs.build/en/11379/"
+          ],
+          [
+            "pre-commit.ci - pr",
+            "success",
+            "https://results.pre-commit.ci/run/github/13221727/1781042649.SwT30SpXSHqiGGj44QFOCw"
           ]
         ]
       },
@@ -603,5 +738,5 @@
     "8397",
     "8398"
   ],
-  "generated_at": "2026-06-09T22:38:32Z"
+  "generated_at": "2026-06-10T01:56:31Z"
 }
