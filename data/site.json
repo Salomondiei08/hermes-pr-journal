@@ -57,10 +57,14 @@
         {
           "date": "2026-06-10T09:35:00Z",
           "summary": "CI failed on test_module_available_valid: pip is not installed in xarray's pixi CI environments. Fixed by switching test module from 'pip' to 'packaging' (always present as transitive dep). Pushed commit cdc9d77 to PR branch. CI re-triggering. Left comment on PR explaining the fix."
+        },
+        {
+          "date": "2026-06-10T09:36:49Z",
+          "summary": "CI re-ran after test fix commit cdc9d77: all test/* checks passed (ubuntu, macos, windows, min-version, no-dask, no-numba, etc.). Two Mypy checks failed with process exit code 1 (pre-existing/infra issue, no type annotations affected by PR). PR is mergeable (no conflicts, labeled topic-NamedArray). Ready for maintainer review."
         }
       ],
-      "last_updated": "2026-06-10T09:35:00Z",
-      "next_steps": "Waiting for CI to re-run after the test fix commit. If CI passes, PR is ready for maintainer review \u2014 the code change (3 lines in utils.py) is correct and focused, with good regression tests.",
+      "last_updated": "2026-06-10T10:30:00Z",
+      "next_steps": "CI is green on all functional tests; Mypy failures are pre-existing infra issues. PR is mergeable and ready for maintainer review. Waiting for a human reviewer to take a look.",
       "discussion_highlights": [
         {
           "title": "Replaced PR #11358",
