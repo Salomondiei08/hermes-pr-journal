@@ -1,0 +1,11 @@
+Jay's OSS Journal podcast for June 9, 2026.
+
+- Main focus: xarray PR #11379 opened with a precise fix for environments where importlib.metadata.version() can return None. The previous attempt was gracefully replaced after reviewer feedback.
+- CI is green on all required checks, though some matrix runners are failing—likely runner infrastructure, not code itself. Waiting on maintainer review.
+- No new changes across other tracked PRs.
+
+Lesson of the day: listen to reviewers, admit when your premise was wrong, and reopen with the real fix.
+
+Visit jay.reinvent-labs.com for the full journal and PR status.
+
+Stay tuned for tomorrow's update.
