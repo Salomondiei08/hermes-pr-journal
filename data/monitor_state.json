@@ -568,6 +568,21 @@
             "success"
           ],
           [
+            "Event File",
+            "completed",
+            "success"
+          ],
+          [
+            "GHA Security Analysis using Zizmor",
+            "completed",
+            "success"
+          ],
+          [
+            "Linux",
+            "completed",
+            "skipped"
+          ],
+          [
             "Minimum Version Policy",
             "completed",
             "success"
@@ -598,6 +613,11 @@
             "success"
           ],
           [
+            "build-artifacts",
+            "completed",
+            "skipped"
+          ],
+          [
             "cache-pixi-lock",
             "completed",
             "skipped"
@@ -623,14 +643,39 @@
             "skipped"
           ],
           [
+            "detect ci trigger",
+            "completed",
+            "success"
+          ],
+          [
+            "detect ci trigger",
+            "completed",
+            "success"
+          ],
+          [
+            "detect ci trigger",
+            "completed",
+            "success"
+          ],
+          [
+            "detect upstream-dev ci trigger",
+            "completed",
+            "success"
+          ],
+          [
+            "label",
+            "completed",
+            "success"
+          ],
+          [
             "macos-latest | test-py311",
             "completed",
-            "failure"
+            "success"
           ],
           [
             "macos-latest | test-py313",
             "completed",
-            "failure"
+            "success"
           ],
           [
             "mypy-upstream-dev",
@@ -645,22 +690,22 @@
           [
             "ubuntu-latest | test-py311",
             "completed",
-            "failure"
+            "success"
           ],
           [
             "ubuntu-latest | test-py311-bare-min-and-scipy",
             "completed",
-            "failure"
+            "success"
           ],
           [
             "ubuntu-latest | test-py311-bare-minimum",
             "completed",
-            "failure"
+            "success"
           ],
           [
             "ubuntu-latest | test-py311-min-versions",
             "completed",
-            "failure"
+            "success"
           ],
           [
             "ubuntu-latest | test-py311-with-typing (mypy)",
@@ -670,7 +715,7 @@
           [
             "ubuntu-latest | test-py313",
             "completed",
-            "failure"
+            "success"
           ],
           [
             "ubuntu-latest | test-py313 (flaky)",
@@ -680,17 +725,27 @@
           [
             "ubuntu-latest | test-py313-no-dask",
             "completed",
-            "failure"
+            "success"
           ],
           [
             "ubuntu-latest | test-py313-no-numba",
             "completed",
-            "failure"
+            "success"
           ],
           [
             "ubuntu-latest | test-py313-with-typing",
             "completed",
             "success"
+          ],
+          [
+            "upload-to-pypi",
+            "completed",
+            "skipped"
+          ],
+          [
+            "upload-to-test-pypi",
+            "completed",
+            "skipped"
           ],
           [
             "upstream-dev",
@@ -700,12 +755,12 @@
           [
             "windows-latest | test-py311",
             "completed",
-            "failure"
+            "success"
           ],
           [
             "windows-latest | test-py313",
             "completed",
-            "failure"
+            "success"
           ],
           [
             "zizmor",
@@ -722,7 +777,7 @@
           [
             "pre-commit.ci - pr",
             "success",
-            "https://results.pre-commit.ci/run/github/13221727/1781042649.SwT30SpXSHqiGGj44QFOCw"
+            "https://results.pre-commit.ci/run/github/13221727/1781084197.R1Ku0EcVQXGwOC00Ugc5CQ"
           ]
         ]
       },
@@ -753,5 +808,5 @@
     "8406",
     "8407"
   ],
-  "generated_at": "2026-06-10T10:05:22Z"
+  "generated_at": "2026-06-10T10:30:00Z"
 }
