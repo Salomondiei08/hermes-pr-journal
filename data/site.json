@@ -33,8 +33,8 @@
         "xarray/tests/test_namedarray.py: Added test_module_available_valid \u2014 verifies normal version checks still work."
       ],
       "tests": [
-        "test_module_available_version_none: mocks importlib.metadata.version \u2192 None for 'pip', verifies module_available('pip', minversion='1.0.0') returns False.",
-        "test_module_available_valid: module_available('pip', minversion='0.0.1') returns True.",
+        "test_module_available_version_none: mocks importlib.metadata.version \u2192 None for 'packaging', verifies module_available('packaging', minversion='1.0.0') returns False.",
+        "test_module_available_valid: module_available('packaging', minversion='0.0.1') returns True.",
         "Logic verified manually in isolation: Version('24.0') >= Version('999.0.0') \u2192 False (no regression on comparison semantics)."
       ],
       "files_changed": [
@@ -55,12 +55,12 @@
           "summary": "Opened PR #11379 against pydata/xarray with the correct fix \u2014 guards importlib.metadata.version() returning None instead of guarding module=None. Closes #11344."
         },
         {
-          "date": "2026-06-09T22:37:15Z",
-          "summary": "CI completed: pre-commit.ci passed, Read the Docs built, combined status is success. Many matrix runners failed (likely env/runner infrastructure issues, not code failures \u2014 across all OS/Python combos)."
+          "date": "2026-06-10T09:35:00Z",
+          "summary": "CI failed on test_module_available_valid: pip is not installed in xarray's pixi CI environments. Fixed by switching test module from 'pip' to 'packaging' (always present as transitive dep). Pushed commit cdc9d77 to PR branch. CI re-triggering. Left comment on PR explaining the fix."
         }
       ],
-      "last_updated": "2026-06-09T22:37:15Z",
-      "next_steps": "CI is green on required checks (pre-commit.ci, RTD). Some matrix runners failing \u2014 likely infrastructure, not related to the change. Waiting for maintainer review.",
+      "last_updated": "2026-06-10T09:35:00Z",
+      "next_steps": "Waiting for CI to re-run after the test fix commit. If CI passes, PR is ready for maintainer review \u2014 the code change (3 lines in utils.py) is correct and focused, with good regression tests.",
       "discussion_highlights": [
         {
           "title": "Replaced PR #11358",
@@ -1669,5 +1669,5 @@
       "type": "open"
     }
   ],
-  "last_updated": "2026-06-08T02:49:35.000000+00:00"
+  "last_updated": "2026-06-10T09:35:00.000000+00:00"
 }
