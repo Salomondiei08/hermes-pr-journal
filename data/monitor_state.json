@@ -388,7 +388,8 @@
           "CHANGES_REQUESTED"
         ]
       ],
-      "closed_at": "2026-06-09T22:02:33Z"
+      "closed_at": "2026-06-09T22:02:33Z",
+      "merge_commit_sha": "20e40cc3bc599cf20edbc58c38f20227df80895d"
     },
     "sphinx-locale-format-specifiers": {
       "state": "closed",
@@ -433,7 +434,8 @@
           "timhoffm",
           "APPROVED"
         ]
-      ]
+      ],
+      "merge_commit_sha": "954459b4ab0bcba4dcdbf4b03c4b731006e059d6"
     },
     "sphinx-source-file-count-plural": {
       "state": "open",
@@ -530,7 +532,8 @@
         "checks": [],
         "statuses": []
       },
-      "_reviews_semantic": []
+      "_reviews_semantic": [],
+      "merge_commit_sha": "8545829b7a41a7e0e90e7f9838679cfb9672879b"
     },
     "xarray-module-available-version-none": {
       "state": "open",
@@ -808,5 +811,5 @@
     "8406",
     "8407"
   ],
-  "generated_at": "2026-06-10T10:30:00Z"
+  "generated_at": "2026-06-11T10:00:00Z"
 }
