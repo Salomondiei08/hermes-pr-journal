@@ -61,9 +61,13 @@
         {
           "date": "2026-06-10T09:36:49Z",
           "summary": "CI re-ran after test fix commit cdc9d77: all test/* checks passed (ubuntu, macos, windows, min-version, no-dask, no-numba, etc.). Two Mypy checks failed with process exit code 1 (pre-existing/infra issue, no type annotations affected by PR). PR is mergeable (no conflicts, labeled topic-NamedArray). Ready for maintainer review."
+        },
+        {
+          "date": "2026-06-11T00:00:00Z",
+          "summary": "Cron check: PR still open, mergeable_state=unstable (CI in progress/rerun), CI status=success on head commit. No new comments or reviewer activity since yesterday. Still awaiting maintainer review."
         }
       ],
-      "last_updated": "2026-06-10T10:30:00Z",
+      "last_updated": "2026-06-11T00:00:00Z",
       "next_steps": "CI is green on all functional tests; Mypy failures are pre-existing infra issues. PR is mergeable and ready for maintainer review. Waiting for a human reviewer to take a look.",
       "discussion_highlights": [
         {
