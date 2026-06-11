@@ -266,24 +266,27 @@
     }
   },
   "_meta": {
-    "last_checked": "2026-06-09T22:50:00Z"
+    "last_checked": "2026-06-11T00:00:00Z"
   },
   "pydata/xarray#11379": {
     "state": "open",
     "title": "fix: guard against None version in module_available",
-    "updated_at": "2026-06-09T22:04:17Z",
+    "updated_at": "2026-06-10T09:36:40Z",
     "created_at": "2026-06-09T22:04:07Z",
     "merged": false,
     "merged_at": null,
     "closed_at": null,
-    "latest_sha7": "df2daa7",
+    "latest_sha7": "cdc9d77",
     "draft": false,
-    "comments": 0,
+    "comments": 1,
     "review_comments": 0,
     "check_runs": {
       "total": 0,
       "statuses": []
     },
-    "commit_statuses": []
+    "commit_statuses": [
+      "pre-commit.ci - pr: success",
+      "docs/readthedocs.org:xray: success"
+    ]
   }
 }
