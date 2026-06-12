@@ -284,257 +284,6 @@
       "_reviews_semantic": [],
       "merge_commit_sha": "e58b6062d709d4358e9fd7d95476ddca3bfe28e8"
     },
-    "xarray-rangeindex-arange-step": {
-      "state": "closed",
-      "merged": false,
-      "head_sha": "3ba554ff7f79cb40a1da555181c7fd075cfb162d",
-      "comments_count": 2,
-      "review_comments_count": 1,
-      "labels": [],
-      "locked": false,
-      "draft": false,
-      "fingerprint": {
-        "state": "closed",
-        "draft": false,
-        "merged_at": null,
-        "closed_at": "2026-06-07T22:34:25Z",
-        "head_sha": "3ba554ff7f79cb40a1da555181c7fd075cfb162d",
-        "labels": [],
-        "comment_ids": [
-          4413681595,
-          4644302590
-        ],
-        "review_ids_states": [
-          [
-            4258610040,
-            "COMMENTED"
-          ]
-        ],
-        "review_comment_ids": [
-          3214027866
-        ],
-        "commit_shas": [
-          "3ba554ff7f79cb40a1da555181c7fd075cfb162d",
-          "52d5b063b694014c45348e157c7de221376af722"
-        ],
-        "checks": [],
-        "statuses": []
-      },
-      "_reviews_semantic": [
-        [
-          "cfriedland5",
-          "COMMENTED"
-        ]
-      ]
-    },
-    "xarray-module-available-none": {
-      "state": "closed",
-      "merged": false,
-      "head_sha": "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7",
-      "comments_count": 3,
-      "review_comments_count": 0,
-      "labels": [
-        "topic-NamedArray"
-      ],
-      "locked": false,
-      "draft": false,
-      "fingerprint": {
-        "state": "closed",
-        "draft": false,
-        "merged_at": null,
-        "closed_at": "2026-06-09T22:02:33Z",
-        "head_sha": "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7",
-        "labels": [
-          "topic-NamedArray"
-        ],
-        "comment_ids": [
-          4581518733,
-          4586428899,
-          4664463883
-        ],
-        "review_ids_states": [
-          [
-            4372809867,
-            "CHANGES_REQUESTED"
-          ]
-        ],
-        "review_comment_ids": [],
-        "commit_shas": [
-          "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7"
-        ],
-        "checks": [
-          [
-            "label",
-            "completed",
-            "success"
-          ]
-        ],
-        "statuses": [
-          [
-            "docs/readthedocs.org:xray",
-            "success",
-            "https://xray--11358.org.readthedocs.build/en/11358/"
-          ],
-          [
-            "pre-commit.ci - pr",
-            "success",
-            "https://results.pre-commit.ci/run/github/13221727/1779833084.slIRwdL5Ra23oSbx9gxXtQ"
-          ]
-        ]
-      },
-      "_reviews_semantic": [
-        [
-          "Illviljan",
-          "CHANGES_REQUESTED"
-        ]
-      ],
-      "closed_at": "2026-06-09T22:02:33Z",
-      "merge_commit_sha": "20e40cc3bc599cf20edbc58c38f20227df80895d"
-    },
-    "sphinx-locale-format-specifiers": {
-      "state": "closed",
-      "merged": false,
-      "head_sha": "656eebd34bb9008b6b03bd4a84e05c5917e9356a",
-      "comments_count": 3,
-      "review_comments_count": 0,
-      "labels": [
-        "i18n"
-      ],
-      "locked": false,
-      "draft": false,
-      "fingerprint": {
-        "state": "closed",
-        "draft": false,
-        "merged_at": null,
-        "closed_at": "2026-06-08T02:49:35Z",
-        "head_sha": "656eebd34bb9008b6b03bd4a84e05c5917e9356a",
-        "labels": [
-          "i18n"
-        ],
-        "comment_ids": [
-          4576269858,
-          4581518757,
-          4645045159
-        ],
-        "review_ids_states": [
-          [
-            4394296340,
-            "APPROVED"
-          ]
-        ],
-        "review_comment_ids": [],
-        "commit_shas": [
-          "656eebd34bb9008b6b03bd4a84e05c5917e9356a"
-        ],
-        "checks": [],
-        "statuses": []
-      },
-      "_reviews_semantic": [
-        [
-          "timhoffm",
-          "APPROVED"
-        ]
-      ],
-      "merge_commit_sha": "954459b4ab0bcba4dcdbf4b03c4b731006e059d6"
-    },
-    "sphinx-source-file-count-plural": {
-      "state": "open",
-      "merged": false,
-      "head_sha": "373dbe88d12972fdd67ece8acd7f55227d51795e",
-      "comments_count": 0,
-      "review_comments_count": 0,
-      "labels": [],
-      "locked": false,
-      "draft": false,
-      "fingerprint": {
-        "state": "open",
-        "draft": false,
-        "merged_at": null,
-        "closed_at": null,
-        "head_sha": "373dbe88d12972fdd67ece8acd7f55227d51795e",
-        "labels": [],
-        "comment_ids": [],
-        "review_ids_states": [],
-        "review_comment_ids": [],
-        "commit_shas": [
-          "373dbe88d12972fdd67ece8acd7f55227d51795e"
-        ],
-        "checks": [],
-        "statuses": [
-          [
-            "docs/readthedocs.org:sphinx",
-            "success",
-            "https://sphinx--14456.org.readthedocs.build/en/14456/"
-          ]
-        ]
-      },
-      "_reviews_semantic": [],
-      "merge_commit_sha": "f2550254c6bebf68be4a9cc3437fe937f304fcec"
-    },
-    "click-help-argument-collision": {
-      "state": "closed",
-      "merged": false,
-      "head_sha": "e459528e4744cfca49a94a9dab03fa77440ee973",
-      "comments_count": 3,
-      "review_comments_count": 0,
-      "labels": [],
-      "locked": true,
-      "draft": false,
-      "fingerprint": {
-        "state": "closed",
-        "draft": false,
-        "merged_at": null,
-        "closed_at": "2026-04-29T11:31:06Z",
-        "head_sha": "e459528e4744cfca49a94a9dab03fa77440ee973",
-        "labels": [],
-        "comment_ids": [
-          4343278956,
-          4343602145,
-          4344753961
-        ],
-        "review_ids_states": [],
-        "review_comment_ids": [],
-        "commit_shas": [
-          "e459528e4744cfca49a94a9dab03fa77440ee973"
-        ],
-        "checks": [],
-        "statuses": []
-      },
-      "_reviews_semantic": [],
-      "merge_commit_sha": "fc1ff4b480598c1571d54fc24bce433722fe4c92"
-    },
-    "requests-session-request-verify-inheritance": {
-      "state": "closed",
-      "merged": false,
-      "head_sha": "2e5e220537fbb05cad2100933cd3c87eda3d88ca",
-      "comments_count": 0,
-      "review_comments_count": 0,
-      "labels": [
-        "mass-automation-pr"
-      ],
-      "locked": false,
-      "draft": false,
-      "fingerprint": {
-        "state": "closed",
-        "draft": false,
-        "merged_at": null,
-        "closed_at": "2026-04-29T21:31:46Z",
-        "head_sha": "2e5e220537fbb05cad2100933cd3c87eda3d88ca",
-        "labels": [
-          "mass-automation-pr"
-        ],
-        "comment_ids": [],
-        "review_ids_states": [],
-        "review_comment_ids": [],
-        "commit_shas": [
-          "2e5e220537fbb05cad2100933cd3c87eda3d88ca"
-        ],
-        "checks": [],
-        "statuses": []
-      },
-      "_reviews_semantic": [],
-      "merge_commit_sha": "8545829b7a41a7e0e90e7f9838679cfb9672879b"
-    },
     "xarray-module-available-version-none": {
       "state": "open",
       "merged": false,
@@ -561,8 +310,8 @@
         "review_ids_states": [],
         "review_comment_ids": [],
         "commit_shas": [
-          "df2daa76",
-          "cdc9d77e"
+          "cdc9d77ebba37ca8f29ea258b9493b4a1116d506",
+          "df2daa7629511d7c4414aafb33fd7bcbc7a8f433"
         ],
         "checks": [
           [
@@ -786,35 +535,40 @@
       },
       "_reviews_semantic": [],
       "merge_commit_sha": "ff2cdf5738c07435171fa48fa1ab85225017f737"
+    },
+    "sphinx-source-file-count-plural": {
+      "state": "open",
+      "merged": false,
+      "head_sha": "373dbe88d12972fdd67ece8acd7f55227d51795e",
+      "comments_count": 0,
+      "review_comments_count": 0,
+      "labels": [],
+      "locked": false,
+      "draft": false,
+      "fingerprint": {
+        "state": "open",
+        "draft": false,
+        "merged_at": null,
+        "closed_at": null,
+        "head_sha": "373dbe88d12972fdd67ece8acd7f55227d51795e",
+        "labels": [],
+        "comment_ids": [],
+        "review_ids_states": [],
+        "review_comment_ids": [],
+        "commit_shas": [
+          "373dbe88d12972fdd67ece8acd7f55227d51795e"
+        ],
+        "checks": [],
+        "statuses": [
+          [
+            "docs/readthedocs.org:sphinx",
+            "success",
+            "https://sphinx--14456.org.readthedocs.build/en/14456/"
+          ]
+        ]
+      },
+      "_reviews_semantic": [],
+      "merge_commit_sha": "f2550254c6bebf68be4a9cc3437fe937f304fcec"
     }
-  },
-  "processed_email_ids": [
-    "7855",
-    "7858",
-    "7862",
-    "7863",
-    "7866",
-    "7867",
-    "7870",
-    "7871",
-    "7886",
-    "7938",
-    "7949",
-    "7972",
-    "7979",
-    "7980",
-    "8205",
-    "8226",
-    "8232",
-    "8252",
-    "8360",
-    "8361",
-    "8362",
-    "8396",
-    "8397",
-    "8398",
-    "8406",
-    "8407"
-  ],
-  "generated_at": "2026-06-12T10:00:00Z"
+  }
 }
