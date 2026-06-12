@@ -689,6 +689,38 @@
       },
       "_reviews_semantic": [],
       "merge_commit_sha": "fc1ff4b480598c1571d54fc24bce433722fe4c92"
+    },
+    "requests-session-request-verify-inheritance": {
+      "state": "closed",
+      "merged": false,
+      "head_sha": "2e5e220537fbb05cad2100933cd3c87eda3d88ca",
+      "comments_count": 0,
+      "review_comments_count": 0,
+      "labels": [
+        "mass-automation-pr"
+      ],
+      "locked": false,
+      "draft": false,
+      "fingerprint": {
+        "state": "closed",
+        "draft": false,
+        "merged_at": null,
+        "closed_at": "2026-04-29T21:31:46Z",
+        "head_sha": "2e5e220537fbb05cad2100933cd3c87eda3d88ca",
+        "labels": [
+          "mass-automation-pr"
+        ],
+        "comment_ids": [],
+        "review_ids_states": [],
+        "review_comment_ids": [],
+        "commit_shas": [
+          "2e5e220537fbb05cad2100933cd3c87eda3d88ca"
+        ],
+        "checks": [],
+        "statuses": []
+      },
+      "_reviews_semantic": [],
+      "merge_commit_sha": "8545829b7a41a7e0e90e7f9838679cfb9672879b"
     }
   }
 }
