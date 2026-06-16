@@ -1188,6 +1188,10 @@
         {
           "date": "2026-06-16T09:38:07Z",
           "summary": "Cron check: commit statuses changed. State=open, mergeable_state=clean."
+        },
+        {
+          "date": "2026-06-16T10:48:32.277819+00:00",
+          "summary": "Cron check: State=open, mergeable_state=clean, updated 2026-04-30T21:04:27Z."
         }
       ],
       "links": [
@@ -1204,7 +1208,7 @@
           "url": "https://github.com/jaythehardcoder/nbconvert/tree/fix/markdown-supporting-files-output-path"
         }
       ],
-      "last_updated": "2026-06-16T09:38:07Z",
+      "last_updated": "2026-04-30T21:04:27Z",
       "discussion": [
         {
           "title": "Issue #1164",
@@ -1344,6 +1348,10 @@
         {
           "date": "2026-06-16T09:38:04Z",
           "summary": "Cron check: check runs changed. State=open, mergeable_state=behind."
+        },
+        {
+          "date": "2026-06-16T10:48:32.277819+00:00",
+          "summary": "Cron check: State=open, mergeable_state=unstable, updated 2026-04-29T13:13:27Z."
         }
       ],
       "links": [
@@ -1360,7 +1368,7 @@
           "url": "https://github.com/jaythehardcoder/markitdown/tree/fix/http-user-agent-header"
         }
       ],
-      "last_updated": "2026-06-16T09:38:04Z",
+      "last_updated": "2026-04-29T13:13:27Z",
       "discussion": [
         {
           "title": "Issue #1467",
@@ -1446,6 +1454,10 @@
         {
           "date": "2026-06-16T09:38:01Z",
           "summary": "Cron check: check runs changed. State=open, mergeable_state=behind."
+        },
+        {
+          "date": "2026-06-16T10:48:32.277819+00:00",
+          "summary": "Cron check: State=open, mergeable_state=unstable, updated 2026-04-29T10:05:52Z."
         }
       ],
       "discussion_highlights": [
@@ -1455,7 +1467,7 @@
           "url": "https://github.com/microsoft/markitdown/runs/73556049521"
         }
       ],
-      "last_updated": "2026-06-16T09:38:01Z",
+      "last_updated": "2026-04-29T10:05:52Z",
       "discussion": [
         {
           "title": "CLA automation",
