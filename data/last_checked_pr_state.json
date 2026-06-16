@@ -11,34 +11,15 @@
     "draft": false,
     "comments": 2,
     "review_comments": 0,
+    "locked": false,
+    "mergeable_state": "behind",
+    "commit_statuses": [],
     "check_runs": {
       "total": 1,
       "statuses": [
         "license/cla: success"
       ]
-    },
-    "commit_statuses": []
-  },
-  "pallets/click#3392": {
-    "state": "closed",
-    "title": "fix: avoid help option collisions with help arguments",
-    "updated_at": "2026-05-14T00:48:35Z",
-    "created_at": "2026-04-29T11:18:50Z",
-    "merged": false,
-    "merged_at": null,
-    "closed_at": "2026-04-29T11:31:06Z",
-    "latest_sha7": "e459528",
-    "draft": false,
-    "comments": 3,
-    "review_comments": 0,
-    "locked": true,
-    "check_runs": {
-      "total": 0,
-      "statuses": []
-    },
-    "commit_statuses": [
-      "docs/readthedocs.org:pallets-click: success"
-    ]
+    }
   },
   "microsoft/markitdown#1849": {
     "state": "open",
@@ -52,6 +33,9 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
+    "locked": false,
+    "mergeable_state": "behind",
+    "commit_statuses": [],
     "check_runs": {
       "total": 1,
       "statuses": [
@@ -71,14 +55,16 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
+    "locked": false,
+    "mergeable_state": "clean",
+    "commit_statuses": [
+      "docs/readthedocs.org:nbconvert: success",
+      "pre-commit.ci - pr: success"
+    ],
     "check_runs": {
       "total": 0,
       "statuses": []
-    },
-    "commit_statuses": [
-      "pre-commit.ci - pr: success",
-      "docs/readthedocs.org:nbconvert: success"
-    ]
+    }
   },
   "psf/requests#7400": {
     "state": "closed",
@@ -92,13 +78,15 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
+    "locked": false,
+    "mergeable_state": "blocked",
+    "commit_statuses": [
+      "docs/readthedocs.org:requests: success"
+    ],
     "check_runs": {
       "total": 0,
       "statuses": []
-    },
-    "commit_statuses": [
-      "docs/readthedocs.org:requests: success"
-    ]
+    }
   },
   "jupyter/nbconvert#2280": {
     "state": "open",
@@ -112,14 +100,16 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
+    "locked": false,
+    "mergeable_state": "clean",
+    "commit_statuses": [
+      "docs/readthedocs.org:nbconvert: success",
+      "pre-commit.ci - pr: success"
+    ],
     "check_runs": {
       "total": 0,
       "statuses": []
-    },
-    "commit_statuses": [
-      "pre-commit.ci - pr: success",
-      "docs/readthedocs.org:nbconvert: success"
-    ]
+    }
   },
   "jupyter/nbconvert#2282": {
     "state": "open",
@@ -133,14 +123,16 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
+    "locked": false,
+    "mergeable_state": "clean",
+    "commit_statuses": [
+      "docs/readthedocs.org:nbconvert: success",
+      "pre-commit.ci - pr: success"
+    ],
     "check_runs": {
       "total": 0,
       "statuses": []
-    },
-    "commit_statuses": [
-      "pre-commit.ci - pr: success",
-      "docs/readthedocs.org:nbconvert: success"
-    ]
+    }
   },
   "jupyter/nbconvert#2283": {
     "state": "open",
@@ -154,14 +146,16 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
+    "locked": false,
+    "mergeable_state": "clean",
+    "commit_statuses": [
+      "docs/readthedocs.org:nbconvert: success",
+      "pre-commit.ci - pr: success"
+    ],
     "check_runs": {
       "total": 0,
       "statuses": []
-    },
-    "commit_statuses": [
-      "pre-commit.ci - pr: success",
-      "docs/readthedocs.org:nbconvert: success"
-    ]
+    }
   },
   "pydata/xarray#11326": {
     "state": "open",
@@ -175,6 +169,12 @@
     "draft": false,
     "comments": 0,
     "review_comments": 0,
+    "locked": false,
+    "mergeable_state": "blocked",
+    "commit_statuses": [
+      "docs/readthedocs.org:xray: success",
+      "pre-commit.ci - pr: success"
+    ],
     "check_runs": {
       "total": 1,
       "statuses": [
@@ -194,36 +194,18 @@
     "draft": false,
     "comments": 2,
     "review_comments": 1,
+    "locked": false,
+    "mergeable_state": "dirty",
+    "commit_statuses": [
+      "docs/readthedocs.org:xray: success",
+      "pre-commit.ci - pr: success"
+    ],
     "check_runs": {
       "total": 1,
       "statuses": [
         "label: success"
       ]
-    },
-    "commit_statuses": [
-      "pre-commit.ci - pr: success",
-      "docs/readthedocs.org:xray: success"
-    ]
-  },
-  "sphinx-doc/sphinx#14452": {
-    "state": "closed",
-    "title": "fix: correct format specifiers in fa and el PO translations",
-    "updated_at": "2026-06-08T02:52:02Z",
-    "created_at": "2026-05-27T22:09:18Z",
-    "merged": false,
-    "merged_at": null,
-    "closed_at": "2026-06-08T02:49:35Z",
-    "latest_sha7": "656eebd",
-    "draft": false,
-    "comments": 3,
-    "review_comments": 0,
-    "check_runs": {
-      "total": 0,
-      "statuses": []
-    },
-    "commit_statuses": [
-      "docs/readthedocs.org:sphinx: success"
-    ]
+    }
   },
   "pydata/xarray#11358": {
     "state": "closed",
@@ -237,36 +219,18 @@
     "draft": false,
     "comments": 3,
     "review_comments": 0,
+    "locked": false,
+    "mergeable_state": "blocked",
+    "commit_statuses": [
+      "docs/readthedocs.org:xray: success",
+      "pre-commit.ci - pr: success"
+    ],
     "check_runs": {
       "total": 1,
       "statuses": [
         "label: success"
       ]
-    },
-    "commit_statuses": [
-      "pre-commit.ci - pr: success",
-      "docs/readthedocs.org:xray: success"
-    ]
-  },
-  "sphinx-doc/sphinx#14456": {
-    "state": "open",
-    "title": "fix: use correct singular/plural forms for source file count strings",
-    "updated_at": "2026-05-28T22:11:48Z",
-    "created_at": "2026-05-28T22:11:48Z",
-    "merged": false,
-    "merged_at": null,
-    "closed_at": null,
-    "latest_sha7": "373dbe8",
-    "draft": false,
-    "comments": 0,
-    "review_comments": 0,
-    "check_runs": {
-      "total": 0,
-      "statuses": []
     }
-  },
-  "_meta": {
-    "last_checked": "2026-06-11T00:00:00Z"
   },
   "pydata/xarray#11379": {
     "state": "open",
@@ -280,13 +244,122 @@
     "draft": false,
     "comments": 1,
     "review_comments": 0,
+    "locked": false,
+    "mergeable_state": "blocked",
+    "commit_statuses": [
+      "docs/readthedocs.org:xray: success",
+      "pre-commit.ci - pr: success"
+    ],
+    "check_runs": {
+      "total": 37,
+      "statuses": [
+        "Doctests: success",
+        "Event File: success",
+        "GHA Security Analysis using Zizmor: success",
+        "Linux: skipped",
+        "Minimum Version Policy: success",
+        "Mypy 3.11: failure",
+        "Mypy: failure",
+        "Pyright | ${{ matrix.pixi-env }}\": skipped",
+        "Slow Hypothesis Tests: skipped",
+        "Stubtest: success",
+        "build-artifacts: skipped",
+        "cache-pixi-lock: skipped",
+        "cache-pixi-lock: success",
+        "create-issue: skipped",
+        "detect ci trigger: success",
+        "detect upstream-dev ci trigger: success",
+        "label: success",
+        "macos-latest | test-py311: success",
+        "macos-latest | test-py313: success",
+        "mypy-upstream-dev: skipped",
+        "test-built-dist: skipped",
+        "ubuntu-latest | test-py311-bare-min-and-scipy: success",
+        "ubuntu-latest | test-py311-bare-minimum: success",
+        "ubuntu-latest | test-py311-min-versions: success",
+        "ubuntu-latest | test-py311-with-typing (mypy): success",
+        "ubuntu-latest | test-py311: success",
+        "ubuntu-latest | test-py313 (flaky): success",
+        "ubuntu-latest | test-py313-no-dask: success",
+        "ubuntu-latest | test-py313-no-numba: success",
+        "ubuntu-latest | test-py313-with-typing: success",
+        "ubuntu-latest | test-py313: success",
+        "upload-to-pypi: skipped",
+        "upload-to-test-pypi: skipped",
+        "upstream-dev: skipped",
+        "windows-latest | test-py311: success",
+        "windows-latest | test-py313: success",
+        "zizmor: success"
+      ]
+    }
+  },
+  "sphinx-doc/sphinx#14452": {
+    "state": "closed",
+    "title": "fix: correct format specifiers in fa and el PO translations",
+    "updated_at": "2026-06-08T02:52:02Z",
+    "created_at": "2026-05-27T22:09:18Z",
+    "merged": false,
+    "merged_at": null,
+    "closed_at": "2026-06-08T02:49:35Z",
+    "latest_sha7": "656eebd",
+    "draft": false,
+    "comments": 3,
+    "review_comments": 0,
+    "locked": false,
+    "mergeable_state": "blocked",
+    "commit_statuses": [
+      "docs/readthedocs.org:sphinx: success"
+    ],
     "check_runs": {
       "total": 0,
       "statuses": []
-    },
+    }
+  },
+  "sphinx-doc/sphinx#14456": {
+    "state": "open",
+    "title": "fix: use correct singular/plural forms for source file count strings",
+    "updated_at": "2026-05-28T22:11:48Z",
+    "created_at": "2026-05-28T22:11:48Z",
+    "merged": false,
+    "merged_at": null,
+    "closed_at": null,
+    "latest_sha7": "373dbe8",
+    "draft": false,
+    "comments": 0,
+    "review_comments": 0,
+    "locked": false,
+    "mergeable_state": "blocked",
     "commit_statuses": [
-      "pre-commit.ci - pr: success",
-      "docs/readthedocs.org:xray: success"
-    ]
+      "docs/readthedocs.org:sphinx: success"
+    ],
+    "check_runs": {
+      "total": 0,
+      "statuses": []
+    }
+  },
+  "pallets/click#3392": {
+    "state": "closed",
+    "title": "fix: avoid help option collisions with help arguments",
+    "updated_at": "2026-05-14T00:48:35Z",
+    "created_at": "2026-04-29T11:18:50Z",
+    "merged": false,
+    "merged_at": null,
+    "closed_at": "2026-04-29T11:31:06Z",
+    "latest_sha7": "e459528",
+    "draft": false,
+    "comments": 3,
+    "review_comments": 0,
+    "locked": true,
+    "mergeable_state": "clean",
+    "commit_statuses": [
+      "docs/readthedocs.org:pallets-click: success"
+    ],
+    "check_runs": {
+      "total": 0,
+      "statuses": []
+    }
+  },
+  "_meta": {
+    "last_checked": "2026-06-16T09:01:47Z"
   }
 }
