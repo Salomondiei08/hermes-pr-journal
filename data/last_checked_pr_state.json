@@ -1,167 +1,539 @@
 {
-  "microsoft/markitdown#1847": {
+  "_meta": {
+    "last_checked": "2026-06-16T15:47:06Z"
+  },
+  "markitdown-pdf-prose-fix": {
     "state": "open",
-    "title": "fix: avoid misclassifying sparse PDF prose as tables",
-    "updated_at": "2026-04-29T10:05:52Z",
-    "created_at": "2026-04-29T08:09:31Z",
     "merged": false,
-    "merged_at": null,
     "closed_at": null,
-    "latest_sha7": "e276945",
-    "draft": false,
+    "merged_at": null,
+    "head_sha": "e2769457249f15bc797c46394bebe2e558a82b4a",
     "comments": 2,
     "review_comments": 0,
+    "labels": [],
     "locked": false,
-    "mergeable_state": "behind",
-    "commit_statuses": [],
-    "check_runs": {
-      "total": 1,
-      "statuses": [
-        "license/cla: success"
-      ]
-    }
-  },
-  "microsoft/markitdown#1849": {
-    "state": "open",
-    "title": "fix: send browser user-agent for HTTP URI conversions",
-    "updated_at": "2026-04-29T13:13:27Z",
-    "created_at": "2026-04-29T13:13:27Z",
-    "merged": false,
-    "merged_at": null,
-    "closed_at": null,
-    "latest_sha7": "87a2ffc",
     "draft": false,
-    "comments": 0,
-    "review_comments": 0,
-    "locked": false,
-    "mergeable_state": "behind",
-    "commit_statuses": [],
-    "check_runs": {
-      "total": 1,
-      "statuses": [
-        "license/cla: success"
+    "checks": [
+      [
+        "license/cla",
+        "completed",
+        "success"
       ]
-    }
-  },
-  "jupyter/nbconvert#2279": {
-    "state": "open",
-    "title": "fix: avoid duplicating output subdirs for support files",
-    "updated_at": "2026-04-30T21:04:27Z",
-    "created_at": "2026-04-29T13:41:55Z",
-    "merged": false,
-    "merged_at": null,
-    "closed_at": null,
-    "latest_sha7": "8eed547",
-    "draft": false,
-    "comments": 0,
-    "review_comments": 0,
-    "locked": false,
-    "mergeable_state": "clean",
-    "commit_statuses": [
-      "pre-commit.ci - pr: success",
-      "docs/readthedocs.org:nbconvert: success"
     ],
-    "check_runs": {
-      "total": 0,
-      "statuses": []
-    }
+    "statuses": []
   },
-  "pallets/click#3392": {
-    "state": "closed",
-    "title": "fix: avoid help option collisions with help arguments",
-    "updated_at": "2026-05-14T00:48:35Z",
-    "created_at": "2026-04-29T11:18:50Z",
+  "markitdown-http-user-agent-header": {
+    "state": "open",
     "merged": false,
+    "closed_at": null,
     "merged_at": null,
-    "closed_at": "2026-04-29T11:31:06Z",
-    "latest_sha7": "e459528",
+    "head_sha": "87a2ffc82ddefb79b2b2480c5ae2205a18cb90fe",
+    "comments": 0,
+    "review_comments": 0,
+    "labels": [],
+    "locked": false,
     "draft": false,
+    "checks": [
+      [
+        "license/cla",
+        "completed",
+        "success"
+      ]
+    ],
+    "statuses": []
+  },
+  "nbconvert-output-support-files-path": {
+    "state": "open",
+    "merged": false,
+    "closed_at": null,
+    "merged_at": null,
+    "head_sha": "8eed547bd8e36352cb07060a6e11e4be476530da",
+    "comments": 0,
+    "review_comments": 0,
+    "labels": [],
+    "locked": false,
+    "draft": false,
+    "checks": [],
+    "statuses": [
+      [
+        "docs/readthedocs.org:nbconvert",
+        "success",
+        "https://nbconvert--2279.org.readthedocs.build/en/2279/"
+      ],
+      [
+        "pre-commit.ci - pr",
+        "success",
+        "https://results.pre-commit.ci/run/github/33653617/1777583069.ANtwMMEjQYGl8oqfbF-pmA"
+      ]
+    ]
+  },
+  "requests-session-request-verify-inheritance": {
+    "state": "closed",
+    "merged": false,
+    "closed_at": "2026-04-29T21:31:46Z",
+    "merged_at": null,
+    "head_sha": "2e5e220537fbb05cad2100933cd3c87eda3d88ca",
+    "comments": 0,
+    "review_comments": 0,
+    "labels": [
+      "mass-automation-pr"
+    ],
+    "locked": false,
+    "draft": false,
+    "checks": [],
+    "statuses": [
+      [
+        "docs/readthedocs.org:requests",
+        "success",
+        "https://requests--7400.org.readthedocs.build/en/7400/"
+      ]
+    ]
+  },
+  "nbconvert-duplicate-markdown-attachments": {
+    "state": "open",
+    "merged": false,
+    "closed_at": null,
+    "merged_at": null,
+    "head_sha": "0d692f96bf3df7cd38b0ab02e9abda88b8100787",
+    "comments": 0,
+    "review_comments": 0,
+    "labels": [],
+    "locked": false,
+    "draft": false,
+    "checks": [],
+    "statuses": [
+      [
+        "docs/readthedocs.org:nbconvert",
+        "success",
+        "https://nbconvert--2280.org.readthedocs.build/en/2280/"
+      ],
+      [
+        "pre-commit.ci - pr",
+        "success",
+        "https://results.pre-commit.ci/run/github/33653617/1777583791.WQwYZDnQQq2ozgCGgkcHMw"
+      ]
+    ]
+  },
+  "nbconvert-empty-anchor-link-text": {
+    "state": "open",
+    "merged": false,
+    "closed_at": null,
+    "merged_at": null,
+    "head_sha": "fa87b66f1f5b7b37605e8df203aec6dfec81276e",
+    "comments": 0,
+    "review_comments": 0,
+    "labels": [],
+    "locked": false,
+    "draft": false,
+    "checks": [],
+    "statuses": [
+      [
+        "docs/readthedocs.org:nbconvert",
+        "success",
+        "https://nbconvert--2282.org.readthedocs.build/en/2282/"
+      ],
+      [
+        "pre-commit.ci - pr",
+        "success",
+        "https://results.pre-commit.ci/run/github/33653617/1778015834.Utv6uEXrRxG_2TccewpteA"
+      ]
+    ]
+  },
+  "nbconvert-rst-leading-block-quote-cell": {
+    "state": "open",
+    "merged": false,
+    "closed_at": null,
+    "merged_at": null,
+    "head_sha": "3f97df4cb40be47a960e7b6d0a157cfebc782fab",
+    "comments": 0,
+    "review_comments": 0,
+    "labels": [],
+    "locked": false,
+    "draft": false,
+    "checks": [],
+    "statuses": [
+      [
+        "docs/readthedocs.org:nbconvert",
+        "success",
+        "https://nbconvert--2283.org.readthedocs.build/en/2283/"
+      ],
+      [
+        "pre-commit.ci - pr",
+        "success",
+        "https://results.pre-commit.ci/run/github/33653617/1778102003.rihViw2nTNmmllHS3kYoRg"
+      ]
+    ]
+  },
+  "xarray-dataarray-coords-description": {
+    "state": "open",
+    "merged": false,
+    "closed_at": null,
+    "merged_at": null,
+    "head_sha": "194b49c776e049613645d4d6ca2ec980026ae317",
+    "comments": 0,
+    "review_comments": 0,
+    "labels": [
+      "topic-documentation"
+    ],
+    "locked": false,
+    "draft": false,
+    "checks": [
+      [
+        "label",
+        "completed",
+        "success"
+      ]
+    ],
+    "statuses": [
+      [
+        "docs/readthedocs.org:xray",
+        "success",
+        "https://xray--11326.org.readthedocs.build/en/11326/"
+      ],
+      [
+        "pre-commit.ci - pr",
+        "success",
+        "https://results.pre-commit.ci/run/github/13221727/1778274696.jzMmvjgBQXGUBTwysJN8aA"
+      ]
+    ]
+  },
+  "xarray-rangeindex-arange-step": {
+    "state": "closed",
+    "merged": false,
+    "closed_at": "2026-06-07T22:34:25Z",
+    "merged_at": null,
+    "head_sha": "3ba554ff7f79cb40a1da555181c7fd075cfb162d",
+    "comments": 2,
+    "review_comments": 1,
+    "labels": [],
+    "locked": false,
+    "draft": false,
+    "checks": [
+      [
+        "label",
+        "completed",
+        "success"
+      ]
+    ],
+    "statuses": [
+      [
+        "docs/readthedocs.org:xray",
+        "success",
+        "https://xray--11328.org.readthedocs.build/en/11328/"
+      ],
+      [
+        "pre-commit.ci - pr",
+        "success",
+        "https://results.pre-commit.ci/run/github/13221727/1779833009.yxltGjTrQOixrhnUWhk6YQ"
+      ]
+    ]
+  },
+  "xarray-module-available-none": {
+    "state": "closed",
+    "merged": false,
+    "closed_at": "2026-06-09T22:02:33Z",
+    "merged_at": null,
+    "head_sha": "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7",
     "comments": 3,
     "review_comments": 0,
-    "locked": true,
-    "mergeable_state": "clean",
-    "commit_statuses": [
-      "docs/readthedocs.org:pallets-click: success"
+    "labels": [
+      "topic-NamedArray"
     ],
-    "check_runs": {
-      "total": 0,
-      "statuses": []
-    }
-  },
-  "pydata/xarray#11379": {
-    "state": "open",
-    "title": "fix: guard against None version in module_available",
-    "updated_at": "2026-06-10T09:36:40Z",
-    "created_at": "2026-06-09T22:04:07Z",
-    "merged": false,
-    "merged_at": null,
-    "closed_at": null,
-    "latest_sha7": "cdc9d77",
+    "locked": false,
     "draft": false,
+    "checks": [
+      [
+        "label",
+        "completed",
+        "success"
+      ]
+    ],
+    "statuses": [
+      [
+        "docs/readthedocs.org:xray",
+        "success",
+        "https://xray--11358.org.readthedocs.build/en/11358/"
+      ],
+      [
+        "pre-commit.ci - pr",
+        "success",
+        "https://results.pre-commit.ci/run/github/13221727/1779833084.slIRwdL5Ra23oSbx9gxXtQ"
+      ]
+    ]
+  },
+  "xarray-module-available-version-none": {
+    "state": "open",
+    "merged": false,
+    "closed_at": null,
+    "merged_at": null,
+    "head_sha": "cdc9d77ebba37ca8f29ea258b9493b4a1116d506",
     "comments": 1,
     "review_comments": 0,
-    "locked": false,
-    "mergeable_state": "blocked",
-    "commit_statuses": [
-      "pre-commit.ci - pr: success",
-      "docs/readthedocs.org:xray: success"
+    "labels": [
+      "topic-NamedArray"
     ],
-    "check_runs": {
-      "total": 41,
-      "statuses": [
-        "Pyright | ${{ matrix.pixi-env }}\": skipped",
-        "Mypy 3.11: failure",
-        "Stubtest: success",
-        "Mypy: failure",
-        "Minimum Version Policy: success",
-        "Doctests: success",
-        "windows-latest | test-py311: success",
-        "ubuntu-latest | test-py313-with-typing: success",
-        "ubuntu-latest | test-py311-bare-min-and-scipy: success",
-        "ubuntu-latest | test-py313 (flaky): success",
-        "ubuntu-latest | test-py311-min-versions: success",
-        "macos-latest | test-py311: success",
-        "ubuntu-latest | test-py311: success",
-        "ubuntu-latest | test-py313: success",
-        "macos-latest | test-py313: success",
-        "ubuntu-latest | test-py313-no-numba: success",
-        "ubuntu-latest | test-py311-with-typing (mypy): success",
-        "windows-latest | test-py313: success",
-        "ubuntu-latest | test-py311-bare-minimum: success",
-        "ubuntu-latest | test-py313-no-dask: success",
-        "mypy-upstream-dev: skipped",
-        "upstream-dev: skipped",
-        "create-issue: skipped",
-        "cache-pixi-lock: skipped",
-        "zizmor: success",
-        "cache-pixi-lock: success",
-        "cache-pixi-lock: success",
-        "Slow Hypothesis Tests: skipped",
-        "cache-pixi-lock: skipped",
-        "upload-to-pypi: skipped"
-      ]
-    }
-  },
-  "sphinx-doc/sphinx#14456": {
-    "state": "open",
-    "title": "fix: use correct singular/plural forms for source file count strings",
-    "updated_at": "2026-05-28T22:11:48Z",
-    "created_at": "2026-05-28T22:11:48Z",
-    "merged": false,
-    "merged_at": null,
-    "closed_at": null,
-    "latest_sha7": "373dbe8",
+    "locked": false,
     "draft": false,
+    "checks": [
+      [
+        "Doctests",
+        "completed",
+        "success"
+      ],
+      [
+        "Event File",
+        "completed",
+        "success"
+      ],
+      [
+        "GHA Security Analysis using Zizmor",
+        "completed",
+        "success"
+      ],
+      [
+        "Linux",
+        "completed",
+        "skipped"
+      ],
+      [
+        "Minimum Version Policy",
+        "completed",
+        "success"
+      ],
+      [
+        "Mypy",
+        "completed",
+        "failure"
+      ],
+      [
+        "Mypy 3.11",
+        "completed",
+        "failure"
+      ],
+      [
+        "Pyright | ${{ matrix.pixi-env }}\"",
+        "completed",
+        "skipped"
+      ],
+      [
+        "Slow Hypothesis Tests",
+        "completed",
+        "skipped"
+      ],
+      [
+        "Stubtest",
+        "completed",
+        "success"
+      ],
+      [
+        "build-artifacts",
+        "completed",
+        "skipped"
+      ],
+      [
+        "cache-pixi-lock",
+        "completed",
+        "skipped"
+      ],
+      [
+        "cache-pixi-lock",
+        "completed",
+        "success"
+      ],
+      [
+        "create-issue",
+        "completed",
+        "skipped"
+      ],
+      [
+        "detect ci trigger",
+        "completed",
+        "success"
+      ],
+      [
+        "detect upstream-dev ci trigger",
+        "completed",
+        "success"
+      ],
+      [
+        "label",
+        "completed",
+        "success"
+      ],
+      [
+        "macos-latest | test-py311",
+        "completed",
+        "success"
+      ],
+      [
+        "macos-latest | test-py313",
+        "completed",
+        "success"
+      ],
+      [
+        "mypy-upstream-dev",
+        "completed",
+        "skipped"
+      ],
+      [
+        "test-built-dist",
+        "completed",
+        "skipped"
+      ],
+      [
+        "ubuntu-latest | test-py311",
+        "completed",
+        "success"
+      ],
+      [
+        "ubuntu-latest | test-py311-bare-min-and-scipy",
+        "completed",
+        "success"
+      ],
+      [
+        "ubuntu-latest | test-py311-bare-minimum",
+        "completed",
+        "success"
+      ],
+      [
+        "ubuntu-latest | test-py311-min-versions",
+        "completed",
+        "success"
+      ],
+      [
+        "ubuntu-latest | test-py311-with-typing (mypy)",
+        "completed",
+        "success"
+      ],
+      [
+        "ubuntu-latest | test-py313",
+        "completed",
+        "success"
+      ],
+      [
+        "ubuntu-latest | test-py313 (flaky)",
+        "completed",
+        "success"
+      ],
+      [
+        "ubuntu-latest | test-py313-no-dask",
+        "completed",
+        "success"
+      ],
+      [
+        "ubuntu-latest | test-py313-no-numba",
+        "completed",
+        "success"
+      ],
+      [
+        "ubuntu-latest | test-py313-with-typing",
+        "completed",
+        "success"
+      ],
+      [
+        "upload-to-pypi",
+        "completed",
+        "skipped"
+      ],
+      [
+        "upload-to-test-pypi",
+        "completed",
+        "skipped"
+      ],
+      [
+        "upstream-dev",
+        "completed",
+        "skipped"
+      ],
+      [
+        "windows-latest | test-py311",
+        "completed",
+        "success"
+      ],
+      [
+        "windows-latest | test-py313",
+        "completed",
+        "success"
+      ],
+      [
+        "zizmor",
+        "completed",
+        "success"
+      ]
+    ],
+    "statuses": [
+      [
+        "docs/readthedocs.org:xray",
+        "success",
+        "https://xray--11379.org.readthedocs.build/en/11379/"
+      ],
+      [
+        "pre-commit.ci - pr",
+        "success",
+        "https://results.pre-commit.ci/run/github/13221727/1781084197.R1Ku0EcVQXGwOC00Ugc5CQ"
+      ]
+    ]
+  },
+  "sphinx-locale-format-specifiers": {
+    "state": "closed",
+    "merged": false,
+    "closed_at": "2026-06-08T02:49:35Z",
+    "merged_at": null,
+    "head_sha": "656eebd34bb9008b6b03bd4a84e05c5917e9356a",
+    "comments": 3,
+    "review_comments": 0,
+    "labels": [
+      "i18n"
+    ],
+    "locked": false,
+    "draft": false,
+    "checks": [],
+    "statuses": [
+      [
+        "docs/readthedocs.org:sphinx",
+        "success",
+        "https://sphinx--14452.org.readthedocs.build/en/14452/"
+      ]
+    ]
+  },
+  "sphinx-source-file-count-plural": {
+    "state": "open",
+    "merged": false,
+    "closed_at": null,
+    "merged_at": null,
+    "head_sha": "373dbe88d12972fdd67ece8acd7f55227d51795e",
     "comments": 0,
     "review_comments": 0,
+    "labels": [],
     "locked": false,
-    "mergeable_state": "blocked",
-    "commit_statuses": [
-      "docs/readthedocs.org:sphinx: success"
-    ],
-    "check_runs": {
-      "total": 0,
-      "statuses": []
-    }
+    "draft": false,
+    "checks": [],
+    "statuses": [
+      [
+        "docs/readthedocs.org:sphinx",
+        "success",
+        "https://sphinx--14456.org.readthedocs.build/en/14456/"
+      ]
+    ]
+  },
+  "click-help-argument-collision": {
+    "state": "closed",
+    "merged": false,
+    "closed_at": "2026-04-29T11:31:06Z",
+    "merged_at": null,
+    "head_sha": "e459528e4744cfca49a94a9dab03fa77440ee973",
+    "comments": 3,
+    "review_comments": 0,
+    "labels": [],
+    "locked": true,
+    "draft": false,
+    "checks": [],
+    "statuses": [
+      [
+        "docs/readthedocs.org:pallets-click",
+        "success",
+        "https://pallets-click--3392.org.readthedocs.build/en/3392/"
+      ]
+    ]
   }
 }
