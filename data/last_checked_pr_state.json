@@ -58,8 +58,8 @@
     "locked": false,
     "mergeable_state": "clean",
     "commit_statuses": [
-      "docs/readthedocs.org:nbconvert: success",
-      "pre-commit.ci - pr: success"
+      "pre-commit.ci - pr: success",
+      "docs/readthedocs.org:nbconvert: success"
     ],
     "check_runs": {
       "total": 0,
@@ -103,8 +103,8 @@
     "locked": false,
     "mergeable_state": "clean",
     "commit_statuses": [
-      "docs/readthedocs.org:nbconvert: success",
-      "pre-commit.ci - pr: success"
+      "pre-commit.ci - pr: success",
+      "docs/readthedocs.org:nbconvert: success"
     ],
     "check_runs": {
       "total": 0,
@@ -126,8 +126,8 @@
     "locked": false,
     "mergeable_state": "clean",
     "commit_statuses": [
-      "docs/readthedocs.org:nbconvert: success",
-      "pre-commit.ci - pr: success"
+      "pre-commit.ci - pr: success",
+      "docs/readthedocs.org:nbconvert: success"
     ],
     "check_runs": {
       "total": 0,
@@ -149,8 +149,8 @@
     "locked": false,
     "mergeable_state": "clean",
     "commit_statuses": [
-      "docs/readthedocs.org:nbconvert: success",
-      "pre-commit.ci - pr: success"
+      "pre-commit.ci - pr: success",
+      "docs/readthedocs.org:nbconvert: success"
     ],
     "check_runs": {
       "total": 0,
@@ -172,8 +172,8 @@
     "locked": false,
     "mergeable_state": "blocked",
     "commit_statuses": [
-      "docs/readthedocs.org:xray: success",
-      "pre-commit.ci - pr: success"
+      "pre-commit.ci - pr: success",
+      "docs/readthedocs.org:xray: success"
     ],
     "check_runs": {
       "total": 1,
@@ -197,8 +197,8 @@
     "locked": false,
     "mergeable_state": "dirty",
     "commit_statuses": [
-      "docs/readthedocs.org:xray: success",
-      "pre-commit.ci - pr: success"
+      "pre-commit.ci - pr: success",
+      "docs/readthedocs.org:xray: success"
     ],
     "check_runs": {
       "total": 1,
@@ -222,8 +222,8 @@
     "locked": false,
     "mergeable_state": "blocked",
     "commit_statuses": [
-      "docs/readthedocs.org:xray: success",
-      "pre-commit.ci - pr: success"
+      "pre-commit.ci - pr: success",
+      "docs/readthedocs.org:xray: success"
     ],
     "check_runs": {
       "total": 1,
@@ -247,49 +247,53 @@
     "locked": false,
     "mergeable_state": "blocked",
     "commit_statuses": [
-      "docs/readthedocs.org:xray: success",
-      "pre-commit.ci - pr: success"
+      "pre-commit.ci - pr: success",
+      "docs/readthedocs.org:xray: success"
     ],
     "check_runs": {
-      "total": 37,
+      "total": 41,
       "statuses": [
-        "Doctests: success",
-        "Event File: success",
-        "GHA Security Analysis using Zizmor: success",
-        "Linux: skipped",
-        "Minimum Version Policy: success",
-        "Mypy 3.11: failure",
-        "Mypy: failure",
         "Pyright | ${{ matrix.pixi-env }}\": skipped",
-        "Slow Hypothesis Tests: skipped",
+        "Mypy 3.11: failure",
         "Stubtest: success",
-        "build-artifacts: skipped",
-        "cache-pixi-lock: skipped",
-        "cache-pixi-lock: success",
-        "create-issue: skipped",
-        "detect ci trigger: success",
-        "detect upstream-dev ci trigger: success",
-        "label: success",
-        "macos-latest | test-py311: success",
-        "macos-latest | test-py313: success",
-        "mypy-upstream-dev: skipped",
-        "test-built-dist: skipped",
-        "ubuntu-latest | test-py311-bare-min-and-scipy: success",
-        "ubuntu-latest | test-py311-bare-minimum: success",
-        "ubuntu-latest | test-py311-min-versions: success",
-        "ubuntu-latest | test-py311-with-typing (mypy): success",
-        "ubuntu-latest | test-py311: success",
-        "ubuntu-latest | test-py313 (flaky): success",
-        "ubuntu-latest | test-py313-no-dask: success",
-        "ubuntu-latest | test-py313-no-numba: success",
-        "ubuntu-latest | test-py313-with-typing: success",
-        "ubuntu-latest | test-py313: success",
-        "upload-to-pypi: skipped",
-        "upload-to-test-pypi: skipped",
-        "upstream-dev: skipped",
+        "Mypy: failure",
+        "Minimum Version Policy: success",
+        "Doctests: success",
         "windows-latest | test-py311: success",
+        "ubuntu-latest | test-py313-with-typing: success",
+        "ubuntu-latest | test-py311-bare-min-and-scipy: success",
+        "ubuntu-latest | test-py313 (flaky): success",
+        "ubuntu-latest | test-py311-min-versions: success",
+        "macos-latest | test-py311: success",
+        "ubuntu-latest | test-py311: success",
+        "ubuntu-latest | test-py313: success",
+        "macos-latest | test-py313: success",
+        "ubuntu-latest | test-py313-no-numba: success",
+        "ubuntu-latest | test-py311-with-typing (mypy): success",
         "windows-latest | test-py313: success",
-        "zizmor: success"
+        "ubuntu-latest | test-py311-bare-minimum: success",
+        "ubuntu-latest | test-py313-no-dask: success",
+        "mypy-upstream-dev: skipped",
+        "upstream-dev: skipped",
+        "create-issue: skipped",
+        "cache-pixi-lock: skipped",
+        "zizmor: success",
+        "cache-pixi-lock: success",
+        "cache-pixi-lock: success",
+        "Slow Hypothesis Tests: skipped",
+        "cache-pixi-lock: skipped",
+        "upload-to-pypi: skipped",
+        "test-built-dist: skipped",
+        "upload-to-test-pypi: skipped",
+        "detect upstream-dev ci trigger: success",
+        "build-artifacts: skipped",
+        "Linux: skipped",
+        "GHA Security Analysis using Zizmor: success",
+        "detect ci trigger: success",
+        "detect ci trigger: success",
+        "Event File: success",
+        "detect ci trigger: success",
+        "label: success"
       ]
     }
   },
@@ -358,8 +362,5 @@
       "total": 0,
       "statuses": []
     }
-  },
-  "_meta": {
-    "last_checked": "2026-06-16T09:01:47Z"
   }
 }

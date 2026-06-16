@@ -26,11 +26,7 @@
           "e2769457249f15bc797c46394bebe2e558a82b4a"
         ],
         "checks": [
-          [
-            "license/cla",
-            "completed",
-            "success"
-          ]
+          "license/cla: success"
         ],
         "statuses": []
       },
@@ -60,11 +56,7 @@
           "87a2ffc82ddefb79b2b2480c5ae2205a18cb90fe"
         ],
         "checks": [
-          [
-            "license/cla",
-            "completed",
-            "success"
-          ]
+          "license/cla: success"
         ],
         "statuses": []
       },
@@ -91,22 +83,14 @@
         "review_ids_states": [],
         "review_comment_ids": [],
         "commit_shas": [
+          "db5fd920b7c6b55f3e84904cf6d1fc621fb78ed3",
           "870a1ecced5a73bbf574067d665e68d0a3035883",
-          "8eed547bd8e36352cb07060a6e11e4be476530da",
-          "db5fd920b7c6b55f3e84904cf6d1fc621fb78ed3"
+          "8eed547bd8e36352cb07060a6e11e4be476530da"
         ],
         "checks": [],
         "statuses": [
-          [
-            "docs/readthedocs.org:nbconvert",
-            "success",
-            "https://nbconvert--2279.org.readthedocs.build/en/2279/"
-          ],
-          [
-            "pre-commit.ci - pr",
-            "success",
-            "https://results.pre-commit.ci/run/github/33653617/1777583069.ANtwMMEjQYGl8oqfbF-pmA"
-          ]
+          "pre-commit.ci - pr: success",
+          "docs/readthedocs.org:nbconvert: success"
         ]
       },
       "_reviews_semantic": [],
@@ -132,22 +116,14 @@
         "review_ids_states": [],
         "review_comment_ids": [],
         "commit_shas": [
-          "0d692f96bf3df7cd38b0ab02e9abda88b8100787",
           "9067eb4faa5f6e1188b611c4dfa544103cc69934",
-          "9cf9556e03659974ce1a5df5d6719a6f35153c4d"
+          "9cf9556e03659974ce1a5df5d6719a6f35153c4d",
+          "0d692f96bf3df7cd38b0ab02e9abda88b8100787"
         ],
         "checks": [],
         "statuses": [
-          [
-            "docs/readthedocs.org:nbconvert",
-            "success",
-            "https://nbconvert--2280.org.readthedocs.build/en/2280/"
-          ],
-          [
-            "pre-commit.ci - pr",
-            "success",
-            "https://results.pre-commit.ci/run/github/33653617/1777583791.WQwYZDnQQq2ozgCGgkcHMw"
-          ]
+          "pre-commit.ci - pr: success",
+          "docs/readthedocs.org:nbconvert: success"
         ]
       },
       "_reviews_semantic": [],
@@ -174,21 +150,13 @@
         "review_comment_ids": [],
         "commit_shas": [
           "200e63ec45865c07ee309980c54dad35eb4fa4dc",
-          "fa87b66f1f5b7b37605e8df203aec6dfec81276e",
-          "fffc85054204d02e4e66104fae05dc86ffb3fb76"
+          "fffc85054204d02e4e66104fae05dc86ffb3fb76",
+          "fa87b66f1f5b7b37605e8df203aec6dfec81276e"
         ],
         "checks": [],
         "statuses": [
-          [
-            "docs/readthedocs.org:nbconvert",
-            "success",
-            "https://nbconvert--2282.org.readthedocs.build/en/2282/"
-          ],
-          [
-            "pre-commit.ci - pr",
-            "success",
-            "https://results.pre-commit.ci/run/github/33653617/1778015834.Utv6uEXrRxG_2TccewpteA"
-          ]
+          "pre-commit.ci - pr: success",
+          "docs/readthedocs.org:nbconvert: success"
         ]
       },
       "_reviews_semantic": [],
@@ -215,21 +183,13 @@
         "review_comment_ids": [],
         "commit_shas": [
           "2ee300ca3270c0823b8b30997e864208ddb9c731",
-          "3f97df4cb40be47a960e7b6d0a157cfebc782fab",
-          "86708e94f0e2011606bbdf24cec14c997943b81e"
+          "86708e94f0e2011606bbdf24cec14c997943b81e",
+          "3f97df4cb40be47a960e7b6d0a157cfebc782fab"
         ],
         "checks": [],
         "statuses": [
-          [
-            "docs/readthedocs.org:nbconvert",
-            "success",
-            "https://nbconvert--2283.org.readthedocs.build/en/2283/"
-          ],
-          [
-            "pre-commit.ci - pr",
-            "success",
-            "https://results.pre-commit.ci/run/github/33653617/1778102003.rihViw2nTNmmllHS3kYoRg"
-          ]
+          "pre-commit.ci - pr: success",
+          "docs/readthedocs.org:nbconvert: success"
         ]
       },
       "_reviews_semantic": [],
@@ -262,27 +222,15 @@
           "194b49c776e049613645d4d6ca2ec980026ae317"
         ],
         "checks": [
-          [
-            "label",
-            "completed",
-            "success"
-          ]
+          "label: success"
         ],
         "statuses": [
-          [
-            "docs/readthedocs.org:xray",
-            "success",
-            "https://xray--11326.org.readthedocs.build/en/11326/"
-          ],
-          [
-            "pre-commit.ci - pr",
-            "success",
-            "https://results.pre-commit.ci/run/github/13221727/1778274696.jzMmvjgBQXGUBTwysJN8aA"
-          ]
+          "pre-commit.ci - pr: success",
+          "docs/readthedocs.org:xray: success"
         ]
       },
       "_reviews_semantic": [],
-      "merge_commit_sha": "e58b6062d709d4358e9fd7d95476ddca3bfe28e8"
+      "merge_commit_sha": "6fc3c6fc493a735b3b1e9804d476a9c0d693b01b"
     },
     "xarray-module-available-version-none": {
       "state": "open",
@@ -310,231 +258,59 @@
         "review_ids_states": [],
         "review_comment_ids": [],
         "commit_shas": [
-          "cdc9d77ebba37ca8f29ea258b9493b4a1116d506",
-          "df2daa7629511d7c4414aafb33fd7bcbc7a8f433"
+          "df2daa7629511d7c4414aafb33fd7bcbc7a8f433",
+          "cdc9d77ebba37ca8f29ea258b9493b4a1116d506"
         ],
         "checks": [
-          [
-            "Doctests",
-            "completed",
-            "success"
-          ],
-          [
-            "Event File",
-            "completed",
-            "success"
-          ],
-          [
-            "GHA Security Analysis using Zizmor",
-            "completed",
-            "success"
-          ],
-          [
-            "Linux",
-            "completed",
-            "skipped"
-          ],
-          [
-            "Minimum Version Policy",
-            "completed",
-            "success"
-          ],
-          [
-            "Mypy",
-            "completed",
-            "failure"
-          ],
-          [
-            "Mypy 3.11",
-            "completed",
-            "failure"
-          ],
-          [
-            "Pyright | ${{ matrix.pixi-env }}\"",
-            "completed",
-            "skipped"
-          ],
-          [
-            "Slow Hypothesis Tests",
-            "completed",
-            "skipped"
-          ],
-          [
-            "Stubtest",
-            "completed",
-            "success"
-          ],
-          [
-            "build-artifacts",
-            "completed",
-            "skipped"
-          ],
-          [
-            "cache-pixi-lock",
-            "completed",
-            "skipped"
-          ],
-          [
-            "cache-pixi-lock",
-            "completed",
-            "skipped"
-          ],
-          [
-            "cache-pixi-lock",
-            "completed",
-            "success"
-          ],
-          [
-            "cache-pixi-lock",
-            "completed",
-            "success"
-          ],
-          [
-            "create-issue",
-            "completed",
-            "skipped"
-          ],
-          [
-            "detect ci trigger",
-            "completed",
-            "success"
-          ],
-          [
-            "detect ci trigger",
-            "completed",
-            "success"
-          ],
-          [
-            "detect ci trigger",
-            "completed",
-            "success"
-          ],
-          [
-            "detect upstream-dev ci trigger",
-            "completed",
-            "success"
-          ],
-          [
-            "label",
-            "completed",
-            "success"
-          ],
-          [
-            "macos-latest | test-py311",
-            "completed",
-            "success"
-          ],
-          [
-            "macos-latest | test-py313",
-            "completed",
-            "success"
-          ],
-          [
-            "mypy-upstream-dev",
-            "completed",
-            "skipped"
-          ],
-          [
-            "test-built-dist",
-            "completed",
-            "skipped"
-          ],
-          [
-            "ubuntu-latest | test-py311",
-            "completed",
-            "success"
-          ],
-          [
-            "ubuntu-latest | test-py311-bare-min-and-scipy",
-            "completed",
-            "success"
-          ],
-          [
-            "ubuntu-latest | test-py311-bare-minimum",
-            "completed",
-            "success"
-          ],
-          [
-            "ubuntu-latest | test-py311-min-versions",
-            "completed",
-            "success"
-          ],
-          [
-            "ubuntu-latest | test-py311-with-typing (mypy)",
-            "completed",
-            "success"
-          ],
-          [
-            "ubuntu-latest | test-py313",
-            "completed",
-            "success"
-          ],
-          [
-            "ubuntu-latest | test-py313 (flaky)",
-            "completed",
-            "success"
-          ],
-          [
-            "ubuntu-latest | test-py313-no-dask",
-            "completed",
-            "success"
-          ],
-          [
-            "ubuntu-latest | test-py313-no-numba",
-            "completed",
-            "success"
-          ],
-          [
-            "ubuntu-latest | test-py313-with-typing",
-            "completed",
-            "success"
-          ],
-          [
-            "upload-to-pypi",
-            "completed",
-            "skipped"
-          ],
-          [
-            "upload-to-test-pypi",
-            "completed",
-            "skipped"
-          ],
-          [
-            "upstream-dev",
-            "completed",
-            "skipped"
-          ],
-          [
-            "windows-latest | test-py311",
-            "completed",
-            "success"
-          ],
-          [
-            "windows-latest | test-py313",
-            "completed",
-            "success"
-          ],
-          [
-            "zizmor",
-            "completed",
-            "success"
-          ]
+          "Pyright | ${{ matrix.pixi-env }}\": skipped",
+          "Mypy 3.11: failure",
+          "Stubtest: success",
+          "Mypy: failure",
+          "Minimum Version Policy: success",
+          "Doctests: success",
+          "windows-latest | test-py311: success",
+          "ubuntu-latest | test-py313-with-typing: success",
+          "ubuntu-latest | test-py311-bare-min-and-scipy: success",
+          "ubuntu-latest | test-py313 (flaky): success",
+          "ubuntu-latest | test-py311-min-versions: success",
+          "macos-latest | test-py311: success",
+          "ubuntu-latest | test-py311: success",
+          "ubuntu-latest | test-py313: success",
+          "macos-latest | test-py313: success",
+          "ubuntu-latest | test-py313-no-numba: success",
+          "ubuntu-latest | test-py311-with-typing (mypy): success",
+          "windows-latest | test-py313: success",
+          "ubuntu-latest | test-py311-bare-minimum: success",
+          "ubuntu-latest | test-py313-no-dask: success",
+          "mypy-upstream-dev: skipped",
+          "upstream-dev: skipped",
+          "create-issue: skipped",
+          "cache-pixi-lock: skipped",
+          "zizmor: success",
+          "cache-pixi-lock: success",
+          "cache-pixi-lock: success",
+          "Slow Hypothesis Tests: skipped",
+          "cache-pixi-lock: skipped",
+          "upload-to-pypi: skipped",
+          "test-built-dist: skipped",
+          "upload-to-test-pypi: skipped",
+          "detect upstream-dev ci trigger: success",
+          "build-artifacts: skipped",
+          "Linux: skipped",
+          "GHA Security Analysis using Zizmor: success",
+          "detect ci trigger: success",
+          "detect ci trigger: success",
+          "Event File: success",
+          "detect ci trigger: success",
+          "label: success"
         ],
         "statuses": [
-          [
-            "docs/readthedocs.org:xray",
-            "success",
-            "https://xray--11379.org.readthedocs.build/en/11379/"
-          ],
-          [
-            "pre-commit.ci - pr",
-            "success",
-            "https://results.pre-commit.ci/run/github/13221727/1781084197.R1Ku0EcVQXGwOC00Ugc5CQ"
-          ]
+          "pre-commit.ci - pr: success",
+          "docs/readthedocs.org:xray: success"
         ]
       },
       "_reviews_semantic": [],
-      "merge_commit_sha": "ff2cdf5738c07435171fa48fa1ab85225017f737"
+      "merge_commit_sha": "3b0372fb6f483fa00a46f811fb9c122aa042fcc5"
     },
     "sphinx-source-file-count-plural": {
       "state": "open",
@@ -560,15 +336,11 @@
         ],
         "checks": [],
         "statuses": [
-          [
-            "docs/readthedocs.org:sphinx",
-            "success",
-            "https://sphinx--14456.org.readthedocs.build/en/14456/"
-          ]
+          "docs/readthedocs.org:sphinx: success"
         ]
       },
       "_reviews_semantic": [],
-      "merge_commit_sha": "f2550254c6bebf68be4a9cc3437fe937f304fcec"
+      "merge_commit_sha": "0eb6eea590d8fdaab7a5ff306753f5053bc892f0"
     },
     "xarray-rangeindex-arange-step": {
       "state": "closed",
@@ -586,16 +358,39 @@
         "closed_at": "2026-06-07T22:34:25Z",
         "head_sha": "3ba554ff7f79cb40a1da555181c7fd075cfb162d",
         "labels": [],
-        "comment_ids": [],
-        "review_ids_states": [],
-        "review_comment_ids": [],
+        "comment_ids": [
+          4413681595,
+          4644302590
+        ],
+        "review_ids_states": [
+          [
+            4258610040,
+            "COMMENTED"
+          ]
+        ],
+        "review_comment_ids": [
+          3214027866
+        ],
         "commit_shas": [
+          "52d5b063b694014c45348e157c7de221376af722",
           "3ba554ff7f79cb40a1da555181c7fd075cfb162d"
         ],
-        "checks": [],
-        "statuses": []
+        "checks": [
+          "label: success"
+        ],
+        "statuses": [
+          "pre-commit.ci - pr: success",
+          "docs/readthedocs.org:xray: success"
+        ]
       },
-      "_reviews_semantic": [],
+      "_reviews_semantic": [
+        {
+          "id": 4258610040,
+          "state": "COMMENTED",
+          "user": "cfriedland5",
+          "body": ""
+        }
+      ],
       "merge_commit_sha": null
     },
     "xarray-module-available-none": {
@@ -618,16 +413,37 @@
         "labels": [
           "topic-NamedArray"
         ],
-        "comment_ids": [],
-        "review_ids_states": [],
+        "comment_ids": [
+          4581518733,
+          4586428899,
+          4664463883
+        ],
+        "review_ids_states": [
+          [
+            4372809867,
+            "CHANGES_REQUESTED"
+          ]
+        ],
         "review_comment_ids": [],
         "commit_shas": [
           "bfa0b8c3850d3307d97fb7d3c2b6aedca283fce7"
         ],
-        "checks": [],
-        "statuses": []
+        "checks": [
+          "label: success"
+        ],
+        "statuses": [
+          "pre-commit.ci - pr: success",
+          "docs/readthedocs.org:xray: success"
+        ]
       },
-      "_reviews_semantic": [],
+      "_reviews_semantic": [
+        {
+          "id": 4372809867,
+          "state": "CHANGES_REQUESTED",
+          "user": "Illviljan",
+          "body": "How do we get a None as input? This function does not allow anything else than str. \nIs this an actual problem in xarray?"
+        }
+      ],
       "merge_commit_sha": "20e40cc3bc599cf20edbc58c38f20227df80895d"
     },
     "sphinx-locale-format-specifiers": {
@@ -650,16 +466,34 @@
         "labels": [
           "i18n"
         ],
-        "comment_ids": [],
-        "review_ids_states": [],
+        "comment_ids": [
+          4576269858,
+          4581518757,
+          4645045159
+        ],
+        "review_ids_states": [
+          [
+            4394296340,
+            "APPROVED"
+          ]
+        ],
         "review_comment_ids": [],
         "commit_shas": [
           "656eebd34bb9008b6b03bd4a84e05c5917e9356a"
         ],
         "checks": [],
-        "statuses": []
+        "statuses": [
+          "docs/readthedocs.org:sphinx: success"
+        ]
       },
-      "_reviews_semantic": [],
+      "_reviews_semantic": [
+        {
+          "id": 4394296340,
+          "state": "APPROVED",
+          "user": "timhoffm",
+          "body": ""
+        }
+      ],
       "merge_commit_sha": "954459b4ab0bcba4dcdbf4b03c4b731006e059d6"
     },
     "click-help-argument-collision": {
@@ -678,14 +512,20 @@
         "closed_at": "2026-04-29T11:31:06Z",
         "head_sha": "e459528e4744cfca49a94a9dab03fa77440ee973",
         "labels": [],
-        "comment_ids": [],
+        "comment_ids": [
+          4343278956,
+          4343602145,
+          4344753961
+        ],
         "review_ids_states": [],
         "review_comment_ids": [],
         "commit_shas": [
           "e459528e4744cfca49a94a9dab03fa77440ee973"
         ],
         "checks": [],
-        "statuses": []
+        "statuses": [
+          "docs/readthedocs.org:pallets-click: success"
+        ]
       },
       "_reviews_semantic": [],
       "merge_commit_sha": "fc1ff4b480598c1571d54fc24bce433722fe4c92"
@@ -717,7 +557,9 @@
           "2e5e220537fbb05cad2100933cd3c87eda3d88ca"
         ],
         "checks": [],
-        "statuses": []
+        "statuses": [
+          "docs/readthedocs.org:requests: success"
+        ]
       },
       "_reviews_semantic": [],
       "merge_commit_sha": "8545829b7a41a7e0e90e7f9838679cfb9672879b"

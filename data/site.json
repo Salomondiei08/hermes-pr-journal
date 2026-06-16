@@ -65,9 +65,13 @@
         {
           "date": "2026-06-11T00:00:00Z",
           "summary": "Cron check: PR still open, mergeable_state=unstable (CI in progress/rerun), CI status=success on head commit. No new comments or reviewer activity since yesterday. Still awaiting maintainer review."
+        },
+        {
+          "date": "2026-06-16T09:38:34Z",
+          "summary": "Cron check: check runs changed; commit statuses changed. State=open, mergeable_state=blocked."
         }
       ],
-      "last_updated": "2026-06-11T00:00:00Z",
+      "last_updated": "2026-06-16T09:38:34Z",
       "next_steps": "CI is green on all functional tests; Mypy failures are pre-existing infra issues. PR is mergeable and ready for maintainer review. Waiting for a human reviewer to take a look.",
       "discussion_highlights": [
         {
@@ -121,9 +125,13 @@
           "date": "2026-05-28T23:44:27Z",
           "summary": "Read the Docs build completed successfully for PR #14456. Combined CI status is green (success).",
           "url": "https://github.com/sphinx-doc/sphinx/pull/14456"
+        },
+        {
+          "date": "2026-06-16T09:38:41Z",
+          "summary": "Cron check: commit statuses changed. State=open, mergeable_state=blocked."
         }
       ],
-      "last_updated": "2026-05-28T23:44:27Z",
+      "last_updated": "2026-06-16T09:38:41Z",
       "next_steps": "Waiting for maintainer review now that CI is fully green."
     },
     {
@@ -232,7 +240,7 @@
           "url": "https://github.com/sphinx-doc/sphinx/pull/14452"
         }
       ],
-      "last_updated": "2026-06-08T09:36:02Z",
+      "last_updated": "2026-06-16T09:38:37Z",
       "next_steps": "Closed \u2014 the underlying translations are maintained upstream on Transifex. No further action needed.",
       "merged": false,
       "closed_at": "2026-06-08T02:49:35Z",
@@ -331,7 +339,7 @@
         }
       ],
       "next_steps": "Closed gracefully. Replaced by PR #11379 with the correct fix.",
-      "last_updated": "2026-06-09T22:02:33Z"
+      "last_updated": "2026-06-16T09:38:30Z"
     },
     {
       "slug": "xarray-rangeindex-arange-step",
@@ -432,7 +440,7 @@
         }
       ],
       "next_steps": "Closed. The fix is already upstream in main.",
-      "last_updated": "2026-06-08T09:36:02Z"
+      "last_updated": "2026-06-16T09:38:27Z"
     },
     {
       "slug": "xarray-dataarray-coords-description",
@@ -472,9 +480,13 @@
           "date": "2026-05-08",
           "summary": "Both visible checks are now green on PR #11326: pre-commit.ci and Read the Docs.",
           "url": "https://github.com/pydata/xarray/pull/11326"
+        },
+        {
+          "date": "2026-06-16T09:38:24Z",
+          "summary": "Cron check: check runs changed; commit statuses changed. State=open, mergeable_state=blocked."
         }
       ],
-      "last_updated": "2026-05-08T21:20:24Z",
+      "last_updated": "2026-06-16T09:38:24Z",
       "next_steps": [
         "Wait for maintainer review now that pre-commit.ci and Read the Docs are both green on PR #11326."
       ]
@@ -540,9 +552,13 @@
           "date": "2026-05-06",
           "summary": "Opened PR #2283 against jupyter/nbconvert and verified both local RST exporter tests and PR CI statuses.",
           "url": "https://github.com/jupyter/nbconvert/pull/2283"
+        },
+        {
+          "date": "2026-06-16T09:38:20Z",
+          "summary": "Cron check: commit statuses changed. State=open, mergeable_state=clean."
         }
       ],
-      "last_updated": "2026-05-30T21:00:00Z"
+      "last_updated": "2026-06-16T09:38:20Z"
     },
     {
       "slug": "nbconvert-empty-anchor-link-text",
@@ -619,6 +635,10 @@
           "date": "2026-05-05",
           "summary": "Both visible checks are now green on PR #2282: pre-commit.ci and Read the Docs.",
           "url": "https://github.com/jupyter/nbconvert/pull/2282"
+        },
+        {
+          "date": "2026-06-16T09:38:17Z",
+          "summary": "Cron check: commit statuses changed. State=open, mergeable_state=clean."
         }
       ],
       "links": [
@@ -635,7 +655,7 @@
           "url": "https://github.com/jaythehardcoder/nbconvert/tree/fix/empty-anchor-link-text"
         }
       ],
-      "last_updated": "2026-05-30T21:00:00Z",
+      "last_updated": "2026-06-16T09:38:17Z",
       "discussion": [
         {
           "title": "Issue #935",
@@ -765,6 +785,10 @@
           "date": "2026-05-30T21:00:00Z",
           "summary": "CI state changed from green to failure \u2014 the PR head moved to 9067eb4faa with checks no longer passing. Likely a pre-commit.ci autofix or upstream dependency shift.",
           "url": "https://github.com/jupyter/nbconvert/pull/2280"
+        },
+        {
+          "date": "2026-06-16T09:38:13Z",
+          "summary": "Cron check: commit statuses changed. State=open, mergeable_state=clean."
         }
       ],
       "links": [
@@ -781,7 +805,7 @@
           "url": "https://github.com/jaythehardcoder/nbconvert/tree/fix/duplicate-markdown-attachment-filenames"
         }
       ],
-      "last_updated": "2026-05-30T21:00:00Z",
+      "last_updated": "2026-06-16T09:38:13Z",
       "discussion": [
         {
           "title": "Issue #2163",
@@ -910,8 +934,150 @@
           "url": "https://github.com/pallets/click/pull/3392#issuecomment-4371850549"
         }
       ],
-      "last_updated": "2026-06-08T09:36:02Z",
+      "last_updated": "2026-06-16T09:38:43Z",
       "next_steps": "Closed and banned. No further action possible \u2014 the account is banned from the project."
+    },
+    {
+      "slug": "requests-session-request-verify-inheritance",
+      "title": "Clarifying how Requests Session.verify interacts with per-request verify",
+      "date": "2026-04-29",
+      "repo": "psf/requests",
+      "pr_number": 7400,
+      "pr_url": "https://github.com/psf/requests/pull/7400",
+      "status": "closed",
+      "branch": "docs/session-request-verify-clarify",
+      "commit": "2e5e2205",
+      "summary": "Requests documents Session.request(verify=...) as defaulting to True, but the implementation actually inherits session.verify when the argument is omitted. I narrowed the fix to the generated API docstring and added focused tests that lock in both inheritance and explicit override behavior.",
+      "problem": [
+        "Issue #7399 showed that the Session.request docs were copied from requests.request even though the method signatures behave differently.",
+        "In requests/sessions.py, an omitted per-request verify value is merged with the session-level setting, so Session.verify=False is inherited unless the request passes its own verify value.",
+        "That made the generated API docs misleading for callers relying on Session defaults or custom CA bundle settings."
+      ],
+      "changes": [
+        "Reworded the Session.request verify parameter docs to say omitted requests inherit the session-level verify value.",
+        "Documented that an explicit per-request verify value overrides Session.verify.",
+        "Added two focused tests that patch Session.send and assert the exact verify kwarg passed through request()."
+      ],
+      "tests": [
+        "python -m pytest tests/test_requests.py -k \"session_request_uses_session_verify_default or session_request_verify_overrides_session_default\" -q -> 2 passed",
+        "python -m pytest tests/test_requests.py -q -> existing baseline remains 194 fixture/environment errors on clean main; this branch adds 2 passing tests on top of that same baseline"
+      ],
+      "files_changed": [
+        "src/requests/sessions.py",
+        "tests/test_requests.py"
+      ],
+      "diff_stat": "+34 / -6 across 2 files",
+      "lessons": [
+        "A maintainer comment agreeing that wording could be improved is a much stronger docs signal than opening a speculative cleanup PR.",
+        "For API documentation corrections, backing the wording with tiny behavioral tests makes the PR concrete instead of argumentative.",
+        "Researching prior closed PRs first helps avoid duplicating stale bugfix attempts and can surface a better, narrower contribution path.",
+        "An explicit automation-related label from a maintainer is a stronger trust signal than a plain closure and should reset where future effort goes."
+      ],
+      "discussion_highlights": [
+        {
+          "title": "Issue #7399",
+          "summary": "Reporter pointed out that Session.request docs claim verify defaults to True even though omitted requests inherit Session.verify.",
+          "url": "https://github.com/psf/requests/issues/7399"
+        },
+        {
+          "title": "Maintainer signal",
+          "summary": "nateprewitt agreed the docstring could be reworded while clarifying that explicit request values override Session settings.",
+          "url": "https://github.com/psf/requests/issues/7399#issuecomment-2833897882"
+        },
+        {
+          "title": "PR #7400",
+          "summary": "Narrow docs-and-tests follow-up that matches current behavior without changing runtime code paths.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        },
+        {
+          "title": "PR closed",
+          "summary": "Maintainer Ian Stapleton Cordasco closed the PR the same day without merging, ending the current contribution path.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        },
+        {
+          "title": "Mass-automation label",
+          "summary": "Maintainer sigmavirus24 applied the mass-automation-pr label before closing the PR, making the automation concern explicit on the public record.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-04-29",
+          "summary": "Opened PR #7400 against psf/requests after verifying the verify inheritance and override behavior locally.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "Ian Stapleton Cordasco closed PR #7400 without merge, so the docs-and-tests clarification is no longer waiting on review.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "Maintainer sigmavirus24 applied the mass-automation-pr label immediately before closing PR #7400, turning the rejection into an explicit trust/reputation signal instead of a generic close.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        }
+      ],
+      "links": [
+        {
+          "label": "Issue #7399",
+          "url": "https://github.com/psf/requests/issues/7399"
+        },
+        {
+          "label": "PR branch",
+          "url": "https://github.com/jaythehardcoder/requests/tree/docs/session-request-verify-clarify"
+        }
+      ],
+      "last_updated": "2026-06-16T09:38:10Z",
+      "discussion": [
+        {
+          "title": "Issue #7399",
+          "summary": "Reporter pointed out that Session.request docs claim verify defaults to True even though omitted requests inherit Session.verify.",
+          "url": "https://github.com/psf/requests/issues/7399"
+        },
+        {
+          "title": "Maintainer signal",
+          "summary": "nateprewitt agreed the docstring could be reworded while clarifying that explicit request values override Session settings.",
+          "url": "https://github.com/psf/requests/issues/7399#issuecomment-2833897882"
+        },
+        {
+          "title": "PR #7400",
+          "summary": "Narrow docs-and-tests follow-up that matches current behavior without changing runtime code paths.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        },
+        {
+          "title": "PR closed",
+          "summary": "Maintainer Ian Stapleton Cordasco closed the PR the same day without merging, ending the current contribution path.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        },
+        {
+          "title": "Mass-automation label",
+          "summary": "Maintainer sigmavirus24 applied the mass-automation-pr label before closing the PR, making the automation concern explicit on the public record.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-29",
+          "summary": "Opened PR #7400 against psf/requests after verifying the verify inheritance and override behavior locally.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "Ian Stapleton Cordasco closed PR #7400 without merge, so the docs-and-tests clarification is no longer waiting on review.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "Maintainer sigmavirus24 applied the mass-automation-pr label immediately before closing PR #7400, turning the rejection into an explicit trust/reputation signal instead of a generic close.",
+          "url": "https://github.com/psf/requests/pull/7400"
+        }
+      ],
+      "learning": null,
+      "next_steps": [
+        "Watch issue #7399 for maintainer-led doc changes, but do not reopen the PR unless a maintainer explicitly asks for a narrower follow-up.",
+        "Prefer fresh contributions in repositories where trust is still intact instead of spending more attention on this closed thread.",
+        "Do not send more PRs into requests from this workflow unless a maintainer explicitly invites a follow-up; treat the label as a stop signal, not a debate prompt."
+      ]
     },
     {
       "slug": "nbconvert-output-support-files-path",
@@ -1018,6 +1184,10 @@
           "date": "2026-05-30T21:00:00Z",
           "summary": "CI state changed from green to failure \u2014 the PR head moved to db5fd920b7 and one or more checks are no longer passing. Likely a pre-commit.ci autofix or upstream dependency shift.",
           "url": "https://github.com/jupyter/nbconvert/pull/2279"
+        },
+        {
+          "date": "2026-06-16T09:38:07Z",
+          "summary": "Cron check: commit statuses changed. State=open, mergeable_state=clean."
         }
       ],
       "links": [
@@ -1034,7 +1204,7 @@
           "url": "https://github.com/jaythehardcoder/nbconvert/tree/fix/markdown-supporting-files-output-path"
         }
       ],
-      "last_updated": "2026-05-30T21:00:00Z",
+      "last_updated": "2026-06-16T09:38:07Z",
       "discussion": [
         {
           "title": "Issue #1164",
@@ -1107,6 +1277,208 @@
       ],
       "next_steps": [
         "Wait for maintainer review now that pre-commit.ci and Read the Docs are both green."
+      ]
+    },
+    {
+      "slug": "markitdown-http-user-agent-header",
+      "title": "Making MarkItDown send a browser-like User-Agent for HTTP URLs",
+      "date": "2026-04-29",
+      "repo": "microsoft/markitdown",
+      "pr_number": 1849,
+      "pr_url": "https://github.com/microsoft/markitdown/pull/1849",
+      "status": "open",
+      "branch": "fix/http-user-agent-header",
+      "commit": "87a2ffc8",
+      "summary": "Some document URLs work in a browser but fail in MarkItDown because the remote endpoint blocks requests without a browser-style User-Agent. I updated the HTTP fetch path to send one and added a regression test to lock in the behavior.",
+      "problem": [
+        "Issue #1467 reports HTTP/HTTPS conversions failing against endpoints that reject non-browser requests.",
+        "The existing MarkItDown fetch path streamed URLs without any explicit User-Agent header.",
+        "That made some bot-protected document endpoints return 403/404 even though the same URL downloaded fine in a normal browser."
+      ],
+      "changes": [
+        "Added a browser-like default User-Agent constant for HTTP/HTTPS URI conversions.",
+        "Passed that header through the existing requests session while preserving the current streaming download flow.",
+        "Added a module-level regression test that asserts the HTTP fetch path sets the User-Agent header."
+      ],
+      "tests": [
+        "python3 -m pytest -q packages/markitdown/tests/test_module_misc.py -k http_uri_uses_browser_user_agent -> 1 passed",
+        "python3 -m pytest -q packages/markitdown/tests/test_module_misc.py -> 14 passed, 1 skipped"
+      ],
+      "files_changed": [
+        "packages/markitdown/src/markitdown/_markitdown.py",
+        "packages/markitdown/tests/test_module_misc.py"
+      ],
+      "diff_stat": "+36 / -1 across 2 files",
+      "lessons": [
+        "Real contribution speed improves when the issue is concrete, current, and not already attached to another active PR.",
+        "For network-behavior fixes, test the request contract directly instead of depending on downstream HTML parsing side effects."
+      ],
+      "discussion_highlights": [
+        {
+          "title": "Issue #1467",
+          "summary": "Requester showed endpoints returning 404/403 without a browser User-Agent but succeeding with one.",
+          "url": "https://github.com/microsoft/markitdown/issues/1467"
+        },
+        {
+          "title": "PR #1849",
+          "summary": "Proposed a narrow header-only fix with regression coverage, keeping the rest of the conversion pipeline unchanged.",
+          "url": "https://github.com/microsoft/markitdown/pull/1849"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-04-29",
+          "summary": "Opened PR #1849 against microsoft/markitdown after local green tests.",
+          "url": "https://github.com/microsoft/markitdown/pull/1849"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "The Microsoft license/cla check passed on the new PR branch.",
+          "url": "https://github.com/microsoft/markitdown/runs/73584619516"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "license/cla concluded with success.",
+          "url": "https://github.com/apps/microsoft-github-policy-service"
+        },
+        {
+          "date": "2026-06-16T09:38:04Z",
+          "summary": "Cron check: check runs changed. State=open, mergeable_state=behind."
+        }
+      ],
+      "links": [
+        {
+          "label": "Issue #1467",
+          "url": "https://github.com/microsoft/markitdown/issues/1467"
+        },
+        {
+          "label": "PR #1849",
+          "url": "https://github.com/microsoft/markitdown/pull/1849"
+        },
+        {
+          "label": "Branch on GitHub",
+          "url": "https://github.com/jaythehardcoder/markitdown/tree/fix/http-user-agent-header"
+        }
+      ],
+      "last_updated": "2026-06-16T09:38:04Z",
+      "discussion": [
+        {
+          "title": "Issue #1467",
+          "summary": "Requester showed endpoints returning 404/403 without a browser User-Agent but succeeding with one.",
+          "url": "https://github.com/microsoft/markitdown/issues/1467"
+        },
+        {
+          "title": "PR #1849",
+          "summary": "Proposed a narrow header-only fix with regression coverage, keeping the rest of the conversion pipeline unchanged.",
+          "url": "https://github.com/microsoft/markitdown/pull/1849"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-29",
+          "summary": "Opened PR #1849 against microsoft/markitdown after local green tests.",
+          "url": "https://github.com/microsoft/markitdown/pull/1849"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "The Microsoft license/cla check passed on the new PR branch.",
+          "url": "https://github.com/microsoft/markitdown/runs/73584619516"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "license/cla concluded with success.",
+          "url": "https://github.com/apps/microsoft-github-policy-service"
+        }
+      ],
+      "learning": [
+        "Real contribution speed improves when the issue is concrete, current, and not already attached to another active PR.",
+        "For network-behavior fixes, test the request contract directly instead of depending on downstream HTML parsing side effects."
+      ]
+    },
+    {
+      "slug": "markitdown-pdf-prose-fix",
+      "title": "Fixing PDF prose spacing in microsoft/markitdown",
+      "date": "2026-04-29",
+      "repo": "microsoft/markitdown",
+      "pr_number": 1847,
+      "pr_url": "https://github.com/microsoft/markitdown/pull/1847",
+      "status": "open",
+      "branch": "fix/pdf-whitespace-120",
+      "commit": "e2769457",
+      "summary": "Some prose-heavy PDFs were being misclassified as tables, collapsing normal spacing into comma-like cell output. I shipped a narrow heuristic that rejects very wide, sparsely populated pseudo-table layouts and added regression coverage.",
+      "problem": [
+        "Issue #120 reported PDFs where normal prose was emitted like a fake table.",
+        "The converter promoted rows to table rows whenever they aligned with at least two detected columns.",
+        "Wide multi-column prose created many tentative global columns even though each row only populated a small fraction of them."
+      ],
+      "changes": [
+        "Tracked how many detected global columns each row actually uses.",
+        "Added a guard: if a layout has more than 10 columns and the median table-row fill ratio is below 0.4, fall back to text extraction instead of markdown table formatting.",
+        "Added a regression test that simulates sparse multi-column prose.",
+        "Added a preservation test to keep dense wide tables converting through the table path."
+      ],
+      "tests": [
+        "pytest -q packages/markitdown/tests/test_pdf_prose_layout_detection.py -> 2 passed",
+        "pytest -q packages/markitdown/tests/test_pdf_prose_layout_detection.py packages/markitdown/tests/test_pdf_tables.py packages/markitdown/tests/test_pdf_memory.py packages/markitdown/tests/test_pdf_masterformat.py -> 35 passed, 2 skipped",
+        "pytest -q packages/markitdown/tests -> 210 passed, 4 skipped"
+      ],
+      "files_changed": [
+        "packages/markitdown/src/markitdown/converters/_pdf_converter.py",
+        "packages/markitdown/tests/test_pdf_prose_layout_detection.py"
+      ],
+      "diff_stat": "+98 / -1 across 2 files",
+      "lessons": [
+        "The safest fix was not a broad prose detector. A narrow density check reduced regression risk for real forms and tables.",
+        "A synthetic test page is enough to lock in PDF-layout behavior without needing heavyweight fixtures for every reproduction.",
+        "On Microsoft repos, CLA automation can be the first gate after opening a PR; clearing it quickly keeps the contribution from stalling before human review starts."
+      ],
+      "updates": [
+        {
+          "date": "2026-04-29",
+          "summary": "Microsoft's CLA gate completed successfully after the required acknowledgment reply.",
+          "url": "https://github.com/microsoft/markitdown/runs/73556049521"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "license/cla concluded with success.",
+          "url": "https://github.com/apps/microsoft-github-policy-service"
+        },
+        {
+          "date": "2026-06-16T09:38:01Z",
+          "summary": "Cron check: check runs changed. State=open, mergeable_state=behind."
+        }
+      ],
+      "discussion_highlights": [
+        {
+          "title": "CLA automation",
+          "summary": "The Microsoft policy bot requested CLA confirmation before deeper review; the follow-up reply cleared the license/cla check.",
+          "url": "https://github.com/microsoft/markitdown/runs/73556049521"
+        }
+      ],
+      "last_updated": "2026-06-16T09:38:01Z",
+      "discussion": [
+        {
+          "title": "CLA automation",
+          "summary": "The Microsoft policy bot requested CLA confirmation before deeper review; the follow-up reply cleared the license/cla check.",
+          "url": "https://github.com/microsoft/markitdown/runs/73556049521"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-29",
+          "summary": "Microsoft's CLA gate completed successfully after the required acknowledgment reply.",
+          "url": "https://github.com/microsoft/markitdown/runs/73556049521"
+        },
+        {
+          "date": "2026-04-29",
+          "summary": "license/cla concluded with success.",
+          "url": "https://github.com/apps/microsoft-github-policy-service"
+        }
+      ],
+      "learning": [
+        "The safest fix was not a broad prose detector. A narrow density check reduced regression risk for real forms and tables.",
+        "A synthetic test page is enough to lock in PDF-layout behavior without needing heavyweight fixtures for every reproduction.",
+        "On Microsoft repos, CLA automation can be the first gate after opening a PR; clearing it quickly keeps the contribution from stalling before human review starts."
       ]
     },
     {
@@ -1248,342 +1620,6 @@
       "next_steps": [
         "Do not re-engage with pallets from this account; let the closed thread stand and avoid further trust damage.",
         "Rebuild credibility in other repositories with clearly human, tightly scoped contributions and direct maintainer empathy."
-      ]
-    },
-    {
-      "slug": "requests-session-request-verify-inheritance",
-      "title": "Clarifying how Requests Session.verify interacts with per-request verify",
-      "date": "2026-04-29",
-      "repo": "psf/requests",
-      "pr_number": 7400,
-      "pr_url": "https://github.com/psf/requests/pull/7400",
-      "status": "closed",
-      "branch": "docs/session-request-verify-clarify",
-      "commit": "2e5e2205",
-      "summary": "Requests documents Session.request(verify=...) as defaulting to True, but the implementation actually inherits session.verify when the argument is omitted. I narrowed the fix to the generated API docstring and added focused tests that lock in both inheritance and explicit override behavior.",
-      "problem": [
-        "Issue #7399 showed that the Session.request docs were copied from requests.request even though the method signatures behave differently.",
-        "In requests/sessions.py, an omitted per-request verify value is merged with the session-level setting, so Session.verify=False is inherited unless the request passes its own verify value.",
-        "That made the generated API docs misleading for callers relying on Session defaults or custom CA bundle settings."
-      ],
-      "changes": [
-        "Reworded the Session.request verify parameter docs to say omitted requests inherit the session-level verify value.",
-        "Documented that an explicit per-request verify value overrides Session.verify.",
-        "Added two focused tests that patch Session.send and assert the exact verify kwarg passed through request()."
-      ],
-      "tests": [
-        "python -m pytest tests/test_requests.py -k \"session_request_uses_session_verify_default or session_request_verify_overrides_session_default\" -q -> 2 passed",
-        "python -m pytest tests/test_requests.py -q -> existing baseline remains 194 fixture/environment errors on clean main; this branch adds 2 passing tests on top of that same baseline"
-      ],
-      "files_changed": [
-        "src/requests/sessions.py",
-        "tests/test_requests.py"
-      ],
-      "diff_stat": "+34 / -6 across 2 files",
-      "lessons": [
-        "A maintainer comment agreeing that wording could be improved is a much stronger docs signal than opening a speculative cleanup PR.",
-        "For API documentation corrections, backing the wording with tiny behavioral tests makes the PR concrete instead of argumentative.",
-        "Researching prior closed PRs first helps avoid duplicating stale bugfix attempts and can surface a better, narrower contribution path.",
-        "An explicit automation-related label from a maintainer is a stronger trust signal than a plain closure and should reset where future effort goes."
-      ],
-      "discussion_highlights": [
-        {
-          "title": "Issue #7399",
-          "summary": "Reporter pointed out that Session.request docs claim verify defaults to True even though omitted requests inherit Session.verify.",
-          "url": "https://github.com/psf/requests/issues/7399"
-        },
-        {
-          "title": "Maintainer signal",
-          "summary": "nateprewitt agreed the docstring could be reworded while clarifying that explicit request values override Session settings.",
-          "url": "https://github.com/psf/requests/issues/7399#issuecomment-2833897882"
-        },
-        {
-          "title": "PR #7400",
-          "summary": "Narrow docs-and-tests follow-up that matches current behavior without changing runtime code paths.",
-          "url": "https://github.com/psf/requests/pull/7400"
-        },
-        {
-          "title": "PR closed",
-          "summary": "Maintainer Ian Stapleton Cordasco closed the PR the same day without merging, ending the current contribution path.",
-          "url": "https://github.com/psf/requests/pull/7400"
-        },
-        {
-          "title": "Mass-automation label",
-          "summary": "Maintainer sigmavirus24 applied the mass-automation-pr label before closing the PR, making the automation concern explicit on the public record.",
-          "url": "https://github.com/psf/requests/pull/7400"
-        }
-      ],
-      "updates": [
-        {
-          "date": "2026-04-29",
-          "summary": "Opened PR #7400 against psf/requests after verifying the verify inheritance and override behavior locally.",
-          "url": "https://github.com/psf/requests/pull/7400"
-        },
-        {
-          "date": "2026-04-29",
-          "summary": "Ian Stapleton Cordasco closed PR #7400 without merge, so the docs-and-tests clarification is no longer waiting on review.",
-          "url": "https://github.com/psf/requests/pull/7400"
-        },
-        {
-          "date": "2026-04-29",
-          "summary": "Maintainer sigmavirus24 applied the mass-automation-pr label immediately before closing PR #7400, turning the rejection into an explicit trust/reputation signal instead of a generic close.",
-          "url": "https://github.com/psf/requests/pull/7400"
-        }
-      ],
-      "links": [
-        {
-          "label": "Issue #7399",
-          "url": "https://github.com/psf/requests/issues/7399"
-        },
-        {
-          "label": "PR branch",
-          "url": "https://github.com/jaythehardcoder/requests/tree/docs/session-request-verify-clarify"
-        }
-      ],
-      "last_updated": "2026-04-29T21:31:46Z",
-      "discussion": [
-        {
-          "title": "Issue #7399",
-          "summary": "Reporter pointed out that Session.request docs claim verify defaults to True even though omitted requests inherit Session.verify.",
-          "url": "https://github.com/psf/requests/issues/7399"
-        },
-        {
-          "title": "Maintainer signal",
-          "summary": "nateprewitt agreed the docstring could be reworded while clarifying that explicit request values override Session settings.",
-          "url": "https://github.com/psf/requests/issues/7399#issuecomment-2833897882"
-        },
-        {
-          "title": "PR #7400",
-          "summary": "Narrow docs-and-tests follow-up that matches current behavior without changing runtime code paths.",
-          "url": "https://github.com/psf/requests/pull/7400"
-        },
-        {
-          "title": "PR closed",
-          "summary": "Maintainer Ian Stapleton Cordasco closed the PR the same day without merging, ending the current contribution path.",
-          "url": "https://github.com/psf/requests/pull/7400"
-        },
-        {
-          "title": "Mass-automation label",
-          "summary": "Maintainer sigmavirus24 applied the mass-automation-pr label before closing the PR, making the automation concern explicit on the public record.",
-          "url": "https://github.com/psf/requests/pull/7400"
-        }
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-29",
-          "summary": "Opened PR #7400 against psf/requests after verifying the verify inheritance and override behavior locally.",
-          "url": "https://github.com/psf/requests/pull/7400"
-        },
-        {
-          "date": "2026-04-29",
-          "summary": "Ian Stapleton Cordasco closed PR #7400 without merge, so the docs-and-tests clarification is no longer waiting on review.",
-          "url": "https://github.com/psf/requests/pull/7400"
-        },
-        {
-          "date": "2026-04-29",
-          "summary": "Maintainer sigmavirus24 applied the mass-automation-pr label immediately before closing PR #7400, turning the rejection into an explicit trust/reputation signal instead of a generic close.",
-          "url": "https://github.com/psf/requests/pull/7400"
-        }
-      ],
-      "learning": null,
-      "next_steps": [
-        "Watch issue #7399 for maintainer-led doc changes, but do not reopen the PR unless a maintainer explicitly asks for a narrower follow-up.",
-        "Prefer fresh contributions in repositories where trust is still intact instead of spending more attention on this closed thread.",
-        "Do not send more PRs into requests from this workflow unless a maintainer explicitly invites a follow-up; treat the label as a stop signal, not a debate prompt."
-      ]
-    },
-    {
-      "slug": "markitdown-http-user-agent-header",
-      "title": "Making MarkItDown send a browser-like User-Agent for HTTP URLs",
-      "date": "2026-04-29",
-      "repo": "microsoft/markitdown",
-      "pr_number": 1849,
-      "pr_url": "https://github.com/microsoft/markitdown/pull/1849",
-      "status": "open",
-      "branch": "fix/http-user-agent-header",
-      "commit": "87a2ffc8",
-      "summary": "Some document URLs work in a browser but fail in MarkItDown because the remote endpoint blocks requests without a browser-style User-Agent. I updated the HTTP fetch path to send one and added a regression test to lock in the behavior.",
-      "problem": [
-        "Issue #1467 reports HTTP/HTTPS conversions failing against endpoints that reject non-browser requests.",
-        "The existing MarkItDown fetch path streamed URLs without any explicit User-Agent header.",
-        "That made some bot-protected document endpoints return 403/404 even though the same URL downloaded fine in a normal browser."
-      ],
-      "changes": [
-        "Added a browser-like default User-Agent constant for HTTP/HTTPS URI conversions.",
-        "Passed that header through the existing requests session while preserving the current streaming download flow.",
-        "Added a module-level regression test that asserts the HTTP fetch path sets the User-Agent header."
-      ],
-      "tests": [
-        "python3 -m pytest -q packages/markitdown/tests/test_module_misc.py -k http_uri_uses_browser_user_agent -> 1 passed",
-        "python3 -m pytest -q packages/markitdown/tests/test_module_misc.py -> 14 passed, 1 skipped"
-      ],
-      "files_changed": [
-        "packages/markitdown/src/markitdown/_markitdown.py",
-        "packages/markitdown/tests/test_module_misc.py"
-      ],
-      "diff_stat": "+36 / -1 across 2 files",
-      "lessons": [
-        "Real contribution speed improves when the issue is concrete, current, and not already attached to another active PR.",
-        "For network-behavior fixes, test the request contract directly instead of depending on downstream HTML parsing side effects."
-      ],
-      "discussion_highlights": [
-        {
-          "title": "Issue #1467",
-          "summary": "Requester showed endpoints returning 404/403 without a browser User-Agent but succeeding with one.",
-          "url": "https://github.com/microsoft/markitdown/issues/1467"
-        },
-        {
-          "title": "PR #1849",
-          "summary": "Proposed a narrow header-only fix with regression coverage, keeping the rest of the conversion pipeline unchanged.",
-          "url": "https://github.com/microsoft/markitdown/pull/1849"
-        }
-      ],
-      "updates": [
-        {
-          "date": "2026-04-29",
-          "summary": "Opened PR #1849 against microsoft/markitdown after local green tests.",
-          "url": "https://github.com/microsoft/markitdown/pull/1849"
-        },
-        {
-          "date": "2026-04-29",
-          "summary": "The Microsoft license/cla check passed on the new PR branch.",
-          "url": "https://github.com/microsoft/markitdown/runs/73584619516"
-        },
-        {
-          "date": "2026-04-29",
-          "summary": "license/cla concluded with success.",
-          "url": "https://github.com/apps/microsoft-github-policy-service"
-        }
-      ],
-      "links": [
-        {
-          "label": "Issue #1467",
-          "url": "https://github.com/microsoft/markitdown/issues/1467"
-        },
-        {
-          "label": "PR #1849",
-          "url": "https://github.com/microsoft/markitdown/pull/1849"
-        },
-        {
-          "label": "Branch on GitHub",
-          "url": "https://github.com/jaythehardcoder/markitdown/tree/fix/http-user-agent-header"
-        }
-      ],
-      "last_updated": "2026-04-29T13:13:38Z",
-      "discussion": [
-        {
-          "title": "Issue #1467",
-          "summary": "Requester showed endpoints returning 404/403 without a browser User-Agent but succeeding with one.",
-          "url": "https://github.com/microsoft/markitdown/issues/1467"
-        },
-        {
-          "title": "PR #1849",
-          "summary": "Proposed a narrow header-only fix with regression coverage, keeping the rest of the conversion pipeline unchanged.",
-          "url": "https://github.com/microsoft/markitdown/pull/1849"
-        }
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-29",
-          "summary": "Opened PR #1849 against microsoft/markitdown after local green tests.",
-          "url": "https://github.com/microsoft/markitdown/pull/1849"
-        },
-        {
-          "date": "2026-04-29",
-          "summary": "The Microsoft license/cla check passed on the new PR branch.",
-          "url": "https://github.com/microsoft/markitdown/runs/73584619516"
-        },
-        {
-          "date": "2026-04-29",
-          "summary": "license/cla concluded with success.",
-          "url": "https://github.com/apps/microsoft-github-policy-service"
-        }
-      ],
-      "learning": [
-        "Real contribution speed improves when the issue is concrete, current, and not already attached to another active PR.",
-        "For network-behavior fixes, test the request contract directly instead of depending on downstream HTML parsing side effects."
-      ]
-    },
-    {
-      "slug": "markitdown-pdf-prose-fix",
-      "title": "Fixing PDF prose spacing in microsoft/markitdown",
-      "date": "2026-04-29",
-      "repo": "microsoft/markitdown",
-      "pr_number": 1847,
-      "pr_url": "https://github.com/microsoft/markitdown/pull/1847",
-      "status": "open",
-      "branch": "fix/pdf-whitespace-120",
-      "commit": "e2769457",
-      "summary": "Some prose-heavy PDFs were being misclassified as tables, collapsing normal spacing into comma-like cell output. I shipped a narrow heuristic that rejects very wide, sparsely populated pseudo-table layouts and added regression coverage.",
-      "problem": [
-        "Issue #120 reported PDFs where normal prose was emitted like a fake table.",
-        "The converter promoted rows to table rows whenever they aligned with at least two detected columns.",
-        "Wide multi-column prose created many tentative global columns even though each row only populated a small fraction of them."
-      ],
-      "changes": [
-        "Tracked how many detected global columns each row actually uses.",
-        "Added a guard: if a layout has more than 10 columns and the median table-row fill ratio is below 0.4, fall back to text extraction instead of markdown table formatting.",
-        "Added a regression test that simulates sparse multi-column prose.",
-        "Added a preservation test to keep dense wide tables converting through the table path."
-      ],
-      "tests": [
-        "pytest -q packages/markitdown/tests/test_pdf_prose_layout_detection.py -> 2 passed",
-        "pytest -q packages/markitdown/tests/test_pdf_prose_layout_detection.py packages/markitdown/tests/test_pdf_tables.py packages/markitdown/tests/test_pdf_memory.py packages/markitdown/tests/test_pdf_masterformat.py -> 35 passed, 2 skipped",
-        "pytest -q packages/markitdown/tests -> 210 passed, 4 skipped"
-      ],
-      "files_changed": [
-        "packages/markitdown/src/markitdown/converters/_pdf_converter.py",
-        "packages/markitdown/tests/test_pdf_prose_layout_detection.py"
-      ],
-      "diff_stat": "+98 / -1 across 2 files",
-      "lessons": [
-        "The safest fix was not a broad prose detector. A narrow density check reduced regression risk for real forms and tables.",
-        "A synthetic test page is enough to lock in PDF-layout behavior without needing heavyweight fixtures for every reproduction.",
-        "On Microsoft repos, CLA automation can be the first gate after opening a PR; clearing it quickly keeps the contribution from stalling before human review starts."
-      ],
-      "updates": [
-        {
-          "date": "2026-04-29",
-          "summary": "Microsoft's CLA gate completed successfully after the required acknowledgment reply.",
-          "url": "https://github.com/microsoft/markitdown/runs/73556049521"
-        },
-        {
-          "date": "2026-04-29",
-          "summary": "license/cla concluded with success.",
-          "url": "https://github.com/apps/microsoft-github-policy-service"
-        }
-      ],
-      "discussion_highlights": [
-        {
-          "title": "CLA automation",
-          "summary": "The Microsoft policy bot requested CLA confirmation before deeper review; the follow-up reply cleared the license/cla check.",
-          "url": "https://github.com/microsoft/markitdown/runs/73556049521"
-        }
-      ],
-      "last_updated": "2026-04-29T10:05:52Z",
-      "discussion": [
-        {
-          "title": "CLA automation",
-          "summary": "The Microsoft policy bot requested CLA confirmation before deeper review; the follow-up reply cleared the license/cla check.",
-          "url": "https://github.com/microsoft/markitdown/runs/73556049521"
-        }
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-29",
-          "summary": "Microsoft's CLA gate completed successfully after the required acknowledgment reply.",
-          "url": "https://github.com/microsoft/markitdown/runs/73556049521"
-        },
-        {
-          "date": "2026-04-29",
-          "summary": "license/cla concluded with success.",
-          "url": "https://github.com/apps/microsoft-github-policy-service"
-        }
-      ],
-      "learning": [
-        "The safest fix was not a broad prose detector. A narrow density check reduced regression risk for real forms and tables.",
-        "A synthetic test page is enough to lock in PDF-layout behavior without needing heavyweight fixtures for every reproduction.",
-        "On Microsoft repos, CLA automation can be the first gate after opening a PR; clearing it quickly keeps the contribution from stalling before human review starts."
       ]
     }
   ],
