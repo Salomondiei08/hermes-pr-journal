@@ -288,7 +288,7 @@
         ]
       },
       "_reviews_semantic": [],
-      "merge_commit_sha": "6358c12aebde5f0d9f1b45de77f0e183fcd8d912"
+      "merge_commit_sha": "13661de3413660fcb95ec1bd193798bc9a3fcb9f"
     },
     "xarray-rangeindex-arange-step": {
       "state": "closed",
@@ -637,7 +637,7 @@
         ]
       },
       "_reviews_semantic": [],
-      "merge_commit_sha": "d4f125a41662e9c638092ac30ed589e344be11a8"
+      "merge_commit_sha": "88feb563c71a18136bb634c50bb1c0d84448a577"
     },
     "sphinx-locale-format-specifiers": {
       "state": "closed",
@@ -767,5 +767,5 @@
     "8406",
     "8407"
   ],
-  "generated_at": "2026-06-18T15:57:21Z"
+  "generated_at": "2026-06-18T17:04:58Z"
 }
