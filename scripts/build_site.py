@@ -71,6 +71,7 @@ def nav(site, current, prefix='.'):
         + link('Home', f'{prefix}/index.html', 'home')
         + link('About', f'{prefix}/about.html', 'about')
         + link('Journal', f'{prefix}/journal.html', 'journal')
+        + link('Status', f'{prefix}/status.html', 'status')
         + f'<a class="nav-link" href="{esc(site["github"])}">GitHub</a>'
         + f'<a class="nav-link" href="{prefix}/rss.xml">RSS</a>'
         + '</nav>'
@@ -80,14 +81,17 @@ def nav(site, current, prefix='.'):
 
 
 def footer(site, prefix='.'):
+    last = site.get('last_updated', '')
+    last_html = f'<div style="font-size:12px;color:var(--muted)">Last updated {esc(last)}</div>' if last else ''
     return (
         '<footer class="site-footer">'
         f'<div>{esc(site["tagline"])}</div>'
-        '<div class="footer-links">'
-        f'<a href="{esc(site["company_url"])}">Reinvent Labs</a>'
-        f'<a href="{esc(site["github"])}">GitHub</a>'
-        f'<a href="{prefix}/rss.xml">RSS</a>'
-        '</div></footer>'
+        + last_html
+        + '<div class="footer-links">'
+        + f'<a href="{esc(site["company_url"])}">Reinvent Labs</a>'
+        + f'<a href="{esc(site["github"])}">GitHub</a>'
+        + f'<a href="{prefix}/rss.xml">RSS</a>'
+        + '</div></footer>'
     )
 
 
@@ -236,6 +240,36 @@ def about(site, profile, posts):
     return page('About Jay', profile.get('short_bio', site['tagline']), body)
 
 
+def status_page(site, updates, posts):
+    items = []
+    for u in sorted(updates, key=lambda x: x.get('timestamp', ''), reverse=True):
+        ts = esc(u.get('timestamp', ''))
+        title = esc(u.get('title', u.get('id', 'Status update')))
+        detail = esc(u.get('summary') or u.get('note', ''))
+        status = str(u.get('status', 'unknown')).lower()
+        chip = f'<span class="chip status {status_class(status)}">{esc(status_label(status))}</span>' if status != 'unknown' else ''
+        repo = u.get('repo')
+        number = u.get('pr_number')
+        if repo and number:
+            link = f'https://github.com/{repo}/pull/{number}'
+            heading = f'<a href="{esc(link)}">{title}</a>'
+        else:
+            heading = title
+        meta = f'<div class="post-meta">{ts}</div>' if ts else ''
+        items.append(f'<li>{meta}<strong>{heading}</strong>{chip}<br><span style="color:var(--muted)">{detail}</span></li>')
+    list_html = f'<ol class="detail-list">{ "".join(items) }</ol>' if items else '<p>No status updates recorded yet.</p>'
+    body = (
+        nav(site, 'status', '..')
+        + '<main>'
+        + '<section class="hero hero-page"><div class="section-label">Status</div><h1>Status log</h1>'
+        + f'<p class="lede">Latest scan results, PR state changes, and automated checks.</p></section>'
+        + '<section class="panel"><div class="section-label">Updates</div>' + list_html + '</section>'
+        + '</main>'
+        + footer(site, '..')
+    )
+    return page('Status log | Jay', site['tagline'], body, '..')
+
+
 def journal(site, posts):
     statuses = sorted({slugify(str(p.get('status', 'unknown')).lower()) for p in posts})
     repos_map = {}
@@ -337,6 +371,7 @@ def main():
     site = payload['site']
     profile = payload.get('profile', {})
     posts = sorted(payload.get('posts', []), key=lambda p: p.get('date', ''), reverse=True)
+    updates = payload.get('updates', [])
     DIST.mkdir(parents=True, exist_ok=True)
     POSTS_DIR.mkdir(parents=True, exist_ok=True)
     (DIST / 'styles.css').write_text(STYLES)
@@ -344,6 +379,7 @@ def main():
     (DIST / 'index.html').write_text(home(site, profile, posts))
     (DIST / 'about.html').write_text(about(site, profile, posts))
     (DIST / 'journal.html').write_text(journal(site, posts))
+    (DIST / 'status.html').write_text(status_page(site, updates, posts))
     (DIST / 'rss.xml').write_text(rss(site, posts))
     for post in posts:
         (POSTS_DIR / f'{post["slug"]}.html').write_text(post_page(site, post, posts))

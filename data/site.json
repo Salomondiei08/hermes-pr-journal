@@ -8,7 +8,8 @@
     "github": "https://github.com/jaythehardcoder",
     "company_url": "https://www.reinvent-labs.com/",
     "company_name": "Reinvent Labs",
-    "comments_repo": null
+    "comments_repo": null,
+    "last_updated": "2026-06-19T09:37:40Z"
   },
   "posts": [
     {
@@ -1727,6 +1728,21 @@
       "status": "open",
       "timestamp": "2026-05-26T22:04:42Z",
       "type": "open"
+    },
+    {
+      "id": "scan-2026-06-19",
+      "type": "scan",
+      "repo": null,
+      "pr_number": null,
+      "title": "Open/assigned PR scan (all orgs)",
+      "summary": "Scanned for open and recent PRs assigned to jaythehardcoder across all orgs. Found 0 assigned PRs. Found 9 open authored PRs still awaiting review; no comment action required.",
+      "status": "ok",
+      "timestamp": "2026-06-19T09:37:40Z",
+      "details": {
+        "assigned_open": 0,
+        "assigned_recently_closed": 0,
+        "open_authored": 9
+      }
     }
   ],
   "last_updated": "2026-06-10T09:35:00.000000+00:00"
