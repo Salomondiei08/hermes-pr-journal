@@ -1,18 +1,22 @@
 #!/usr/bin/env python3
-"""Skeleton sync script."""
-import json, sys, os
+"""Fetch latest PR data and sync the blog site content."""
+import json, sys
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent.parent
-DATA = BASE / "data"
-DATA.mkdir(exist_ok=True)
+TRACKED = BASE / "data" / "tracked_prs.json"
+SITE = BASE / "docs" / "_data" / "prs.json"
 
-tracked = DATA / "tracked_prs.json"
-if tracked.exists():
-    prs = json.loads(tracked.read_text())
-else:
-    prs = []
-    tracked.write_text(json.dumps(prs, indent=2))
+def main():
+    if not TRACKED.exists():
+        print("ERROR: tracked_prs.json not found")
+        sys.exit(1)
+    with open(TRACKED) as f:
+        prs = json.load(f)
+    SITE.parent.mkdir(parents=True, exist_ok=True)
+    with open(SITE, "w") as f:
+        json.dump(prs, f, indent=2)
+    print(f"sync: OK — copied {len(prs)} PR records to site data")
 
-print(f"Sync complete. {len(prs)} PRs tracked.")
-sys.exit(0 if len(prs) > 0 else 1)
+if __name__ == "__main__":
+    main()

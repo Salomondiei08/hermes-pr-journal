@@ -1,0 +1,88 @@
+{
+  "tracked_prs": [
+    {
+      "slug": "markitdown-pdf-prose-fix",
+      "owner": "microsoft",
+      "repo": "markitdown",
+      "pr_number": 1847
+    },
+    {
+      "slug": "markitdown-http-user-agent-header",
+      "owner": "microsoft",
+      "repo": "markitdown",
+      "pr_number": 1849
+    },
+    {
+      "slug": "nbconvert-output-support-files-path",
+      "owner": "jupyter",
+      "repo": "nbconvert",
+      "pr_number": 2279
+    },
+    {
+      "slug": "requests-session-request-verify-inheritance",
+      "owner": "psf",
+      "repo": "requests",
+      "pr_number": 7400
+    },
+    {
+      "slug": "nbconvert-duplicate-markdown-attachments",
+      "owner": "jupyter",
+      "repo": "nbconvert",
+      "pr_number": 2280
+    },
+    {
+      "slug": "nbconvert-empty-anchor-link-text",
+      "owner": "jupyter",
+      "repo": "nbconvert",
+      "pr_number": 2282
+    },
+    {
+      "slug": "nbconvert-rst-leading-block-quote-cell",
+      "owner": "jupyter",
+      "repo": "nbconvert",
+      "pr_number": 2283
+    },
+    {
+      "slug": "xarray-dataarray-coords-description",
+      "owner": "pydata",
+      "repo": "xarray",
+      "pr_number": 11326
+    },
+    {
+      "slug": "xarray-rangeindex-arange-step",
+      "owner": "pydata",
+      "repo": "xarray",
+      "pr_number": 11328
+    },
+    {
+      "slug": "xarray-module-available-none",
+      "owner": "pydata",
+      "repo": "xarray",
+      "pr_number": 11358
+    },
+    {
+      "slug": "xarray-module-available-version-none",
+      "owner": "pydata",
+      "repo": "xarray",
+      "pr_number": 11379
+    },
+    {
+      "slug": "sphinx-locale-format-specifiers",
+      "owner": "sphinx-doc",
+      "repo": "sphinx",
+      "pr_number": 14452
+    },
+    {
+      "slug": "sphinx-source-file-count-plural",
+      "owner": "sphinx-doc",
+      "repo": "sphinx",
+      "pr_number": 14456
+    },
+    {
+      "slug": "click-help-argument-collision",
+      "owner": "pallets",
+      "repo": "click",
+      "pr_number": 3392
+    }
+  ]
+}
