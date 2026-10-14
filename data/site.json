@@ -19,7 +19,7 @@
       "repo": "pydata/xarray",
       "pr_number": 11379,
       "pr_url": "https://github.com/pydata/xarray/pull/11379",
-      "status": "open",
+      "status": "merged",
       "branch": "fix/version-none-guard",
       "commit": "df2daa7",
       "summary": "importlib.metadata.version() can return None in some environments (e.g. QGIS with custom import hooks). When this happens, Version(None) crashes with TypeError. Fixed by guarding the version result before passing it to Version().",
@@ -74,9 +74,13 @@
         {
           "date": "2026-06-16T15:47:06Z",
           "summary": "CI update: check runs changed."
+        },
+        {
+          "date": "2026-10-14T05:14:28Z",
+          "summary": "Discussion/review activity: state open -> closed; merged now; closed now; new push; labels ['topic-NamedArray'] -> ['plan to merge', 'topic-NamedArray']; 2 new comment(s); 4 new review(s): APPROVED, COMMENTED; 3 new review comment(s); check runs changed."
         }
       ],
-      "last_updated": "2026-06-16T15:47:06Z",
+      "last_updated": "2026-10-14T05:14:28Z",
       "next_steps": "CI is green on all functional tests; Mypy failures are pre-existing infra issues. PR is mergeable and ready for maintainer review. Waiting for a human reviewer to take a look.",
       "discussion_highlights": [
         {
@@ -134,9 +138,13 @@
         {
           "date": "2026-06-16T09:38:41Z",
           "summary": "Cron check: commit statuses changed. State=open, mergeable_state=blocked."
+        },
+        {
+          "date": "2026-10-14T05:14:28Z",
+          "summary": "Discussion/review activity: labels [] -> ['awaiting:response']; 1 new comment(s); 1 new review(s): COMMENTED; 1 new review comment(s)."
         }
       ],
-      "last_updated": "2026-06-16T09:38:41Z",
+      "last_updated": "2026-10-14T05:14:28Z",
       "next_steps": "Waiting for maintainer review now that CI is fully green."
     },
     {
@@ -489,9 +497,13 @@
         {
           "date": "2026-06-16T09:38:24Z",
           "summary": "Cron check: check runs changed; commit statuses changed. State=open, mergeable_state=blocked."
+        },
+        {
+          "date": "2026-10-14T05:14:28Z",
+          "summary": "Discussion/review activity: 2 new comment(s); 1 new review(s): APPROVED."
         }
       ],
-      "last_updated": "2026-06-16T09:38:24Z",
+      "last_updated": "2026-10-14T05:14:28Z",
       "next_steps": [
         "Wait for maintainer review now that pre-commit.ci and Read the Docs are both green on PR #11326."
       ]
@@ -925,6 +937,10 @@
         {
           "date": "2026-05-14",
           "summary": "davidism confirmed the account has been banned from the Click project for misuse of maintainer attention."
+        },
+        {
+          "date": "2026-10-14T05:14:28Z",
+          "summary": "PR update: labels [] -> ['rejected AI']."
         }
       ],
       "discussion_highlights": [
@@ -939,7 +955,7 @@
           "url": "https://github.com/pallets/click/pull/3392#issuecomment-4371850549"
         }
       ],
-      "last_updated": "2026-06-16T09:38:43Z",
+      "last_updated": "2026-10-14T05:14:28Z",
       "next_steps": "Closed and banned. No further action possible \u2014 the account is banned from the project."
     },
     {

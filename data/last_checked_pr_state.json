@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_checked": "2026-06-19T08:25:54Z"
+    "last_checked": "2026-10-14T05:14:28Z"
   },
   "markitdown-pdf-prose-fix": {
     "state": "open",
@@ -170,7 +170,7 @@
     "closed_at": null,
     "merged_at": null,
     "head_sha": "194b49c776e049613645d4d6ca2ec980026ae317",
-    "comments": 0,
+    "comments": 2,
     "review_comments": 0,
     "labels": [
       "topic-documentation"
@@ -262,19 +262,30 @@
     ]
   },
   "xarray-module-available-version-none": {
-    "state": "open",
-    "merged": false,
-    "closed_at": null,
-    "merged_at": null,
-    "head_sha": "cdc9d77ebba37ca8f29ea258b9493b4a1116d506",
-    "comments": 1,
-    "review_comments": 0,
+    "state": "closed",
+    "merged": true,
+    "closed_at": "2026-10-09T15:09:54Z",
+    "merged_at": "2026-10-09T15:09:54Z",
+    "head_sha": "f7de23ce00845e1c5ddae685c3dca8d9d09b9f5a",
+    "comments": 3,
+    "review_comments": 3,
     "labels": [
+      "plan to merge",
       "topic-NamedArray"
     ],
     "locked": false,
     "draft": false,
     "checks": [
+      [
+        "Check generate-aggregations is up-to-date",
+        "completed",
+        "success"
+      ],
+      [
+        "Check generate-ops is up-to-date",
+        "completed",
+        "success"
+      ],
       [
         "Doctests",
         "completed",
@@ -303,12 +314,12 @@
       [
         "Mypy",
         "completed",
-        "failure"
+        "success"
       ],
       [
-        "Mypy 3.11",
+        "Mypy 3.12",
         "completed",
-        "failure"
+        "success"
       ],
       [
         "Pyright | ${{ matrix.pixi-env }}\"",
@@ -326,7 +337,17 @@
         "success"
       ],
       [
+        "Test Results",
+        "completed",
+        "success"
+      ],
+      [
         "build-artifacts",
+        "completed",
+        "skipped"
+      ],
+      [
+        "cache pixi.lock",
         "completed",
         "skipped"
       ],
@@ -339,11 +360,6 @@
         "cache-pixi-lock",
         "completed",
         "success"
-      ],
-      [
-        "create-issue",
-        "completed",
-        "skipped"
       ],
       [
         "detect ci trigger",
@@ -361,12 +377,12 @@
         "success"
       ],
       [
-        "macos-latest | test-py311",
+        "macos-latest | test-py312",
         "completed",
         "success"
       ],
       [
-        "macos-latest | test-py313",
+        "macos-latest | test-py314",
         "completed",
         "success"
       ],
@@ -376,57 +392,62 @@
         "skipped"
       ],
       [
+        "report failing upstream-dev runs",
+        "completed",
+        "skipped"
+      ],
+      [
         "test-built-dist",
         "completed",
         "skipped"
       ],
       [
-        "ubuntu-latest | test-py311",
+        "ubuntu-latest | test-py312",
         "completed",
         "success"
       ],
       [
-        "ubuntu-latest | test-py311-bare-min-and-scipy",
+        "ubuntu-latest | test-py312-bare-min-and-scipy",
         "completed",
         "success"
       ],
       [
-        "ubuntu-latest | test-py311-bare-minimum",
+        "ubuntu-latest | test-py312-bare-minimum",
         "completed",
         "success"
       ],
       [
-        "ubuntu-latest | test-py311-min-versions",
+        "ubuntu-latest | test-py312-min-versions",
         "completed",
         "success"
       ],
       [
-        "ubuntu-latest | test-py311-with-typing (mypy)",
+        "ubuntu-latest | test-py312-with-typing (mypy)",
         "completed",
         "success"
       ],
       [
-        "ubuntu-latest | test-py313",
+        "ubuntu-latest | test-py314",
         "completed",
         "success"
       ],
       [
-        "ubuntu-latest | test-py313 (flaky)",
+        "ubuntu-latest | test-py314 (flaky)",
         "completed",
         "success"
       ],
       [
-        "ubuntu-latest | test-py313-no-dask",
+        "ubuntu-latest | test-py314-no-dask",
         "completed",
         "success"
       ],
       [
-        "ubuntu-latest | test-py313-no-numba",
+        "ubuntu-latest | test-py314-no-numba",
         "completed",
         "success"
       ],
       [
-        "ubuntu-latest | test-py313-with-typing",
+        "ubuntu-latest | test-py314-with-typing",
         "completed",
         "success"
       ],
@@ -446,12 +467,12 @@
         "skipped"
       ],
       [
-        "windows-latest | test-py311",
+        "windows-latest | test-py312",
         "completed",
         "success"
       ],
       [
-        "windows-latest | test-py313",
+        "windows-latest | test-py314",
         "completed",
         "success"
       ],
@@ -470,7 +491,7 @@
       [
         "pre-commit.ci - pr",
         "success",
-        "https://results.pre-commit.ci/run/github/13221727/1781084197.R1Ku0EcVQXGwOC00Ugc5CQ"
+        "https://results.pre-commit.ci/run/github/13221727/1791557391.wWyVUUybRDaZX5yvVcCiFw"
       ]
     ]
   },
@@ -485,7 +506,7 @@
     "labels": [
       "i18n"
     ],
-    "locked": false,
+    "locked": true,
     "draft": false,
     "checks": [],
     "statuses": [
@@ -502,9 +523,11 @@
     "closed_at": null,
     "merged_at": null,
     "head_sha": "373dbe88d12972fdd67ece8acd7f55227d51795e",
-    "comments": 0,
-    "review_comments": 0,
-    "labels": [],
+    "comments": 1,
+    "review_comments": 1,
+    "labels": [
+      "awaiting:response"
+    ],
     "locked": false,
     "draft": false,
     "checks": [],
@@ -524,7 +547,9 @@
     "head_sha": "e459528e4744cfca49a94a9dab03fa77440ee973",
     "comments": 3,
     "review_comments": 0,
-    "labels": [],
+    "labels": [
+      "rejected AI"
+    ],
     "locked": true,
     "draft": false,
     "checks": [],

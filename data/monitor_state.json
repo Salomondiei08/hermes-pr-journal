@@ -32,7 +32,7 @@
         "statuses": []
       },
       "_reviews_semantic": [],
-      "merge_commit_sha": "385aaa9c2b4f15d59d9cd96ac1f818795b8aee65"
+      "merge_commit_sha": "53c114b27e80527828370790e219902b1ab38d54"
     },
     "markitdown-http-user-agent-header": {
       "state": "open",
@@ -63,7 +63,7 @@
         "statuses": []
       },
       "_reviews_semantic": [],
-      "merge_commit_sha": "fe49b1e8f3d592910f9930cb0c607483b855f422"
+      "merge_commit_sha": null
     },
     "nbconvert-output-support-files-path": {
       "state": "open",
@@ -99,7 +99,7 @@
         ]
       },
       "_reviews_semantic": [],
-      "merge_commit_sha": "1aad3838090109d8afbdebc0bff9484f0bad38a4"
+      "merge_commit_sha": "783dec39b9dcd6494edc81f849634f7da0d409cc"
     },
     "requests-session-request-verify-inheritance": {
       "state": "closed",
@@ -170,7 +170,7 @@
         ]
       },
       "_reviews_semantic": [],
-      "merge_commit_sha": "46e85381aef53ff55dbc18af445242ac4129c1b5"
+      "merge_commit_sha": "a69a2e88e8bebedbea9ea931e2d3c459ba9bfea9"
     },
     "nbconvert-empty-anchor-link-text": {
       "state": "open",
@@ -206,7 +206,7 @@
         ]
       },
       "_reviews_semantic": [],
-      "merge_commit_sha": "45770d3a217aefe2f38b238359abffa84e458b90"
+      "merge_commit_sha": "1571e95321ec024c73531ef7d375714c261bdb8b"
     },
     "nbconvert-rst-leading-block-quote-cell": {
       "state": "open",
@@ -242,13 +242,13 @@
         ]
       },
       "_reviews_semantic": [],
-      "merge_commit_sha": "cdf5e2db974f3817030de90dd6af0fb872f707aa"
+      "merge_commit_sha": "2f87fe43be17a775e4dccecd95c1bd0dc5547af3"
     },
     "xarray-dataarray-coords-description": {
       "state": "open",
       "merged": false,
       "head_sha": "194b49c776e049613645d4d6ca2ec980026ae317",
-      "comments_count": 0,
+      "comments_count": 2,
       "review_comments_count": 0,
       "labels": [
         "topic-documentation"
@@ -264,8 +264,16 @@
         "labels": [
           "topic-documentation"
         ],
-        "comment_ids": [],
-        "review_ids_states": [],
+        "comment_ids": [
+          5849522282,
+          5849688485
+        ],
+        "review_ids_states": [
+          [
+            5327269495,
+            "APPROVED"
+          ]
+        ],
         "review_comment_ids": [],
         "checks": [
           [
@@ -287,8 +295,15 @@
           ]
         ]
       },
-      "_reviews_semantic": [],
-      "merge_commit_sha": "13661de3413660fcb95ec1bd193798bc9a3fcb9f"
+      "_reviews_semantic": [
+        {
+          "id": 5327269495,
+          "state": "APPROVED",
+          "user": "headtr1ck",
+          "body": "approved this PR"
+        }
+      ],
+      "merge_commit_sha": null
     },
     "xarray-rangeindex-arange-step": {
       "state": "closed",
@@ -412,31 +427,66 @@
       "merge_commit_sha": "20e40cc3bc599cf20edbc58c38f20227df80895d"
     },
     "xarray-module-available-version-none": {
-      "state": "open",
-      "merged": false,
-      "head_sha": "cdc9d77ebba37ca8f29ea258b9493b4a1116d506",
-      "comments_count": 1,
-      "review_comments_count": 0,
+      "state": "closed",
+      "merged": true,
+      "head_sha": "f7de23ce00845e1c5ddae685c3dca8d9d09b9f5a",
+      "comments_count": 3,
+      "review_comments_count": 3,
       "labels": [
+        "plan to merge",
         "topic-NamedArray"
       ],
       "locked": false,
       "draft": false,
       "fingerprint": {
-        "state": "open",
+        "state": "closed",
         "draft": false,
-        "merged_at": null,
-        "closed_at": null,
-        "head_sha": "cdc9d77ebba37ca8f29ea258b9493b4a1116d506",
+        "merged_at": "2026-10-09T15:09:54Z",
+        "closed_at": "2026-10-09T15:09:54Z",
+        "head_sha": "f7de23ce00845e1c5ddae685c3dca8d9d09b9f5a",
         "labels": [
+          "plan to merge",
           "topic-NamedArray"
         ],
         "comment_ids": [
-          4668684678
+          4668684678,
+          5865640229,
+          6083656908
         ],
-        "review_ids_states": [],
-        "review_comment_ids": [],
+        "review_ids_states": [
+          [
+            5335153936,
+            "APPROVED"
+          ],
+          [
+            5335179532,
+            "COMMENTED"
+          ],
+          [
+            5335221862,
+            "COMMENTED"
+          ],
+          [
+            5469546237,
+            "APPROVED"
+          ]
+        ],
+        "review_comment_ids": [
+          4119522404,
+          4119543243,
+          4119576502
+        ],
         "checks": [
+          [
+            "Check generate-aggregations is up-to-date",
+            "completed",
+            "success"
+          ],
+          [
+            "Check generate-ops is up-to-date",
+            "completed",
+            "success"
+          ],
           [
             "Doctests",
             "completed",
@@ -465,12 +515,12 @@
           [
             "Mypy",
             "completed",
-            "failure"
+            "success"
           ],
           [
-            "Mypy 3.11",
+            "Mypy 3.12",
             "completed",
-            "failure"
+            "success"
           ],
           [
             "Pyright | ${{ matrix.pixi-env }}\"",
@@ -488,7 +538,17 @@
             "success"
           ],
           [
+            "Test Results",
+            "completed",
+            "success"
+          ],
+          [
             "build-artifacts",
+            "completed",
+            "skipped"
+          ],
+          [
+            "cache pixi.lock",
             "completed",
             "skipped"
           ],
@@ -501,11 +561,6 @@
             "cache-pixi-lock",
             "completed",
             "success"
-          ],
-          [
-            "create-issue",
-            "completed",
-            "skipped"
           ],
           [
             "detect ci trigger",
@@ -523,12 +578,12 @@
             "success"
           ],
           [
-            "macos-latest | test-py311",
+            "macos-latest | test-py312",
             "completed",
             "success"
           ],
           [
-            "macos-latest | test-py313",
+            "macos-latest | test-py314",
             "completed",
             "success"
           ],
@@ -538,57 +593,62 @@
             "skipped"
           ],
           [
+            "report failing upstream-dev runs",
+            "completed",
+            "skipped"
+          ],
+          [
             "test-built-dist",
             "completed",
             "skipped"
           ],
           [
-            "ubuntu-latest | test-py311",
+            "ubuntu-latest | test-py312",
             "completed",
             "success"
           ],
           [
-            "ubuntu-latest | test-py311-bare-min-and-scipy",
+            "ubuntu-latest | test-py312-bare-min-and-scipy",
             "completed",
             "success"
           ],
           [
-            "ubuntu-latest | test-py311-bare-minimum",
+            "ubuntu-latest | test-py312-bare-minimum",
             "completed",
             "success"
           ],
           [
-            "ubuntu-latest | test-py311-min-versions",
+            "ubuntu-latest | test-py312-min-versions",
             "completed",
             "success"
           ],
           [
-            "ubuntu-latest | test-py311-with-typing (mypy)",
+            "ubuntu-latest | test-py312-with-typing (mypy)",
             "completed",
             "success"
           ],
           [
-            "ubuntu-latest | test-py313",
+            "ubuntu-latest | test-py314",
             "completed",
             "success"
           ],
           [
-            "ubuntu-latest | test-py313 (flaky)",
+            "ubuntu-latest | test-py314 (flaky)",
             "completed",
             "success"
           ],
           [
-            "ubuntu-latest | test-py313-no-dask",
+            "ubuntu-latest | test-py314-no-dask",
             "completed",
             "success"
           ],
           [
-            "ubuntu-latest | test-py313-no-numba",
+            "ubuntu-latest | test-py314-no-numba",
             "completed",
             "success"
           ],
           [
-            "ubuntu-latest | test-py313-with-typing",
+            "ubuntu-latest | test-py314-with-typing",
             "completed",
             "success"
           ],
@@ -608,12 +668,12 @@
             "skipped"
           ],
           [
-            "windows-latest | test-py311",
+            "windows-latest | test-py312",
             "completed",
             "success"
           ],
           [
-            "windows-latest | test-py313",
+            "windows-latest | test-py314",
             "completed",
             "success"
           ],
@@ -632,12 +692,37 @@
           [
             "pre-commit.ci - pr",
             "success",
-            "https://results.pre-commit.ci/run/github/13221727/1781084197.R1Ku0EcVQXGwOC00Ugc5CQ"
+            "https://results.pre-commit.ci/run/github/13221727/1791557391.wWyVUUybRDaZX5yvVcCiFw"
           ]
         ]
       },
-      "_reviews_semantic": [],
-      "merge_commit_sha": "88feb563c71a18136bb634c50bb1c0d84448a577"
+      "_reviews_semantic": [
+        {
+          "id": 5335153936,
+          "state": "APPROVED",
+          "user": "headtr1ck",
+          "body": "Looks good, thanks.\nFeel free to add an entry in whats-new."
+        },
+        {
+          "id": 5335179532,
+          "state": "COMMENTED",
+          "user": "headtr1ck",
+          "body": ""
+        },
+        {
+          "id": 5335221862,
+          "state": "COMMENTED",
+          "user": "headtr1ck",
+          "body": ""
+        },
+        {
+          "id": 5469546237,
+          "state": "APPROVED",
+          "user": "headtr1ck",
+          "body": "approved this PR"
+        }
+      ],
+      "merge_commit_sha": "6f68d368d91352b84141d64eb5a56a4bf8676a93"
     },
     "sphinx-locale-format-specifiers": {
       "state": "closed",
@@ -648,7 +733,7 @@
       "labels": [
         "i18n"
       ],
-      "locked": false,
+      "locked": true,
       "draft": false,
       "fingerprint": {
         "state": "closed",
@@ -694,9 +779,11 @@
       "state": "open",
       "merged": false,
       "head_sha": "373dbe88d12972fdd67ece8acd7f55227d51795e",
-      "comments_count": 0,
-      "review_comments_count": 0,
-      "labels": [],
+      "comments_count": 1,
+      "review_comments_count": 1,
+      "labels": [
+        "awaiting:response"
+      ],
       "locked": false,
       "draft": false,
       "fingerprint": {
@@ -705,10 +792,21 @@
         "merged_at": null,
         "closed_at": null,
         "head_sha": "373dbe88d12972fdd67ece8acd7f55227d51795e",
-        "labels": [],
-        "comment_ids": [],
-        "review_ids_states": [],
-        "review_comment_ids": [],
+        "labels": [
+          "awaiting:response"
+        ],
+        "comment_ids": [
+          5125854672
+        ],
+        "review_ids_states": [
+          [
+            4814764123,
+            "COMMENTED"
+          ]
+        ],
+        "review_comment_ids": [
+          3679539921
+        ],
         "checks": [],
         "statuses": [
           [
@@ -718,8 +816,15 @@
           ]
         ]
       },
-      "_reviews_semantic": [],
-      "merge_commit_sha": "0eb6eea590d8fdaab7a5ff306753f5053bc892f0"
+      "_reviews_semantic": [
+        {
+          "id": 4814764123,
+          "state": "COMMENTED",
+          "user": "jdillard",
+          "body": ""
+        }
+      ],
+      "merge_commit_sha": "f6ee4d2c422af2c32651b4f23d68802d46d342ca"
     },
     "click-help-argument-collision": {
       "state": "closed",
@@ -727,7 +832,9 @@
       "head_sha": "e459528e4744cfca49a94a9dab03fa77440ee973",
       "comments_count": 3,
       "review_comments_count": 0,
-      "labels": [],
+      "labels": [
+        "rejected AI"
+      ],
       "locked": true,
       "draft": false,
       "fingerprint": {
@@ -736,7 +843,9 @@
         "merged_at": null,
         "closed_at": "2026-04-29T11:31:06Z",
         "head_sha": "e459528e4744cfca49a94a9dab03fa77440ee973",
-        "labels": [],
+        "labels": [
+          "rejected AI"
+        ],
         "comment_ids": [
           4343278956,
           4343602145,
@@ -767,5 +876,5 @@
     "8406",
     "8407"
   ],
-  "generated_at": "2026-06-19T08:25:54Z"
+  "generated_at": "2026-10-14T05:14:28Z"
 }
