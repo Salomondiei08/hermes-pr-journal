@@ -209,28 +209,65 @@ def update_site_post(site, slug, repo, pr_num, current_state, reasons):
 
 
 def run_himalaya_and_find_new_email_ids(previously_processed):
-    """Return new GitHub notification IDs not in previously_processed."""
+    """Return new GitHub notification IDs not in previously_processed.
+
+    himalaya v2.1.0 on this host:
+      - bare `himalaya envelope list --output json` exits 2 (no --output flag;
+        no config auto-pick). Must invoke with `-c gmail-v2.toml ... --json`.
+      - v2 JSON shape is {"envelopes": [...]} with a *list* `from` field and
+        `id` as a string.
+      - INBOX alone is not enough: Gmail filters archive GitHub mail to
+        [Gmail]/All Mail. Query both mailboxes.
+    """
     import subprocess
-    new_ids = []
-    try:
-        with open("/tmp/inbox_monitor.json", "w") as out, open("/tmp/inbox_monitor.err", "w") as err:
-            subprocess.run(
-                ["himalaya", "envelope", "list", "--page-size", "100", "--output", "json"],
-                stdout=out,
-                stderr=err,
-                timeout=60,
-            )
-        data = json.loads(Path("/tmp/inbox_monitor.json").read_text())
-    except Exception:
-        return []
+    cfg = Path.home() / ".config" / "himalaya" / "gmail-v2.toml"
+    candidates = [str(cfg)] if cfg.exists() else []
+    mailboxes = ["INBOX", "[Gmail]/All Mail"]
+    collected = []
+    for cfg_path in candidates or [None]:
+        for mailbox in mailboxes:
+            for page in (1, 2, 3):
+                cmd = ["himalaya"]
+                if cfg_path:
+                    cmd += ["-c", cfg_path]
+                cmd += [
+                    "envelope", "list",
+                    "--page-size", "100",
+                    "--page", str(page),
+                    "--mailbox", mailbox,
+                    "--json",
+                ]
+                try:
+                    r = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
+                except Exception:
+                    continue
+                if r.returncode != 0:
+                    continue
+                try:
+                    payload = json.loads(r.stdout or "")
+                except Exception:
+                    continue
+                envs = payload.get("envelopes", []) if isinstance(payload, dict) else payload
+                collected.extend(envs)
+                if len(envs) < 100:
+                    break
+        if collected:
+            break
     proc_set = {str(x) for x in previously_processed}
-    for m in data:
-        sender = (m.get("from") or {}).get("addr", "")
+    new_ids = []
+    for m in collected:
+        frm = m.get("from") or []
+        if isinstance(frm, list) and frm:
+            sender = (frm[0] or {}).get("email", "")
+        elif isinstance(frm, dict):
+            sender = frm.get("email") or frm.get("addr", "")
+        else:
+            sender = ""
         if sender == "notifications@github.com":
-            mid = str(m.get("id"))
+            mid = str(m.get("id") or "")
             if mid and mid not in proc_set:
                 new_ids.append(mid)
-    return sorted(new_ids, key=int)
+    return sorted(set(new_ids), key=int)
 
 
 def main():
