@@ -142,9 +142,14 @@
         {
           "date": "2026-10-14T05:14:28Z",
           "summary": "Discussion/review activity: labels [] -> ['awaiting:response']; 1 new comment(s); 1 new review(s): COMMENTED; 1 new review comment(s)."
+        },
+        {
+          "date": "2026-10-20T00:31:55Z",
+          "summary": "New GitHub notifications detected.",
+          "url": "https://github.com/sphinx-doc/sphinx/pull/14456"
         }
       ],
-      "last_updated": "2026-10-14T05:14:28Z",
+      "last_updated": "2026-10-20T00:31:55Z",
       "next_steps": "Waiting for maintainer review now that CI is fully green."
     },
     {
